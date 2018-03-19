@@ -1,0 +1,2713 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr" data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"veganbaking"}'>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies" />
+<meta name="keywords" content="vegan, brownie" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="It took me seven years to deconstruct my grandma's brownies, fully understand brownie science and make a suitable vegan version, Ultimate Vegan Brownies!" />
+<meta name="generator" content="MYOB" />
+<title>Ultimate Vegan Brownies - Veganbaking.net - Recipes, desserts and tips</title>
+<link href="/templates/yoo_nano3/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link rel="stylesheet" href="/cache/template/gzip.php?modal-cb813a71.css" type="text/css" />
+<link rel="stylesheet" href="/components/com_jreviews/jreviews/views/themes/default/theme_css/jquery_ui_theme/jquery-ui-1.9.2.custom.min.css?v=19" type="text/css" />
+<link rel="stylesheet" href="/components/com_jreviews/jreviews/views/themes/default/theme_css/magnific/magnific-popup.min.css?v=19" type="text/css" />
+<link rel="stylesheet" href="/components/com_jreviews_addons/userprofiles/views/themes/userprofiles/theme_css/userprofiles.min.css?v=19" type="text/css" />
+<link rel="stylesheet" href="/components/com_jreviews/jreviews/views/themes/default/theme_css/theme.min.css?v=19" type="text/css" />
+<link rel="stylesheet" href="/templates/jreviews_overrides/views/themes/veganbaking/theme_css/custom_styles.css?v=19" type="text/css" />
+<link rel="stylesheet" href="/cache/template/gzip.php?widgetkit-b6d8c218-58cf6ef5.css" type="text/css" />
+<link rel="stylesheet" href="/components/com_jreviews_addons/geomaps/views/themes/geomaps/theme_css/geomaps.min.css?v=19" type="text/css" />
+<script src="/cache/template/gzip.php?mootools-core-e000136d.js" type="text/javascript"></script>
+<script src="/cache/template/gzip.php?core-c3d1475d.js" type="text/javascript"></script>
+<script src="/cache/template/gzip.php?mootools-more-d0d8c1a3.js" type="text/javascript"></script>
+<script src="/cache/template/gzip.php?modal-a02afa65.js" type="text/javascript"></script>
+<script src="/cache/template/gzip.php?jquery.min-f5d3c626.js" type="text/javascript"></script>
+<script src="/cache/template/gzip.php?jquery-noconflict-777cb1d6.js" type="text/javascript"></script>
+<script src="/cache/template/gzip.php?jquery-migrate.min-86ba43c5.js" type="text/javascript"></script>
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyB-5EgAs2rrBIFscqeGBYyhRhe6nJGJseM&language=en&libraries=places&callback=jrmapinit" type="text/javascript" defer="defer"></script>
+<script src="/components/com_jreviews/jreviews/views/js/head.load.min.js?v=19" type="text/javascript"></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=en&render=explicit" type="text/javascript" defer="defer"></script>
+<script src="/cache/template/gzip.php?widgetkit-869b911a-26f75a5e.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+		function jModalClose() {
+			SqueezeBox.close();
+		}
+  </script>
+<script type='text/javascript'>
+				/*<![CDATA[*/
+					var jax_live_site = 'http://www.veganbaking.net/index.php';
+					var jax_token_var='cdcbc3358e81e65d07a0cc271fa47a85';
+				/*]]>*/
+				</script><script type="text/javascript" src="http://www.veganbaking.net/plugins/system/azrul.system/pc_includes/ajax_1.5.pack.js"></script>
+<script type="text/javascript">function jrmapinit() { console.log("Google Maps API loaded") };</script>
+<script type="text/javascript">
+            /* <![CDATA[ */
+            var s2AjaxUri = "/index.php?option=com_jreviews&format=ajax",
+                jreviews = jreviews || {};
+            jreviews.calendar_img = "/components/com_jreviews/jreviews/views/themes/default/theme_images/calendar.png",
+            jreviews.lang = jreviews.lang || {};
+            jreviews.qvars = {"pg":"page","mc":"m"};
+            jreviews.locale = "en_GB";
+            jreviews.fb = {"appid":"2c7f4a4761cd26970b19ae0f91466923","og":true,"xfbml":true,"optout":true,"post":false};
+            jreviews.comparison = {
+                numberOfListingsPerPage: 3,
+                maxNumberOfListings: 15,
+                compareURL: "/jreviews/categories/compare/id:listing_ids"
+            };
+            jreviews.mobi = 0;
+            jreviews.iOS = 0;
+            jreviews.isRTL = 0;
+            /* ]]> */
+            </script>
+<script type="text/javascript">
+            /* <![CDATA[ */
+            jreviews.geomaps = jreviews.geomaps || {};
+            jreviews.geomaps.autocomplete = true;
+            jreviews.geomaps.autocomplete_country = "";
+            jreviews.geomaps.mapData = {};
+            jreviews.geomaps.fields = {};
+            jreviews.geomaps.fields.mapit = "jr_addressone";
+            jreviews.geomaps.fields.proximity = "jr_addressone";
+            jreviews.geomaps.fields.lat = "jr_latitude";
+            jreviews.geomaps.fields.lon = "jr_longitude";
+            jreviews.geomaps.fields.default_country = "";
+            jreviews.geomaps.fields.address = {};
+        jreviews.geomaps.fields.address['address1'] = 'jr_addressone';
+            jreviews.geomaps.fields.address['city'] = 'jr_city';
+            jreviews.geomaps.fields.address['state'] = 'jr_state';
+            jreviews.geomaps.fields.address['postal_code'] = 'jr_zipcode';
+            jreviews.geomaps.fields.address['country'] = 'jr_country';
+            /* ]]> */
+            </script>
+<script type="text/javascript">head.js({"locale":"/components/com_s2framework/tmp/cache/core/locale-en_GB.js"},{"jq-ui":"/components/com_jreviews/jreviews/views/js/jquery/jquery-ui-1.9.2.custom.min.js?v=19"},{"jquery/i18n/jquery.ui.datepicker-en-GB":"/components/com_jreviews/jreviews/views/js/jquery/i18n/jquery.ui.datepicker-en-GB.js?v=19"},{"jr-jreviews":"/components/com_jreviews/jreviews/views/js/jreviews-all.min.js?v=19"},{"jq-lightbox":"/components/com_jreviews/jreviews/views/js/jquery/jquery.magnific-popup.min.js?v=19"},{"jq-scrollable":"/components/com_jreviews/jreviews/views/js/jquery/jquery.bxslider.min.js?v=19"},{"jq-rating":"/components/com_jreviews/jreviews/views/js/jquery/ui.stars.min.js?v=19"},{"hogan":"/components/com_jreviews/jreviews/views/js/hogan/hogan-3.0.2.min.js?v=19"},{"userprofiles":"/components/com_jreviews_addons/userprofiles/views/js/userprofiles.min.js?v=19"});</script>
+<meta property="fb:app_id" content="2c7f4a4761cd26970b19ae0f91466923" />
+<meta property="og:title" content="Ultimate Vegan Brownies" />
+<meta property="og:url" content="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies" />
+<meta property="og:site_name" content="Veganbaking.net - Recipes, desserts and tips" />
+<meta property="og:description" content="It took me seven years to deconstruct my grandma's brownies, fully understand brownie science and make a suitable vegan version, Ultimate Vegan Brownies!" />
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@veganbaking" />
+<meta name="twitter:title" content="Ultimate Vegan Brownies" />
+<meta name="twitter:description" content="It took me seven years to deconstruct my grandma's brownies, fully understand brownie science and make a suitable vegan version, Ultimate Vegan Brownies!" />
+<meta name="twitter:url" content="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies" />
+<script type="text/javascript">head.ready("jr-jreviews",function() {head.js({"geomaps":"/components/com_jreviews_addons/geomaps/views/js/geomaps.min.js?v=19"});});</script>
+<link rel="apple-touch-icon-precomposed" href="/">
+<link rel="stylesheet" href="/cache/template/gzip.php?bootstrap-efa6422f.css">
+<link rel="stylesheet" href="/cache/template/gzip.php?theme-ccf0141a.css">
+<script src="/cache/template/gzip.php?theme-a7198f9b.js"></script>
+
+<script type="text/javascript" src="http://bcdn.grmtas.com/pub/ga_pub_1161.js"></script>
+</head>
+<body class="tm-sidebar-b-right tm-sidebars-1 tm-isblog">
+<div class="uk-container uk-container-center">
+<div class="tm-toolbar uk-clearfix uk-hidden-small">
+<div class="uk-float-left"><div class="uk-panel">
+<a href="/"><img id="logo" alt="Veganbaking.net - The Hows and Whys of Vegan Baking" src="http://cdn3.veganbaking.net/logo.png" title="Veganbaking.net - The Hows and Whys of Vegan Baking" /></a></div></div>
+<div class="uk-float-right"><div class="uk-panel">
+<div id="ga_2270814">
+<script type="text/javascript">
+      apntag.anq.push(function() {
+         apntag.showTag('ga_2270814');
+      });
+   </script>
+</div></div></div>
+</div>
+<nav class="tm-navbar uk-navbar">
+<ul class="uk-navbar-nav uk-hidden-small"><li class="uk-parent uk-active" data-uk-dropdown="{}" aria-haspopup="true" aria-expanded="false"><a href="/recipes">Vegan Baking Recipes</a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-4"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-4"><ul class="uk-nav uk-nav-navbar"><li class="uk-parent"><a href="/recipes/breads">Breads</a><ul class="uk-nav-sub"><li class="uk-parent"><a href="/recipes/breads/enriched-breads">Enriched Breads</a><ul><li><a href="/recipes/breads/enriched-breads/quick-breads">Quick Breads</a></li><li><a href="/recipes/breads/enriched-breads/muffins">Muffins</a></li><li><a href="/recipes/breads/enriched-breads/yeasted-enriched-breads">Yeasted Enriched Breads</a></li></ul></li><li><a href="/recipes/breads/hearth-breads">Hearth Breads</a></li><li><a href="/recipes/breads/pizza-crusts">Pizza Crusts</a></li></ul></li><li><a href="/recipes/cookies">Cookies</a></li><li class="uk-parent uk-active"><a href="/recipes/brownies-and-bars">Brownies, Bars and Squares</a><ul class="uk-nav-sub"><li class="uk-active"><a href="/recipes/brownies-and-bars/brownies">Brownies</a></li><li><a href="/recipes/brownies-and-bars/bars">Bars and Squares</a></li></ul></li><li class="uk-parent"><a href="/recipes/cakes">Cakes</a><ul class="uk-nav-sub"><li><a href="/recipes/cakes/sponge-cakes">Sponge Cakes</a></li><li><a href="/recipes/cakes/cupcakes">Cupcakes</a></li><li><a href="/recipes/cakes/coffee-cake">Coffee Cake</a></li></ul></li><li class="uk-parent"><a href="/recipes/cake-decorating">Cake Decorating</a><ul class="uk-nav-sub"><li><a href="/recipes/cake-decorating/frostings">Frostings</a></li><li><a href="/recipes/cake-decorating/icings">Icings and Glazes</a></li><li><a href="/recipes/cake-decorating/toppings">Toppings</a></li></ul></li></ul></div><div class="uk-width-1-4"><ul class="uk-nav uk-nav-navbar"><li><a href="/recipes/pastries">Pastries</a></li><li><a href="/recipes/pies">Pies</a></li><li class="uk-parent"><a href="/recipes/custards-and-puddings">Custards, Puddings and Mousses</a><ul class="uk-nav-sub"><li><a href="/recipes/custards-and-puddings/cheesecakes">Cheesecakes</a></li><li><a href="/recipes/custards-and-puddings/puddings">Puddings</a></li><li><a href="/recipes/custards-and-puddings/mousses">Mousses</a></li></ul></li><li><a href="/recipes/crepes">Crepes</a></li><li class="uk-parent"><a href="/recipes/breakfast">Breakfast</a><ul class="uk-nav-sub"><li><a href="/recipes/breakfast/pancakes">Pancakes</a></li><li><a href="/recipes/breakfast/waffles">Waffles</a></li><li><a href="/recipes/breakfast/granola">Granola</a></li><li><a href="/recipes/breakfast/french-toast">French Toast</a></li></ul></li></ul></div><div class="uk-width-1-4"><ul class="uk-nav uk-nav-navbar"><li class="uk-parent"><a href="/recipes/frozen-desserts">Frozen Desserts</a><ul class="uk-nav-sub"><li><a href="/recipes/frozen-desserts/ice-creams">Ice Creams</a></li><li><a href="/recipes/frozen-desserts/frozen-yogurts">Frozen Yogurts</a></li><li><a href="/recipes/frozen-desserts/sorbets">Sorbets</a></li></ul></li><li class="uk-parent"><a href="/recipes/sauces-syrups-spreads">Sauces, Syrups and Spreads</a><ul class="uk-nav-sub"><li><a href="/recipes/sauces-syrups-spreads/sauces">Sauces</a></li><li><a href="/recipes/sauces-syrups-spreads/syrups">Syrups</a></li><li><a href="/recipes/sauces-syrups-spreads/spreads">Spreads</a></li></ul></li><li class="uk-parent"><a href="/recipes/confections">Confections</a><ul class="uk-nav-sub"><li><a href="/recipes/confections/truffles">Truffles</a></li><li><a href="/recipes/confections/bonbons">Bonbons</a></li><li><a href="/recipes/confections/brittles-and-barks">Brittles and Barks</a></li><li><a href="/recipes/confections/candy">Candies</a></li></ul></li><li><a href="/recipes/egg-replacers">Egg Replacers</a></li><li class="uk-parent"><a href="/recipes/fats">Fats</a><ul class="uk-nav-sub"><li><a href="/recipes/fats/vegan-butters">Vegan Butters</a></li><li><a href="/recipes/fats/vegan-shortenings">Vegan Shortenings</a></li></ul></li></ul></div><div class="uk-width-1-4"><ul class="uk-nav uk-nav-navbar"><li><a href="/recipes/non-dairy-milks">Non-dairy Milks</a></li><li><a href="/recipes-by-ingredient/gluten-free">Gluten-Free</a></li><li><a href="/recipes/other-vegan-treats">Other Vegan Treats</a></li><li><a href="/recipes/other-vegan-eats">Cooking</a></li><li><a href="/recipes-by-ingredient" title="Vegan Baking Recipes by Ingredient ">Recipes by Ingredient</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{}" aria-haspopup="true" aria-expanded="false"><a href="/articles">Articles</a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/articles/guides">Vegan Baking Guides</a></li><li><a href="/articles/faces-of-vegan-baking">Faces of Vegan Baking</a></li><li><a href="/vegan-bakery-directory">Vegan Bakery Directory</a></li><li class="uk-parent"><a href="/articles/tools">Baking Tools</a><ul class="uk-nav-sub"><li><a href="/articles/tools/baking-unit-converter">Baking Measuring Unit Converter</a></li><li><a href="/articles/tools/baking-substitutions">Vegan Baking Substitutions</a></li><li><a href="/articles/tools/candy-making-temperature-chart">Candy Temperature Chart</a></li><li><a href="/articles/tools/baking-ingredients-by-weight">Ingredients By Weight</a></li><li><a href="/articles/tools/fat-and-oil-melt-point-temperatures">Fat and Oil Melt Point Temperatures</a></li><li><a href="/articles/tools/grain-and-legume-cooking-chart">Grain and Legume Cooking Chart</a></li><li><a href="/articles/tools/glossary-vegan-baking-ingredients">Vegan Baking Ingredients Glossary</a></li><li><a href="/articles/tools/animal-ingredients-list">Animal Ingredients List A-Z</a></li><li><a href="/articles/tools/shop">Veganbaking.net Store</a></li></ul></li></ul></div></div></div></li><li><a href="/how-to-start-a-food-blog">How to Start a Food Blog</a></li><li><a href="/ask-a-vegan-baker">Ask a Vegan Baker</a></li><li class="uk-parent" data-uk-dropdown="{}" aria-haspopup="true" aria-expanded="false"><a href="/about-us">About</a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/profiles/mattie">About Mattie</a></li><li><a href="/about-us/contact-us">Contact Mattie</a></li><li><a href="/profiles/login">Login/Manage Account</a></li><li><a href="/about-us/promote-veganbaking">Promote Vegan Baking</a></li><li><a href="/about-us/legal">Legal</a></li></ul></div></div></div></li></ul>
+<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+</nav>
+<section class="tm-top-a uk-grid uk-hidden-medium uk-hidden-large" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+<div class="uk-width-1-1 uk-hidden-medium uk-hidden-large"><div class="uk-panel uk-hidden-large uk-hidden-medium logo">
+<a href="/"><img id="logo" alt="Veganbaking.net - The Hows and Whys of Vegan Baking" src="http://cdn3.veganbaking.net/logo.png" title="Veganbaking.net - The Hows and Whys of Vegan Baking" /></a></div></div>
+<div class="uk-width-1-1 uk-hidden-medium uk-hidden-large"><div class="uk-panel uk-hidden-large uk-hidden-medium dont-print-this"><div class="jrStyles_recipes">
+<div class="jr-page jrPage jrAdvSearchModule jrForm">
+<form class="jr-form-adv-search-module" action="/recipes/frozen-desserts/ice-creams/sweet-potato-pecan-ice-cream" method="post" data-module-id="546">
+<div class="jrFieldDiv">
+<input type="text" class="jrKeywords" name="data[keywords]" value="" />&nbsp;&nbsp;
+<button class="jr-search" class="jrButton" style="margin:0;">
+<span class="jrIconSearch"></span><span>Find Recipes</span>
+</button>
+</div>
+<input name="data[contentoptions][]" type="hidden" value="title" />
+<input name="data[search_query_type]" type="hidden" value="all" />
+<input type="hidden" name="data[controller]" value="search" />
+<input type="hidden" name="data[action]" value="_process" />
+<input type="hidden" name="data[menu_id]" value="1422" />
+<input type="hidden" name="data[dir]" value="1" />
+<input type="hidden" name="data[Search][criteria_id]" value="" />
+<input type="hidden" name="data[form_id]" value="JreviewsAdvSearch_546" />
+<input type="hidden" name="data[module_id]" value="546" />
+</form>
+</div></div></div></div>
+<div class="uk-width-1-1 uk-hidden-medium uk-hidden-large"><div class="uk-panel uk-hidden-large uk-hidden-medium">
+<div id="ga_4438504">
+<script type="text/javascript">
+      apntag.anq.push(function() {
+         apntag.showTag('ga_4438504');
+      });
+   </script>
+</div></div></div>
+</section>
+<div class="tm-middle uk-grid" data-uk-grid-match data-uk-grid-margin>
+<div class="tm-main uk-width-medium-2-3">
+<main class="tm-content">
+<div id="system-message-container">
+</div>
+<article class="uk-article" data-permalink="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies">
+<div>
+<div class="jr-page jr-layout-outer jr-listing-detail jrPage jrListingDetail" itemscope itemtype="http://schema.org/Recipe">
+<div class="jrPathway">
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a itemprop="url" href="http://www.veganbaking.net/home">
+<span itemprop="title">Veganbaking.net</span>
+</a>
+</span>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a itemprop="url" href="http://www.veganbaking.net/recipes">
+<span itemprop="title">Vegan Baking Recipes</span>
+</a>
+</span>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a itemprop="url" href="http://www.veganbaking.net/recipes/brownies-and-bars">
+<span itemprop="title">Vegan Brownie, Bar and Square Recipes</span>
+</a>
+</span>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a itemprop="url" href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies">
+<span itemprop="title">Vegan Brownie Recipes</span>
+</a>
+</span>
+<span>Ultimate Vegan Brownies</span>
+</div>
+<div class="jrClear"></div>
+<h1 class="contentheading">
+<span itemprop="name">Ultimate Vegan Brownies</span>
+<span class="jrStatusIndicators">
+</span>
+</h1>
+<div class="jrAuthorInfo">
+<a href="/profiles/mattie"><img src="http://cdn3.veganbaking.net/thumbnail/65x65c/cc/73/c4/mattie-96-1448168312.jpg" class='jrAvatar' alt='Mattie' border='0' /></a><a href="/profiles/mattie">Mattie</a>&nbsp;&nbsp;
+</div>
+<div class="jrListingInfoContainer">
+<div class="jrListingInfo">
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:97%;">&nbsp;</div></div></div><span class="jrRatingValue"><span>4.8</span><span class="jrReviewCount"> (<span class="count">29</span>)</span></span></div></div>
+<span class="jrListingStatus">
+<span title="Favorite count"><span class="jrIconFavorite"></span><span class="jr-favorite-616">53</span></span>
+</span>
+</div>
+<div class="jrListingInfoButtons">
+<div class="jrListingButtons">
+<div class="jr-review-add jr-listing-info jrButton jrSmall"><span class="jrIconAddReview"></span>Write Review</div>
+<button class="jr-listing-favorite jrButton jrSmall" data-states='{"favored":"jrIconUnfavorite","not_favored":"jrIconFavorite"}' data-listing-id="616" data-state="no_access">
+<span class="jrIconFavorite"></span>
+<span>Add to favorites</span>
+</button>
+</div>
+</div>
+</div>
+<div class="jrMediaButtons jrButtonGroup jrMediaLeft">
+</div>
+<div class="jrListingFulltext ">
+<div class="moduletable">
+
+<div class="addthis_sharing_toolbox"></div>
+<br /> </div>
+<img alt="Ultimate Vegan Brownies" class="cke-resize" itemprop="image" src="http://cdn2.veganbaking.net/2010/content/ultimate-vegan-brownies.jpg" style="width: 800px;" title="Ultimate Vegan Brownies" /><br />
+<br />
+Ultimate is not something that I throw around lightly, especially for vegan brownies. I've had my share of vegan and regular brownies and been baffled by how lacking vegan versions are. Growing up on my Grandmother's brownies, I learned that a good brownie should be dense, fudgy and soft; not light, cakey and dry. Why is it so hard to emulate a traditional brownie recipe that simply consists of a few simple ingredients? Hint: it's due to the egg, which emulsifies, binds, slightly leavens then bakes up as part of the actual base of the brownie itself. To emulate this takes an expedition deep into the innards of brownie science, oh and for me, about seven years of failing until figuring this out.<br />
+<h2>Vegan brownies need extra special attention paid to flavor and texture</h2>I started by emulating two eggs with water and golden flax meal. I then added some baking soda to the flour to emulate egg's subtle leavening tendencies. Cocoa powder along with semi-sweet chocolate and espresso powder allows the complex chocolate flavors to truly shine. I tested these brownies with canola oil but later settled on <a href="/other-vegan-treats/735-vegan-butter" target="_blank">Vegan Butter</a>&nbsp;or margarine because it allowed the flavor to mingle and slightly evolve along the flavor profile, rather than diminishing in a downward spiral which was the case with canola oil. This is why chocolate baked goods with canola oil rarely match up to chocolate baked goods with Vegan Butter or margarine. In order to make dense, soft vegan baked goods like brownies and cookies that are similar to their egg-laden counterparts, the dough must be extremely thick because the egg is not going to be there to act as a structure builder as flour does. Thus, you have to add extra flour so it can take over for the egg. The result of this vegan brownie R&amp;D is a dense, fudgy, soft brownie with a complex chocolate flavor.<br />
+<br />
+<strong>Update:</strong> I originally developed this recipe to call for 35 minutes of baking on the lowest oven rack position in your oven. Many commenters came forward with their results and it started to become clear that a shorter baking time on the middle oven rack position could actually improve the flavor and texture of the brownies. After some additional testing, I've confirmed that baking on the middle rack for 25 minutes actually yeilds softer, chewier, fudgy, more flavorful brownies with fruitier chocolate notes! It looks like the longer baking time I originally called for was cooking off some of these more volatile chocolate flavors. I'm thrilled that your helpful input was able to help me make this recipe even better!<br />
+<br />
+Find more <a href="/recipes-by-ingredient/chocolate" target="_blank">Chocolate recipes</a> on Veganbaking.net<br />
+<div class="moduletable">
+<br />
+<script type="text/javascript" src="http://ap.lijit.com/www/delivery/fpi.js?z=278746&u=mhagedorn&width=300&height=250"></script> </div>
+<h2>Ultimate Vegan Brownie Recipe</h2>3 Tablespoons water<br />
+2 Tablespoons&nbsp;<a href="/egg-replacers/198-flax-seed-egg-replacer" target="_blank">golden flax meal</a><br />
+<br />
+1 ¾ cups all-purpose flour<br />
+¼ teaspoon baking soda<br />
+<br />
+7 Tablespoons cocoa powder<br />
+4 ounces semi-sweet chocolate, chopped into ¼&nbsp;inch pieces<br />
+1 teaspoon instant espresso powder<br />
+¾ teaspoon salt<br />
+<br />
+¼ cup boiling water<br />
+<br />
+1 ½ cups sugar<br />
+6 Tablespoons (80 grams)&nbsp;<a href="/fats/vegan-butters/735-vegan-butter" target="_blank">Regular Vegan Butter</a>&nbsp;or non-hydrogenated stick margarine, melted (not tub margarine)<br />
+1 ½ teaspoons vanilla extract<br />
+<br />
+½ cup walnuts, chopped (optional)<br />
+<h3>1) Prepare the flax meal, your oven and your baking dish</h3>In a small mixing bowl whisk together the water and flax meal. Let it sit for about 10 minutes so the mixture gets goopy. Ensure your oven rack is in the middle rack position. Preheat your oven to 350F (177C). Line an 8 x 8 inch baking dish with parchment paper allowing excess parchment paper on opposite sides so you can pull the brownies out of the baking dish later.<br />
+<br />
+<img alt="Baking Dish Parchment" src="http://cdn2.veganbaking.net/2010/content/baking-dish-parchment.jpg" style="width: 800px;" title="Baking Dish Parchment" /><br />
+<h3>2) Whisk together the four and baking soda</h3>In a medium mixing bowl whisk together the all-purpose flour and baking soda. Set aside.<br />
+<h3>3) Mix the vegan brownie dough</h3>In another medium mixing bowl add the cocoa powder, semi-sweet chocolate, espresso powder and salt. Add the boiling water and using a spoon, mix in the ingredients into a paste, making sure that all of the chocolate pieces are melted. Add the sugar, Vegan Butter, vanilla extract, flax meal mixture from Step 1 into the chocolate mixture and mix with an electric mixer until smooth. Stir in the walnuts if you're using them. Using a spoon, mix in the flour until well combined. The mixture will become extremely thick and you may need to use your hands to mix. Refrain from mixing this dough with an electric mixer at this point; this will overwork the dough and activate too much gluten, negatively affecting the texture of the brownies.<br />
+<h3>4) Transfer the brownie batter to a baking dish and bake to perfection</h3>Transfer the batter to the baking dish. You may need to use your fingers or a spatula to press the thick dough into place. Bake for 25 minutes on your oven's middle rack. Transfer the baking dish to a wire cooling rack and allow it to cool for about an hour.<br />
+<h3>5) Allow the vegan brownies to cool completely</h3>Transfer the brownies to a cooling rack by lifting them out of the baking dish by taking hold of the exposed parchment paper on each side. Allow them to cool completely before slicing into squares.<br />
+This recipe makes one 8 x 8 inch baking dish of Ultimate Vegan Brownies.<br />
+<br />
+<img alt="Ultimate Vegan Brownies" src="http://cdn2.veganbaking.net/2010/content/brownie-hands.jpg" style="width: 800px;" title="Ultimate Vegan Brownies" /><br />
+<br />
+<em>A big thanks goes out to </em><a href="http://www.neverhomemaker.com/2010/10/change-your-life-vegan-brownies-and.html" target="_blank"><em>(never home)maker</em></a><em> for the above picture.</em><br />
+<br />
+<div class="moduletable">
+<br />
+<span style="font-size:18px;"><strong>Get a price on the&nbsp;<a href="http://www.amazon.com/gp/product/B001VNFHLC?ie=UTF8&amp;camp=1789&amp;creativeASIN=B001VNFHLC&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank">Organic, Fair Trade Certified Cocoa Powder I Recommend</a>&nbsp;at Amazon.</strong></span><br />
+<br />
+<br /> </div>
+<br />
+<div class="moduletabledont-print-this">
+<div class="moduletable">
+<div class="an-container" id="dpOfUce5oE2BiGMGP61ugJ0PUmDoxgISQXUeD4w4"></div> </div>
+<br />
+<p style="text-align: left;"><a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="nofollow" target="_blank"> <img align="left" alt="Creative Commons Attribution-Share Alike 3.0 Unported" rel="nofollow" src="http://cdn3.veganbaking.net/creative-commons.jpg" title="Creative Commons Attribution-Share Alike 3.0 Unported" /></a></p><br /><br />
+<div class="moduletable">
+<div class="jr-module-slider jrModuleSlider jrSliderSinglePage" data-options='{"module_id":"335","columns":"2","orientation":"horizontal","slideshow":"0","slideshow_interval":"6","nav_position":"bottom","page_count":1}'>
+<div class="jrModuleItems horizontal jrThumbnailLeft">
+<div class="jr-results jrResults jrModuleContainer jrListingsModule">
+<div class="jrModuleItem" style="width: 49.285714286%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/frozen-desserts/ice-creams/vanilla-ice-cream"><img src="http://cdn1.veganbaking.net/2011/thumbnails/vanilla-ice-cream.jpg" style='width:150px; height:auto;' alt='Vegan Vanilla Ice Cream' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/frozen-desserts/ice-creams/vanilla-ice-cream">Vegan Vanilla Ice Cream</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/frozen-desserts/ice-creams">Vegan Ice Cream Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">4</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrModuleItem jrLastItem" style="width: 49.285714286%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/frozen-desserts/ice-creams/banana-walnut-ice-cream"><img src="http://cdn1.veganbaking.net/2009/thumbnails/submit-a-photo.png" style='width:150px; height:auto;' alt='Vegan Banana Walnut Ice Cream' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/frozen-desserts/ice-creams/banana-walnut-ice-cream">Vegan Banana Walnut Ice Cream</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/frozen-desserts/ice-creams">Vegan Ice Cream Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:0%;">&nbsp;</div></div></div><span class="jrRatingValue">0.0 <span class="rating_count">(<span class="count">0</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem" style="width: 49.285714286%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/frozen-desserts/ice-creams/hazelnut-coffee-ice-cream"><img src="http://cdn1.veganbaking.net/2010/thumbnails/hazelnut-coffee-ice-cream.jpg" style='width:150px; height:auto;' alt='Vegan Hazelnut Coffee Ice Cream' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/frozen-desserts/ice-creams/hazelnut-coffee-ice-cream">Vegan Hazelnut Coffee Ice Cream</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/frozen-desserts/ice-creams">Vegan Ice Cream Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:0%;">&nbsp;</div></div></div><span class="jrRatingValue">0.0 <span class="rating_count">(<span class="count">0</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrModuleItem jrLastItem" style="width: 49.285714286%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/frozen-desserts/ice-creams/chai-chocolate-chip-ice-cream"><img src="http://cdn1.veganbaking.net/2009/thumbnails/chai-chocolate-chip-ice-cream.jpg" style='width:150px; height:auto;' alt='Vegan Chai Chocolate Chip Ice Cream' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/frozen-desserts/ice-creams/chai-chocolate-chip-ice-cream">Vegan Chai Chocolate Chip Ice Cream</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/frozen-desserts/ice-creams">Vegan Ice Cream Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">2</span>)</span></span></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jrClear"></div> </div>
+</div>
+</div>
+<div class="jrClear"></div>
+<div class="jrClear"></div>
+<div id="jr_editor_reviews"></div>
+<div id="jrRelatedListings"></div>
+<div id="userReviews">
+<h3 class="jrUserReviewsTitle jrHeading">
+<span class="jrIconUsers"></span>
+<span class="jrHeadingText">User reviews</span>
+</h3>
+<div class="jrReviewSearchLayout">
+<form action="" class="jrReviewSearch jrForm jrRight">
+<input type="text" name="keywords" class='jrKeywords' placeholder='Search reviews' />
+<button type="submit" class="jr-search jrButton"><span class="jrIconSearch"></span></button>
+</form>
+</div>
+<div class="jrClear"></div>
+<div class="jrRoundedPanel jrReview jrUserReviewsSummary" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<div class="jrReviewSummary">
+<h4 class="jrUserReviewsSummaryTitle"><span itemprop="reviewCount">29</span> reviews</h4>
+<div class="jrGrid">
+<div class="jrCol4">
+<div class="jrReviewSummarySidebar">
+<div class="jrTableGrid jrRatingTable">
+<div class="jrRow">
+<div class="jrCol jrRatingLabel">
+<a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies/reviews?rating=5">5 stars</a> </div>
+<div class="jrCol">
+<div class="jrRatingBarsUser"><div title="497%" style="width:497%;">&nbsp;</div></div>
+</div>
+<div class="jrCol jrRatingCount">(144)</div>
+</div>
+<div class="jrRow">
+<div class="jrCol jrRatingLabel">
+<a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies/reviews?rating=4">4 stars</a> </div>
+<div class="jrCol">
+<div class="jrRatingBarsUser"><div title="79%" style="width:79%;">&nbsp;</div></div>
+</div>
+<div class="jrCol jrRatingCount">(23)</div>
+</div>
+<div class="jrRow">
+<div class="jrCol jrRatingLabel">
+<a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies/reviews?rating=3">3 stars</a> </div>
+<div class="jrCol">
+<div class="jrRatingBarsUser"><div title="17%" style="width:17%;">&nbsp;</div></div>
+</div>
+<div class="jrCol jrRatingCount">(5)</div>
+</div>
+<div class="jrRow">
+<div class="jrCol jrRatingLabel">
+<a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies/reviews?rating=2">2 stars</a> </div>
+<div class="jrCol">
+<div class="jrRatingBarsUser"><div title="3%" style="width:3%;">&nbsp;</div></div>
+</div>
+<div class="jrCol jrRatingCount">(1)</div>
+</div>
+<div class="jrRow">
+<div class="jrCol jrRatingLabel">
+<a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies/reviews?rating=1">1 star</a> </div>
+<div class="jrCol">
+<div class="jrRatingBarsUser"><div title="3%" style="width:3%;">&nbsp;</div></div>
+</div>
+<div class="jrCol jrRatingCount">(1)</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jrCol4">
+<div class="jrReviewSummarySidebar">
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+<button class="jr-review-add jrButton jrBlue">
+<span class="jrIconAddReview"></span>
+Add new review
+</button>
+<a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies/reviews" class='jrButton'>View all reviews</a>
+<a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies/reviews?order=helpful" class='jrButton'>View most helpful</a>
+<div class="jrClear"></div>
+</div>
+</div>
+<div class="jr-form-review-outer jrFormContainer jrHidden">
+<div class="jrFieldDiv jrInfo">
+Already have an account? <a href="javascript:void(0)" class="jr-show-login jrButton">Log in now</a>
+<div id="jr-login-form" class="jr-login-form jrHidden">
+<form action="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies" method="post" name="jrLogin" id="jr_loginForm" style="margin-top:10px;">
+<input id="jr-username" type="text" name="username" placeholder="Username" size="10" />
+<input id="jr-password" type="password" name="password" placeholder="Password" size="10" />
+<input type="hidden" name="option" value="com_users" />
+<input type="hidden" name="task" value="user.login" />
+<input type="submit" name="Submit" class="jrButton jrLogin" value="Submit" />
+<input type="hidden" name="return" value="aHR0cDovL3d3dy52ZWdhbmJha2luZy5uZXQvcmVjaXBlcy9icm93bmllcy1hbmQtYmFycy9icm93bmllcy91bHRpbWF0ZS1icm93bmllcw==" />
+<span class="jr_token jr_hidden"><input class="token-s" type="hidden" name="cdcbc3358e81e65d07a0cc271fa47a85" value="1" /></span>
+</form>
+</div>
+</div>
+<form id="jr-form-review-0" action="/recipes/brownies-and-bars/brownies/ultimate-brownies" method="post" class="jrForm" data-review-id="0">
+<fieldset class="jrReviewForm">
+<div class="jrFieldDiv jrLeft">
+<label class="jrLabel">
+Name<span class="jrIconRequired"></span>
+</label>
+<input type="text" class="jr-user-name jrName" name="data[Review][name]" maxlength="50" />
+</div>
+<div class="jrFieldDiv jrLeft">
+<label class="jrLabel">
+Username<span class="jrIconInfo jr-more-info"></span>
+<div class="jrPopup jrHidden">Create an account to be able to manage all of your submissions. After you submit the form we'll email you an activation link with a temporary password.</div>
+</label>
+<input type="text" class="jr-user-username jrName" name="data[username]" maxlength="25" placeholder="Fill in to create an account" />
+</div>
+<div class="jrClear"></div>
+<div class="jrFieldDiv">
+<label class="jrLabel">
+Email
+</label>
+<input type="email" class="jr-user-email jr-email-check jrEmail" name="data[Review][email]" maxlength="100" />
+</div>
+<div class="jrFieldDiv">
+<label class="jrReviewTitleLabel">Review Title</label>
+<input type="text" name="data[Review][title]" id='title' value='' class='jrReviewTitle' size='50' maxlength='100' />
+</div>
+<fieldset class="jrFieldsetMargin">
+<legend>Ratings (the higher the better)</legend>
+<div class="jrTableGrid jrRatingsSubmission">
+<div class="jrRow">
+<div class="jrCol jrRatingCriteria">
+Rating
+</div>
+<div class="jrCol jrRatingStars">
+<div class="jr-rating-stars" data-selector="stars" data-inc="1">
+<select name="data[Rating][ratings][1]"><option value="na" selected="selected">No rating</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> </div>
+</div>
+<div class="jrCol jrRatingCaption"></div>
+</div>
+</div>
+</fieldset>
+<fieldset id='group_other-info2' class='jrHidden jrFieldsetMargin'><legend>Other Info</legend><div class='jrFieldDiv jrWebsite'><label class='jrLabel'>Website</label><input type="url" name="data[Field][Review][jr_website]" class='jr_website jrWebsite' data-click2add='0' /></div>
+<div class='jrFieldDiv jrTwitterusername'><label class='jrLabel'>Twitter Username</label><input type="url" name="data[Field][Review][jr_twitterusername]" class='jr_twitterusername jrWebsite' data-click2add='0' /></div>
+</fieldset>
+<fieldset class="reviewFormComments jrFieldsetMargin">
+<legend>Comments<span class="jrIconRequired"></span></legend>
+<div class="jrFieldDiv">
+<textarea name="data[Review][comments]" rows='5' cols='45' class='jrTextArea' id='0-comment-editor'></textarea>
+</div>
+</fieldset>
+<div class="jr-captcha jrCaptcha"></div>
+<div class="jr-validation jrError jrHidden"></div>
+<div class="jr-buttons jrButtons">
+<button class="jr-review-submit jrButton">Submit</button>
+<button class="jr-review-cancel jrButton">Cancel</button>
+</div>
+<input type="hidden" name="data[Review][id]" id="review_id" value="0" />
+<input type="hidden" name="data[Review][pid]" id="pid" value="616" />
+<input type="hidden" name="data[Review][mode]" id="mode" value="com_content" />
+<input type="hidden" name="data[page]" id="extension_page" value="com_content" />
+<input type="hidden" name="data[Criteria][id]" id="criteriaid" value="1" />
+<input type="hidden" name="data[view]" id="view" value="detail" />
+<input type="hidden" name="option" value="com_jreviews" />
+<input type="hidden" name="data[controller]" value="reviews" />
+<input type="hidden" name="data[action]" value="_save" />
+<input type="hidden" name="data[tmpl_suffix]" value="" />
+<input type="hidden" name="format" value="raw" />
+<input type="hidden" name="Itemid" value="" />
+<span class="jr_token jr_hidden"><input class="token-s" type="hidden" name="cdcbc3358e81e65d07a0cc271fa47a85" value="1" /></span>
+<input class="token-i" type="hidden" name="b94990008441feeb9324c528cba58776" value="1" />
+</fieldset>
+</form>
+</div>
+<div class="jrClear"></div>
+<div class="jr-user-reviews jrUserReviewsContainer">
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2018-03-10T03:22:41-05:00">March 09, 2018</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Anthony</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Definitely the best vegan brownies</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>The espresso and cacoa powder is exactly right. Perfect moisture and gooey ness. Walnuts... blam.<br />
+<br />
+I didn’t even have chocolate pieces to throw in there and it was still... yum!<br />
+<br />
+I confess, I made mine with infused coconut oil (homemade vegan cannabutter). And before judgement, no it wasn’t that that made this recipe delicious! Cane sugar was the way to go too! Thank you!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2904" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">0</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2018-03-02T15:53:11-05:00">March 02, 2018</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><span id="cloak97396">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+ //<!--
+ document.getElementById('cloak97396').innerHTML = '';
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy97396 = 's&#97;m&#97;z&#105;ng8899' + '&#64;';
+ addy97396 = addy97396 + 'y&#97;h&#111;&#111;' + '&#46;' + 'c&#111;m';
+ var addy_text97396 = 's&#97;m&#97;z&#105;ng8899' + '&#64;' + 'y&#97;h&#111;&#111;' + '&#46;' + 'c&#111;m';
+ document.getElementById('cloak97396').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy97396 + '\'>'+addy_text97396+'<\/a>';
+ //-->
+ </script></span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=33#user-5802">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5802">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Perfect!!</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>I have tried so many different vegan recipes that resulted in fails. I was about to give up when I found this gem. These are perfect!! Slight crisp on the outside and so gooey inside. They have the taste and consistency of a traditional brownie. I followed the recipe and I would not change a thing! Thank you!!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2901" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">0</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2017-12-27T11:10:31-05:00">December 27, 2017</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Mais Kitty</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=33#user-5781">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5781">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Sooo good</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>This has become my default recipe. It actually produces legit, BROWNIES! Not cake. Yay! <br />
+I make these for my non-vegan co-workers and they inhale them.<br />
+Am now going to attempt to make these using a gluten-free flour mix. We shall see... Hopefully it will be a win right off, and I won't have to go down the baking rabbit hole, experimenting with different flours and combos....<br />
+Thanks so much! </p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2885" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">0</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2017-06-05T09:28:44-04:00">June 05, 2017</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Shannon</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<div class="description jrReviewComment" itemprop="reviewBody"><p>I am so happy I stumbled upon this recipe yesterday. We were having company over (non-vegans), and I really wanted to find a brownie recipe for dessert that would impress. I've been vegan for nearly 13 years, and this is the best recipe I've tried! Usually my brownies end up cakey or crumbly but these were truly brownies as brownies are meant to be.<br />
+<br />
+A couple of changes I made: I didn't have espresso powder, so I replaced the water in the recipe with a shot of espresso. And rather than try to melt the chocolate by pouring hot liquid over it, I simply melted it in the microwave on a low heat setting. And I don't know if my flaxseeds were "golden", they looked more of a dark brown to me. :)<br />
+<br />
+Took the brownies out of the oven after exactly 25 minutes, then transferred to a cooling rack as instructed. We ate them about an hour and a half later. They turned out completely perfect!!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2833" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">2</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jrCustomModule jrClear"> <div class="moduletable">
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT> </div>
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2017-05-31T15:16:35-04:00">May 31, 2017</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Rseman</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=29#user-5717">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5717">View all my reviews (1)</a>
+</div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Sugar Question</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Is there a way to substitute the sugar for a less refined sweetener?<br />
+<br />
+Thanks! Looking forward to making these.</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2832" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">1</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">1</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2017-03-21T20:16:30-04:00">March 21, 2017</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">rose73rose</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=7#user-5700">Top 100 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5700">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">ultimate indeed </h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>These are truly exceptional and most people have NO idea they are vegan. I have made them many times with a few little tweaks to the recipe. My suggestion is to cut the sugar by at least half. I usually double the recipe but use only 1 cup of sugar. The chocolate is sweet enough on its own. </p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2818" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">1</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2017-03-07T17:22:28-05:00">March 07, 2017</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">NY Nomads</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=35#user-5691">Top 1000 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5691">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Love these cakey vegan brownies</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>This rating is great! Nice cakey brownies.<br />
+Thank you for sharing this recipe!<br />
+<br />
+Cause I switched to a lower carb, Raw Till 4 diet, I switched from flour, more to black beans, as the main ingredient.<br />
+<br />
+No Guilt, Healthy Black Bean Brownies made in the food processor with no bowl required! Bake and slice into the most decadent, rich and fudge brownies<br />
+<br />
+Lowfat, No sugar, Lower carb, High protein, Vegan.<br />
+Just 5 ingredients! <br />
+<br />
+Recipe @ <br />
+http://nynomads.com/2017/03/vegan-black-bean-brownies/</p></div>
+
+<div class="jrCustomFields"><div class="jrFieldGroup other-info2"><h3 class="jrFieldGroupTitle">Other Info</h3><div class="jrFieldRow jrWebsite"><div class="jrFieldLabel">Website</div><div class="jrFieldValue "><a href="http://www.nynomads.com" target="_blank">http://www.nynomads.com</a></div></div></div></div>
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2810" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">0</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">8</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-12-28T13:18:41-05:00">December 28, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Janeveg</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=35#user-5661">Top 1000 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5661">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">This recipe is perfection itself</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Thankyou so much for this recipe! I made this brownies, using brown rice flour and a bit of corn flour because of gluten intolerant people in my family, and everybody was amazed that something vegan could be so delicious! With this recipe you can convince the greatest vegan sceptic to rethink his views!! I doubled the amount of dough and baked it for about 30 minutes. They were still very moist, a little more than yours, but they were fine like that. I think it's due to the different type of flour I used. Greetings from Belgium!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2791" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">0</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-11-10T12:43:33-05:00">November 10, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><span id="cloak73346">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+ //<!--
+ document.getElementById('cloak73346').innerHTML = '';
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy73346 = 'n&#111;rm&#97;n.h&#111;dg&#101;s' + '&#64;';
+ addy73346 = addy73346 + '02' + '&#46;' + 'c&#111;' + '&#46;' + '&#117;k';
+ var addy_text73346 = 'n&#111;rm&#97;n.h&#111;dg&#101;s' + '&#64;' + '02' + '&#46;' + 'c&#111;' + '&#46;' + '&#117;k';
+ document.getElementById('cloak73346').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy73346 + '\'>'+addy_text73346+'<\/a>';
+ //-->
+ </script></span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=7#user-5641">Top 100 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5641">View all my reviews (1)</a>
+</div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">vegan brownie recipe query</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Can someone help me please. I really want to make vegan brownie, but when in step 3, I add 1/4 cup (4tbs) to the chocolate and powder etc, there is no way enough water to melt the chocolate. My final product is extremely dry!<br />
+<br />
+Does no one else have this problem, am I doing something wrong?<br />
+Thank you for your help.</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2770" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">4</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-11-05T18:54:46-04:00">November 05, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Kristina</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">The name says it all</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>This is my go-to brownie recipe. I've made it at least 5 times and these brownies are the ultimate for vegans and non-vegans alike! You will not be disappointed if you are looking for a fudgy, dense brownie with an incredible flavor. Thank you so much! I'll never look for another brownie recipe again!!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2766" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">2</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jrCustomModule jrClear"> <div class="moduletable">
+<div class="moduletable">
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT> </div>
+</div>
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-08-16T04:14:42-04:00">August 15, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Lesley</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">At last</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>At last, yummy brownies! Thank you so much for sharing the recipe, dense fudge and delicious - and easy to make. After trying so many different cake recipes and not really being happy I now know that I can make these without the wrath of five year old boys! ?</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2735" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">1</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-07-13T08:25:21-04:00">July 13, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Suzie </span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">AMAZING VEGAN BROWNIES</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>These vegan brownies are super decadent and delicious. I usually make healthy bean or sweet potato brownies for myself but as I had a foodshare coming up I thought I would try something a bit naughtier. I can't believe these are vegan. So rich and fudgy. I topped mine with a chocolate ganache and strawberries. You won't be able to manage more than one. Thank you for the recipe! </p></div>
+
+<div class="jrCustomFields"><div class="jrFieldGroup other-info2"><h3 class="jrFieldGroupTitle">Other Info</h3><div class="jrFieldRow jrWebsite"><div class="jrFieldLabel">Website</div><div class="jrFieldValue "><a href="https://www.instagram.com/suziejanenimmo/" target="_blank">https://www.instagram.com/suziejanenimmo/</a></div></div></div></div>
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2723" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">1</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-07-07T01:27:54-04:00">July 06, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Marisa Not Vegan</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=8#user-5586">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5586">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Most amazing brownies</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>All I can say is that these are incredibly rich , gooey and delicious. Better than traditional.</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2719" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">1</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-06-14T16:02:00-04:00">June 14, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Meagan </span></span>
+</span>
+</div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Question </h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Would coconut oil be OK to replace the butter? I never buy any kind of vegan butter as what i have in this country isn't that great. </p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2708" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">0</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-05-15T08:27:57-04:00">May 15, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Tanaya</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">These are great</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>I made these last night with some modification. I didn't have golden flaxseed or vegan butter. (South Africa is very limited with vegan supplies.) I used 1 Tbs of soya lecithin and 1 Tbs of psyllium huske with 6 Tbs of water to make the fake egg and 3 Tbs of coconut oil plus 3Tbs of sunflower oil to replace butter. Very nice,, thank you.</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2691" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">4</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-05-11T13:38:57-04:00">May 11, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">ChristineVenusVegan</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=36#user-5563">Top 1000 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5563">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">delcious! </h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>These were amazing! I probably used 3/4 cup of water though, and i put into muffin pans for the same time and temp. My friends liked them too. Crispy on outside, soft on inside. I also used 6tbs macadamia oil instead as i didnt have butter or time to make. Thank you! Incredible! </p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2689" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">0</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jrCustomModule jrClear"> <div class="moduletable">
+<div class="moduletable">
+<div class="moduletable">
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT> </div>
+</div>
+</div>
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-04-09T05:07:12-04:00">April 08, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jonathan</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=8#user-5550">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5550">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:80%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">4.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Decent</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>I think these turned out pretty good. The top was nice and crunchy, as were the edges, something I like. However the brownies seemed a bit on the dry and cakey side, although I think my oven may run on the hot side, so I will monitor it better next time and compensate on the dial. I may also dial down the flour a tad, or tinker around, see if I can get them to end up moister and fudgier, like yours.<br />
+Thanks for the recipe, I look forward to playing with it and trying to sub in some aquafaba and do some other mods. Only change I made this run was 4 oz 99% chocolate + 4 Tbsp sugar in place of semisweet chocolate, and this required a tad more hot water to mix it.</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2673" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">1</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-04-03T01:54:18-04:00">April 02, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jess</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">amazing!!!!!</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>best brownies!!! i made them for a bakesale and the boy i have a crush on said theyre the best brownies he's ever had ~~~~ they amaze me every time </p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2671" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">10</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">1</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-02-21T03:23:27-05:00">February 20, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">ClassyCassy</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=8#user-5525">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5525">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name"> The Best Brownies</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>These brownies are AMAZING. My first batch came out perfect and was literally gone in two days. Definitely will be making these again!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2649" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">1</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-02-02T00:53:00-05:00">February 01, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Angela</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Brownies Any Omnivore Would Love</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>I have made this recipe several times in the past year, and it has consistently been enjoyed by both vegan and omnivore friends (even the time when I forgot to add the vanilla and then poured it on top of the dough in the pan, hoping for the best). <br />
+<br />
+The most recent time I made them, I decided to add the chocolate, cocoa powder, and salt to the saucepan containing the freshly-boiled water, and after that was thoroughly mixed together I added the butter, sugar, and vanilla to the mixture in the saucepan. I found that this method was FAR easier than adding the boiling water to the ingredients in a bowl. The chocolate melted much more quickly, and I didn't have to melt the butter beforehand as the warm chocolate mixture was warm enough to melt it, and if not you can always heat it up a little to facilitate melting. I have also never added instant espresso powder because I don't want to buy a whole pack for just this one recipe, and my brownies have still tasted absolutely scrumptious. This is my go-to brownie recipe! :)</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2635" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">10</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">1</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2016-01-14T17:54:26-05:00">January 14, 2016</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">JacobNLR</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=25#user-5501">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5501">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">#Truth</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>I'm not vegan, but my roommate has a seriously allergic reaction to dairy. I accidentally "poisoned" him with some buttermilk biscuits that I made the night before. I wanted to say "I'm sorry" through making him something delicious, something spectacular and non-dairy, something that would have him saying, "moo?" No, no moo, but yes, yes delicious. These brownies were amazingly good! I followed the recipe to the T, with the exceptions of using coconut oil instead of vegan butter, and baking for only 20 minutes instead of 25 (darn electric ovens are weird). The author wasn't kidding when he said that these brownies needed to cool completely. My roommate and I tried them after an hour cooling, but the texture was definitely best after letting them cool over night (about 12 hours). I'm going to attempt to add chocolate and white-chocolate chips to my next batch, in addition to the walnuts I added last time. Thank you so much for this recipe - I don't think that I'll ever make non-vegan brownies again! </p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2621" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">4</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">1</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-11-09T01:39:33-05:00">November 08, 2015</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Charlotte </span></span>
+</span>
+</div>
+<div class="jrReviewContent">
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Is baking soda bicarbonate of soda, or is baking soda the name give to baking powder in America? Or does i not matter? All these similar names are so confusing!</p></div>
+
+<div class="jr-owner-reply-outer jrOwnerReply">
+<div class="jrOwnerReplyTitle">Owner's reply</div>
+<p>Sorry for the confusion Charlotte! Baking soda is the same as bicarbonate of soda. Baking soda reacts with some of the acid naturally present in the recipe (mainly the acid present in the cocoa-based ingredients in this recipe) to provide an extremely small amount of rise. No baking powder is required in this recipe. <br />
+<br />
+Just for the record, baking powder consists of baking soda along with an acidic ingredient (and other carbon dioxide generating ingredients) that, when combined with both water and heat, generate a specific amount of carbon dioxide that assists rising while baking. Generally speaking, baking soda works well for providing adequate rise when there is sufficient levels of acidic ingredients present in the recipe. When acidic ingredients are lacking, baking powder is more frequently used. Happy brownie baking!</p>
+</div>
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2566" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">5</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jrCustomModule jrClear"> <div class="moduletable">
+<div class="moduletable">
+<div class="moduletable">
+<div class="moduletable">
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-10-26T17:09:07-04:00">October 26, 2015</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jane</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Ultimate is right!</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>I've tried so many brownie recipes before that it was with a jaded and cynical eye that I regarded the "Ultimate" in the name of these brownies. But I swear by the old gods and the new that ultimate is what they are! Look no further! The quest is over! They're perfect!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2558" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">6</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">2</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-08-27T14:15:35-04:00">August 27, 2015</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">lizzyb</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=9#user-5322">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5322">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Where have these been all my life? </h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>You know in Vegucated when Marisa Miller Wolfson is shoving her face with amazing vegan food? That was me yesterday with these brownies! I knew I was done for after practically licking the bowl clean. Great recipe, the only one I'll use from here on out. </p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2536" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">1</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-07-02T15:14:17-04:00">July 02, 2015</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">baumsquad22</span></span>
+</span>
+ <br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=24#user-5237">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5237">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">BEST brownies EVER!!</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Being vegan for a third of my life, I have never found such a perfect brownie recipe as this. Every vegan brownie recipe I've tried has been too "cakey" or too dry, but this recipe is the absolute BEST. Ooey and gooey in the middle, with a nice crust on top with just the right amount of crispness, I've never found such a perfect vegan brownie recipe before now. I didn't have any espresso powder, but they still came out amazingly perfect. The best part is, it's made with so few and such simple ingredients that you can pretty much make these whenever the chocolate cravings hit!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2495" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">5</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">1</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-06-25T02:15:16-04:00">June 24, 2015</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jess</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">WOW</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Okay this is AMAZING. I had tried a few other vegan brownie recipes and only ended up with weird goop or fluffy tasteless muffin brownies. The flax mixture and semisweet chocolate pieces are a GAMECHANGER. I didn't even use a mixer and only had raw sugar on hand (something that usually ruins my recipes) and it STILL came out like gooey Mrs Fields brownies. Best ever! Thank you!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2491" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">4</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">1</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-05-29T23:14:29-04:00">May 29, 2015</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Luinecu</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">fantastic!</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Gorgeous tasting brownies! Mine passed the toothpick test after only 17 mins in my fan assisted oven, even though I had my oven thermometer in there for safety. Good thing I checked on that fantastic brownie smell wafting the kitchen!!<br />
+<br />
+Vegan butter isn't really a thing in the UK, so I subbed 4tbsp tub marg, and 2tbsp veg shortening. But this was a guesstimate </p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2482" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">4</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-04-30T14:13:57-04:00">April 30, 2015</time>
+<span class="jrReviewUpdateDate">(Updated: April 30, 2015)</span>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">augustchild</span></span>
+</span>
+<br />
+<a href="http://www.veganbaking.net/jreviews/reviewers?page=9#user-5167">Top 500 Reviewer</a>
+<br>
+
+<a href="http://www.veganbaking.net/jreviews/my-reviews?user=5167">View all my reviews (1)</a>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">My go-to vegan brownie recipe</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>I'm not actually vegan, I just have several allergies that restrict my use of common non-vegan baking ingredients. I make these brownies for my significant other and myself. He tries to stay healthy and doesn't snack often, but he always makes exceptions for these! I have made them numerous times over the past few years. I usually cut the sugar down to one cup or less, but today I am trying to add a bit more. We enjoy the texture of these brownies-they are very dense and chewy. Not cakey at all (which I love. If I want cake I would make cake). Thanks for the recipe!<br />
+</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2470" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">3</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+ <span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-04-16T11:33:00-04:00">April 16, 2015</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Marylee</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<h4 class="jrReviewTitle" itemprop="name">Never need to try another vegan brownie recipe aga</h4>
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Wow why haven't I left a comment on this one yet..? Well here it is!<br />
+<br />
+I've tried many vegan brownie recipes over the past decade with pretty good success. After trying and falling in love with this one last fall I need not to ever experiment with another brownie recipe again. <br />
+<br />
+This is fail-proof, always comes out very fudgy with that lovely thin crusty top. The brownies keep moist for many many days. I would recommend this recipe for anyone who wants a traditional decadently fudgy (not cakey) brownie which doesn't skimp on the sugar, chocolate and fat! And it doesn't have any crazy or overly expensive ingredients (especially if you leave out the nuts). Five stars!</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2458" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">3</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">0</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jr-layout-outer jrRoundedPanelLt">
+
+<div class="jr-layout-inner jrReviewContainer" itemprop="review" itemscope itemtype="http://schema.org/Review">
+<div class="jrReviewInfo">
+<time itemprop="datePublished" datetime="2015-04-02T19:23:36-04:00">April 02, 2015</time>
+</div>
+<div class="jrUserInfo">
+<span>
+<img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Sassy</span></span>
+</span>
+</div>
+<div class="jrRatingInfo"><div class="jrTableGrid jrRatingTable"><div class="jrRow" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"><div class="jrCol jrRatingLabel">Rating&nbsp;</div><div class="jrCol"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><div itemprop="ratingValue" class="jrCol jrRatingValue">5.0</div></div></div><div class="jrClear"></div></div>
+<div class="jrReviewContent">
+<div class="description jrReviewComment" itemprop="reviewBody"><p>Tried many vegan brownies that are all way more "cake-y" than brownie. This...takes the cake. ;) The crispy top...oh the wonderful crispiness, delish. <br />
+I used a lot less sugar (a little more than half) and didn't have chips. Next time, I will use more sugar for a sweeter taste. (And get the chips) <br />
+For those people who are talking about the flour and sugar content...this is not a green smoothie people. This is a brownie. To be enjoyed when you need a real brownie. For healthy recipes, choose another, but for the real thing, this hits the spot. <br />
+Not great for health, but really good for the soul. ;) <br />
+<br />
+</p></div>
+
+</div>
+<div class="jrReviewActions">
+<div class="jrReviewComments">
+</div>
+<div class="jrReviewVoting">
+<div class="jrReviewHelpful">
+<div class="jrHelpfulTitle">Was this review helpful to you?&nbsp;</div>
+<div class="jr-review-vote jrButtonGroup jrLeft" data-review-id="2446" data-state="access">
+<button href="#review-vote" class="jrVoteYes jrButton jrSmall" data-vote="yes">
+<span class="jrIconThumbUp"></span>
+<span class="jrButtonText">17</span>
+</button>
+<button href="#review-vote" class="jrVoteNo jrButton jrSmall" data-vote="no">
+<span class="jrIconThumbDown"></span>
+<span class="jrButtonText">5</span>
+</button>
+<span class="jrLoadingSmall jrHidden"></span>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+</div>
+</div>
+
+</div>
+<div class="jrCustomModule jrClear"> <div class="moduletable">
+<div class="moduletable">
+<div class="moduletable">
+<div class="moduletable">
+<div class="moduletable">
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fveganbakingne-20%2F8001%2F13ad2d53-f2ec-4ae3-b859-9919be4ddc1f&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jrClear"></div>
+<a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies/ultimate-brownies/reviews" class='jrButton jrViewAllButton'>View all user reviews</a>
+<div class="jrClear"></div>
+</div>
+</div>
+<script type="text/javascript">
+        /* <![CDATA[ */
+        var jrRelatedWidgets = [],
+            jrTabArray = {};
+
+                /* ]]> */
+        </script> </div>
+</article>
+</main>
+</div>
+<aside class="tm-sidebar-b uk-width-medium-1-3"><div class="uk-panel uk-hidden-large uk-hidden-medium">
+
+<SCRIPT SRC="http://dat.springserve.com/ttj?id=4899267&cb=${CACHEBUSTER}" TYPE="text/javascript"></SCRIPT>
+</div>
+<div class="uk-panel uk-hidden-small dont-print-this"><div class="jrStyles_recipes">
+<div class="jr-page jrPage jrAdvSearchModule jrForm">
+<form class="jr-form-adv-search-module" action="/recipes/frozen-desserts/ice-creams/sweet-potato-pecan-ice-cream" method="post" data-module-id="528">
+<div class="jrFieldDiv">
+<input type="text" class="jrKeywords" name="data[keywords]" value="" />&nbsp;&nbsp;
+<button class="jr-search" class="jrButton" style="margin:0;">
+<span class="jrIconSearch"></span><span>Find Recipes</span>
+</button>
+</div>
+<input name="data[contentoptions][]" type="hidden" value="title" />
+<input name="data[search_query_type]" type="hidden" value="all" />
+<input type="hidden" name="data[controller]" value="search" />
+<input type="hidden" name="data[action]" value="_process" />
+<input type="hidden" name="data[menu_id]" value="1422" />
+<input type="hidden" name="data[dir]" value="1" />
+<input type="hidden" name="data[Search][criteria_id]" value="" />
+<input type="hidden" name="data[form_id]" value="JreviewsAdvSearch_528" />
+<input type="hidden" name="data[module_id]" value="528" />
+</form>
+</div></div></div>
+<div class="uk-panel uk-hidden-small">
+<script type="text/javascript" src="http://ap.lijit.com/www/delivery/fpi.js?z=278745&u=mhagedorn&width=300&height=600"></script></div>
+<div class="uk-panel uk-panel-box uk-hidden-small dont-print-this">
+On Veganbaking.net I show you the hows and whys of vegan baking. Thanks for reading! -<em>Mattie</em><br />
+<br />
+<a href="/profiles/login">Log in/Manage account</a>
+<div class="addthis_vertical_follow_toolbox"></div></div>
+<div class="uk-panel uk-panel-box uk-hidden-small"><h3 class="uk-panel-title">Latest Comments</h3><div class="jr-module-slider jrModuleSlider jrSliderSinglePage" data-options='{"module_id":"637","columns":"1","orientation":"vertical","slideshow":"0","slideshow_interval":"6","nav_position":"bottom","page_count":1}'>
+<div class="jrModuleItems vertical jrThumbnailLeft">
+<div class="jr-results jrResults jrModuleContainer jrReviewsModule">
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/cookies/chewy-oatmeal-raisin-cookies"><img src="http://cdn1.veganbaking.net/2011/thumbnails/chewy-oatmeal-cookies.jpg" style='width:100px; height:auto;' alt='Chewy Vegan Oatmeal Raisin Cookies' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/cookies/chewy-oatmeal-raisin-cookies">Chewy Vegan Oatmeal Raisin Cookies</a>
+</div>
+
+<div class="jrOverallRatings">
+<div class="jrOverallUser" title="User rating">
+<div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:0%;">&nbsp;</div></div></div>
+<span class="jrRatingValue"><span class="jr_noRating" title="Not rated">N/A</span></span>
+</div>
+</div>
+
+<div class="jrModuleItemReviewer">
+<span class="reviewer"><img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />MrMike</span>
+</div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrModuleItemInfo">
+<span class="comments">"IMPORTANT; it should read Baking SODA, NOT Baking POWDER. It would take about 2 tsps of baking powder to have much effect. Baking Soda is something like 4x as reactive. Just sayin..."</span>
+</div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/fats/vegan-butters/spreadable-olive-oil-vegan-butter"><img src="http://cdn1.veganbaking.net/2014/thumbnails/spreadable-olive-oil-vegan-butter.jpg" style='width:100px; height:auto;' alt='Spreadable Olive Oil Vegan Butter' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/fats/vegan-butters/spreadable-olive-oil-vegan-butter">Spreadable Olive Oil Vegan Butter</a>
+</div>
+
+<div class="jrOverallRatings">
+<div class="jrOverallUser" title="User rating">
+<div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div>
+<span class="jrRatingValue">5.0</span>
+</div>
+</div>
+
+<div class="jrModuleItemReviewer">
+<span class="reviewer"><img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />piu-benessere.com</span>
+</div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrModuleItemInfo">
+<span class="comments">"The vegan oil is better than the normal oil"</span>
+</div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/egg-replacers/yogurt-binder"><img src="http://cdn1.veganbaking.net/2009/thumbnails/yogurt-binder.jpg" style='width:100px; height:auto;' alt='Vegan Yogurt Egg Replacer' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/egg-replacers/yogurt-binder">Vegan Yogurt Egg Replacer</a>
+</div>
+
+<div class="jrOverallRatings">
+<div class="jrOverallUser" title="User rating">
+<div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:0%;">&nbsp;</div></div></div>
+<span class="jrRatingValue"><span class="jr_noRating" title="Not rated">N/A</span></span>
+</div>
+</div>
+
+<div class="jrModuleItemReviewer">
+<span class="reviewer"><img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />aparna61</span>
+</div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrModuleItemInfo">
+<span class="comments">"Hi ,
+I am from south of India who recently turned vegan . I was very impressed when I read your vegan butter . It was so methodical and scientific based approach. Yogurt is our staple diet without which our meal is incomplete . This has been the most difficult thing to forgo after I adopted vegan lifestyle. It would be very helpful if you can detail the recipe of non dairy yogurt. India is though a vegetarian dominant country but it is far behind when comes to vegan products. Looking forward for your response. "</span>
+</div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/fats/vegan-butters/vegan-butter"><img src="http://cdn1.veganbaking.net/2011/thumbnails/vegan-butter-sliced.jpg" style='width:100px; height:auto;' alt='How to Make Vegan Butter - Regular Vegan Butter - Coconut Oil Base' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/fats/vegan-butters/vegan-butter">How to Make Vegan Butter - Regular Vegan Butter - Coconut Oil Base</a>
+</div>
+
+<div class="jrOverallRatings">
+<div class="jrOverallUser" title="User rating">
+<div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:80%;">&nbsp;</div></div></div>
+<span class="jrRatingValue">4.0</span>
+</div>
+</div>
+
+<div class="jrModuleItemReviewer">
+<span class="reviewer"><img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />jerrods</span>
+</div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrModuleItemInfo">
+<span class="comments">"Hi! So far so good with this stuff. Has anyone tried browning this stuff? Does it work? I guess it would be whatever proteins from the soy milk, yeah?"</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jrClear"></div></div>
+<div class="uk-panel uk-panel-box uk-hidden-large uk-hidden-medium"><h3 class="uk-panel-title">Latest Comments</h3><div class="jr-module-slider jrModuleSlider jrSliderSinglePage" data-options='{"module_id":"638","columns":"1","orientation":"vertical","slideshow":"0","slideshow_interval":"6","nav_position":"bottom","page_count":1}'>
+<div class="jrModuleItems vertical jrThumbnailLeft">
+<div class="jr-results jrResults jrModuleContainer jrReviewsModule">
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/cookies/chewy-oatmeal-raisin-cookies"><img src="http://cdn1.veganbaking.net/2011/thumbnails/chewy-oatmeal-cookies.jpg" style='width:100px; height:auto;' alt='Chewy Vegan Oatmeal Raisin Cookies' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/cookies/chewy-oatmeal-raisin-cookies">Chewy Vegan Oatmeal Raisin Cookies</a>
+</div>
+
+<div class="jrOverallRatings">
+<div class="jrOverallUser" title="User rating">
+<div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:0%;">&nbsp;</div></div></div>
+<span class="jrRatingValue"><span class="jr_noRating" title="Not rated">N/A</span></span>
+</div>
+</div>
+
+<div class="jrModuleItemReviewer">
+<span class="reviewer"><img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />MrMike</span>
+</div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrModuleItemInfo">
+<span class="comments">"IMPORTANT; it should read Baking SODA, NOT Baking POWDER. It would take about 2 tsps of baking powder to have much effect. Baking Soda is something like 4x as reactive. Just sayin..."</span>
+</div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/fats/vegan-butters/spreadable-olive-oil-vegan-butter"><img src="http://cdn1.veganbaking.net/2014/thumbnails/spreadable-olive-oil-vegan-butter.jpg" style='width:100px; height:auto;' alt='Spreadable Olive Oil Vegan Butter' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/fats/vegan-butters/spreadable-olive-oil-vegan-butter">Spreadable Olive Oil Vegan Butter</a>
+</div>
+
+<div class="jrOverallRatings">
+<div class="jrOverallUser" title="User rating">
+<div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div>
+<span class="jrRatingValue">5.0</span>
+</div>
+</div>
+
+<div class="jrModuleItemReviewer">
+<span class="reviewer"><img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />piu-benessere.com</span>
+</div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrModuleItemInfo">
+<span class="comments">"The vegan oil is better than the normal oil"</span>
+</div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/egg-replacers/yogurt-binder"><img src="http://cdn1.veganbaking.net/2009/thumbnails/yogurt-binder.jpg" style='width:100px; height:auto;' alt='Vegan Yogurt Egg Replacer' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/egg-replacers/yogurt-binder">Vegan Yogurt Egg Replacer</a>
+</div>
+
+<div class="jrOverallRatings">
+<div class="jrOverallUser" title="User rating">
+<div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:0%;">&nbsp;</div></div></div>
+<span class="jrRatingValue"><span class="jr_noRating" title="Not rated">N/A</span></span>
+</div>
+</div>
+
+<div class="jrModuleItemReviewer">
+<span class="reviewer"><img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />aparna61</span>
+</div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrModuleItemInfo">
+<span class="comments">"Hi ,
+I am from south of India who recently turned vegan . I was very impressed when I read your vegan butter . It was so methodical and scientific based approach. Yogurt is our staple diet without which our meal is incomplete . This has been the most difficult thing to forgo after I adopted vegan lifestyle. It would be very helpful if you can detail the recipe of non dairy yogurt. India is though a vegetarian dominant country but it is far behind when comes to vegan products. Looking forward for your response. "</span>
+</div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/fats/vegan-butters/vegan-butter"><img src="http://cdn1.veganbaking.net/2011/thumbnails/vegan-butter-sliced.jpg" style='width:100px; height:auto;' alt='How to Make Vegan Butter - Regular Vegan Butter - Coconut Oil Base' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/fats/vegan-butters/vegan-butter">How to Make Vegan Butter - Regular Vegan Butter - Coconut Oil Base</a>
+</div>
+
+<div class="jrOverallRatings">
+<div class="jrOverallUser" title="User rating">
+<div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:80%;">&nbsp;</div></div></div>
+<span class="jrRatingValue">4.0</span>
+</div>
+</div>
+
+<div class="jrModuleItemReviewer">
+<span class="reviewer"><img src="/components/com_jreviews/jreviews/views/themes/default/theme_images/tnnophoto.jpg" class='jrAvatar' border='0' />jerrods</span>
+</div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrModuleItemInfo">
+<span class="comments">"Hi! So far so good with this stuff. Has anyone tried browning this stuff? Does it work? I guess it would be whatever proteins from the soy milk, yeah?"</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jrClear"></div></div>
+<div class="uk-panel uk-panel-box uk-hidden-large uk-hidden-medium dont-print-this">
+The 1st of October is&nbsp;<strong><a href="http://www.veganbakingday.com" target="_blank">Vegan Baking Day</a></strong>. A day to spread vegan baking by sharing tasty eats with your community!</div>
+<div class="uk-panel uk-panel-box uk-hidden-small dont-print-this">
+The 1st of October is&nbsp;<strong><a href="http://www.veganbakingday.com" target="_blank">Vegan Baking Day</a></strong>. A day to spread vegan baking by sharing tasty eats with your community!</div>
+<div class="uk-panel uk-hidden-small">
+<div id="ga_2270815">
+<script type="text/javascript">
+      apntag.anq.push(function() {
+         apntag.showTag('ga_2270815');
+      });
+   </script>
+</div></div>
+<div class="uk-panel uk-panel-box uk-hidden-small dont-print-this"><h3 class="uk-panel-title">Most Popular Vegan Baking Recipes</h3><div class="jr-module-slider jrModuleSlider jrSliderSinglePage" data-options='{"module_id":"536","columns":"1","orientation":"vertical","slideshow":"0","slideshow_interval":"6","nav_position":"bottom","page_count":1}'>
+<div class="jrModuleItems vertical jrThumbnailLeft">
+<div class="jr-results jrResults jrModuleContainer jrListingsModule">
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/fats/vegan-butters/vegan-butter"><img src="http://cdn1.veganbaking.net/2011/thumbnails/vegan-butter-sliced.jpg" style='width:100px; height:auto;' alt='How to Make Vegan Butter - Regular Vegan Butter - Coconut Oil Base' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/fats/vegan-butters/vegan-butter">How to Make Vegan Butter - Regular Vegan Butter - Coconut Oil Base</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/fats/vegan-butters">Vegan Butter Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:93%;">&nbsp;</div></div></div><span class="jrRatingValue">4.7 <span class="rating_count">(<span class="count">37</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/brownies-and-bars/brownies/ultimate-brownies"><img src="http://cdn1.veganbaking.net/2010/thumbnails/ultimate-brownies.jpg" style='width:100px; height:auto;' alt='Ultimate Vegan Brownies' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/brownies-and-bars/brownies/ultimate-brownies">Ultimate Vegan Brownies</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/brownies-and-bars/brownies">Vegan Brownie Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:97%;">&nbsp;</div></div></div><span class="jrRatingValue">4.8 <span class="rating_count">(<span class="count">29</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/cookies/chocolate-chip-cookies"><img src="http://cdn1.veganbaking.net/2010/thumbnails/chewy-chocolate-chip-cookies.jpg" style='width:100px; height:auto;' alt='Chewy Vegan Chocolate Chip Cookies' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/cookies/chocolate-chip-cookies">Chewy Vegan Chocolate Chip Cookies</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/cookies">Vegan Cookie Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:85%;">&nbsp;</div></div></div><span class="jrRatingValue">4.3 <span class="rating_count">(<span class="count">8</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/breads/enriched-breads/yeasted-enriched-breads/no-knead-whole-wheat-sandwich-bread"><img src="http://cdn1.veganbaking.net/2010/thumbnails/no-knead-whole-wheat-bread-sliced.jpg" style='width:100px; height:auto;' alt='Vegan No Knead Whole Wheat Sandwich Bread' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/breads/enriched-breads/yeasted-enriched-breads/no-knead-whole-wheat-sandwich-bread">Vegan No Knead Whole Wheat Sandwich Bread</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/breads/enriched-breads/yeasted-enriched-breads">Vegan Yeasted Enriched Bread Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:89%;">&nbsp;</div></div></div><span class="jrRatingValue">4.4 <span class="rating_count">(<span class="count">7</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+
+<div class="jrModuleItemThumbnail">
+<a href="/recipes/pastries/sticky-cinnamon-rolls"><img src="http://cdn1.veganbaking.net/2009/thumbnails/sticky-cinnamon-rolls.jpg" style='width:100px; height:auto;' alt='Sticky Vegan Cinnamon Rolls' /></a>
+</div>
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/recipes/pastries/sticky-cinnamon-rolls">Sticky Vegan Cinnamon Rolls</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/recipes/pastries">Vegan Pastry Recipes</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:85%;">&nbsp;</div></div></div><span class="jrRatingValue">4.3 <span class="rating_count">(<span class="count">4</span>)</span></span></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jrClear"></div></div>
+<div class="uk-panel uk-panel-box uk-hidden-small dont-print-this"><h3 class="uk-panel-title">Latest Recipes and Guides on FoodCraftLab</h3>
+<div data-wid="Pqn14" data-action="listings/many"></div>
+<script>(function(d,o,j,w,m){w=d.createElement(o),m=d.getElementsByTagName(o)[0];
+w.async=1;w.src=j;m.parentNode.insertBefore(w,m)
+})(document,'script','//www.foodcraftlab.com/components/com_jreviews_addons/widgetfactory/views/js/widget.loader.min.js');</script></div>
+<div class="uk-panel uk-panel-box uk-hidden-small dont-print-this"><h3 class="uk-panel-title">Most Popular Vegan Bakeries</h3><div class="jr-module-slider jrModuleSlider jrSliderSinglePage" data-options='{"module_id":"539","columns":"1","orientation":"vertical","slideshow":"0","slideshow_interval":"6","nav_position":"bottom","page_count":3}'>
+<div class="jrModuleItems vertical jrThumbnailLeft">
+<div class="jr-results jrResults jrModuleContainer jrListingsModule">
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent"> 
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/california/michelles-naturally">Michelle's Naturally</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/california">California</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/california/cinnaholic">Cinnaholic</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/california">California</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">3</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/oregon/dovetail-bakery">Dovetail Bakery</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/oregon">Oregon</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/georgia/dulce-vegan-bakery">Dulce Vegan Bakery</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/georgia">Georgia</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/new-york/three-tablespoons">Three Tablespoons</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/new-york">New York</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/utah/cakewalk-baking-company">Cakewalk Baking Company</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/utah">Utah</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="jr-results jrResults jrModuleContainer jrListingsModule">
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/illinois/manna-organic-bakery">Manna Organic Bakery</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/illinois">Illinois</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/new-york/cocoa-v">Cocoa V</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/new-york">New York</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/wisconsin/east-side-ovens-bakery">East Side Ovens Bakery</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/wisconsin">Wisconsin</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/washington/flying-apron-bakery">Flying Apron Bakery</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/washington">Washington</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/washington-dc/sticky-fingers-bakery">Sticky Fingers Bakery</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/washington-dc">Washington DC</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/pennsylvania/vegan-treats">Vegan Treats</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/pennsylvania">Pennsylvania</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">4</span>)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="jr-results jrResults jrModuleContainer jrListingsModule">
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/new-york/lulas-sweet-apothecary">Lula's Sweet Apothecary</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/new-york">New York</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">3</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/new-hampshire/hippie-chick-bakery">Hippie Chick Bakery</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/new-hampshire">New Hampshire</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:100%;">&nbsp;</div></div></div><span class="jrRatingValue">5.0 <span class="rating_count">(<span class="count">1</span>)</span></span></div></div>
+</div>
+</div>
+<div class="jrDivider"></div>
+<div class="jrModuleItem jrLastItem" style="width: 100.000000000%; padding-right: 1.428571429%;">
+<div class="jrModuleItemContent">
+
+<div class="jrModuleItemTitle">
+<a href="/vegan-bakery-directory/united-states/ohio/pattycake-vegan-bakery">Pattycake Vegan Bakery</a> </div>
+
+<div class="jrModuleItemCategory"> Category: <a href="http://www.veganbaking.net/vegan-bakery-directory/united-states/ohio">Ohio</a> </div>
+
+<div class="jrModuleFields">
+</div>
+
+<div class="jrOverallRatings"><div class="jrOverallUser" title="User rating"><span class="jrIconUsers jrRatingLabel"></span><div class="jrRatingStars"><div class="jrRatingStarsUser"><div style="width:96%;">&nbsp;</div></div></div><span class="jrRatingValue">4.8 <span class="rating_count">(<span class="count">5</span>)</span></span></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jrClear"></div></div>
+<div class="uk-panel uk-hidden-large uk-hidden-medium">
+<script type="text/javascript" src="http://ap.lijit.com/www/delivery/fpi.js?z=281703&u=mhagedorn&width=300&height=250"></script></div>
+<div class="uk-panel uk-panel-box uk-hidden-small dont-print-this"><h3 class="uk-panel-title">Top 20 Recommended Vegan Baking Books</h3>
+<a href="http://www.amazon.com/gp/product/1592332803?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1592332803" target="_blank" title="The Joy of Vegan Baking: The Compassionate Cooks' Traditional Treats and Sinful Sweets">The Joy of Vegan Baking</a><a href="http://www.amazon.com/gp/product/1569757143?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1569757143" target="_blank" title="The 100 Best Vegan Baking Recipes: Amazing Cookies, Cakes, Muffins, Pies, Brownies and Breads"><br />
+The 100 Best Vegan Baking Recipes</a><br />
+<a href="http://www.amazon.com/gp/product/1572841125?ie=UTF8&amp;camp=1789&amp;creativeASIN=1572841125&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Vegan Baking Classics: Delicious, Easy-to-Make Traditional Favorites">Vegan Baking Classics</a><br />
+<a href="http://www.amazon.com/gp/product/161608121X?ie=UTF8&amp;camp=1789&amp;creativeASIN=161608121X&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="The Vegan Cookie Connoisseur: Over 140 Simply Delicious Recipes That Treat the Eyes and Taste Buds">The Vegan Cookie Connoisseur</a><br />
+<a href="http://www.amazon.com/gp/product/1615190260?ie=UTF8&amp;camp=1789&amp;creativeASIN=1615190260&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Quick &amp; Easy Vegan Bake Sale: More than 150 Delicious Sweet and Savory Vegan Treats Perfect for Sharing">Quick &amp; Easy Vegan Bake Sale</a><br />
+<a href="http://www.amazon.com/gp/product/1569759200?ie=UTF8&amp;camp=1789&amp;creativeASIN=1569759200&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Have Your Cake and Vegan Too: 50 Dazzling and Delicious Cake Creations">Have Your Cake and Vegan Too</a><br />
+<a href="http://www.amazon.com/gp/product/0738212741?ie=UTF8&amp;camp=1789&amp;creativeASIN=0738212741&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Vegan Pie in the Sky: 75 Out-of-This-World Recipes for Pies, Tarts, Cobblers, and More">Vegan Pie in the Sky</a><br />
+<a href="http://www.amazon.com/gp/product/0979128617?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0979128617" target="_blank" title="My Sweet Vegan: Passionate about Dessert">My Sweet Vegan</a><br />
+<a href="http://www.amazon.com/gp/product/0978710908?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0978710908" target="_blank" title="Bake Deliciously! Gluten and Dairy Free Cookbook">Bake Deliciously!</a><br />
+<a href="http://www.amazon.com/gp/product/1906868352?ie=UTF8&amp;camp=1789&amp;creativeASIN=1906868352&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Sweet Vegan: A Collection of All Vegan, some Gluten-Free, and a Few Raw Desserts">Sweet Vegan</a><br />
+<a href="http://www.amazon.com/gp/product/1570616299?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1570616299" target="_blank" title="Flying Apron's Gluten-free and Vegan Baking Book">Flying Apron&#39;s Gluten-free &amp; Vegan Baking Book</a><br />
+<a href="http://www.amazon.com/gp/product/1569244766?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1569244766" target="_blank" title="Sinfully Vegan: Over 140 Decadent Desserts to Satisfy Every Vegan's Sweet Tooth">Sinfully Vegan</a><br />
+<a href="http://www.amazon.com/gp/product/1583334637?ie=UTF8&amp;camp=1789&amp;creativeASIN=1583334637&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Sticky Fingers' Sweets: 100 Super-Secret Vegan Recipes">Sticky Fingers&#39; Sweets</a><br />
+<a href="http://www.amazon.com/gp/product/1453648135?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1453648135" target="_blank">Are You Sure That&#39;s Vegan?</a><br />
+<a href="http://www.amazon.com/gp/product/1425176933?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1425176933" target="_blank" title="Sweet Freedom: Desserts You'll Love without Wheat, Eggs, Dairy or Refined Sugar">Sweet Freedom</a><br />
+<a href="http://www.amazon.com/gp/product/1616082208?ie=UTF8&amp;camp=1789&amp;creativeASIN=1616082208&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Vegan Desserts: Sumptuous Sweets for Every Season">Vegan Desserts</a><br />
+<a href="http://www.amazon.com/gp/product/1570672334?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1570672334" target="_blank" title="Sweet Utopia: Simply Stunning Vegan Desserts">Sweet Utopia</a><br />
+<a href="http://www.amazon.com/gp/product/160094048X?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=160094048X" target="_blank" title="Vegan Cookies Invade Your Cookie Jar: 100 Dairy-Free Recipes for Everyone's Favorite Treats">Vegan Cookies Invade Your Cookie Jar</a><br />
+<a href="http://www.amazon.com/gp/product/1569242739?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1569242739" target="_blank" title="Vegan Cupcakes Take Over the World: 75 Dairy-Free Recipes for Cupcakes that Rule">Vegan Cupcakes Take Over the World</a><br />
+<a href="http://www.amazon.com/gp/product/1587611996?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1587611996" target="_blank" title="Vice Cream: Over 70 Sinfully DeliciousDairy-Free Delights">Vice Cream</a><br />
+</div>
+<div class="uk-panel uk-panel-box uk-hidden-large uk-hidden-medium dont-print-this"><h3 class="uk-panel-title">Top 20 Recommended Vegan Baking Books</h3>
+<a href="http://www.amazon.com/gp/product/1592332803?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1592332803" target="_blank" title="The Joy of Vegan Baking: The Compassionate Cooks' Traditional Treats and Sinful Sweets">The Joy of Vegan Baking</a><a href="http://www.amazon.com/gp/product/1569757143?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1569757143" target="_blank" title="The 100 Best Vegan Baking Recipes: Amazing Cookies, Cakes, Muffins, Pies, Brownies and Breads"><br />
+The 100 Best Vegan Baking Recipes</a><br />
+<a href="http://www.amazon.com/gp/product/1572841125?ie=UTF8&amp;camp=1789&amp;creativeASIN=1572841125&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Vegan Baking Classics: Delicious, Easy-to-Make Traditional Favorites">Vegan Baking Classics</a><br />
+<a href="http://www.amazon.com/gp/product/161608121X?ie=UTF8&amp;camp=1789&amp;creativeASIN=161608121X&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="The Vegan Cookie Connoisseur: Over 140 Simply Delicious Recipes That Treat the Eyes and Taste Buds">The Vegan Cookie Connoisseur</a><br />
+<a href="http://www.amazon.com/gp/product/1615190260?ie=UTF8&amp;camp=1789&amp;creativeASIN=1615190260&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Quick &amp; Easy Vegan Bake Sale: More than 150 Delicious Sweet and Savory Vegan Treats Perfect for Sharing">Quick &amp; Easy Vegan Bake Sale</a><br />
+<a href="http://www.amazon.com/gp/product/1569759200?ie=UTF8&amp;camp=1789&amp;creativeASIN=1569759200&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Have Your Cake and Vegan Too: 50 Dazzling and Delicious Cake Creations">Have Your Cake and Vegan Too</a><br />
+<a href="http://www.amazon.com/gp/product/0738212741?ie=UTF8&amp;camp=1789&amp;creativeASIN=0738212741&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Vegan Pie in the Sky: 75 Out-of-This-World Recipes for Pies, Tarts, Cobblers, and More">Vegan Pie in the Sky</a><br />
+<a href="http://www.amazon.com/gp/product/0979128617?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0979128617" target="_blank" title="My Sweet Vegan: Passionate about Dessert">My Sweet Vegan</a><br />
+<a href="http://www.amazon.com/gp/product/0978710908?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0978710908" target="_blank" title="Bake Deliciously! Gluten and Dairy Free Cookbook">Bake Deliciously!</a><br />
+<a href="http://www.amazon.com/gp/product/1906868352?ie=UTF8&amp;camp=1789&amp;creativeASIN=1906868352&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Sweet Vegan: A Collection of All Vegan, some Gluten-Free, and a Few Raw Desserts">Sweet Vegan</a><br />
+<a href="http://www.amazon.com/gp/product/1570616299?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1570616299" target="_blank" title="Flying Apron's Gluten-free and Vegan Baking Book">Flying Apron&#39;s Gluten-free &amp; Vegan Baking Book</a><br />
+<a href="http://www.amazon.com/gp/product/1569244766?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1569244766" target="_blank" title="Sinfully Vegan: Over 140 Decadent Desserts to Satisfy Every Vegan's Sweet Tooth">Sinfully Vegan</a><br />
+<a href="http://www.amazon.com/gp/product/1583334637?ie=UTF8&amp;camp=1789&amp;creativeASIN=1583334637&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Sticky Fingers' Sweets: 100 Super-Secret Vegan Recipes">Sticky Fingers&#39; Sweets</a><br />
+<a href="http://www.amazon.com/gp/product/1453648135?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1453648135" target="_blank">Are You Sure That&#39;s Vegan?</a><br />
+<a href="http://www.amazon.com/gp/product/1425176933?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1425176933" target="_blank" title="Sweet Freedom: Desserts You'll Love without Wheat, Eggs, Dairy or Refined Sugar">Sweet Freedom</a><br />
+<a href="http://www.amazon.com/gp/product/1616082208?ie=UTF8&amp;camp=1789&amp;creativeASIN=1616082208&amp;linkCode=xm2&amp;tag=veganbakingne-20" target="_blank" title="Vegan Desserts: Sumptuous Sweets for Every Season">Vegan Desserts</a><br />
+<a href="http://www.amazon.com/gp/product/1570672334?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1570672334" target="_blank" title="Sweet Utopia: Simply Stunning Vegan Desserts">Sweet Utopia</a><br />
+<a href="http://www.amazon.com/gp/product/160094048X?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=160094048X" target="_blank" title="Vegan Cookies Invade Your Cookie Jar: 100 Dairy-Free Recipes for Everyone's Favorite Treats">Vegan Cookies Invade Your Cookie Jar</a><br />
+<a href="http://www.amazon.com/gp/product/1569242739?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=1569242739" target="_blank" title="Vegan Cupcakes Take Over the World: 75 Dairy-Free Recipes for Cupcakes that Rule">Vegan Cupcakes Take Over the World</a><br />
+<a href="http://www.amazon.com/gp/product/1587611996?ie=UTF8&amp;tag=veganbakingne-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1587611996" target="_blank" title="Vice Cream: Over 70 Sinfully DeliciousDairy-Free Delights">Vice Cream</a><br />
+</div></aside>
+</div>
+<footer class="tm-footer">
+<div class="uk-panel dont-print-this">
+<p style="text-align: center;"><a href="/recipes">Find Vegan Baking Recipes</a> | <a href="/articles/guides">Vegan Baking Tips and Tricks</a> | <a href="/community">Join Our Community</a>&nbsp;|&nbsp;<a href="http://www.veganbaking.net/?action=xml">RSS</a></p></div>
+</footer>
+</div>
+<div id="offcanvas" class="uk-offcanvas">
+<div class="uk-offcanvas-bar"><ul class="uk-nav uk-nav-offcanvas"><li class="uk-parent uk-active"><a href="/recipes">Vegan Baking Recipes</a><ul class="uk-nav-sub"><li class="uk-parent"><a href="/recipes/breads">Breads</a><ul><li class="uk-parent"><a href="/recipes/breads/enriched-breads">Enriched Breads</a><ul><li><a href="/recipes/breads/enriched-breads/quick-breads">Quick Breads</a></li><li><a href="/recipes/breads/enriched-breads/muffins">Muffins</a></li><li><a href="/recipes/breads/enriched-breads/yeasted-enriched-breads">Yeasted Enriched Breads</a></li></ul></li><li><a href="/recipes/breads/hearth-breads">Hearth Breads</a></li><li><a href="/recipes/breads/pizza-crusts">Pizza Crusts</a></li></ul></li><li><a href="/recipes/cookies">Cookies</a></li><li class="uk-parent uk-active"><a href="/recipes/brownies-and-bars">Brownies, Bars and Squares</a><ul><li class="uk-active"><a href="/recipes/brownies-and-bars/brownies">Brownies</a></li><li><a href="/recipes/brownies-and-bars/bars">Bars and Squares</a></li></ul></li><li class="uk-parent"><a href="/recipes/cakes">Cakes</a><ul><li><a href="/recipes/cakes/sponge-cakes">Sponge Cakes</a></li><li><a href="/recipes/cakes/cupcakes">Cupcakes</a></li><li><a href="/recipes/cakes/coffee-cake">Coffee Cake</a></li></ul></li><li class="uk-parent"><a href="/recipes/cake-decorating">Cake Decorating</a><ul><li><a href="/recipes/cake-decorating/frostings">Frostings</a></li><li><a href="/recipes/cake-decorating/icings">Icings and Glazes</a></li><li><a href="/recipes/cake-decorating/toppings">Toppings</a></li></ul></li><li><a href="/recipes/pastries">Pastries</a></li><li><a href="/recipes/pies">Pies</a></li><li class="uk-parent"><a href="/recipes/custards-and-puddings">Custards, Puddings and Mousses</a><ul><li><a href="/recipes/custards-and-puddings/cheesecakes">Cheesecakes</a></li><li><a href="/recipes/custards-and-puddings/puddings">Puddings</a></li><li><a href="/recipes/custards-and-puddings/mousses">Mousses</a></li></ul></li><li><a href="/recipes/crepes">Crepes</a></li><li class="uk-parent"><a href="/recipes/breakfast">Breakfast</a><ul><li><a href="/recipes/breakfast/pancakes">Pancakes</a></li><li><a href="/recipes/breakfast/waffles">Waffles</a></li><li><a href="/recipes/breakfast/granola">Granola</a></li><li><a href="/recipes/breakfast/french-toast">French Toast</a></li></ul></li><li class="uk-parent"><a href="/recipes/frozen-desserts">Frozen Desserts</a><ul><li><a href="/recipes/frozen-desserts/ice-creams">Ice Creams</a></li><li><a href="/recipes/frozen-desserts/frozen-yogurts">Frozen Yogurts</a></li><li><a href="/recipes/frozen-desserts/sorbets">Sorbets</a></li></ul></li><li class="uk-parent"><a href="/recipes/sauces-syrups-spreads">Sauces, Syrups and Spreads</a><ul><li><a href="/recipes/sauces-syrups-spreads/sauces">Sauces</a></li><li><a href="/recipes/sauces-syrups-spreads/syrups">Syrups</a></li><li><a href="/recipes/sauces-syrups-spreads/spreads">Spreads</a></li></ul></li><li class="uk-parent"><a href="/recipes/confections">Confections</a><ul><li><a href="/recipes/confections/truffles">Truffles</a></li><li><a href="/recipes/confections/bonbons">Bonbons</a></li><li><a href="/recipes/confections/brittles-and-barks">Brittles and Barks</a></li><li><a href="/recipes/confections/candy">Candies</a></li></ul></li><li><a href="/recipes/egg-replacers">Egg Replacers</a></li><li class="uk-parent"><a href="/recipes/fats">Fats</a><ul><li><a href="/recipes/fats/vegan-butters">Vegan Butters</a></li><li><a href="/recipes/fats/vegan-shortenings">Vegan Shortenings</a></li></ul></li><li><a href="/recipes/non-dairy-milks">Non-dairy Milks</a></li><li><a href="/recipes-by-ingredient/gluten-free">Gluten-Free</a></li><li><a href="/recipes/other-vegan-treats">Other Vegan Treats</a></li><li><a href="/recipes/other-vegan-eats">Cooking</a></li><li><a href="/recipes-by-ingredient" title="Vegan Baking Recipes by Ingredient ">Recipes by Ingredient</a></li></ul></li><li class="uk-parent"><a href="/articles">Articles</a><ul class="uk-nav-sub"><li><a href="/articles/guides">Vegan Baking Guides</a></li><li><a href="/articles/faces-of-vegan-baking">Faces of Vegan Baking</a></li><li><a href="/vegan-bakery-directory">Vegan Bakery Directory</a></li><li class="uk-parent"><a href="/articles/tools">Baking Tools</a><ul><li><a href="/articles/tools/baking-unit-converter">Baking Measuring Unit Converter</a></li><li><a href="/articles/tools/baking-substitutions">Vegan Baking Substitutions</a></li><li><a href="/articles/tools/candy-making-temperature-chart">Candy Temperature Chart</a></li><li><a href="/articles/tools/baking-ingredients-by-weight">Ingredients By Weight</a></li><li><a href="/articles/tools/fat-and-oil-melt-point-temperatures">Fat and Oil Melt Point Temperatures</a></li><li><a href="/articles/tools/grain-and-legume-cooking-chart">Grain and Legume Cooking Chart</a></li><li><a href="/articles/tools/glossary-vegan-baking-ingredients">Vegan Baking Ingredients Glossary</a></li><li><a href="/articles/tools/animal-ingredients-list">Animal Ingredients List A-Z</a></li><li><a href="/articles/tools/shop">Veganbaking.net Store</a></li></ul></li></ul></li><li><a href="/how-to-start-a-food-blog">How to Start a Food Blog</a></li><li><a href="/ask-a-vegan-baker">Ask a Vegan Baker</a></li><li class="uk-parent"><a href="/about-us">About</a><ul class="uk-nav-sub"><li><a href="/profiles/mattie">About Mattie</a></li><li><a href="/about-us/contact-us">Contact Mattie</a></li><li><a href="/profiles/login">Login/Manage Account</a></li><li><a href="/about-us/promote-veganbaking">Promote Vegan Baking</a></li><li><a href="/about-us/legal">Legal</a></li></ul></li></ul></div>
+</div>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=mhagedorn"></script>
+
+
+<meta property="og:site_name" content="Veganbaking.net - Recipes, desserts and tips" />
+<meta property="og:type" content="article" />
+<meta property="article:section" content="Vegan Baking" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29275025-1', 'veganbaking.net');
+  ga('send', 'pageview');
+</script>
+
+<script type="text/javascript" src="http://static.adsnative.com/static/js/render.v1.js"></script>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: 'ca-pub-6512936480753445',
+    enable_page_level_ads: true,
+    overlays: {google_ad_channel: '6916694011'}
+  });
+</script>
+</body>
+</html>

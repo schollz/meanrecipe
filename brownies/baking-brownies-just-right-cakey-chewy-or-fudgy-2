@@ -1,0 +1,2530 @@
+<!doctype html>
+<!--[if IE 8]>         <html class="no-js lte-ie9 ie8 finecooking" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 9]> <html class="lte-ie9 no-js finecooking" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<!--[if gt IE 9]> --><html class="no-js finecooking user-level- " lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <link rel="shortcut icon" href="http://www.finecooking.com/app/themes/finecooking/favicon.ico" />
+  <meta name="dfp-path" content="/6134/ttn.fc" />
+  <meta name="google-site-verification" content="NLFbazzBgfh7BldgnApJx222DfaIWzGvrUinTVw3Ijw" />
+  <title>Baking Brownies: How To Make Them Cakey, Chewy, or Fudgy - FineCooking</title>
+  
+  <script>
+
+		if( window.location && window.location.hash ){
+		try{
+			var url_jump_link = window.location.hash;
+			if (url_jump_link.match(/\#track=true\&email=/)) {
+				window.location.replace(window.location.pathname)
+			}
+		}catch(err){
+			if (typeof console != 'undefined' ){
+				console.log( err )
+			}
+		}
+	}
+
+    // Global FC object
+    var FC = {};
+
+    FC.user = {
+      "level" : "anonymous",
+      "authStatus" : "logged out",
+      "favorite" : false    };
+
+    FC.page = {
+      "accessType" : "free",
+      "channel" : "how-to",
+      "topics" : ['baking','baking-pans','beginner','blondies','brownies','cakey','chewy','cookies-and-brownies','dessert','desserts-and-sweets','fudgy','how-to-make','technique','techniques'],
+      "pageType" : "article",
+      "contentID" : "55702",
+      "collection": "",
+      "video" : false,
+      "isSSL" : false    };
+
+    FC.util = {
+      loadTime : function() {
+        if (typeof window['performance'] !== 'undefined') {
+          return new Date - performance.timing.navigationStart;
+        }
+      }
+    };
+
+        FC.page.title = "Baking Brownies: How To Make Them Cakey, Chewy, or Fudgy";
+    FC.page.publishDate = "1999-08-01";
+            FC.page.issueTitle = "Issue 34";
+        
+  </script>
+
+  <!-- FC Typekit -->
+  <script>
+  (function(d) {
+    var config = {
+      kitId: 'kvb0rod',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+  </script>
+
+  <!-- Analytics -->
+  <script>
+
+  /* Google Analytics */
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // Production
+  ga('create', 'UA-4535902-5', 'auto');
+
+  // Test
+  //ga('create', 'UA-74938125-1', 'auto');
+
+  // Custom dimension for login status
+  ga('set', 'dimension1', FC.user.authStatus);
+
+  // Custom dimension for account status
+  ga('set', 'dimension2', FC.user.level);
+
+  // Custom dimension for article access level
+  ga('set', 'dimension3', FC.page.accessType);
+
+  // Custom dimension for channel
+  ga('set', 'dimension4', FC.page.channel);
+
+  // Custom dimension for collections / series
+  ga('set', 'dimension5', FC.page.collection);
+
+  // Custom dimension for topics
+  ga('set', 'dimension6', FC.page.topics);
+
+  // Custom dimension for publish timestamp
+  ga('set', 'dimension7', FC.page.publishDate);
+
+  // Custom dimension for issue title
+  ga('set', 'dimension8', FC.page.issueTitle);
+
+  // Send Pageview
+  ga('send', 'pageview');
+
+  /* Quantcast */
+  var _qevents = _qevents || [];
+  (function() {
+      var elem = document.createElement('script');
+      elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+                  + ".quantserve.com/quant.js";
+      elem.async = true;
+      elem.type = "text/javascript";
+      var scpt = document.getElementsByTagName('script')[0];
+      scpt.parentNode.insertBefore(elem, scpt);
+  })();
+
+  /* Comscore */
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "7517096" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+</script>
+
+  <!--  DFP -->
+  <script>
+  FC.dfp = {
+    path: "/6134/ttn.fc",
+
+    possibleSlots: {
+      "dfp-leaderboard-1" : {
+        "sizes" : [[728, 90], [970, 250], [970, 90]],
+        "targeting" : [["pos", "top"]],
+        "sizeMapping" : [
+          [[1000, 0], [[728, 90], [970, 250], [970, 90]]],
+          [[750, 0], [[728, 90]]],
+          [[300, 0], [[320, 50]]]
+        ],
+        "companion": true
+      },
+      "dfp-leaderboard-2" : {
+        "sizes" : [[728, 90], [970, 250]],
+        "sizeMapping" : [
+          [[1000, 0], [[970, 250], [728, 90]]],
+          [[750, 0], [[728, 90]]],
+          [[300, 0], [[320, 50]]]
+        ]
+      },
+      "dfp-rectangle-1" : {
+        "sizes" : [[300, 250], [300, 600]],
+        "targeting" : [["pos", "top"]],
+        "companion": true
+      },
+      "dfp-rectangle-2" : {
+        "sizes" : [[300, 250]]
+      },
+      "dfp-rectangle-slideshow" : {
+        "sizes" : [[300, 250]],
+        "targeting" : [["pos", "left"]],
+      },
+      "dfp-skin" : {
+        "sizes" : [[3, 3]]
+      },
+      "dfp-inread" : {
+        "sizes" : [[1, 1]]
+      },
+      "dfp-top-promo" : {
+        "sizes" : [[2, 1]]
+      },
+      "dfp-logo-1" : {
+        "sizes" : [[88, 31]]
+      },
+      "dfp-logo-2" : {
+        "sizes" : [[120, 75]],
+        "targeting" : [["pos", "top"]]
+      },
+      "dfp-logo-3" : {
+        "sizes" : [[120, 75]],
+        "targeting" : [["pos", "not top"]]
+      }
+    },
+
+    oopSlot : "dfp-interstitial",
+    prebid : true
+  };
+
+ 
+  <!-- Load DFP and Prebid -->
+  var PREBID_TIMEOUT = 5000;
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+
+  function initAdserver() {
+    if (pbjs.initAdserverSet) return;
+    console.log('FC: initAdserver: ' + FC.util.loadTime());
+    console.log('FC: Loading gpt.js: ' + FC.util.loadTime());
+    (function() {
+      var gads = document.createElement('script');
+      gads.async = true;
+      gads.type = 'text/javascript';
+      var useSSL = 'https:' == document.location.protocol;
+      gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+      var node = document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
+    })();
+    pbjs.initAdserverSet = true;
+  }
+
+  setTimeout(initAdserver, PREBID_TIMEOUT);
+
+  console.log('FC: Loading Prebid: ' + FC.util.loadTime());
+
+  var pbjs = pbjs || {};
+  pbjs.que = pbjs.que || [];
+
+  (function() {
+    var pbjsEl = document.createElement("script");
+    pbjsEl.type = "text/javascript";
+    pbjsEl.async = true;
+    pbjsEl.src = "http://www.finecooking.com/app/themes/finecooking/_assets/js/prebid_20160805140647.js";
+    var pbjsTargetEl = document.getElementsByTagName("head")[0];
+    pbjsTargetEl.insertBefore(pbjsEl, pbjsTargetEl.firstChild);
+  })();
+
+  pbjs.que.push(function() {
+    var adUnits = [{
+      code: 'dfp-leaderboard-1',
+      sizes: [[728, 90], [970, 90]],
+      bids: [{
+        bidder: 'pulsepoint',
+        params: {
+          cf: '728x90' ,
+          cp: '557947',
+          ct: '479724'}
+      },
+      {
+        bidder: 'yieldbot',
+        params: {
+          psn: 'e846',
+          slot: 'leaderboard' }
+        },
+        {
+        bidder: 'brealtime',
+        params: {
+          placementId: '8552712'
+        }
+      }]
+    },
+    {
+      code: 'dfp-rectangle-1',
+      sizes: [[300, 250], [300, 600]],
+      bids: [{
+        bidder: 'pulsepoint',
+        params: {
+          cf: '300x250' ,
+          cp: '557947',
+          ct: '479753'
+        }
+      },
+      {
+        bidder: 'yieldbot',
+        params: {
+          psn: 'e846',
+          slot: 'medrec'
+        }
+      },
+      {
+        bidder: 'brealtime',
+        params: {
+          placementId: '8552713'
+        }
+      }]
+    }];
+
+    pbjs.addAdUnits(adUnits);
+
+    console.log('FC: requestBids: ' + FC.util.loadTime());
+
+    pbjs.requestBids({
+      bidsBackHandler: function(bidResponses) {
+        //console.log('Bid Responses:');
+        //console.log(bidResponses);
+        initAdserver();
+      }
+    });
+
+  });
+
+  
+</script>
+
+  <!-- Moat -->
+  <script>(function() {
+  try{var a={l1:document.location.host.replace(/^www\./,""),l2:document.title||"Untitled",l3:"__page__",l4:"-",sa:"",sn:""},b=[],c;for(c in a)b.push(c+"="+encodeURIComponent(a[c]));b=b.join("&");(new Image).src="//d1gbcz1optywnu.cloudfront.net?a=b2442e8c2c634163acad81dd25bc46c1";var d=document.createElement("script");d.type="text/javascript";d.async=!0;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e);d.src="https://z.moatads.com/tauntoncontent9694032/moatcontent.js#"+b}catch(f){try{var g=
+  "//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&ac=1&k="+encodeURIComponent(f)+"&j="+encodeURIComponent(document.referrer)+"&cs="+(new Date).getTime();(new Image).src=g}catch(h){}};
+  })();
+  </script>
+
+  <!-- Nativo -->
+  <script src="//s.ntv.io/serve/load.js" async></script>
+
+  
+  
+<!-- This site is optimized with the Yoast SEO plugin v6.3.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Change the proportions of ingredients to bake the style you like best"/>
+<link rel="canonical" href="http://www.finecooking.com/article/baking-brownies-just-right-cakey-chewy-or-fudgy-2" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Baking Brownies: How To Make Them Cakey, Chewy, or Fudgy - FineCooking" />
+<meta property="og:description" content="Change the proportions of ingredients to bake the style you like best" />
+<meta property="og:url" content="http://www.finecooking.com/article/baking-brownies-just-right-cakey-chewy-or-fudgy-2" />
+<meta property="og:site_name" content="FineCooking" />
+<meta property="article:tag" content="Baking pans" />
+<meta property="article:tag" content="Beginner" />
+<meta property="article:tag" content="blondies" />
+<meta property="article:tag" content="brownies" />
+<meta property="article:tag" content="cakey" />
+<meta property="article:tag" content="chewy" />
+<meta property="article:tag" content="Cookies and Brownies" />
+<meta property="article:tag" content="Desserts and Sweets" />
+<meta property="article:tag" content="fudgy" />
+<meta property="article:tag" content="How to Make" />
+<meta property="article:tag" content="Technique" />
+<meta property="article:tag" content="Techniques" />
+<meta property="article:section" content="Baking" />
+<meta property="article:published_time" content="1999-08-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-09-19T14:39:28+00:00" />
+<meta property="og:updated_time" content="2017-09-19T14:39:28+00:00" />
+<meta property="og:image" content="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011604/fc34mi044-01-thumb16x9.jpg" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="338" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Change the proportions of ingredients to bake the style you like best" />
+<meta name="twitter:title" content="Baking Brownies: How To Make Them Cakey, Chewy, or Fudgy - FineCooking" />
+<meta name="twitter:image" content="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011604/fc34mi044-01-thumb16x9.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.finecooking.com\/","name":"FineCooking","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.finecooking.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com' />
+<link rel='dns-prefetch' href='//s3.amazonaws.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel="alternate" type="application/rss+xml" title="FineCooking &raquo; Feed" href="http://www.finecooking.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="FineCooking &raquo; Comments Feed" href="http://www.finecooking.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="FineCooking &raquo; Baking Brownies: How To Make Them Cakey, Chewy, or Fudgy Comments Feed" href="http://www.finecooking.com/article/baking-brownies-just-right-cakey-chewy-or-fudgy-2/feed" />
+<link rel='stylesheet' id='all-css-css'  href='http://www.finecooking.com/app/themes/finecooking/dist/css/all-3df345edf5.css?ver=4.9.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js?ver=4.9.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/app/themes/finecooking/dist/js/all-16c46697d4.js?ver=4.9.4'></script>
+<link rel='https://api.w.org/' href='http://www.finecooking.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.finecooking.com/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.finecooking.com/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.4" />
+<link rel='shortlink' href='http://www.finecooking.com/?p=55702' />
+<link rel="alternate" type="application/json+oembed" href="http://www.finecooking.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.finecooking.com%2Farticle%2Fbaking-brownies-just-right-cakey-chewy-or-fudgy-2" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.finecooking.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.finecooking.com%2Farticle%2Fbaking-brownies-just-right-cakey-chewy-or-fudgy-2&#038;format=xml" />
+			<meta property="fb:pages" content="188608890800" />
+							<meta property="ia:markup_url_dev" content="http://www.finecooking.com/article/baking-brownies-just-right-cakey-chewy-or-fudgy-2?ia_markup=1" />
+						<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+<script type="application/ld+json">
+{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http:\/\/www.finecooking.com\/article\/baking-brownies-just-right-cakey-chewy-or-fudgy-2"
+    },
+    "isAccessibleForFree": "True",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http:\/\/s3.amazonaws.com\/finecooking.s3.tauntonclud.com\/app\/uploads\/2017\/04\/19011603\/fc34mi044-01-main.jpg"
+    },
+    "headline": "Baking Brownies: How To Make Them Cakey, Chewy, or Fudgy",
+    "datePublished": "1999-08-01 00:00:00",
+    "dateModified": "2017-09-19 14:39:28",
+    "description": "Change the proportions of ingredients to bake the style you like best",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Cindy Mitchell",
+            "url": "http:\/\/www.finecooking.com\/author\/cindy-mitchell"
+        }
+    ],
+    "isPartOf": {
+        "@type": "PublicationIssue",
+        "name": "Issue 34",
+        "url": "http:\/\/www.finecooking.com\/issue\/1999\/08\/issue-34",
+        "isPartOf": {
+            "@type": "Periodical",
+            "name": "Fine Cooking Magazine",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Fine Cooking",
+                "url": "http:\/\/www.finecooking.com",
+                "sameAs": [
+                    "https:\/\/twitter.com\/finecooking",
+                    "https:\/\/www.facebook.com\/FineCooking",
+                    "https:\/\/www.instagram.com\/finecookingmag\/",
+                    "https:\/\/www.pinterest.com\/finecooking\/"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "http:\/\/www.finecooking.com\/app\/plugins\/finecooking\/assets\/img\/fc-logo-black.png"
+                }
+            }
+        },
+        "issueNumber": "34",
+        "image": "http:\/\/s3.amazonaws.com\/finecooking.s3.tauntonclud.com\/app\/uploads\/1999\/08\/11180133\/issue_34.jpg"
+    }
+}
+</script>
+
+</head>
+
+<body class="article post-template-default single single-post postid-55702 single-format-standard group-blog" >
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+   <symbol id="fc-logo" viewBox="0 0 571 198">
+    <title>Fine Cooking</title>
+    <g transform="translate(0 49)">
+      <path d="M58.6 124C79.8 124 93.2 115.8 105.4 103.4L96.7 94.9C85.5 105.6 75 111.8 59 111.8 33.2 111.8 13.7 90.6 13.7 63.5L13.7 63.2C13.7 36.3 33.1 15.2 59 15.2 74.8 15.2 85.8 21.9 95.7 31.3L104.7 21.6C93 10.6 80.3 3 59.1 3 24.7 3 0 30.4 0 63.5L0 63.8C0 97.4 24.9 124 58.6 124L58.6 124ZM150.6 124C176.7 124 195.9 103.2 195.9 78.9L195.9 78.5C195.9 54.1 176.9 33.8 151 33.8 124.9 33.8 105.9 54.5 105.9 78.9L105.9 79.2C105.9 103.6 124.7 124 150.6 124L150.6 124ZM151 112.4C132.8 112.4 119.1 97.4 119.1 78.9L119.1 78.5C119.1 60.3 131.9 45.1 150.6 45.1 168.8 45.1 182.7 60.3 182.7 78.9L182.7 79.2C182.7 97.4 169.7 112.4 151 112.4L151 112.4ZM245.2 124C271.2 124 290.4 103.2 290.4 78.9L290.4 78.5C290.4 54.1 271.4 33.8 245.5 33.8 219.4 33.8 200.4 54.5 200.4 78.9L200.4 79.2C200.4 103.6 219.3 124 245.2 124L245.2 124ZM245.5 112.4C227.3 112.4 213.6 97.4 213.6 78.9L213.6 78.5C213.6 60.3 226.5 45.1 245.2 45.1 263.4 45.1 277.2 60.3 277.2 78.9L277.2 79.2C277.2 97.4 264.2 112.4 245.5 112.4L245.5 112.4ZM296.9 121.9L309.8 121.9 309.8 99.4 327.3 81.7 358.2 121.9 373.6 121.9 336.2 72.7 372.4 35.6 356.4 35.6 309.8 84.2 309.8 0 296.9 0 296.9 121.9ZM376.4 121.9L389.3 121.9 389.3 35.6 376.4 35.6 376.4 121.9ZM402.5 121.9L415.3 121.9 415.3 72.5C415.3 56.3 426.3 45.5 441.2 45.5 456.4 45.5 465.1 55.5 465.1 71.5L465.1 121.9 477.9 121.9 477.9 68.3C477.9 47.8 465.8 33.8 444.9 33.8 430 33.8 421 41.3 415.3 50.6L415.3 35.6 402.5 35.6 402.5 121.9ZM526.9 149C540.6 149 552.1 145.2 559.8 137.5 566.8 130.5 570.8 120.3 570.8 106.9L570.8 35.6 557.9 35.6 557.9 51.1C550.9 41.8 540.4 33.8 524.2 33.8 503.7 33.8 483.6 49.3 483.6 74.5L483.6 74.9C483.6 99.7 503.5 115.3 524.2 115.3 540.1 115.3 550.6 107.1 558.1 97.1L558.1 107.3C558.1 127.5 545.7 138 526.7 138 514.4 138 503.3 134.1 493.5 127L487.6 137C499.2 145 512.5 149 526.9 149L526.9 149ZM526.7 103.9C510.7 103.9 496.8 91.9 496.8 74.5L496.8 74.2C496.8 56.5 510.3 45.1 526.7 45.1 543.1 45.1 558.4 56.7 558.4 74.4L558.4 74.7C558.4 92.1 543.1 103.9 526.7 103.9L526.7 103.9Z" />
+    </g>
+    <path d="M130.6 73.2L138.2 73.2 138.2 28.6 154.4 28.6 154.4 22 138.1 22 138.1 17.8C138.1 10.5 141.1 6.9 147.1 6.9 149.7 6.9 151.7 7.4 154.5 8.2L154.5 1.5C152 0.6 149.7 0.2 146.1 0.2 141.4 0.2 137.6 1.6 135 4.2 132.2 7.1 130.6 11.6 130.6 17.4L130.6 21.9 123.5 21.9 123.5 28.6 130.6 28.6 130.6 73.2ZM156.9 73.2L164.6 73.2 164.6 21.8 156.9 21.8 156.9 73.2ZM172.4 73.2L180.1 73.2 180.1 43.8C180.1 34.1 186.6 27.7 195.5 27.7 204.5 27.7 209.7 33.6 209.7 43.2L209.7 73.2 217.3 73.2 217.3 41.3C217.3 29.1 210.1 20.7 197.7 20.7 188.8 20.7 183.4 25.2 180.1 30.7L180.1 21.8 172.4 21.8 172.4 73.2ZM248.2 74.4C257.9 74.4 264.2 70.5 269.3 64.7L264.6 60.5C260.4 64.8 255.4 67.7 248.4 67.7 239.2 67.7 231.4 61.5 230.3 50.3L271 50.3C271.1 49.4 271.1 48.8 271.1 47.8 271.1 32.8 262.4 20.7 247.2 20.7 233 20.7 222.5 32.6 222.5 47.4L222.5 47.6C222.5 63.5 234 74.4 248.2 74.4L248.2 74.4ZM230.3 44.7C231.3 34.6 238 27.2 247 27.2 257.2 27.2 262.6 35.3 263.4 44.7L230.3 44.7 230.3 44.7Z"/>
+  </symbol>
+
+  <symbol id="mf-logo" viewBox="0 0 568 100">
+    <title>Moveable Feast</title>
+    <path d="M0.179,37.656 C-0.181,37.943 0.107,38.519 0.539,38.519 L9.107,38.519 C9.611,38.519 9.755,37.873 9.539,37.656 L8.603,36.72 L8.603,14.688 L15.155,22.968 L15.227,23.112 C15.587,23.472 15.875,23.4 16.019,23.112 L22.643,13.752 L22.643,36.721 L21.707,37.657 C21.419,37.944 21.635,38.52 22.067,38.52 L30.707,38.52 C31.211,38.52 31.355,37.944 31.067,37.657 L30.203,36.721 L30.203,2.304 L31.067,1.296 C31.427,0.936 31.139,0.504 30.707,0.504 L22.931,0.504 C22.787,0.504 22.643,0.576 22.571,0.72 L15.947,10.512 L8.675,0.72 C8.603,0.576 8.459,0.504 8.315,0.504 L0.539,0.504 C0.035,0.504 -0.181,1.08 0.179,1.296 L1.043,2.304 L1.043,36.721 L0.179,37.656 L0.179,37.656 Z M51.802,39.096 C56.77,39.096 60.154,37.944 62.386,35.641 C64.114,33.768 64.906,31.032 64.906,27.073 L64.906,11.88 C64.906,8.064 64.114,5.328 62.386,3.456 C60.226,1.08 56.771,0 51.802,0 C46.762,0 43.378,1.08 41.146,3.384 C39.49,5.328 38.554,8.064 38.554,11.88 L38.554,27.072 C38.554,31.031 39.49,33.767 41.146,35.64 C43.306,37.943 46.69,39.096 51.802,39.096 L51.802,39.096 Z M57.274,13.824 L57.274,25.2 C57.274,27.072 56.914,28.584 56.194,29.664 C55.33,30.815 53.962,31.32 52.09,31.32 L51.37,31.32 C48.994,31.32 46.258,30.239 46.258,25.2 L46.258,13.824 C46.258,11.88 46.546,10.44 47.338,9.288 C48.202,8.208 49.498,7.704 51.37,7.704 L52.09,7.704 C54.538,7.704 57.274,8.712 57.274,13.824 L57.274,13.824 Z M69.586,2.304 L78.874,36.793 L78.226,37.729 C78.154,38.088 78.226,38.52 78.73,38.52 L87.73,38.52 C88.234,38.52 88.45,38.016 88.162,37.729 L87.586,36.793 L96.875,2.304 L97.811,1.296 C98.171,1.008 97.883,0.504 97.379,0.504 L88.739,0.504 C88.307,0.504 88.091,1.008 88.451,1.296 L89.315,2.232 L83.195,24.696 L77.218,2.232 L78.082,1.296 C78.37,1.008 78.082,0.504 77.65,0.504 L69.082,0.504 C68.578,0.504 68.362,1.08 68.722,1.296 L69.586,2.304 L69.586,2.304 Z M124.233,38.52 C124.521,38.52 124.737,38.233 124.737,38.016 L124.737,30.889 C124.737,30.385 124.089,30.025 123.873,30.457 L123.009,31.321 L111.777,31.321 L111.777,22.825 L120.201,22.825 L121.065,23.617 C121.425,23.833 121.929,23.689 121.929,23.257 L121.929,14.977 C121.929,14.545 121.425,14.545 121.065,14.617 L120.201,15.553 L111.777,15.553 L111.777,7.704 L123.009,7.704 L123.873,8.568 C124.233,9 124.737,8.568 124.737,8.136 L124.737,0.936 C124.737,0.72 124.521,0.504 124.233,0.504 L103.641,0.504 C103.137,0.504 102.921,1.08 103.281,1.296 L104.145,2.304 L104.145,36.721 L103.281,37.657 C102.921,37.944 103.209,38.52 103.641,38.52 L124.233,38.52 L124.233,38.52 Z M132.657,38.52 L141.225,38.52 C141.801,38.52 141.801,37.944 141.657,37.657 L140.793,36.794 L142.593,30.097 L151.017,30.097 L152.889,36.794 L152.025,37.657 C151.737,38.016 151.953,38.52 152.313,38.52 L161.025,38.52 C161.529,38.52 161.601,37.944 161.457,37.657 L160.449,36.721 L151.161,2.232 L151.809,1.296 C151.953,0.936 151.809,0.504 151.377,0.504 L142.377,0.504 C141.801,0.504 141.657,0.936 141.873,1.296 L142.449,2.232 L133.161,36.721 L132.297,37.657 C131.938,38.016 132.225,38.52 132.657,38.52 L132.657,38.52 Z M144.465,22.968 L146.769,14.256 L149.217,22.968 L144.465,22.968 L144.465,22.968 Z M169.089,37.656 C168.729,38.015 169.017,38.519 169.449,38.519 L181.689,38.519 C183.489,38.519 185.073,38.376 186.369,38.087 C187.881,37.728 189.105,37.151 190.257,36.358 C192.561,34.415 193.641,31.03 193.641,26.063 C193.641,21.383 192.705,18.071 190.545,15.983 C191.337,14.543 191.697,12.599 191.697,10.367 C191.697,8.207 191.409,6.479 190.761,5.111 C190.257,3.815 189.321,2.879 188.169,2.159 C186.009,0.719 182.769,0.503 179.673,0.503 L169.449,0.503 C168.945,0.503 168.729,1.007 169.089,1.295 L169.953,2.303 L169.953,36.72 L169.089,37.656 L169.089,37.656 Z M181.042,20.88 C182.554,21.024 183.706,21.456 184.57,22.248 C185.434,23.112 185.938,24.336 185.938,25.92 C185.938,27.72 185.362,29.016 184.138,29.808 C183.202,30.6 181.69,30.96 179.746,30.96 L177.586,30.96 L177.586,20.952 L179.674,20.952 C180.177,20.952 180.609,20.88 181.042,20.88 L181.042,20.88 Z M181.113,13.248 L177.585,13.248 L177.585,8.064 L179.889,8.064 C181.185,8.064 182.193,8.064 182.913,8.496 C183.777,9 183.921,9.936 183.921,10.656 C183.921,12.672 182.913,13.104 181.113,13.248 L181.113,13.248 Z M220.353,30.384 L219.417,31.248 L208.185,31.248 L208.185,2.304 L209.122,1.368 C209.338,1.008 209.193,0.576 208.689,0.576 L200.121,0.576 C199.617,0.576 199.401,1.08 199.761,1.368 L200.625,2.304 L200.625,36.721 L199.761,37.657 C199.401,37.944 199.689,38.52 200.121,38.52 L220.713,38.52 C221.001,38.52 221.145,38.233 221.145,38.016 L221.145,30.816 C221.145,30.312 220.568,30.168 220.353,30.384 L220.353,30.384 Z M246.849,38.52 C247.137,38.52 247.353,38.233 247.353,38.016 L247.353,30.889 C247.353,30.385 246.706,30.025 246.49,30.457 L245.626,31.321 L234.394,31.321 L234.394,22.825 L242.818,22.825 L243.682,23.617 C244.042,23.833 244.546,23.689 244.546,23.257 L244.546,14.977 C244.546,14.545 244.042,14.545 243.682,14.617 L242.818,15.553 L234.394,15.553 L234.394,7.704 L245.626,7.704 L246.49,8.568 C246.849,9 247.353,8.568 247.353,8.136 L247.353,0.936 C247.353,0.72 247.137,0.504 246.849,0.504 L226.257,0.504 C225.753,0.504 225.537,1.08 225.897,1.296 L226.761,2.304 L226.761,36.721 L225.897,37.657 C225.538,37.944 225.826,38.52 226.257,38.52 L246.849,38.52 L246.849,38.52 Z M280.616,36.721 L280.616,22.824 L289.04,22.824 L289.904,23.616 C290.263,23.832 290.767,23.688 290.767,23.256 L290.767,14.976 C290.767,14.544 290.263,14.544 289.904,14.616 L289.04,15.552 L280.616,15.552 L280.616,7.704 L291.847,7.704 L292.711,8.568 C293.071,9 293.575,8.568 293.575,8.136 L293.575,0.936 C293.575,0.72 293.358,0.504 293.071,0.504 L272.478,0.504 C271.974,0.504 271.758,1.08 272.119,1.296 L272.982,2.304 L272.982,36.721 L272.119,37.657 C271.759,37.944 272.047,38.52 272.478,38.52 L281.046,38.52 C281.622,38.52 281.766,37.944 281.478,37.657 L280.616,36.721 L280.616,36.721 Z M322.088,38.52 C322.376,38.52 322.592,38.233 322.592,38.016 L322.592,30.889 C322.592,30.385 321.944,30.025 321.728,30.457 L320.865,31.321 L309.633,31.321 L309.633,22.825 L318.057,22.825 L318.921,23.617 C319.281,23.833 319.785,23.689 319.785,23.257 L319.785,14.977 C319.785,14.545 319.281,14.545 318.921,14.617 L318.057,15.553 L309.633,15.553 L309.633,7.704 L320.865,7.704 L321.728,8.568 C322.088,9 322.592,8.568 322.592,8.136 L322.592,0.936 C322.592,0.72 322.376,0.504 322.088,0.504 L301.496,0.504 C300.992,0.504 300.775,1.08 301.136,1.296 L302,2.304 L302,36.721 L301.136,37.657 C300.776,37.944 301.064,38.52 301.496,38.52 L322.088,38.52 L322.088,38.52 Z M330.512,38.52 L339.08,38.52 C339.656,38.52 339.656,37.944 339.512,37.657 L338.648,36.794 L340.449,30.097 L348.873,30.097 L350.745,36.794 L349.881,37.657 C349.593,38.016 349.809,38.52 350.169,38.52 L358.881,38.52 C359.385,38.52 359.457,37.944 359.313,37.657 L358.305,36.721 L349.017,2.232 L349.665,1.296 C349.809,0.936 349.665,0.504 349.232,0.504 L340.232,0.504 C339.657,0.504 339.512,0.936 339.728,1.296 L340.304,2.232 L331.016,36.721 L330.152,37.657 C329.792,38.016 330.08,38.52 330.512,38.52 L330.512,38.52 Z M342.319,22.968 L344.624,14.256 L347.072,22.968 L342.319,22.968 L342.319,22.968 Z M366.873,18.288 C368.673,19.8 371.049,21.096 374.217,22.32 C376.809,23.4 378.465,24.192 379.617,25.2 C380.625,26.064 381.129,26.928 380.984,28.008 C380.84,29.159 380.409,30.024 379.617,30.672 C378.896,31.103 377.816,31.392 376.52,31.392 C375.512,31.392 374.432,31.031 373.424,30.384 C372.272,29.736 371.552,28.872 370.976,27.792 L371.192,26.208 C371.192,25.56 370.76,25.56 370.4,25.704 L363.921,30.816 C363.705,30.961 363.633,31.104 363.705,31.32 C363.921,31.968 364.497,33.552 366.081,35.136 C367.161,36.359 368.529,37.152 370.113,37.872 C372.056,38.735 374.289,39.095 376.881,39.095 C381.705,39.095 385.233,37.511 387.465,34.343 C389.409,31.607 389.697,28.367 389.769,26.783 C389.841,24.479 389.193,22.679 387.753,20.951 C386.024,18.791 383.217,16.991 379.113,15.191 C375.945,13.823 373.856,12.959 372.776,12.167 C371.697,11.447 371.552,10.799 371.625,9.935 C371.697,9.287 372.272,8.783 372.921,8.279 C373.785,7.847 374.865,7.559 375.945,7.559 C376.304,7.559 376.52,7.631 376.953,7.703 C379.833,8.135 381.201,10.295 381.489,10.655 L381.272,11.951 C381.056,12.383 381.705,12.815 381.993,12.455 L388.257,8.351 C388.545,8.207 388.617,7.919 388.473,7.775 C388.185,7.127 387.681,6.263 387.105,5.255 C386.385,4.247 385.737,3.455 384.874,2.663 C382.786,0.935 380.193,0.071 376.81,0.071 C372.85,0.071 369.539,1.007 367.09,2.879 C364.569,4.823 363.202,7.487 363.13,10.583 C363.057,13.536 364.281,16.056 366.873,18.288 L366.873,18.288 Z M393.297,8.568 L394.161,7.704 L401.073,7.704 L401.073,36.721 L400.209,37.657 C399.921,37.944 400.137,38.52 400.568,38.52 L409.209,38.52 C409.713,38.52 409.929,37.874 409.568,37.657 L408.705,36.721 L408.705,7.704 L415.617,7.704 L416.553,8.568 C416.841,8.856 417.417,8.568 417.417,8.136 L417.417,0.936 C417.417,0.72 417.201,0.504 416.841,0.504 L392.937,0.504 C392.649,0.504 392.362,0.72 392.362,0.936 L392.362,8.136 C392.361,8.568 393.081,8.928 393.297,8.568 L393.297,8.568 Z"></path>
+    <path d="M114.382,64.359 L115.402,64.359 L117.502,57.961 L119.562,64.359 L120.582,64.359 L121.662,64.359 L124.262,54.74 L123.162,54.74 L122.202,54.74 L120.522,62.4 L118.742,56.621 C118.602,56.141 118.302,55.701 117.522,55.701 C116.742,55.701 116.462,56.14 116.322,56.621 L114.482,62.439 L112.782,54.74 L111.802,54.74 L110.662,54.74 L113.282,64.359 L114.382,64.359 L114.382,64.359 Z M127.461,52.76 C128.221,52.76 128.641,52.321 128.641,51.6 C128.641,50.881 128.221,50.44 127.481,50.44 C126.721,50.44 126.281,50.881 126.281,51.6 C126.281,52.301 126.721,52.76 127.461,52.76 L127.461,52.76 Z M127.361,64.359 L127.561,64.359 L128.441,64.359 L128.441,54.74 L127.561,54.74 L127.361,54.74 L126.461,54.74 L126.461,64.359 L127.361,64.359 L127.361,64.359 Z M132.301,56.34 L132.301,61.44 C132.301,63.52 133.201,64.622 135.181,64.622 C136.601,64.622 137.421,63.921 137.421,63.181 C137.421,62.562 136.921,62.261 136.861,62.302 C136.561,62.702 136.121,62.982 135.501,62.982 C134.561,62.982 134.221,62.402 134.221,61.203 L134.221,56.34 L137.201,56.34 L137.201,55.6 L137.201,55.461 L137.201,54.74 L134.241,54.74 L134.241,52.4 L133.381,52.4 L133.181,52.4 L132.301,52.4 L132.301,54.74 L130.821,54.74 L130.821,55.48 L130.821,55.621 L130.821,56.34 L132.301,56.34 L132.301,56.34 Z M141.181,56.26 L141.181,52.32 C141.181,50.939 140.521,50.621 139.921,50.621 C139.521,50.621 139.201,50.779 139.201,50.84 L139.201,64.36 L140.081,64.36 L140.301,64.36 L141.181,64.36 L141.181,59.061 C141.181,57.321 142.241,56.241 143.881,56.241 C145.261,56.241 146.101,57.221 146.101,58.882 L146.101,64.361 L146.981,64.361 L147.201,64.361 L148.081,64.361 L148.081,58.66 C148.081,56.26 146.901,54.5 144.361,54.5 C142.861,54.5 141.821,55.24 141.181,56.26 L141.181,56.26 Z M158.841,64.359 L159.161,64.359 L160.061,64.359 L160.061,59.1 L165.381,59.1 L165.381,58.26 L165.381,58.18 L165.381,57.36 L160.021,57.36 L160.021,53.24 L166.041,53.24 C166.681,53.24 167.001,52.939 167.001,52.381 L167.001,52.26 L167.001,51.42 L159.081,51.42 L157.981,51.42 L157.981,64.359 L158.841,64.359 L158.841,64.359 Z M171.501,64.359 L171.781,64.359 L172.681,64.359 L172.681,51.42 L171.781,51.42 L171.501,51.42 L170.621,51.42 L170.621,64.359 L171.501,64.359 L171.501,64.359 Z M178.061,64.359 L178.281,64.359 L179.161,64.359 L179.161,54.279 L186.301,64.359 L187.001,64.359 L187.161,64.359 L188.121,64.359 L188.121,51.42 L187.281,51.42 L187.041,51.42 L186.181,51.42 L186.181,61.201 L179.281,51.42 L178.541,51.42 L178.201,51.42 L177.221,51.42 L177.221,64.359 L178.061,64.359 L178.061,64.359 Z M193.56,64.359 L202.04,64.359 L202.04,63.461 L202.04,63.359 L202.04,62.541 L194.52,62.541 L194.52,58.621 L200.46,58.621 L200.46,57.76 L200.46,57.701 L200.46,56.881 L194.52,56.881 L194.52,53.26 L201.04,53.26 C201.68,53.26 202,52.961 202,52.401 L202,52.28 L202,51.421 L193.56,51.421 L192.46,51.421 L192.46,64.36 C192.46,64.359 192.9,64.359 193.56,64.359 L193.56,64.359 Z M218.62,64.621 C221.599,64.621 223.18,63.221 224.059,61.939 L222.679,60.679 C221.78,61.9 220.479,62.759 218.719,62.759 C216.119,62.759 214.24,60.739 214.24,57.88 C214.24,54.999 216.08,53.019 218.679,53.019 C220.159,53.019 221.599,53.66 222.359,55.019 C222.42,55.099 223.639,54.859 223.639,53.839 C223.639,52.759 221.74,51.159 218.66,51.159 C214.78,51.159 212.099,53.96 212.099,57.919 C212.1,61.859 214.76,64.621 218.62,64.621 L218.62,64.621 Z M233.359,64.621 C237.2,64.621 239.92,61.84 239.92,57.881 C239.92,53.92 237.24,51.16 233.38,51.16 C229.56,51.16 226.82,53.961 226.82,57.92 C226.82,61.859 229.5,64.621 233.359,64.621 L233.359,64.621 Z M233.38,62.801 C230.76,62.801 228.9,60.76 228.9,57.881 C228.9,54.981 230.741,52.981 233.36,52.981 C235.98,52.981 237.84,55.042 237.84,57.92 C237.84,60.801 236,62.801 233.38,62.801 L233.38,62.801 Z M249.779,64.621 C253.62,64.621 256.34,61.84 256.34,57.881 C256.34,53.92 253.66,51.16 249.8,51.16 C245.98,51.16 243.24,53.961 243.24,57.92 C243.24,61.859 245.92,64.621 249.779,64.621 L249.779,64.621 Z M249.8,62.801 C247.18,62.801 245.321,60.76 245.321,57.881 C245.321,54.981 247.161,52.981 249.78,52.981 C252.4,52.981 254.26,55.042 254.26,57.92 C254.26,60.801 252.42,62.801 249.8,62.801 L249.8,62.801 Z M262.24,58.08 L268.04,63.98 C268.38,64.4 268.819,64.56 269.3,64.56 C270.22,64.56 270.52,63.759 270.5,63.66 L264.54,57.701 L270.42,51.42 L269.02,51.42 L267.86,51.42 L262.241,57.461 L262.241,51.42 L261.341,51.42 L261.041,51.42 L260.181,51.42 L260.181,64.359 L261.041,64.359 L261.341,64.359 L262.241,64.359 L262.241,58.08 L262.24,58.08 Z M274.64,64.359 L274.92,64.359 L275.82,64.359 L275.82,51.42 L274.92,51.42 L274.64,51.42 L273.76,51.42 L273.76,64.359 L274.64,64.359 L274.64,64.359 Z M281.2,64.359 L281.42,64.359 L282.3,64.359 L282.3,54.279 L289.44,64.359 L290.14,64.359 L290.3,64.359 L291.26,64.359 L291.26,51.42 L290.42,51.42 L290.18,51.42 L289.321,51.42 L289.321,61.201 L282.421,51.42 L281.681,51.42 L281.341,51.42 L280.361,51.42 L280.361,64.359 L281.2,64.359 L281.2,64.359 Z M305.52,62.541 L305.52,62.779 C305.52,64.14 306.041,64.439 306.64,64.439 C307.02,64.439 307.321,64.3 307.321,64.24 L307.321,57.541 L306.22,57.541 L301.52,57.541 L301.52,58.34 L301.52,58.44 L301.52,59.221 L305.5,59.221 L305.5,60.061 C305.24,61.76 303.7,62.94 301.62,62.94 C298.88,62.94 297.22,60.84 297.22,57.94 C297.22,54.981 299.1,52.94 301.781,52.94 C303.22,52.94 304.72,53.622 305.52,54.901 C305.581,54.981 306.64,54.78 306.64,53.84 C306.64,52.84 304.88,51.16 301.741,51.16 C297.821,51.16 295.1,53.961 295.1,57.92 C295.1,61.779 297.48,64.6 301.22,64.6 C303.22,64.6 304.72,63.82 305.52,62.541 L305.52,62.541 Z"></path>
+  </symbol>
+
+  <symbol id="facebook" viewBox="0 0 9 16">
+    <title>Facebook</title>
+    <path d="M9 3H7C6.7 3 6 3.5 6 4v2h3v3H6v7H3V9H0V6h3V4c0-2.2 2-4 4.1-4H9V3z"/>
+  </symbol>
+
+  <symbol id="linkedin" viewBox="0 0 15 15">
+    <title>LinkedIn</title>
+    <rect y="4" width="3" height="11"/>
+    <path d="M11 4C9.1 4 8.4 5 8 6L8 4H5C5.1 5 5 15 5 15h3V9.2c0-0.3 0-0.6 0.1-0.8 0.3-0.6 1-1.3 2-1.3C11.3 7 12 8 12 9.4V15h3V9C15 5.8 13.3 4 11 4z"/>
+    <circle cx="1.5" cy="1.5" r="1.5"/>
+  </symbol>
+
+  <symbol id="email" viewBox="0 0 44 44">
+    <title>Email</title>
+    <path d="M43 6H1C0.4 6 0 6.4 0 7v30c0 0.6 0.4 1 1 1h42c0.6 0 1-0.4 1-1V7C44 6.4 43.6 6 43 6zM42 33.6L29.6 21.2l-1.4 1.4L41.6 36H2.4l13.4-13.4 -1.4-1.4L2 33.6V8h40V33.6z"/>
+    <path d="M40 8L22 26 4 8H2v0.8L21.3 28.1c0.4 0.4 1 0.4 1.4 0L42 8.8V8H40z"/>
+  </symbol>
+
+  <symbol id="pinterest" viewBox="0 0 12 16">
+    <title>Pinterest</title>
+    <path d="M4.9 10.6c-0.4 2.2-0.9 4.3-2.4 5.4 -0.5-3.3 0.7-5.8 1.2-8.5C2.9 6 3.9 2.9 5.7 3.6 8 4.6 3.7 9.4 6.6 10c3 0.6 4.2-5.4 2.4-7.4C6.3-0.2 1.1 2.5 1.8 6.6c0.2 1 1.1 1.3 0.4 2.7 -1.7-0.4-2.2-1.8-2.2-3.7 0.1-3.1 2.7-5.2 5.2-5.5 3.2-0.4 6.3 1.2 6.7 4.4 0.5 3.6-1.5 7.4-4.9 7.2C6.1 11.5 5.7 11 4.9 10.6z"/>
+  </symbol>
+
+  <symbol id="twitter" viewBox="0 0 16 13">
+    <title>Twitter</title>
+    <path d="M16 1.5c-0.6 0.3-1.2 0.4-1.9 0.5 0.7-0.4 1.2-1 1.4-1.8 -0.6 0.4-1.3 0.7-2.1 0.8C12.9 0.4 12 0 11.1 0 9.3 0 7.8 1.5 7.8 3.3c0 0.3 0 0.5 0.1 0.7 -2.7-0.1-5.1-1.4-6.8-3.4C0.8 1.1 0.7 1.7 0.7 2.3c0 1.1 0.8 2.1 1.6 2.7C1.8 5 1 4.8 1 4.6c0 0 0 0 0 0 0 1.6 1 2.9 2.5 3.2C3.2 7.9 2.8 7.9 2.5 7.9c-0.2 0-0.5 0-0.7-0.1 0.4 1.3 1.6 2.3 3 2.3 -1.1 0.9-2.5 1.4-4.1 1.4 -0.3 0-0.5 0-0.8 0 1.5 0.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3 0-0.1 0-0.3 0-0.4C15 2.8 15.6 2.2 16 1.5z"/>
+  </symbol>
+
+  <symbol id="instagram" viewBox="0 0 16 16">
+    <title>Instagram</title>
+    <path d="M2 0H1C0.4 0 0 0.4 0 1v1 6 6 1c0 0.6 0.4 1 1 1h1 12 1c0.6 0 1-0.4 1-1v-1V8 2 1c0-0.6-0.4-1-1-1h-1H2zM8 6c1.1 0 2 0.9 2 2s-0.9 2-2 2S6 9.1 6 8 6.9 6 8 6zM14 14H2V8h2c0 2.2 1.8 4 4 4s4-1.8 4-4h2V14zM14 5h-3V2h3V5z"/>
+  </symbol>
+
+  <symbol id="youtube" viewBox="0 0 612 792">
+    <title>YouTube Icon</title>
+    <path d="M581.4 212.1c0-45.5-36.8-82.4-82.3-82.4H112.9c-45.5 0-82.3 36.9-82.3 82.4v220.8c0 45.5 36.8 82.4 82.3 82.4h386.2c45.5 0 82.3-36.9 82.3-82.4V212.1zM250.9 415.7V208.3l157.3 103.7L250.9 415.7z" fill="#FFFFFF"/>
+  </symbol>
+
+  <symbol id="nav-search" viewBox="0 0 33 32">
+    <title>Navigation Search Icon</title>
+    <path d="M12 2.4C17.3 2.4 21.6 6.7 21.6 12 21.6 17.3 17.3 21.6 12 21.6 6.7 21.6 2.4 17.3 2.4 12 2.4 6.7 6.7 2.4 12 2.4L12 2.4ZM12 0C5.4 0 0 5.4 0 12 0 18.6 5.4 24 12 24 18.6 24 24 18.6 24 12 24 5.4 18.6 0 12 0L12 0 12 0ZM20 23.2L28 32C28.8 31.9 29.1 32 28.8 32 29.6 32 29.9 31.9 30.4 32L32 30.4C32.1 29.7 32.1 29 32 28L23.2 20 20 23.2 20 23.2Z"/>
+  </symbol>
+
+  <symbol id="main-search" viewBox="0 0 40 40">
+    <title>Main Search Icon</title>
+    <path d="M39.2 35.4L31.2 27.3C36.1 20.6 35.5 11.1 29.4 5 26 1.7 21.6 0 17.2 0 12.8 0 8.4 1.7 5 5 -1.7 11.8-1.7 22.7 5 29.4 8.4 32.8 12.8 34.5 17.2 34.5 20.8 34.5 24.3 33.4 27.3 31.2L35.4 39.2C35.9 39.7 36.6 40 37.3 40 38 40 38.7 39.7 39.2 39.2 40.3 38.1 40.3 36.4 39.2 35.4ZM7.9 27C2.7 21.8 2.7 13.2 7.9 8 10.5 5.4 13.9 4 17.5 4 21.1 4 24.5 5.4 27.1 8 32.3 13.2 32.3 21.8 27.1 27 24.5 29.6 21.1 31 17.5 31 13.9 31 10.5 29.6 7.9 27Z"/>
+  </symbol>
+
+  <symbol id="video-play" viewBox="0 0 100 100" >
+    <title>Video Play Icon</title>
+    <path d="M50,8C26.8,8,8,26.8,8,50c0,23.2,18.8,42,42,42c23.2,0,42-18.8,42-42C92,26.8,73.2,8,50,8z M50,88c-21,0-38-17-38-38  s17-38,38-38s38,17,38,38S71,88,50,88z"/>
+    <path d="M66.1,47.4L45.2,33.1c-0.9-0.5-2.1-0.5-3,0c-0.9,0.5-1.5,1.5-1.5,2.6v28.6c0,1.1,0.6,2.1,1.5,2.6c0.5,0.3,1,0.4,1.5,0.4  c0.5,0,1.1-0.1,1.6-0.4l20.8-14.3c0.9-0.5,1.5-1.5,1.5-2.6C67.5,48.9,67,47.9,66.1,47.4z"/>
+  </symbol>
+
+  <symbol id="plus-sign" viewBox="0 0 20 20">
+    <title>Plus Icon</title>
+    <path d="M8.5 8.5L1.5 8.5C0.7 8.5 0 9.2 0 10 0 10.8 0.7 11.5 1.5 11.5L8.5 11.5 8.5 18.5C8.5 19.3 9.2 20 10 20 10.8 20 11.5 19.3 11.5 18.5L11.5 11.5 18.5 11.5C19.3 11.5 20 10.8 20 10 20 9.2 19.3 8.5 18.5 8.5L11.5 8.5 11.5 1.5C11.5 0.7 10.8 0 10 0 9.2 0 8.5 0.7 8.5 1.5L8.5 8.5Z"/>
+  </symbol>
+
+  <symbol id="minus-sign" viewBox="0 0 100 125">
+    <title>Minus Icon</title>
+    <path d="M94.1 42.9Q91.1 40 87 40L13 40Q8.9 40 5.9 42.9 3 45.9 3 50 3 54.1 5.9 57.1 8.9 60 13 60L87 60Q91.1 60 94.1 57.1 97 54.1 97 50 97 45.9 94.1 42.9Z"/>
+  </symbol>
+
+  <symbol id="check" viewBox="0 0 14 11">
+    <title>Check Icon</title>
+    <path d="M6.3 10.5C5.6 11.2 4.6 11.2 4 10.5L0.5 6.9C-0.2 6.2-0.2 5.2 0.5 4.5 1.1 3.8 2.1 3.8 2.7 4.5L4.8 6.7C5 6.8 5.3 6.8 5.4 6.7L11.1 0.8C11.7 0.1 12.8 0.1 13.4 0.8 13.7 1.1 13.8 1.5 13.8 2 13.8 2.4 13.7 2.8 13.4 3.1L6.3 10.5Z"/>
+  </symbol>
+
+  <symbol id="print" viewBox="0 0 100 100">
+    <title>Print Icon</title>
+    <path d="M89.3 21.8h-11v-11C78.2 7.6 75.7 5 72.5 5h-45c-3.2 0-5.7 2.6-5.7 5.7v11h-11C7.6 21.8 5 24.3 5 27.5v45c0 3.2 2.6 5.7 5.7 5.7h11v11c0 3.2 2.6 5.7 5.7 5.7h45c3.2 0 5.7-2.6 5.7-5.7v-11h11c3.2 0 5.7-2.6 5.7-5.7v-45C95 24.3 92.4 21.8 89.3 21.8zM25.6 10.7c0-1.1 0.9-1.9 1.9-1.9h45c1.1 0 1.9 0.9 1.9 1.9v11h-48.8V10.7zM74.4 89.3c0 1.1-0.9 1.9-1.9 1.9h-45c-1.1 0-1.9-0.9-1.9-1.9V53.8c0-1.1 0.9-1.9 1.9-1.9h45c1.1 0 1.9 0.9 1.9 1.9V89.3zM91.2 72.5c0 1.1-0.9 1.9-1.9 1.9h-11V53.8c0-3.2-2.6-5.7-5.7-5.7h-45c-3.2 0-5.7 2.6-5.7 5.7v20.6h-11c-1.1 0-1.9-0.9-1.9-1.9v-45c0-1.1 0.9-1.9 1.9-1.9h78.5c1.1 0 1.9 0.9 1.9 1.9V72.5z"/>
+    <path d="M65.8 60.1H34.2c-1.1 0-1.9 0.9-1.9 1.9s0.9 1.9 1.9 1.9h31.6c1.1 0 1.9-0.9 1.9-1.9S66.9 60.1 65.8 60.1z"/>
+    <path d="M65.8 69.6H34.2c-1.1 0-1.9 0.9-1.9 1.9 0 1.1 0.9 1.9 1.9 1.9h31.6c1.1 0 1.9-0.9 1.9-1.9C67.7 70.5 66.9 69.6 65.8 69.6z"/>
+    <path d="M65.8 79.2H34.2c-1.1 0-1.9 0.9-1.9 1.9 0 1.1 0.9 1.9 1.9 1.9h31.6c1.1 0 1.9-0.9 1.9-1.9C67.7 80.1 66.9 79.2 65.8 79.2z"/>
+    <circle cx="82.3" cy="34.4" r="3.4"/>
+  </symbol>
+
+  <symbol id="note" viewBox="0 0 100 100">
+    <title>Note Icon</title>
+    <path d="M80.5 73.8h-5.8v-5.8c0-1.1-0.9-1.9-1.9-1.9s-1.9 0.9-1.9 1.9v5.8h-5.8c-1.1 0-1.9 0.9-1.9 1.9 0 1.1 0.9 1.9 1.9 1.9h5.8v5.8c0 1.1 0.9 1.9 1.9 1.9s1.9-0.9 1.9-1.9v-5.8h5.8c1.1 0 1.9-0.9 1.9-1.9C82.4 74.7 81.5 73.8 80.5 73.8z"/>
+    <path d="M24.4 52.8h33.9c1.1 0 1.9-0.9 1.9-1.9 0-1.1-0.9-1.9-1.9-1.9h-33.9c-1.1 0-1.9 0.9-1.9 1.9C22.5 52 23.3 52.8 24.4 52.8z"/>
+    <path d="M24.4 40.3h33.9c1.1 0 1.9-0.9 1.9-1.9 0-1.1-0.9-1.9-1.9-1.9h-33.9c-1.1 0-1.9 0.9-1.9 1.9C22.5 39.4 23.3 40.3 24.4 40.3z"/>
+    <path d="M24.4 27.7h18.2c1.1 0 1.9-0.9 1.9-1.9 0-1.1-0.9-1.9-1.9-1.9H24.4c-1.1 0-1.9 0.9-1.9 1.9S23.3 27.7 24.4 27.7z"/>
+    <path d="M74.7 56.6V26.7c0-1-0.5-2.3-1.2-3L55.9 6.2C55.2 5.5 54 5 52.9 5h-39.2c-3.2 0-5.7 2.6-5.7 5.7v67.8c0 3.2 2.6 5.7 5.7 5.7h41.8C58.7 90.6 65.2 95 72.8 95c10.6 0 19.3-8.6 19.3-19.3C92 65.8 84.4 57.5 74.7 56.6zM55.8 11.5l12.3 12.3H57.7c-1.1 0-1.9-0.9-1.9-1.9V11.5zM53.5 75.7c0 1.6 0.2 3.2 0.6 4.7H13.7c-1.1 0-1.9-0.9-1.9-1.9V10.7c0-1.1 0.9-1.9 1.9-1.9l38.3 0v13.1c0 3.2 2.6 5.7 5.7 5.7h13.1v28.9c-4.3 0.4-8.1 2.3-11.1 5H24.4c-1.1 0-1.9 0.9-1.9 1.9 0 1.1 0.9 1.9 1.9 1.9h32.1C54.6 68.4 53.5 71.9 53.5 75.7zM72.8 91.2c-8.5 0-15.4-6.9-15.4-15.4 0-8.5 6.9-15.4 15.4-15.4s15.4 6.9 15.4 15.4C88.2 84.2 81.3 91.2 72.8 91.2z"/>
+  </symbol>
+
+  <symbol id="heart" viewBox="0 0 100 100">
+    <title>Heart Icon</title>
+    <g transform="translate(0,-952.36218)"><path d="m 30.247938,966.40415 c -5.6884,0 -11.3824,2.1488 -15.718801,6.46875 -8.6726995,8.63992 -8.6616995,22.69793 0,31.3437 l 33.343801,33.2812 c 1.109,1.0965 3.1098,1.0965 4.2188,0 11.124,-11.0817 22.2511,-22.137 33.375,-33.2187 8.6727,-8.63987 8.6727,-22.70379 0,-31.3437 -8.6727,-8.63992 -22.7648,-8.64004 -31.4376,0 l -4,4 -4.0624,-4.0625 c -4.3365,-4.31994 -10.0304,-6.46875 -15.7188,-6.46875 z m 11.4688,10.71875 6.1874,6.15625 c 1.109,1.09646 3.1098,1.09646 4.2188,0 l 6.1562,-6.09375 c 6.3915,-6.3673 16.5462,-6.3672 22.9376,0 6.3914,6.36721 6.3914,16.44533 0,22.81253 -10.4191,10.37967 -20.7995,20.77647 -31.2188,31.15617 l -31.2188,-31.18747 c -6.3876,-6.3758 -6.4226,-16.47653 -0.031,-22.84373 6.801,-6.14923 16.6864,-6.41079 22.9686,0 z"></path></g>
+  </symbol>
+
+  <symbol id="heart-filled" viewBox="0 0 84 72">
+    <title>Filled Heart Icon</title>
+    <g fill="none">
+      <g fill="#DE6A4C">
+      <path d="M22.2 0L22.2 0C27.9 0 33.6 2.2 38 6.5L42 10.6 46 6.6C54.7-2.1 68.8-2.1 77.5 6.6 86.1 15.2 86.1 29.3 77.5 37.9 66.3 49 55.2 60.1 44.1 71.1 43 72.2 41 72.2 39.9 71.1L6.5 37.9C-2.1 29.2-2.1 15.2 6.5 6.5 10.9 2.2 16.6 0 22.2 0Z"/>
+    </g>
+  </g>
+  </symbol>
+
+  <symbol id="single-arrow" viewBox="0 0 18.3 43.2">
+    <title>Single Arrow Icon</title>
+    <path d="M0.3 1.7c-0.4-0.4-0.4-1 0-1.4l0 0c0.4-0.4 1-0.4 1.4 0l0 0 16.3 16.3c0.4 0.4 0.4 1 0 1.4l0 0c-0.4 0.4-1 0.4-1.4 0l0 0L0.3 1.7 0.3 1.7z"/>
+  <path d="M1.7 34.2c-0.4 0.4-1 0.4-1.4 0l0 0c-0.4-0.4-0.4-1 0-1.4l0 0L16.6 16.6c0.4-0.4 1-0.4 1.4 0l0 0c0.4 0.4 0.4 1 0 1.4l0 0L1.7 34.2 1.7 34.2z"/>
+  </symbol>
+
+  <symbol id="double-arrow" viewBox="0 0 11 8">
+    <title>Double Arrow Icon</title>
+    <path d="M4.4 4.4L1 7.8C0.7 8.1 0.4 8.1 0.2 7.8 -0.1 7.6-0.1 7.3 0.2 7L3.2 4 0.2 1C-0.1 0.7-0.1 0.4 0.2 0.2 0.4-0.1 0.7-0.1 1 0.2L4.4 3.6C4.5 3.7 4.6 3.9 4.6 4 4.6 4.1 4.5 4.3 4.4 4.4"/>
+    <path d="M10.4 4.4L7 7.8C6.7 8.1 6.4 8.1 6.2 7.8 5.9 7.6 5.9 7.3 6.2 7L9.2 4 6.2 1C5.9 0.7 5.9 0.4 6.2 0.2 6.4-0.1 6.7-0.1 7 0.2L10.4 3.6C10.5 3.7 10.6 3.9 10.6 4 10.6 4.1 10.5 4.3 10.4 4.4"/>
+  </symbol>
+
+  <symbol id="hamburger" viewBox="0 0 100 125">
+    <title>Hamburger Icon</title>
+    <path d="M10.7 31.3h78.6c7.6 0 7.6-11.8 0-11.8h-78.6C3.1 19.6 3.1 31.3 10.7 31.3z"/>
+    <path d="M89.3 44.1h-78.6c-7.6 0-7.6 11.8 0 11.8h78.6C96.9 55.9 96.9 44.1 89.3 44.1z"/>
+    <path d="M89.3 68.7h-78.6c-7.6 0-7.6 11.8 0 11.8h78.6C96.9 80.4 96.9 68.7 89.3 68.7z"/>
+  </symbol>
+
+  <symbol id="tv" viewBox="0 0 48 48">
+    <title>TV Icon</title>
+    <path d="M46 37H2c-0.6 0-1-0.4-1-1V8c0-0.6 0.4-1 1-1h44c0.6 0 1 0.4 1 1v28C47 36.6 46.6 37 46 37zM45 9H3v26h42V9zM21 16c0.2 0 0.4 0.1 0.6 0.2l7.8 4.9C29.7 21.2 30 21.6 30 22c0 0.3-0.2 0.6-0.4 0.8l-8 5C21.4 27.9 21.2 28 21 28c-0.6 0-1-0.4-1-1V17C20 16.4 20.4 16 21 16zM15 39h18c0.6 0 1 0.4 1 1s-0.4 1-1 1H15c-0.6 0-1-0.4-1-1S14.4 39 15 39z"/>
+  </symbol>
+
+  <symbol id="close" viewBox="0 0 823.9 1029.9">
+    <title>Close Icon</title>
+    <path d="m776.8 0c-12.1 0-24.1 4.6-33.3 13.8L411.9 345.3 80.5 13.9c-18.4-18.4-48.3-18.4-66.7 0-18.4 18.4-18.4 48.2 0 66.7l331.4 331.4-331.4 331.4c-18.4 18.4-18.4 48.3 0 66.7 9.2 9.2 21.3 13.8 33.3 13.8 12.1 0 24.2-4.6 33.3-13.8l331.4-331.4 331.5 331.4c9.2 9.2 21.3 13.8 33.3 13.8 12.1 0 24.1-4.6 33.3-13.8 18.4-18.4 18.4-48.2 0-66.7l-331.5-331.4 331.5-331.4c18.4-18.4 18.4-48.2 0-66.7C800.9 4.6 788.8 0 776.8 0Z"/>
+  </symbol>
+
+  <symbol id="sort-single" viewBox="0 0 292 292">
+    <title>Sorted</title>
+    <path d="M286.9 69.4c-3.6-3.6-7.9-5.4-12.8-5.4H18.3c-5 0-9.2 1.8-12.8 5.4C1.8 73 0 77.3 0 82.2c0 4.9 1.8 9.2 5.4 12.8l127.9 127.9c3.6 3.6 7.9 5.4 12.9 5.4s9.2-1.8 12.8-5.4L286.9 95.1c3.6-3.6 5.4-7.9 5.4-12.8C292.4 77.3 290.5 73 286.9 69.4z"/>
+  </symbol>
+
+  <symbol id="hamburger-search" viewBox="0 0 85 44">
+    <title>Hamburger/Search Icon</title>
+    <style>.a{fill:#7D858B;}</style><g fill="none"><rect x="1" y="1" width="83" height="42" rx="3" style="stroke-width:2;stroke:#D0CDC9"/><g class="a"><path d="M34 32.1L28.2 26.3C31.2 22.3 30.9 16.6 27.3 13 25.4 11.1 22.8 10 20.1 10 17.4 10 14.9 11.1 13 13 11.1 14.9 10 17.4 10 20.1 10 22.8 11.1 25.4 13 27.3 14.9 29.2 17.4 30.3 20.1 30.3 22.4 30.3 24.5 29.5 26.3 28.2L32.1 34 34 32.1ZM20.1 27.6C18.1 27.6 16.3 26.8 14.9 25.4 13.4 24 12.7 22.1 12.7 20.1 12.7 18.1 13.4 16.3 14.9 14.9 16.3 13.4 18.1 12.7 20.1 12.7 22.1 12.7 24 13.4 25.4 14.9 28.3 17.8 28.3 22.5 25.4 25.4 24 26.8 22.1 27.6 20.1 27.6Z"/></g><g transform="translate(-275 -15)translate(275 15)translate(47 10)" class="a"><rect width="28" height="4"/><rect y="10" width="28" height="4"/><polygon points="0 20 28 20 28 24 0 24"/></g></g>
+  </symbol>
+
+	<symbol id="cart" viewBox="0 0 512 512" >
+		<path d="M447.992 336H181.555L69.539 80H.008V48h90.469l112.015 256h245.5zM287.992 416c0 26.5-21.5 48-48 48s-48-21.5-48-48 21.5-48 48-48 48 21.5 48 48zM447.992 416c0 26.5-21.5 48-48 48s-48-21.5-48-48 21.5-48 48-48 48 21.5 48 48z"/>
+		<path d="M499.18 144l12.812-32H160.008l12.797 32zM211.195 240l12.797 32h224l12.813-32zM486.398 176H185.602l12.796 32h275.188z"/>
+	</symbol>
+
+<!-- ****Unused Icons*** -->
+  <!-- <symbol id="star" viewBox="0 0 16 16">
+    <title>Star</title>
+    <path d="M12.4 15.9L8 13.5l-4.4 2.4C3.1 16.1 2.8 15.9 2.9 15.4l0.8-5.2L0.2 6.6c-0.4-0.4-0.2-0.7 0.3-0.8l4.9-0.7 2.2-4.7c0.2-0.5 0.6-0.5 0.8 0l2.2 4.7 4.9 0.7c0.5 0.1 0.6 0.4 0.3 0.8l-3.6 3.6 0.8 5.2C13.2 15.9 12.9 16.1 12.4 15.9z"/>
+  </symbol> -->
+
+  <!-- <symbol id="sort-single" viewBox="0 0 292 292">
+    <title>Sorted</title>
+    <path d="M286.9 69.4c-3.6-3.6-7.9-5.4-12.8-5.4H18.3c-5 0-9.2 1.8-12.8 5.4C1.8 73 0 77.3 0 82.2c0 4.9 1.8 9.2 5.4 12.8l127.9 127.9c3.6 3.6 7.9 5.4 12.9 5.4s9.2-1.8 12.8-5.4L286.9 95.1c3.6-3.6 5.4-7.9 5.4-12.8C292.4 77.3 290.5 73 286.9 69.4z"/>
+  </symbol>
+
+  <symbol id="sort-double" viewBox="0 0 402 402">
+    <title>UnSorted</title>
+    <path d="M73.1 164.5h255.8c4.9 0 9.2-1.8 12.8-5.4 3.6-3.6 5.4-7.9 5.4-12.8 0-4.9-1.8-9.2-5.4-12.8L213.8 5.4C210.2 1.8 206 0 201 0s-9.2 1.8-12.8 5.4L60.2 133.3c-3.6 3.6-5.4 7.9-5.4 12.9 0 4.9 1.8 9.2 5.4 12.8C63.9 162.6 68.1 164.5 73.1 164.5z"/>
+    <path d="M328.9 237.5H73.1c-5 0-9.2 1.8-12.8 5.4 -3.6 3.6-5.4 7.9-5.4 12.8 0 4.9 1.8 9.2 5.4 12.8L188.1 396.6c3.6 3.6 7.9 5.4 12.9 5.4s9.2-1.8 12.8-5.4l127.9-127.9c3.6-3.6 5.4-7.9 5.4-12.8 0-4.9-1.8-9.2-5.4-12.8C338.1 239.4 333.9 237.5 328.9 237.5z"/>
+  </symbol> -->
+
+
+</svg>
+
+
+  <!--[if lte IE 9]>
+    <div class="browser-upgrade">
+      <p class="container">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    </div>
+  <![endif]-->
+
+  <svg class="svg-logo-print">
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fc-logo"></use>
+</svg>
+
+<div id="top-promo-waypoint"></div>
+<div class="siteheader--scrolled">
+  <div class="siteheader--scrolled__inner">
+    <div class="siteheader--scrolled__nav">
+      <a class="siteheader--scrolled__logo" href="/">
+        <svg class="svg-logo">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fc-logo"></use>
+        </svg>
+      </a>
+      <ul class="siteheader--scrolled__nav__list" id="scrolled-roll-up-list">
+        <li class="siteheader--scrolled__nav__list-item"><a href="/recipes-menus">Recipes &amp; Menus</a></li>
+        <li class="siteheader--scrolled__nav__list-item"><a href="/how-to">How-to</a></li>
+        <li class="siteheader--scrolled__nav__list-item"><a href="/ingredients">Ingredients</a></li>
+        <li class="siteheader--scrolled__nav__list-item"><a href="/videos">Videos</a></li>
+        <li class="siteheader--scrolled__nav__list-item"><a href="/magazine">Magazine</a></li>
+        <li class="siteheader--scrolled__nav__list-item"><a href="/moveablefeast">Moveable Feast TV</a></li>
+        <li class="siteheader--scrolled__nav__list-item"><a href="/holidays">Holidays</a></li>
+        <li class="siteheader--scrolled__nav__list-item"><a href="/collections">Collections</a></li>
+        <li class="siteheader--scrolled__nav__list-item more hidden" data-width="80">
+          <a class="rolled-up-menu-trigger" href="#">More</a>
+          <ul class="siteheader--scrolled__nav__more-list more-list"></ul>
+        </li>
+      </ul>
+      <div class="siteheader--scrolled__search-bar">
+        <form action="http://www.finecooking.com" class="siteheader-scrolled-search-bar">
+          <fieldset>
+            <div class="siteheader--scrolled__search-bar__formfield">
+              <input class="siteheader--scrolled__search-bar__text" type="text" name="s" placeholder="Search..." />
+            </div>
+          </fieldset>
+        </form>
+        <a class="siteheader--scrolled__search-bar__search-link" href="http://www.finecooking.com?s=">Advanced Search</a>
+      </div>
+      <div class="siteheader--scrolled__nav__search">
+        <svg class="svg-search">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-search"></use>
+        </svg>
+        <svg class="svg-close">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+        </svg>
+      </div>
+      <a class="siteheader--scrolled__nav__subscribe" href="https://subscribe.finecooking.com/servlet/OrdersGateway?cds_mag_code=FCG&cds_page_id=216268&cds_response_key=W50074FS&ref=fc-nav-scroll">Subscribe</a>
+    </div>
+    <!-- /__nav -->
+  </div>
+</div>
+<!-- /--scrolled -->
+<div class="siteheader">
+  <div class="siteheader--main">
+    <div class="siteheader__inner container">
+      <div class="siteheader__subscribe">
+        <div class="siteheader__subscribe__cover">
+                    <img src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/260x338/app/uploads/2018/01/08133422/FC151-cover.jpg" alt="Fine Cooking Magazine Cover">
+                  </div>
+				        <a class="siteheader__subscribe__button" href="https://subscribe.finecooking.com/servlet/OrdersGateway?cds_mag_code=FCG&cds_page_id=216268&cds_response_key=W50074FS&ref=fc-nav-btn" id="nav-subscribe-btn" target="_blank">Subscribe</a>
+				      </div>
+      <div class="siteheader__logo">
+        <a href="http://www.finecooking.com" class="siteheader__logo__link">Fine Cooking
+          <svg class="svg-logo">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fc-logo"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="siteheader__mobile-menu__trigger">
+        <svg class="svg-mobile-menu-trigger">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#hamburger-search"></use>
+        </svg>
+        <svg class="svg-close">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+        </svg>
+      </div>
+			      <a class="siteheader__mobile-subscribe" href="https://subscribe.finecooking.com/servlet/OrdersGateway?cds_mag_code=FCG&cds_page_id=216268&cds_response_key=W50074FS&ref=fc-nav-btn">Subscribe</a>
+			      <div class="siteheader__actions">
+        <div class="siteheader__actions__member">
+                  <a class="siteheader__actions__member__allaccess" href="/all-access">All Access</a>|
+          <a class="siteheader__actions__member__signup" href="https://www.finecooking.com/user/login?ref=fc-nav">Sign Up</a>|
+          <a class="siteheader__actions__member__login" href="https://www.finecooking.com/user/login?return_url=http%3A%2F%2Fwww.finecooking.com%2Farticle%2Fbaking-brownies-just-right-cakey-chewy-or-fudgy-2">Login </a>
+                </div>
+        <ul class="siteheader__actions__social">
+          <li class="twitter" data-social-network="Twitter" data-social-action="follow" data-social-target="header">
+            <a href="https://twitter.com/finecooking">
+              <svg class="svg-social">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="facebook" data-social-network="Facebook" data-social-action="follow" data-social-target="header">
+            <a href="https://www.facebook.com/FineCooking">
+              <svg class="svg-social">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="instagram" data-social-network="Instagram" data-social-action="follow" data-social-target="header">
+            <a href="https://www.instagram.com/finecookingmag/">
+              <svg class="svg-social">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="pinterest" data-social-network="Pinterest" data-social-action="follow" data-social-target="header">
+            <a href="https://www.pinterest.com/finecooking/">
+              <svg class="svg-social">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="siteheader__mobile-search">
+        <svg class="svg-search">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#magnify-glass"></use>
+        </svg>
+      </div>
+    </div>
+    <!-- /__inner -->
+  </div>
+  <!-- /--main -->
+  <div class="siteheader--secondary">
+    <div class="siteheader__inner container">
+      <div class="siteheader__nav">
+        <ul class="siteheader__nav__list" id="main-roll-up-list">
+          <li class="siteheader__nav__list-item"><a href="/recipes-menus">Recipes &amp; Menus</a></li>
+          <li class="siteheader__nav__list-item"><a href="/how-to">How-to</a></li>
+          <li class="siteheader__nav__list-item"><a href="/ingredients">Ingredients</a></li>
+          <li class="siteheader__nav__list-item"><a href="/videos">Videos</a></li>
+          <li class="siteheader__nav__list-item"><a href="/magazine">Magazine</a></li>
+          <li class="siteheader__nav__list-item"><a href="/moveablefeast">Moveable Feast TV</a></li>
+          <li class="siteheader__nav__list-item"><a href="/holidays">Holidays</a></li>
+          <li class="siteheader__nav__list-item"><a href="/collections">Collections</a></li>
+          <li class="siteheader__nav__list-item more hidden" data-width="80">
+            <a class="rolled-up-menu-trigger" href="#">More</a>
+            <ul class="siteheader__nav__more-list more-list"></ul>
+          </li>
+        </ul>
+        <div class="siteheader__search-bar">
+          <form action="http://www.finecooking.com" class="siteheader-searchbar">
+            <fieldset>
+              <div class="siteheader__search-bar__formfield">
+                <input class="siteheader__search-bar__text" type="text" name="s" placeholder="Search..." />
+              </div>
+            </fieldset>
+          </form>
+          <a class="siteheader__search-bar__search-link" href="http://www.finecooking.com?s=">Advanced Search</a>
+        </div>
+
+        <div class="siteheader__nav__search">
+          <svg class="svg-search">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-search"></use>
+          </svg>
+          <svg class="svg-close">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+          </svg>
+        </div>
+      </div>
+      <!-- /__nav -->
+    </div>
+  </div>
+  <!-- /--secondary -->
+</div>
+
+<script>
+
+var recipe_engine = new Bloodhound({
+	datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+	queryTokenizer: Bloodhound.tokenizers.whitespace,
+	remote: {
+      url: '/suggest/recipe.json?q=%QUERY',
+      wildcard: '%QUERY',
+      rateLimitWait : 500,
+      filter: function (recipes) {
+    	if( recipes && recipes.error === "AccessDenied" ){
+    		window.location = '/login';
+    	}else{
+        	return $.map(recipes, function (recipe) {
+             	 return {
+                	value: recipe.title, link: recipe.link
+              	};
+            });
+      	}
+      }
+	}
+});
+
+var post_engine = new Bloodhound({
+	datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+	queryTokenizer: Bloodhound.tokenizers.whitespace,
+	remote: {
+      url: '/suggest/post.json?q=%QUERY',
+      wildcard: '%QUERY',
+      rateLimitWait : 500,
+      filter: function (posts) {
+    	if( posts && posts.error === "AccessDenied" ){
+    		window.location = '/login';
+    	}else{
+        	return $.map(posts, function (post) {
+             	 return {
+                	value: post.title, link: post.link
+              	};
+            });
+      	}
+      }
+	}
+});
+
+var menu_engine = new Bloodhound({
+	datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+	queryTokenizer: Bloodhound.tokenizers.whitespace,
+	remote: {
+      url: '/suggest/menu.json?q=%QUERY',
+      wildcard: '%QUERY',
+      rateLimitWait : 500,
+      filter: function (menus) {
+    	if( menus && menus.error === "AccessDenied" ){
+    		window.location = '/login';
+    	}else{
+
+        	return $.map(menus, function (menu) {
+             	 return {
+                	value: menu.title, link: menu.link
+              	};
+            });
+      	}
+      }
+	}
+});
+
+
+
+recipe_engine.clear();
+recipe_engine.initialize();
+
+
+post_engine.clear();
+post_engine.initialize();
+
+menu_engine.clear();
+menu_engine.initialize();
+
+
+$searchbar_input = $(".siteheader-searchbar").find('input[type=text].siteheader__search-bar__text');
+
+
+$searchbar_input.typeahead('destroy');
+
+$searchbar_input.typeahead(
+		{
+    		highlight: true,
+    		hint : false,
+  		},
+	  	{
+		    name: 'recipe',
+		    limit: 20,
+		    displayKey: 'value',
+		    source: recipe_engine.ttAdapter(),
+	    	templates: {
+	      			header: '<h3 class="group-header">Recipes</h3>',
+					//empty: '<p class="empty">Nothing found</p>'
+	    	}
+ 		},
+ 		{
+		      name: 'post',
+		      limit : 20,
+		      displayKey: 'value',
+		      source: post_engine.ttAdapter(),
+		      templates: {
+ 		         header: '<h3 class="group-header">Articles</h3>',
+		 		//empty: '<p class="empty">Nothing found</p>'
+		      }
+	    },
+	    {
+	          name: 'menu',
+	          limit : 20,
+	          displayKey: 'value',
+	          source: menu_engine.ttAdapter(),
+	          templates: {
+	           	// header: '<h3 class="group-header">Menus</h3>',
+	     		// empty: '<p class="empty">Nothing found</p>',
+	          }
+	    }
+
+  ).on('typeahead:selected', function (obj, datum,src ) {
+
+	   window.location = datum.link;
+
+  }).on('typeahead:closed', function (obj, datum, name) {
+
+	  $(obj.currentTarget).val("");
+
+  }).on('keyup', this, function (event) {
+
+      if (event.keyCode == 13) {
+
+    	  $searchbar_input.typeahead('close');
+
+      }
+
+  });
+
+$scroll_searchbar_input = $(".siteheader-scrolled-search-bar").find('input[type=text].siteheader--scrolled__search-bar__text');
+
+$scroll_searchbar_input.typeahead('destroy');
+
+$scroll_searchbar_input.typeahead(
+		{
+    		highlight: true,
+    		hint : false,
+  		},
+	  	{
+		    name: 'recipe',
+		    limit: 20,
+		    displayKey: 'value',
+		    source: recipe_engine.ttAdapter(),
+	    	templates: {
+	      			header: '<h3 class="group-header">Recipes</h3>',
+					//empty: '<p class="empty">Nothing found</p>'
+	    	}
+ 		},
+ 		{
+		      name: 'post',
+		      limit : 20,
+		      displayKey: 'value',
+		      source: post_engine.ttAdapter(),
+		      templates: {
+ 		         header: '<h3 class="group-header">Articles</h3>',
+		 		//empty: '<p class="empty">Nothing found</p>'
+		      }
+	    },
+	    {
+	          name: 'menu',
+	          limit : 20,
+	          displayKey: 'value',
+	          source: menu_engine.ttAdapter(),
+	          templates: {
+	           	// header: '<h3 class="group-header">Menus</h3>',
+	     		// empty: '<p class="empty">Nothing found</p>',
+	          }
+	    }
+
+  ).on('typeahead:selected', function (obj, datum,src ) {
+
+	   window.location = datum.link;
+
+  }).on('typeahead:closed', function (obj, datum, name) {
+
+	  $(obj.currentTarget).val("");
+
+  }).on('keyup', this, function (event) {
+
+      if (event.keyCode == 13) {
+
+    	  $scroll_searchbar_input.typeahead('close');
+
+      }
+
+  });
+</script>
+
+  <div class="page-wrap" id="scrolled-nav-waypoint">
+
+          <div class="dfp-ad leaderboard" data-dfp-id="dfp-leaderboard-1"><div class="inner container"><div id="dfp-leaderboard-1"></div></div></div>    
+  <section class="article">
+  <div class="article__wrap">
+    <div class="article__header">
+
+      
+      <span class="article__type">
+      How-To            </span>
+
+      <h1 class="article__title">Baking Brownies: How To Make Them Cakey, Chewy, or Fudgy</h1>
+
+            <h2 class="article__subtitle">Change the proportions of ingredients to bake the style you like best</h2>
+      
+            <div class="article__publish">
+        <!-- Author Byline -->
+                                        <span class="article__author">By <a href="http://www.finecooking.com/author/cindy-mitchell">Cindy Mitchell</a></span>
+        
+		    <!-- Issue Title -->
+                                        <span class="article__pubdate"><a href='http://www.finecooking.com/issue/1999/08/issue-34'>Fine Cooking Issue 34</a></span>
+        
+              </div>
+      <!-- /__publish -->
+                </div>
+    <!-- /__header -->
+    <!-- /__top -->
+        <div class="article__body">
+			<div class="article__top__content--main">
+				
+        <!--  Video -->
+                        	        	        	        	        <figure class="article__image--main">
+	        	 <img src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011603/fc34mi044-01-main.jpg" width="600" height="500" >		        		          <figcaption class="article__image__caption">Photos: Scott Phillips</figcaption>
+		        	        </figure>
+	                
+				
+        
+
+        
+              </div>
+      <div class="article__body__sidebar">
+				<div class="article__top__content--secondary">
+					<div class="article__actions">
+  <div class="article__actions__site-actions">
+    <div class="article__actions__site-actions--unsaved">
+      <div class="article__actions__save">
+        <a class="article__actions__save-trigger" href="#0" id="save_to_recipe_box_trigger" data-post_id="55702">
+          <svg class="svg-save">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#heart"></use>
+          </svg>
+          Save to Recipe Box
+        </a>
+      </div>
+      <div class="article__actions__print">
+        <a class="article__actions__print-trigger" href="#">
+          <svg class="svg-print">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#print"></use>
+          </svg>
+          Print
+        </a>
+      </div>
+      <div class="article__actions__note">
+        <a href="#0" class="js-note-trigger" data-post_type="post">
+          <svg class="svg-note">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#note"></use>
+          </svg>
+                      	Add Private Note
+                   </a>
+      </div>
+			    </div>
+    <div class="article__actions__site-actions--saved">
+      <div class="article__actions__saved">
+        <a class="article__actions__save-trigger" id="remove_from_recipe_box_trigger" href="#0" data-post_id="55702">
+          <svg class="svg-saved">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#heart-filled"></use>
+          </svg>
+          Saved
+        </a>
+        <a class="article__actions__list-trigger" id="add_to_list_trigger" href="#0" data-post_id="55702">Add to List</a>
+        <div class="article__actions__add-to-list">
+          <ul class="article__actions__add-to-list__list">
+            <h3 class="article__actions__add-to-list__list-heading">Add to List</h3>
+            <!-- List items populated by JS -->
+          </ul>
+          <form>
+            <fieldset>
+              <input class="article__actions__add-to-list__textfield" type="text" placeholder="Add to a new list" id="new_list_name">
+              <button class="article__actions__add-to-list__submit" data-post_id="55702">
+                <svg class="svg-plus">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#plus-sign"></use>
+                </svg>
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="article__actions__print">
+        <a class="article__actions__print-trigger" href="#">
+          <svg class="svg-print">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#print"></use>
+          </svg>
+          Print
+        </a>
+      </div>
+      <div class="article__actions__note">
+        <a href="#0" class="js-note-trigger">
+          <svg class="svg-note">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#note"></use>
+          </svg>
+          Add Recipe Note
+        </a>
+      </div>
+			    </div>
+    <!-- /--saved -->
+  </div>
+  <!-- /__site-actions -->
+  <!-- Populated by JS -->
+  <ul class="article__actions__social">
+    <li class="article__actions__social__list-item article__actions__social--save ">
+      <a class="article__actions__save" href="#0">
+        <svg class="svg-save">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#heart"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="article__actions__social--print">
+        <a class="article__actions__print-trigger" href="#">
+        <svg class="svg-print">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#print"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="article__actions__social__list-item">
+      <a class="article__actions__social__facebook" href="https://www.facebook.com/FineCooking">
+        <svg class="svg-social">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="article__actions__social__list-item">
+      <a class="article__actions__social__twitter" href="https://twitter.com/finecooking">
+        <svg class="svg-social">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="article__actions__social__list-item">
+      <a class="article__actions__social__pinterest" href="https://www.pinterest.com/finecooking/">
+        <svg class="svg-social">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="article__actions__social__list-item">
+      <a class="article__actions__social__email" href="mailto:">
+        <svg class="svg-social">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#email"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+<!-- Ad 300x250 -->
+<div class="dfp-ad rectangle" data-dfp-id="dfp-rectangle-1"><div class="inner container"><div id="dfp-rectangle-1"></div></div></div><?php// endif;?>
+				</div>
+                <div class="wide-related-article-container">
+                       <!-- Related Articles Module -->
+            <div class="module--related">
+	<h3 class="module--related__heading">
+		Related	</h3>
+	<ul class="module--related__list">
+
+	
+			 			<li class="module--related__list-item">
+				<div class="module--related__image">
+					<img width="500" height="500" src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18152315/fc34mi047-01-thumb1x1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />				</div>
+				<div class="module--related__copy">
+					<span class="module--related__taxonomy">Recipe</span>
+					<h2 class="module--related__title"><a href="http://www.finecooking.com/recipe/cakey-brownies">Cakey Brownies</a></h2>
+				</div>
+			</li>
+					 			<li class="module--related__list-item">
+				<div class="module--related__image">
+					<img width="500" height="500" src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18152309/fc34mi047-02-thumb1x1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />				</div>
+				<div class="module--related__copy">
+					<span class="module--related__taxonomy">Recipe</span>
+					<h2 class="module--related__title"><a href="http://www.finecooking.com/recipe/chewy-brownies">Chewy Brownies</a></h2>
+				</div>
+			</li>
+					 			<li class="module--related__list-item">
+				<div class="module--related__image">
+					<img width="500" height="500" src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18152302/fc34mi048-02-thumb1x1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />				</div>
+				<div class="module--related__copy">
+					<span class="module--related__taxonomy">Recipe</span>
+					<h2 class="module--related__title"><a href="http://www.finecooking.com/recipe/fudgy-brownies">Fudgy Brownies</a></h2>
+				</div>
+			</li>
+					 			<li class="module--related__list-item">
+				<div class="module--related__image">
+					<img width="500" height="500" src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18152317/fc34mi048-01-thumb1x1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />				</div>
+				<div class="module--related__copy">
+					<span class="module--related__taxonomy">Recipe</span>
+					<h2 class="module--related__title"><a href="http://www.finecooking.com/recipe/blondies">Blondies</a></h2>
+				</div>
+			</li>
+					 			<li class="module--related__list-item">
+				<div class="module--related__image">
+					<img width="500" height="500" src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18152305/fc34mi049-01-thumb1x1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />				</div>
+				<div class="module--related__copy">
+					<span class="module--related__taxonomy">Recipe</span>
+					<h2 class="module--related__title"><a href="http://www.finecooking.com/recipe/chocolate-brownie-cookies">Chocolate Brownie Cookies</a></h2>
+				</div>
+			</li>
+				</ul>
+</div>
+                  </div>
+      </div>
+      <!-- /__sidebar -->
+      <div class="article__body__main">
+                  <p><!-- content-section-lead-image --></p>
+<p>Brownies come in all guises—with nuts, without, butterscotch, swirled with cream cheese, shot through with mint or fruit filling, sprinkled with chips, spiked with espresso or booze, or just plain chocolate in a million variations. But the most important aspect of a brownie, for anyone who loves brownies, is texture. Initially, I thought there were just two camps, cakey versus fudgy, and I was firmly planted in the cakey camp. But after testing, tasting, and canvassing friends and colleagues about what they prize most in a brownie, I began to see that there&#8217;s a third style to consider: chewy, which is definitely different from its cakey and fudgy siblings.</p>
+<p>I&#8217;ll say right off that I could never claim to write the Bible on brownies—there are so many recipes, and everyone has a favorite. But as I&#8217;ll show you, there are definitely guidelines to follow so that you can make the style of brownie that suits your taste, whether it&#8217;s cakey, fudgy, or chewy. I&#8217;ve also thrown in a butterscotch blondie, as well as chocolate brownie cookies, a huge favorite at my bakery, Grace Baking, and the happy result of a measuring mistake.</p>
+<p><strong>Create Your Own:</strong> Use the <a href="/articles/cyor/brownies.aspx" target="_self">Brownie Recipe Maker</a> to create a custom brownie recipe you can save, print, and email.</p>
+<p><!-- content-section-4up --></p>
+<div class="four-up-images">
+<figure id="attachment_93484"><a href="/recipes/cakey_brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011601/fc34mi047-01.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/cakey_brownies.aspx" target="_self">Cakey Brownies</a></figcaption></figure>
+<figure id="attachment_93486"><a href="/recipes/chewy_brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011601/fc34mi047-02.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/chewy_brownies.aspx" target="_self">Chewy Brownies</a></figcaption></figure>
+<figure id="attachment_93488"><a href="/recipes/fudgy_brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011601/fc34mi048-02.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/fudgy_brownies.aspx" target="_self">Fudgy Brownies</a></figcaption></figure>
+<figure id="attachment_93490"><a href="/articles/cyor/brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011601/Recipe-Maker-Brownies.jpg" alt="" /><br />
+</a><figcaption><a href="/articles/cyor/brownies.aspx" target="_self">Brownie Recipe Maker</a> (Create Your Own Recipe)</figcaption></figure>
+<p><strong>A Brownie Recipe for Every Brownie Lover</strong></p>
+</div>
+<p><!-- content-section-vertical --></p>
+<h3>Similar ingredients, different proportions</h3>
+<p>All of these brownie recipes have enough chocolate flavor to satisfy a chocolate yearning, and they all have similar ingredients. But because of the varying amounts of chocolate, butter, sugar, and flour, the texture of each brownie is quite different. To keep things simple, I&#8217;ve left nuts out of the three chocolate variations, but feel free to add them, 3/4 cup or so. I especially love chopped toasted walnuts in the cakey version.</p>
+<p><strong>A fudgy brownie is dense, with a moist, intensely chocolatey interior.</strong> I think of it as somewhere between a rich truffle torte and a piece of fudge. You&#8217;ll see that I&#8217;ve included both bittersweet and unsweetened chocolate: I love the deep, intense chocolate flavor they pack when used together. I&#8217;ve added an egg yolk to contribute fudgy richness without greasiness. Because the batter is quite dense, I suggest beating it vigorously with a wooden spoon to ensure a smooth, even texture.</p>
+<p><strong>A chewy brownie is moist, but not quite as gooey as a fudgy one.</strong> The chewiness seems to come from a couple of different factors: more all-purpose flour, whose proteins provide &#8220;bite&#8221; (I find that cake flour, which is lower in protein, results in a light, crumbly texture that&#8217;s too delicate for brownies); and whole eggs, whose whites give structure and &#8220;set.&#8221;</p>
+<p><img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011601/fc34mi045-01_xlg.jpg" alt="" /></p>
+<p><!-- content-section-vertical --></p>
+<p><strong>A cakey brownie has a moist crumb and a slightly fluffy interior.</strong> The batter contains less butter than the other recipes, and I include milk and a little corn syrup for moistness (the milk and corn syrup are also great ways to extend a brownie&#8217;s shelf life). I don&#8217;t use much flour (even less than for most cakes), and while brownies don&#8217;t usually use chemical leavens, I add some baking powder to keep this cakey brownie light.</p>
+<p>When I mix cakey brownies, I use a bit of cake-baking technique, too: creaming the butter and sugar first (rather than melting the butter) and then whisking the batter to aerate the mixture and get a light crumb. I think this brownie improves on sitting at least one and even two days after you bake it.</p>
+<p><img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011602/fc34mi046-04_xlg.jpg" alt="" /></p>
+<p><!-- content-section-4up --></p>
+<div class="four-up-images">
+<figure id="attachment_93496"><a href="/recipes/ultimate-fudgy-brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011602/051105031-01-ultimate-brownies.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/ultimate-fudgy-brownies.aspx" target="_self">Ultimate Fudgy Brownies</a>  </figcaption></figure>
+<figure id="attachment_93499"><a href="/recipes/rich-fudgy-brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011602/fc79re044-01.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/rich-fudgy-brownies.aspx" target="_self">Rich, Fudgy Brownies</a>  </figcaption></figure>
+<figure id="attachment_93501"><a href="/recipes/bittersweet-cocoa-brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011602/fc61in001-05.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/bittersweet-cocoa-brownies.aspx" target="_self">Bittersweet Cocoa Brownies</a>  </figcaption></figure>
+<figure id="attachment_93503"><a href="/recipes/peppermint-brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011602/fc52ca048-01.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/peppermint-brownies.aspx" target="_self">Peppermint Brownies</a></figcaption></figure>
+<p><strong>More Brownie Recipes You Might Like</strong></p>
+</div>
+<p><!-- content-section-none --></p>
+<h3>Killer brownies don&#8217;t need expensive chocolate</h3>
+<p>With high-quality chocolate—both domestic and imported—more readily available these days, I&#8217;ve noticed that many bakers have opted to get fancy with brownies. I&#8217;m a stickler for good ingredients, but I also believe that brownies are best when you keep them simple. While I encourage you to experiment with different chocolates, I got delicious results in all these recipes with supermarket-handy unsweetened and bittersweet chocolate.<!-- content-section-none --></p>
+<h3>Test for doneness before the recipe tells you to</h3>
+<p>In addition to ingredient proportions, baking time greatly affects the consistency of a brownie, so it&#8217;s important to be attentive. Fudgy brownies baked three minutes too short can be unpleasantly gooey; chewy brownies baked three minutes too long become tough and dry. I encourage you to invest in an oven thermometer (about $6), a valuable help in ensuring consistent results.</p>
+<p><strong>Brownies will cook more quickly in metal pans than in glass,</strong> which is what accounts for the wide time windows in the recipes. If you&#8217;re using metal, cooking times will be on the short side; with Pyrex, they&#8217;ll be longer. For all these recipes, and regardless of the pan you&#8217;re using, start testing for doneness after 20 minutes of baking. First, press your fingers gently into the center of the pan. If the brownie feels like it&#8217;s just setting, insert a toothpick near the center. The pick will probably be wet, but this early testing is good for comparison&#8217;s sake. Continue baking for 5 to 8 minutes and then insert the toothpick again near the center. Brownies are done when the toothpick comes out with a few moist crumbs still clinging. It&#8217;s okay for the pick to look moist, but if you see wet batter, keep baking.</p>
+<p><!-- START: content section 2up --></p>
+<h3>Are they done yet?</h3>
+<p>Start testing for doneness before the recipe says to. Press gently in the center of the pan—the brownie should feel like it has just set. Then insert a toothpick to be sure. &#8220;When in doubt,&#8221; says Cindy Mitchell, &#8220;lean toward underdone rather than overdone.&#8221;</p>
+<p><img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011544/fc34mi046-03_xlg.jpg" alt="" /></p>
+<p><img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011544/fc34mi046-01_xlg.jpg" alt="" /></p>
+<p><!-- END: content section 2up --><!-- content-section-4up --></p>
+<div class="four-up-images">
+<figure id="attachment_93507"><a href="/recipes/banana-split-brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011602/051109073-01-banana-split-brownies.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/banana-split-brownies.aspx" target="_self">Banana Split Brownies</a></figcaption></figure>
+<figure id="attachment_93509"><a href="/recipes/caramel-pecan-chocolate-brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011602/051095075-01-caramel-pecan-brownies.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/caramel-pecan-chocolate-brownies.aspx" target="_self">Caramel-Pecan Brownies</a></figcaption></figure>
+<figure id="attachment_93511"><a href="/recipes/port-ganache-glazed-brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011602/fc79re045-01.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/port-ganache-glazed-brownies.aspx" target="_self">Port Ganache-Glazed Brownies with Dried Cherries</a>  </figcaption></figure>
+<figure id="attachment_93513"><a href="/recipes/double-chocolate-chunk-fudge-brownies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011603/fc76do059-01.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/double-chocolate-chunk-fudge-brownies.aspx" target="_self">Double Chocolate Chunk Fudge Brownies</a></figcaption></figure>
+<p><strong>Brownie Recipes with the Works</strong></p>
+</div>
+<p><!-- content-section-4up --></p>
+<div class="four-up-images">
+<figure id="attachment_93515"><a href="/recipes/macadamia-double-decker-brownie-bars.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011603/051089070_05.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/macadamia-double-decker-brownie-bars.aspx" target="_self">Macadamia Double-Decker Brownie Bars</a></figcaption></figure>
+<figure id="attachment_93517"><a href="/recipes/brownie-bowties.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011603/fc75me_5467.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/brownie-bowties.aspx" target="_self">Brownie Bowties</a>  </figcaption></figure>
+<figure id="attachment_93519"><a href="/recipes/blondies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011603/fc34mi048-01.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/blondies.aspx" target="_self">Blondies</a></figcaption></figure>
+<figure id="attachment_93521"><a href="/recipes/chocolate_brownie_cookies.aspx"><br />
+<img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/19011603/fc34mi049-01.jpg" alt="" /><br />
+</a><figcaption><a href="/recipes/chocolate_brownie_cookies.aspx" target="_self">Chocolate Brownie Cookies</a></figcaption></figure>
+<p><strong>For uniform squares, flip the cooled, whole brownie out of the pan.</strong> You&#8217;ll have a much easier time cutting neat squares, with the option of cutting off the edges if you want to. Lining the pan bottoms with parchment makes it much easier to get the brownie out of the pan. If you don&#8217;t have any on hand, waxed paper works, too.</p>
+<p>One last word: although it&#8217;s awfully tempting to cut into a pan of just-baked brownies, hold off. The flavor and texture of each type of brownie will be at its best—and definitely worth waiting for—when completely cool.</p>
+<p><strong>Brownie-Inspired Treats &amp; Bars</strong></p>
+</div>
+        
+				
+                        
+        <!--  Private Note -->
+        <div id="recipe__private__note" class="module--note" style="display:none">
+          <div class="module--note__header">
+            <h4 class="module--note__heading">Private Notes</h4>
+            <div class="module--note__actions">
+               <a class="js-note-edit" href="#0">Edit</a><span>|</span>
+               <a class="js-note-delete" href="#0">Delete</a>
+            </div>
+          </div>
+        </div>
+
+        
+
+        
+        <div class="tube-related-article-container"></div>
+        <!-- Ad 300x250 -->
+
+												<div class="dfp-ad rectangle bottom" data-dfp-id="dfp-rectangle-2"><div class="inner container"><div id="dfp-rectangle-2"></div></div></div>				
+        <!-- In-read -->
+        <div class="dfp-ad inread-ad" data-dfp-id="dfp-inread"><div class="inner container"><div id="dfp-inread"></div></div></div>
+      </div>
+      <!-- /__main -->
+    </div>
+    <!-- /__body -->
+  </div>
+</section>
+<!-- /.article -->
+
+<!-- comments -->
+
+ <section class="article__comments" id="jump-to-comments">
+  <div class="article__comments__wrap js-tabs">
+    <div class="article__comments__tab-header">
+      <h3 class="article__comments__tab-heading active tabs__heading" data-trigger="first">Comments</h3>
+      <h3 class="article__comments__tab-heading tabs__heading" data-trigger="second">Leave a Comment</h3>
+    </div>
+    <div class="article__comments__read active first tabs__block show">
+      <h3 class="article__comments__heading">Comments</h3>
+      <ul class="article__comments__list">
+      <li class="article__comments__list-item">
+    <div class="article__comments__list-item__image">
+      <img src="/app/themes/finecooking/dist/img/avatar/default_avatar_sqm.jpg">
+        
+   </div>
+    <div class="article__comments__list-item__copy">
+         <span class="article__comments__list-item__comment-info"><a class="author" href="/profile/doughgirl2" rel='nofollow'>
+            doughgirl2</a> | 09/20/2017</span>
+         <p>can I replace the cocoa powder in a brownie recipe with instant vanilla powder? would this    keep the brownie texture the same? could you please send me a response. Thank you for your time. Doughgirl2</p>
+     </div>
+</li></li><!-- #comment-## -->
+        
+      </ul>
+      			
+    </div>
+    <div class="article__comments__action second tabs__block">
+      	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><h3 class="recipe__reviews__write__heading">Leave A Comment</h3> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/article/baking-brownies-just-right-cakey-chewy-or-fudgy-2#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="http://www.finecooking.com/wp/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p><div class="recipe__reviews__formfield"><textarea id="comment" name="comment" aria-required="true" name="recipe-review" class="recipe__reviews__textarea"></textarea></div>	<div id="acf-form-data" class="acf-hidden">
+				<input type="hidden" id="_acf_screen" name="_acf_screen" value="comment" />
+				<input type="hidden" id="_acf_post_id" name="_acf_post_id" value="" />
+				<input type="hidden" id="_acf_nonce" name="_acf_nonce" value="9f260ba98f" />
+				<input type="hidden" id="_acf_validation" name="_acf_validation" value="1" />
+				<input type="hidden" id="_acf_ajax" name="_acf_ajax" value="0" />
+				<input type="hidden" id="_acf_changed" name="_acf_changed" value="0" />
+					</div>
+	<div class="acf-comment-fields acf-fields -clear"><div class="acf-field acf-field-text acf-field-5894e4289ba36" data-name="fc_member_id" data-type="text" data-key="field_5894e4289ba36">
+		<div class="acf-label"><label for="acf-field_5894e4289ba36">Member ID</label></div>
+		<div class="acf-input">
+		<div class="acf-input-wrap"><input type="text" id="acf-field_5894e4289ba36" name="acf[field_5894e4289ba36]" /></div>					</div>
+</div>
+<div class="acf-field acf-field-true-false acf-field-58d916b8ed031" data-name="fc_featured_review" data-type="true_false" data-key="field_58d916b8ed031">
+		<div class="acf-label"><label for="acf-field_58d916b8ed031">Featured Review</label></div>
+		<div class="acf-input">
+		<div class="acf-true-false">
+	<input name="acf[field_58d916b8ed031]" value="0" type="hidden" />
+	<label>
+		<input type="checkbox" id="acf-field_58d916b8ed031" name="acf[field_58d916b8ed031]" value="1" class="" autocomplete="off"/>
+					</label>
+</div>
+					</div>
+</div>
+</div><p class="form-submit"><input name="submit" type="submit" id="submit" class="recipe__reviews__submit-button" value="Post" /> <input type='hidden' name='comment_post_ID' value='55702' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>			</form>
+			</div><!-- #respond -->
+	    </div>
+  </div>
+</section>
+ <style>
+ .acf-field-5894e4289ba36{
+ 	display:none;
+ }
+ .acf-field-58d916b8ed031{
+ 	display:none;
+ }
+ </style>
+<!-- /.comments -->
+
+<section class="article__featured">
+<div class="module--featured">
+  <div class="module--featured__header">
+    <h1 class="module--featured__heading">
+						What We're Cooking Now
+					</h1>
+  </div>
+  <div class="module--featured__primary">
+    <ul class="module--featured__list">
+      <li class="module--featured__primary__list-item">
+              <div class="module--featured__linked-image">
+          <a href="http://www.finecooking.com/article/46-best-st-patricks-day-recipes-ideas">
+            <img width="500" height="500" src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2012/10/09131126/corned-beef_square-500x500.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="corned beef and cabbage" srcset="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2012/10/09131126/corned-beef_square-500x500.jpg 500w, http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2012/10/09131126/corned-beef_square.jpg 1080w, http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2012/10/09131126/corned-beef_square-768x768.jpg 768w" sizes="(max-width: 500px) 100vw, 500px" />                    </a>
+        </div>
+              <div class="module--featured__copy">
+       	  <span class="module--featured__taxonomy">Article</span>
+          <h2 class="module--featured__title"><a href="http://www.finecooking.com/article/46-best-st-patricks-day-recipes-ideas">46 Best St. Patrick’s Day Recipes and Ideas</a></h2>
+                                      </div>
+      </li>
+
+      			      <li class="module--featured__primary__list-item">
+                <div class="module--featured__linked-image">
+          <a href="http://www.finecooking.com/collection/favorite-baking-books" >
+            <img src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/03/02125122/20-book-bravetart-500x500.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/116x116/app/uploads/2018/03/02125122/20-book-bravetart-500x500.jpg 116w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/166x166/app/uploads/2018/03/02125122/20-book-bravetart-500x500.jpg 166w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/175x175/app/uploads/2018/03/02125122/20-book-bravetart-500x500.jpg 175w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/250x250/app/uploads/2018/03/02125122/20-book-bravetart-500x500.jpg 250w" sizes="(max-width:500px) 24vw, (max-width:700px) 24vw, (max-width:850px) 21vw,  250px" />                    </a>
+        </div>
+
+                <div class="module--featured__copy">
+          <div class="module--featured__copy__inner">
+            <span class="module--featured__taxonomy">Collection</span>
+            <h2 class="module--featured__title"><a href="http://www.finecooking.com/collection/favorite-baking-books">Our Favorite Baking Books</a></h2>
+                                              </div>
+        </div>
+      </li>
+      
+      			      <li class="module--featured__primary__list-item">
+        <div class="module--featured__copy">
+          <div class="module--featured__copy__inner">
+            <span class="module--featured__taxonomy">Menu</span>
+            <h2 class="module--featured__title"><a href="http://www.finecooking.com/menu/spring-dinner-starring-spiral-sliced-ham">A Spring Dinner with Spiral Ham</a></h2>
+                          <span class="module--featured__author">By Tracey Seaman</span>
+                                              </div>
+        </div>
+              <div class="module--featured__linked-image">
+          <a href="http://www.finecooking.com/menu/spring-dinner-starring-spiral-sliced-ham" >
+            <img src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/03/09124701/spring-menu_square-500x500.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="spring menu" srcset="//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/116x116/app/uploads/2018/03/09124701/spring-menu_square-500x500.jpg 116w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/175x175/app/uploads/2018/03/09124701/spring-menu_square-500x500.jpg 175w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/175x175/app/uploads/2018/03/09124701/spring-menu_square-500x500.jpg 175w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/250x250/app/uploads/2018/03/09124701/spring-menu_square-500x500.jpg 250w" sizes="(max-width:500px) 24vw, (max-width:700px) 25vw, (max-width:850px) 21vw,  250px" />                    </a>
+        </div>
+            </li>
+          </ul>
+  </div>
+  <div class="module--featured__secondary">
+    <ul class="module--featured__list">
+    			      <li class="module--featured__secondary__list-item">
+                  <a class="module--featured__linked-image" href="http://www.finecooking.com/collection/50-healthy-snack-ideas-kids">
+                      <img data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/02/16210540/Miller-Chocolate-Bananas-main1-500x500.jpg" alt="Healthy-Kid-Snack-recipe" class="lazyload" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/02/16210540/Miller-Chocolate-Bananas-main1-500x500.jpg 500w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/116x116/app/uploads/2018/02/16210540/Miller-Chocolate-Bananas-main1-500x500.jpg 116w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/166x166/app/uploads/2018/02/16210540/Miller-Chocolate-Bananas-main1-500x500.jpg 166w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/192x192/app/uploads/2018/02/16210540/Miller-Chocolate-Bananas-main1-500x500.jpg 192w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/250x250/app/uploads/2018/02/16210540/Miller-Chocolate-Bananas-main1-500x500.jpg 250w" data-sizes="(max-width:500px) 24vw, (max-width:700px) 24vw, (max-width:850px) 23vw,  250px">                    </a>
+                <div class="module--featured__copy">
+          <span class="module--featured__taxonomy">Collection</span>
+          <h2 class="module--featured__title"><a href="http://www.finecooking.com/collection/50-healthy-snack-ideas-kids">50 Healthy Snack Ideas for Kids</a></h2>
+                                       </div>
+      </li>
+    			      <li class="module--featured__secondary__list-item">
+                  <a class="module--featured__linked-image" href="http://www.finecooking.com/collection/everything-need-unforgettable-homemade-pizza">
+                      <img data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/02/19123303/pizza-peel_square-500x500.jpg" alt="" class="lazyload" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/02/19123303/pizza-peel_square-500x500.jpg 500w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/116x116/app/uploads/2018/02/19123303/pizza-peel_square-500x500.jpg 116w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/166x166/app/uploads/2018/02/19123303/pizza-peel_square-500x500.jpg 166w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/192x192/app/uploads/2018/02/19123303/pizza-peel_square-500x500.jpg 192w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/250x250/app/uploads/2018/02/19123303/pizza-peel_square-500x500.jpg 250w" data-sizes="(max-width:500px) 24vw, (max-width:700px) 24vw, (max-width:850px) 23vw,  250px">                    </a>
+                <div class="module--featured__copy">
+          <span class="module--featured__taxonomy">Collection</span>
+          <h2 class="module--featured__title"><a href="http://www.finecooking.com/collection/everything-need-unforgettable-homemade-pizza">Everything You Need for Unforgettable Homemade Pizza</a></h2>
+                                       </div>
+      </li>
+    			      <li class="module--featured__secondary__list-item">
+                  <a class="module--featured__linked-image" href="http://www.finecooking.com/article/make-luscious-cream-pies">
+                      <img data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/03/13165357/Image-72402_S-500x500.jpg" alt="" class="lazyload" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/03/13165357/Image-72402_S-500x500.jpg 500w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/116x116/app/uploads/2018/03/13165357/Image-72402_S-500x500.jpg 116w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/166x166/app/uploads/2018/03/13165357/Image-72402_S-500x500.jpg 166w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/192x192/app/uploads/2018/03/13165357/Image-72402_S-500x500.jpg 192w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/250x250/app/uploads/2018/03/13165357/Image-72402_S-500x500.jpg 250w" data-sizes="(max-width:500px) 24vw, (max-width:700px) 24vw, (max-width:850px) 23vw,  250px">                    </a>
+                <div class="module--featured__copy">
+          <span class="module--featured__taxonomy">How-To</span>
+          <h2 class="module--featured__title"><a href="http://www.finecooking.com/article/make-luscious-cream-pies">How to Make Luscious Cream Pies</a></h2>
+                      <span class="module--featured__author">By Abigail Johnson Dodge</span>
+                                       </div>
+      </li>
+    			      <li class="module--featured__secondary__list-item">
+                  <a class="module--featured__linked-image" href="http://www.finecooking.com/collection/quick-easy-asparagus-recipes">
+                      <img data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18234142/051116077-02-stir-fried-asparagus-recipe-thumb1x1.jpg" alt="" class="lazyload" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18234142/051116077-02-stir-fried-asparagus-recipe-thumb1x1.jpg 500w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/116x116/app/uploads/2017/04/18234142/051116077-02-stir-fried-asparagus-recipe-thumb1x1.jpg 116w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/166x166/app/uploads/2017/04/18234142/051116077-02-stir-fried-asparagus-recipe-thumb1x1.jpg 166w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/192x192/app/uploads/2017/04/18234142/051116077-02-stir-fried-asparagus-recipe-thumb1x1.jpg 192w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/250x250/app/uploads/2017/04/18234142/051116077-02-stir-fried-asparagus-recipe-thumb1x1.jpg 250w" data-sizes="(max-width:500px) 24vw, (max-width:700px) 24vw, (max-width:850px) 23vw,  250px">                    </a>
+                <div class="module--featured__copy">
+          <span class="module--featured__taxonomy">Collection</span>
+          <h2 class="module--featured__title"><a href="http://www.finecooking.com/collection/quick-easy-asparagus-recipes">Quick &amp; Easy Asparagus Recipes</a></h2>
+                                       </div>
+      </li>
+        </ul>
+  </div>
+	</div>
+<!-- /.module--featured -->
+</section>
+
+<section class="article__marketing-unit">
+  <div class="module--marketing-unit">
+  <div class="module--marketing-unit__main-image">
+    <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/02/08133132/Cooking_Feb_Ramen_Bowl.png" alt="Delicious Dish">
+  </div>
+  <div class="module--marketing-unit__copy">
+    <h1 class="module--marketing-unit__heading">Find the inspiration you crave for your love of cooking</h1>
+    <div class="module--marketing-unit__cta">
+      <div class="module--marketing-unit__cta__image">
+        <img class="lazyload" data-src="/app/themes/finecooking/dist/img/marketing-article-cover.jpg" alt="Fine Cooking Magazine">
+      </div>
+      <div class="module--marketing-unit__cta__copy">
+        <h2 class="module--marketing-unit__cta__heading">Subscribe today<br/> and <span>save up to 44%</span></h2>
+        <a class="module--marketing-unit__cta__subscribe" href="https://subscribe.finecooking.com/servlet/OrdersGateway?cds_mag_code=FCG&cds_page_id=216268&cds_response_key=W50074FS&ref=fc-midpage">Subscribe</a>
+
+        <p>Already a subscriber? <a class="disabled-for-beta" href="https://www.finecooking.com/user/login?return_url=http%3A%2F%2Fwww.finecooking.com%2Farticle%2Fbaking-brownies-just-right-cakey-chewy-or-fudgy-2">Log in</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="article__videos">
+  <div class="module--video">
+  <div class="module--video__header">
+    <h1 class="module--video__heading">
+			Videos		</h1>
+				<a class="module--video__more-link" href="/videos">View All</a>
+  </div>
+  <ul class="module--video__list">
+    <div class="module--video__primary">
+      <li class="module--video__list-item">
+        <a class="module--video__linked-image" href="http://www.finecooking.com/article/how-to-make-lemon-meringue-pie">
+                       <img class="lazyload" src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18125827/051116078-01-lemon-meringue-pie-recipe-thumb16x9.jpg" width="600" height="338" >                    <svg class="video-overlay">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-play"></use>
+          </svg>
+        </a>
+        <div class="module--video__copy">
+          <span class="module--video__taxonomy">How-To</span>
+          <h2 class="module--video__title">
+            <a href="http://www.finecooking.com/article/how-to-make-lemon-meringue-pie">How to Make Lemon Meringue Pie</a>
+          </h2>
+          <p class="module--video__teaser">Fine Cooking's senior food editor demonstrates Carole Walter's secrets to getting luscious, billowy homemade lemon meringue pie just right.</p>
+        </div>
+      </li>
+    </div>
+    <div class="module--video__secondary">
+    			      <li class="module--video__list-item">
+        <a class="module--video__linked-image" href="http://www.finecooking.com/article/how-to-peel-hard-boiled-eggs-2">
+                       <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18215209/FC_16_EGGS_F3_2-thumb16x9.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18215209/FC_16_EGGS_F3_2-thumb16x9.jpg 600w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/180x102/app/uploads/2017/04/18215209/FC_16_EGGS_F3_2-thumb16x9.jpg 180w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/252x142/app/uploads/2017/04/18215209/FC_16_EGGS_F3_2-thumb16x9.jpg 252w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/126x71/app/uploads/2017/04/18215209/FC_16_EGGS_F3_2-thumb16x9.jpg 126w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/162x92/app/uploads/2017/04/18215209/FC_16_EGGS_F3_2-thumb16x9.jpg 162w" data-sizes="(max-width:500px) 36vw, (max-width:700px) 36vw, (max-width:850px) 15vw,  162px" >                    <svg class="video-overlay">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-play"></use>
+          </svg>
+        </a>
+        <div class="module--video__copy">
+          <span class="module--video__taxonomy">How-To</span>
+          <h2 class="module--video__title">
+            <a href="http://www.finecooking.com/article/how-to-peel-hard-boiled-eggs-2">How to Peel Hard-Boiled Eggs</a>
+          </h2>
+        </div>
+      </li>
+    			      <li class="module--video__list-item">
+        <a class="module--video__linked-image" href="http://www.finecooking.com/article/how-to-make-corned-beef-hash">
+                       <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18195206/Craigie-Corn-Beef-Hash-thumb16x9.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18195206/Craigie-Corn-Beef-Hash-thumb16x9.jpg 600w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/180x102/app/uploads/2017/04/18195206/Craigie-Corn-Beef-Hash-thumb16x9.jpg 180w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/252x142/app/uploads/2017/04/18195206/Craigie-Corn-Beef-Hash-thumb16x9.jpg 252w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/126x71/app/uploads/2017/04/18195206/Craigie-Corn-Beef-Hash-thumb16x9.jpg 126w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/162x92/app/uploads/2017/04/18195206/Craigie-Corn-Beef-Hash-thumb16x9.jpg 162w" data-sizes="(max-width:500px) 36vw, (max-width:700px) 36vw, (max-width:850px) 15vw,  162px" >                    <svg class="video-overlay">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-play"></use>
+          </svg>
+        </a>
+        <div class="module--video__copy">
+          <span class="module--video__taxonomy">How-To</span>
+          <h2 class="module--video__title">
+            <a href="http://www.finecooking.com/article/how-to-make-corned-beef-hash">How to Make Corned Beef Hash</a>
+          </h2>
+        </div>
+      </li>
+    			      <li class="module--video__list-item">
+        <a class="module--video__linked-image" href="http://www.finecooking.com/article/how-to-make-buttermilk-biscuits">
+                       <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18170840/051117036-01-how-to-make-buttermilk-biscuits-thumb16x9.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18170840/051117036-01-how-to-make-buttermilk-biscuits-thumb16x9.jpg 600w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/180x102/app/uploads/2017/04/18170840/051117036-01-how-to-make-buttermilk-biscuits-thumb16x9.jpg 180w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/252x142/app/uploads/2017/04/18170840/051117036-01-how-to-make-buttermilk-biscuits-thumb16x9.jpg 252w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/126x71/app/uploads/2017/04/18170840/051117036-01-how-to-make-buttermilk-biscuits-thumb16x9.jpg 126w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/162x92/app/uploads/2017/04/18170840/051117036-01-how-to-make-buttermilk-biscuits-thumb16x9.jpg 162w" data-sizes="(max-width:500px) 36vw, (max-width:700px) 36vw, (max-width:850px) 15vw,  162px" >                    <svg class="video-overlay">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-play"></use>
+          </svg>
+        </a>
+        <div class="module--video__copy">
+          <span class="module--video__taxonomy">How-To</span>
+          <h2 class="module--video__title">
+            <a href="http://www.finecooking.com/article/how-to-make-buttermilk-biscuits">How to Make Buttermilk Biscuits</a>
+          </h2>
+        </div>
+      </li>
+    			      <li class="module--video__list-item">
+        <a class="module--video__linked-image" href="http://www.finecooking.com/recipe/pesto-crusted-racks-of-lamb">
+                       <img src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18125306/051120038-01-rack-of-lamb-recipe-thumb16x9.jpg" width="600" height="338" srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18125306/051120038-01-rack-of-lamb-recipe-thumb16x9.jpg 600w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/180x102/app/uploads/2017/04/18125306/051120038-01-rack-of-lamb-recipe-thumb16x9.jpg 180w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/252x142/app/uploads/2017/04/18125306/051120038-01-rack-of-lamb-recipe-thumb16x9.jpg 252w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/126x71/app/uploads/2017/04/18125306/051120038-01-rack-of-lamb-recipe-thumb16x9.jpg 126w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/162x92/app/uploads/2017/04/18125306/051120038-01-rack-of-lamb-recipe-thumb16x9.jpg 162w" sizes="(max-width:500px) 36vw, (max-width:700px) 36vw, (max-width:850px) 15vw,  162px" >            <span class="module--video__sponsored-tag">Sponsored</span>
+                    <svg class="video-overlay">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-play"></use>
+          </svg>
+        </a>
+        <div class="module--video__copy">
+          <span class="module--video__taxonomy">Recipe</span>
+          <h2 class="module--video__title">
+            <a href="http://www.finecooking.com/recipe/pesto-crusted-racks-of-lamb">Pesto-Crusted Racks of Lamb</a>
+          </h2>
+        </div>
+      </li>
+        </div>
+  </ul>
+  <!-- /__videos -->
+</div>
+<!-- /.module--video -->
+</section>
+
+<section class="article__springboard">
+  <div class="module--springboard equal-heights-wrap">
+  <div class="module--springboard__shop equal-heights">
+    <h3 class="module--springboard__heading">From the Shop</h3>
+    <ul class="module--springboard__shop__list">
+          <li class="module--springboard__shop__list-item">
+        <a class="module--springboard__shop__linked-image" href="https://www.tauntonstore.com/cookfresh-year-round?source=fc-books=module">
+           <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/12/06105049/cookfresh_year_round.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/12/06105049/cookfresh_year_round.jpg 700w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/148x185/app/uploads/2017/12/06105049/cookfresh_year_round.jpg 148w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/148x185/app/uploads/2017/12/06105049/cookfresh_year_round.jpg 148w" data-sizes="(max-width:500px) 30vw,  148px" >        </a>
+      </li>
+          <li class="module--springboard__shop__list-item">
+        <a class="module--springboard__shop__linked-image" href="https://www.tauntonstore.com/2017-fine-cooking-archive/?source=fc-books-module">
+           <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/11/14132823/fc_archive_2017_snipe.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/11/14132823/fc_archive_2017_snipe.jpg 210w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/148x148/app/uploads/2017/11/14132823/fc_archive_2017_snipe.jpg 148w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/148x148/app/uploads/2017/11/14132823/fc_archive_2017_snipe.jpg 148w" data-sizes="(max-width:500px) 30vw,  148px" >        </a>
+      </li>
+          <li class="module--springboard__shop__list-item">
+        <a class="module--springboard__shop__linked-image" href="https://www.tauntonstore.com/fine-cooking-magazine-slipcase-051050?source=fc-books-module">
+           <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/11/10141231/fc_slipcase.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/11/10141231/fc_slipcase.jpg 700w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/148x185/app/uploads/2017/11/10141231/fc_slipcase.jpg 148w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/148x185/app/uploads/2017/11/10141231/fc_slipcase.jpg 148w" data-sizes="(max-width:500px) 30vw,  148px" >        </a>
+      </li>
+          <li class="module--springboard__shop__list-item">
+        <a class="module--springboard__shop__linked-image" href="https://www.tauntonstore.com/holidays-2017-bk.html?source=fc-books-module">
+           <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/11/14155514/FCSIP123cov2.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/11/14155514/FCSIP123cov2.jpg 300w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/148x187/app/uploads/2017/11/14155514/FCSIP123cov2.jpg 148w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/148x187/app/uploads/2017/11/14155514/FCSIP123cov2.jpg 148w" data-sizes="(max-width:500px) 30vw,  148px" >        </a>
+      </li>
+        </ul>
+    <a class="module--springboard__shop__browse-button" href="https://www.tauntonstore.com/cooking.html">Browse the Shop</a>
+  </div>
+  <!-- /__shop -->
+  <div class="module--springboard__moveable-feast equal-heights">
+    <h3 class="module--springboard__moveable-feast__heading">
+    	<img src="/app/themes/finecooking/dist/img/moveable-feast/logo-main-2.png" alt="Moveable Feast Logo">
+    </h3>
+    <a class="module--springboard__moveable-feast__linked-image" href="http://www.finecooking.com/moveablefeast/episode/santa-fe-nm-509">
+      <img class="lazyload" src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/01/26121950/509SantaFe_wide.jpg" width="1080" height="607" >      <svg class="video-overlay">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-play"></use>
+      </svg>
+    </a>
+    <span class="module--springboard__moveable-feast__taxonomy">Season 4 Extras</span>
+    <h2 class="module--springboard__moveable-feast__title">
+      <a href="http://www.finecooking.com/moveablefeast/episode/santa-fe-nm-509">Santa Fe, NM (509)</a>
+    </h2>
+    <p class="module--springboard__moveable-feast__blurb">Settled at the foothills of the Rocky Mountains, Santa Fe, New Mexico is home to a culinary scene of mixed influences and Southwestern flavors and ingredients. In this episode of&hellip;</p>
+    <a class="module--springboard__moveable-feast__more-link" href="/moveablefeast">View all Moveable Feast recipes and video extras</a>
+  </div>
+  <!-- /__moveable-feast -->
+  <div class="module--springboard__connect equal-heights">
+    <h3 class="module--springboard__heading">Connect</h3>
+    <h4 class="module--springboard__subheading">Follow Fine Cooking on your favorite social networks</h4>
+    <ul class="module--springboard__connect__list">
+      <li class="module--springboard__connect__list-item">
+
+        <a class="module--springboard__connect__facebook" href="http://www.facebook.com/FineCooking">Facebook
+          <span class="icon">
+            <svg class="svg-social">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li class="module--springboard__connect__list-item">
+        <a class="module--springboard__connect__pinterest" href="http://pinterest.com/finecooking/">Pinterest
+          <span class="icon">
+            <svg class="svg-social">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li class="module--springboard__connect__list-item">
+        <a class="module--springboard__connect__instagram" href="https://www.instagram.com/finecookingmag/">Instagram
+          <span class="icon">
+            <svg class="svg-social">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li class="module--springboard__connect__list-item">
+        <a class="module--springboard__connect__youtube" href="http://www.youtube.com/user/FineCooking">YouTube
+          <span class="icon">
+            <svg class="svg-social">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li class="module--springboard__connect__list-item">
+        <a class="module--springboard__connect__twitter" href="http://twitter.com/finecooking">Twitter
+          <span class="icon">
+            <svg class="svg-social">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+            </svg>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- /__connect -->
+</div>
+</section>
+
+  <div class="dfp-ad leaderboard" data-dfp-id="dfp-leaderboard-2"><div class="inner container"><div id="dfp-leaderboard-2"></div></div></div>
+  <section class="superfooter__magazines">
+    
+<div class="module--recent-issues">
+  <div class="module--recent-issues__header">
+    <h1 class="module--recent-issues__heading">Fine Cooking Magazine</h1>
+  </div>
+  <ul class="module--recent-issues__list">
+    <div class="module--recent-issues__primary">
+      <li class="module--recent-issues__list-item">
+        <a class="module--recent-issues__linked-image" href="http://www.finecooking.com/issue/2018/03/april-may-2018">
+         <img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/01/16171311/152-cover.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/01/16171311/152-cover.jpg 800w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/320x416/app/uploads/2018/01/16171311/152-cover.jpg 320w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/320x416/app/uploads/2018/01/16171311/152-cover.jpg 320w" data-sizes="(max-width:500px) 64vw,  320px" >        </a>
+        <div class="module--recent-issues__deck">
+          <a class="module--recent-issues__pub-date" href="http://www.finecooking.com/issue/2018/03/april-may-2018">April/May 2018</a>
+                    <h2 class="module--recent-issues__title">
+            <a href="http://www.finecooking.com/menu/spring-dinner-starring-spiral-sliced-ham">A Spring Dinner with Spiral Ham</a>
+          </h2>
+          <ul class="module--recent-issues__deck-links">
+            <li class="module--recent-issues__deck-link">
+              <a href="http://www.finecooking.com/issue/2018/03/april-may-2018">View Full Issue</a>
+            </li>
+            <li class="module--recent-issues__deck-link">
+              <a href="/magazine/">View Issue Archive</a>
+            </li>
+            <li class="module--recent-issues__deck-link">
+              <a href="https://subscribe.finecooking.com/servlet/OrdersGateway?cds_mag_code=FCG&cds_page_id=216268&cds_response_key=W50074FS&ref=fc-magazinetout">Subscribe</a>
+            </li>
+            <li class="module--recent-issues__deck-link">
+              <a href="https://subscribe.finecooking.com/renew">Renew</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </div>
+    <div class="module--recent-issues__secondary">
+                    <li class="module--recent-issues__list-item">
+          <a class="module--recent-issues__linked-image" href="http://www.finecooking.com/issue/2018/01/februarymarch-2018">
+       		<img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/01/08133422/FC151-cover.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2018/01/08133422/FC151-cover.jpg 800w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/320x416/app/uploads/2018/01/08133422/FC151-cover.jpg 320w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/320x416/app/uploads/2018/01/08133422/FC151-cover.jpg 320w" data-sizes="(max-width:500px) 64vw,  320px" >          </a>
+          <div class="module--recent-issues__deck">
+            <a class="module--recent-issues__pub-date" href="http://www.finecooking.com/issue/2018/01/februarymarch-2018">February/March 2018</a>
+                        <h2 class="module--recent-issues__title">
+              <a href="http://www.finecooking.com/article/make-ramen-scratch">How to Make Ramen from Scratch</a>
+            </h2>
+          </div>
+        </li>
+              <li class="module--recent-issues__list-item">
+          <a class="module--recent-issues__linked-image" href="http://www.finecooking.com/issue/2017/11/december-2017january-2018">
+       		<img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/12/29104527/FC150-cover.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/12/29104527/FC150-cover.jpg 800w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/320x416/app/uploads/2017/12/29104527/FC150-cover.jpg 320w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/320x416/app/uploads/2017/12/29104527/FC150-cover.jpg 320w" data-sizes="(max-width:500px) 64vw,  320px" >          </a>
+          <div class="module--recent-issues__deck">
+            <a class="module--recent-issues__pub-date" href="http://www.finecooking.com/issue/2017/11/december-2017january-2018">December 2017/January 2018</a>
+                        <h2 class="module--recent-issues__title">
+              <a href="http://www.finecooking.com/article/make-charlotte-royale">How to Make a Charlotte Royale</a>
+            </h2>
+          </div>
+        </li>
+              <li class="module--recent-issues__list-item">
+          <a class="module--recent-issues__linked-image" href="http://www.finecooking.com/issue/2017/09/octobernovember-2017">
+       		<img class="lazyload" data-src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/08/11120709/FC149-cover.jpg" data-srcset="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/08/11120709/FC149-cover.jpg 800w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/320x416/app/uploads/2017/08/11120709/FC149-cover.jpg 320w,//finecooking.s3.tauntonclud.com.s3-website-us-east-1.amazonaws.com/320x416/app/uploads/2017/08/11120709/FC149-cover.jpg 320w" data-sizes="(max-width:500px) 64vw,  320px" >          </a>
+          <div class="module--recent-issues__deck">
+            <a class="module--recent-issues__pub-date" href="http://www.finecooking.com/issue/2017/09/octobernovember-2017">October/November 2017</a>
+                        <h2 class="module--recent-issues__title">
+              <a href="http://www.finecooking.com/recipe/potato-leek-galette-rosemary-sea-salt-crust">Potato and Leek Galette with Rosemary and Sea-Salt Crust</a>
+            </h2>
+          </div>
+        </li>
+                </div>
+  </ul>
+</div>
+<!-- /.module--recent-issues -->  </section>
+
+  <div class="sitefooter">
+  <div class="sitefooter__inner">
+    <h1 class="sitefooter__heading">
+      <a href="/">
+        <svg class="svg-logo">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fc-logo"></use>
+        </svg>
+      </a>
+    </h1>
+
+    <div class="sitefooter--primary">
+      <div class="sitefooter__block">
+        <h3 class="sitefooter__category">Follow</h3>
+        <ul class="sitefooter__social-links">
+          <li class="twitter" data-social-network="Twitter" data-social-action="follow" data-social-target="footer">
+            <a href="https://twitter.com/finecooking">
+              <svg class="svg-social">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="facebook" data-social-network="Facebook" data-social-action="follow" data-social-target="footer">
+            <a href="https://www.facebook.com/FineCooking">
+              <svg class="svg-social">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="instagram" data-social-network="Instagram" data-social-action="follow" data-social-target="footer">
+            <a href="https://www.instagram.com/finecookingmag/">
+              <svg class="svg-social">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="pinterest" data-social-network="Pinterest" data-social-action="follow" data-social-target="footer">
+            <a href="https://www.pinterest.com/finecooking/">
+              <svg class="svg-social">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sitefooter__block">
+        <h3 class="sitefooter__category">Newsletter</h3>
+        <h4 class="sitefooter__form__heading">Love to cook? Sign up today and get the latest from Fine Cooking plus special offers</h4>
+        <div class="sitefooter__form">
+          <form id="newsletter-signup-footer" data-source="FCFOOTER" data-pref="fine_cooking_eLetter_pref|fine_cooking_offers_pref" data-ajax_nonce="a6976d29b3" >
+            <fieldset>
+              <input class="sitefooter__form__textfield" name="email" type="email" placeholder="Email Address" data-msg="Please enter your email address." />
+              <input class="sitefooter__form__submit" type="submit" value="Sign Up" />
+            </fieldset>
+          </form>
+        </div>
+        <!-- /.__form -->
+      </div>
+      <div class="sitefooter__block">
+        <h3 class="sitefooter__category">Site Links</h3>
+        <ul class="sitefooter__text-list">
+          <li><a href="/recipes-menus?ref=fc-footer">Recipes &amp; Menus</a></li>
+          <li><a href="/how-to?ref=fc-footer">How-To</a></li>
+          <li><a href="/ingredients?ref=fc-footer">Ingredients</a></li>
+          <li><a href="/videos?ref=fc-footer">Video</a></li>
+          <li><a href="/moveablefeast?ref=fc-footer">Moveable Feast</a></li>
+					<li><a href="/onlinearchive?ref=fc-footer">Online Archive</a></li>
+          <li><a href="https://subscribe.finecooking.com/servlet/OrdersGateway?cds_mag_code=FCG&cds_page_id=216268&cds_response_key=W50074FS&ref=fc-footer">Subscribe</a></li>
+          <li><a href="https://subscribe.finecooking.com/servlet/ECareGateway?cds_mag_code=FHB&cds_config_id=1668&ref=fc-footer">Renew</a></li>
+          <li><a href="https://subscribe.finecooking.com/servlet/ECareGateway?cds_mag_code=FHB&cds_config_id=1668">Customer Support</a></li>
+        </ul>
+      </div>
+      <div class="sitefooter__block">
+        <h3 class="sitefooter__category">Taunton Network</h3>
+        <ul class="sitefooter__text-list">
+          <li><a href="http://www.finehomebuilding.com/">Fine Homebuilding</a></li>
+          <li><a href="http://www.finewoodworking.com/">Fine Woodworking</a></li>
+          <li><a href="http://www.greenbuildingadvisor.com/">Green Building Advisor</a></li>
+          <li><a href="http://www.finegardening.com/">Fine Gardening</a></li>
+          <li><a href="http://www.threadsmagazine.com/">Threads</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="sitefooter--secondary">
+      <ul class="sitefooter__pagelinks">
+        <li><a href="http://www.taunton.com/about_us.asp">About</a></li>
+        <li><a href="http://www.taunton.com/thetauntonpress/advertise_with_us.asp">Advertise</a></li>
+        <li><a href="http://www.taunton.com/thetauntonpress/contact_us.asp">Contact</a></li>
+        <li><a href="http://www.taunton.com/thetauntonpress/privacy.asp">Privacy Policy</a></li>
+        <li><a href="http://www.taunton.com/thetauntonpress/employment.asp">Careers</a></li>
+      </ul>
+      <p class="sitefooter__copyright">&copy; 2018 The Taunton Press, Inc. All rights reserved.</p>
+						<p class="sitefooter__disclaimer">Fine Cooking may receive a percentage of sales for items purchased through links on this site, including Amazon Associates and other affiliate advertising programs.</p>
+			    </div>
+    <!-- __subfooter -->
+  </div>
+  <!-- /__inner -->
+</div>
+<!-- /.sitefooter -->
+
+</div>
+<!-- /.page-wrap -->
+
+<div class="modal__wrapper modal__wrapper--menu gone">
+  <div class="modal__content">
+    <div class="modal__inner container">
+      <div class="modal-menu__search">
+        <form class="modal--search__form" action="http://www.finecooking.com">
+          <fieldset class="embed-submit">
+          <div class="form__field">
+            <input class="embed-submit__textfield" type="text" placeholder="Search" name="s">
+          </div>
+            <div class="form__field">
+              <input class="embed-submit__submit" type="submit" value="Submit">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <!-- /__search -->
+      <div class="modal-menu">
+        <div class="modal-menu__nav">
+          <ul class="modal-menu__list">
+		        <li><a href="/recipes-menus">Recipes &amp; Menus</a></li>
+		        <li><a href="/how-to">How-To</a></li>
+		        <li><a href="/ingredients">Ingredients</a></li>
+		        <li><a href="/videos">Videos</a></li>
+		        <li><a href="/magazine">Magazine</a></li>
+		        <li><a href="/holidays">Holidays</a></li>
+		        <li><a href="/moveablefeast">Moveable Feast TV</a></li>
+            <li><a href="/magazine">Magazine</a></li>
+            <li><a href="/collections">Collections</a></li>
+          </ul>
+        </div>
+        <!-- /.__nav -->
+        <div class="modal-menu__actions">
+                                  <ul class="modal-menu__list">
+              <li><a class="disabled-for-beta" href="https://www.finecooking.com/user/login?ref=fc-nav">Sign Up</a></li>
+              <li><a class="disabled-for-beta" href="https://www.finecooking.com/user/login?return_url=http%3A%2F%2Fwww.finecooking.com%2Farticle%2Fbaking-brownies-just-right-cakey-chewy-or-fudgy-2">Log In</a></li>
+            </ul>
+                      
+          <div class="modal-menu__social">
+            <h3 class="modal-menu__social__heading">Follow</h3>
+            <ul class="modal-menu__social__list">
+              <li class="modal-menu__social__list-item" data-social-network="Twitter" data-social-action="follow" data-social-target="mobile-menu">
+                <a href="https://twitter.com/finecooking">
+                  <svg class="svg-social">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="modal-menu__social__list-item" data-social-network="Facebook" data-social-action="follow" data-social-target="mobile-menu">
+                <a href="https://www.facebook.com/FineCooking">
+                  <svg class="svg-social">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="modal-menu__social__list-item" data-social-network="Instagram" data-social-action="follow" data-social-target="mobile-menu">
+                <a href="https://www.instagram.com/finecookingmag/">
+                  <svg class="svg-social">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="modal-menu__social__list-item" data-social-network="Pinterest" data-social-action="follow" data-social-target="mobile-menu">
+                <a href="https://www.pinterest.com/finecooking/">
+                  <svg class="svg-social">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+                        <div class="modal-menu__magazine">
+          <img class="modal-menu__magazine__image" src="//s3.amazonaws.com/finecooking.s3.tauntonclud.com/260x338/app/uploads/2018/01/08133422/FC151-cover.jpg" alt="Magazine Cover">
+          <div class="modal-menu__magazine__copy">
+            <p class="modal-menu__magazine__blurb">Subscribe today and <span>save up to 44%</span></p>
+            <a class="modal-menu__magazine__button" href="https://subscribe.finecooking.com/magazine/theme/subscription/source/W10005FS">Subscribe</a>
+          </div>
+        </div>
+        
+              </div>
+      <!-- /.modal-menu -->
+    </div>
+    <!-- /.__inner -->
+  </div>
+  <!-- /.modal__content -->
+</div>
+<!-- /.modal__wrapper -->
+
+<div class="modal__wrapper modal__wrapper--alert gone">
+  <div class="modal__content">
+    <div class="modal__inner container">
+      <!-- Delete Recipe -->
+      <div class="delete-recipe">
+        <h1 class="delete-recipe__heading">Double Check</h1>
+        <p>Do you really want to delete the list, <span class="list-name"></span>?</p>
+        <div class="delete-recipe__actions">
+          <button class="delete-recipe__cancel">Cancel</button>
+          <button class="delete-recipe__delete" id="recipe_box_list_delete" data-recipe_list_id="">Delete</button>
+        </div>
+        <span><b>Note</b></span>
+        <p>This won't delete the recipes and articles you've saved, just the list.</p>
+      </div>
+    </div>
+    <!-- /.__inner -->
+  </div>
+  <!-- /.modal__content -->
+</div>
+<!-- /.modal__wrapper -->
+
+<div class="modal__wrapper modal__wrapper--logged-out gone">
+  <div class="modal__content">
+    <div class="modal__inner container">
+      <!-- Log In/Sign Up -->
+      <div class="login-signup">
+        <h1 class="login-signup__heading">
+          <svg class="svg-logo">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fc-logo"></use>
+          </svg>
+        </h1>
+        <h2 class="login-signup__requirement">You must be a registered user to access this feature.</h2>
+        <p class="login-signup__cta">Please log in or create a free account.</p>
+        <div class="login-signup__actions">
+          <a href="https://www.finecooking.com/user/login?return_url=http%3A%2F%2Fwww.finecooking.com%2Farticle%2Fbaking-brownies-just-right-cakey-chewy-or-fudgy-2" class="login-signup__login">Log In</a>
+          <a href="https://www.finecooking.com/user/login" class="login-signup__signup">Sign Up</a>
+        </div>
+        <span class="login-signup__close">
+          <svg class="icon-close">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+          </svg>
+        </span>
+      </div>
+    </div>
+    <!-- /.__inner -->
+  </div>
+  <!-- /.modal__content -->
+</div>
+<!-- /.modal__wrapper -->
+
+<div class="modal__wrapper modal__wrapper--beta gone">
+  <div class="modal__content">
+    <div class="modal__inner container">
+      <!-- Beta Alert -->
+      <div class="beta-alert">
+        <h1 class="beta-alert__heading">
+          <svg class="svg-logo">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fc-logo"></use>
+          </svg>
+        </h1>
+        <p>This feature has been temporarily disabled during the beta site preview.</p>
+        <button>Got it</button>
+        <span class="beta-alert__close">
+          <svg class="icon-close">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+          </svg>
+        </span>
+      </div>
+    </div>
+    <!-- /.__inner -->
+  </div>
+  <!-- /.modal__content -->
+</div>
+<!-- /.modal__wrapper -->
+<div class="modal__wrapper modal__wrapper--make-note gone">
+  <div class="modal__content">
+    <div class="modal__inner container">
+      <!-- Make a Recipe Note -->
+      <div class="make-note" data-post_id =55702>
+                  <p>Add/Edit a private note for this Article</p>
+              <span>This note is only visible to you.</span>
+        <form>
+          <fieldset>
+            <textarea class="make-note__note" name="recipe-note" id="recipe-note" ></textarea>
+            <div class="make-note__actions">
+              <input type="submit" class="make-note__submit" value="Save">
+              <button class="make-note__cancel">Cancel</button>
+            </div>
+          </fieldset>
+        </form>
+        <span class="make-note__close">
+          <svg class="icon-close">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+          </svg>
+        </span>
+      </div>
+    </div>
+    <!-- /.__inner -->
+  </div>
+  <!-- /.modal__content -->
+</div>
+<!-- /.modal__wrapper -->
+
+<div class="modal__wrapper modal__wrapper--delete-note gone">
+  <div class="modal__content">
+    <div class="modal__inner container">
+      <!-- Delete a Recipe Note -->
+      <div class="delete-note" data-post_id =55702>
+        <p>Double Check</p>
+        <span>Are you sure you want to delete your notes for this recipe?</span>
+        <form>
+          <fieldset>
+            <div class="delete-note__actions">
+              <button class="delete-note__cancel">Cancel</button>
+              <input type="submit" class="delete-note__submit" value="Delete">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <!-- /.__inner -->
+  </div>
+  <!-- /.modal__content -->
+</div>
+<!-- /.modal__wrapper -->
+
+<div class="modal__wrapper modal__wrapper--paywall gone">
+  <div class="modal__content">
+    <div class="modal__inner container">
+      <!-- Subscriber Paywall -->
+      <div class="paywall">
+        <h1 class="paywall__heading">
+        <a href="/">
+          <svg class="svg-logo">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fc-logo"></use>
+          </svg>
+        </a>
+        </h1>
+        <p class="paywall__blurb">You must be a magazine subscriber to access this feature.</p>
+        <div class="paywall__cta">
+          <div class="paywall__cta__image">
+            <img src="/app/themes/finecooking/dist/img/paywall-cover.jpg" alt="Fine Cooking Cover">
+          </div>
+          <div class="paywall__cta__copy">
+            <p class="paywall__cta__blurb">Subscribe today and <span>save up to 44%</span></p>
+            <a class="paywall__cta__button" href="https://subscribe.finecooking.com/servlet/OrdersGateway?cds_mag_code=FCG&cds_page_id=216268&cds_response_key=W50074FS&ref=fc-popup" target="_blank">Subscribe</a>
+            <p class="paywall__cta__learn-more">Or <a href="/fcsubscriberextras">learn more</a></p>
+          </div>
+        </div>
+        <!-- /__cta -->
+        <div class="paywall__actions">
+          <p class="paywall__actions__blurb">Already a subscriber?</p>
+          <a class="paywall__actions__button login" href="https://www.finecooking.com/user/login?return_url=http%3A%2F%2Fwww.finecooking.com%2Farticle%2Fbaking-brownies-just-right-cakey-chewy-or-fudgy-2">Log in</a>
+        </div>
+      </div>
+    </div>
+    <!-- /.__inner -->
+  </div>
+  <!-- /.modal__content -->
+</div>
+<!-- /.modal__wrapper -->
+
+<script>
+
+var recipe_engine = new Bloodhound({
+  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  remote: {
+      url: '/suggest/recipe.json?q=%QUERY',
+      wildcard: '%QUERY',
+      rateLimitWait : 500,
+      filter: function (recipes) {
+      if( recipes && recipes.error === "AccessDenied" ){
+        window.location = '/login';
+      }else{
+          return $.map(recipes, function (recipe) {
+               return {
+                  value: recipe.title, link: recipe.link
+                };
+            });
+        }
+      }
+  }
+});
+
+var post_engine = new Bloodhound({
+  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  remote: {
+      url: '/suggest/post.json?q=%QUERY',
+      wildcard: '%QUERY',
+      rateLimitWait : 500,
+      filter: function (posts) {
+      if( posts && posts.error === "AccessDenied" ){
+        window.location = '/login';
+      }else{
+          return $.map(posts, function (post) {
+               return {
+                  value: post.title, link: post.link
+                };
+            });
+        }
+      }
+  }
+});
+
+var menu_engine = new Bloodhound({
+  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  remote: {
+      url: '/suggest/menu.json?q=%QUERY',
+      wildcard: '%QUERY',
+      rateLimitWait : 500,
+      filter: function (menus) {
+      if( menus && menus.error === "AccessDenied" ){
+        window.location = '/login';
+      }else{
+
+          return $.map(menus, function (menu) {
+               return {
+                  value: menu.title, link: menu.link
+                };
+            });
+        }
+      }
+  }
+});
+
+
+
+recipe_engine.clear();
+recipe_engine.initialize();
+
+
+post_engine.clear();
+post_engine.initialize();
+
+menu_engine.clear();
+menu_engine.initialize();
+
+$modal_search_input = $(".modal--search__form").find('input[type=text].embed-submit__textfield');
+
+$modal_search_input.typeahead('destroy');
+
+$modal_search_input.typeahead(
+    {
+        highlight: true,
+        hint : false,
+      },
+      {
+        name: 'recipe',
+        limit: 20,
+        displayKey: 'value',
+        source: recipe_engine.ttAdapter(),
+        templates: {
+              header: '<h3 class="group-header">Recipes</h3>',
+          //empty: '<p class="empty">Nothing found</p>'
+        }
+    },
+    {
+          name: 'post',
+          limit : 20,
+          displayKey: 'value',
+          source: post_engine.ttAdapter(),
+          templates: {
+             header: '<h3 class="group-header">Articles</h3>',
+        //empty: '<p class="empty">Nothing found</p>'
+          }
+      },
+      {
+            name: 'menu',
+            limit : 20,
+            displayKey: 'value',
+            source: menu_engine.ttAdapter(),
+            templates: {
+              // header: '<h3 class="group-header">Menus</h3>',
+          // empty: '<p class="empty">Nothing found</p>',
+            }
+      }
+
+  ).on('typeahead:selected', function (obj, datum,src ) {
+
+     window.location = datum.link;
+
+  }).on('typeahead:closed', function (obj, datum, name) {
+
+	    $(obj.currentTarget).val("");
+
+  }).on('keyup', this, function (event) {
+
+      if (event.keyCode == 13) {
+    	  $modal_search_input.typeahead('close');
+      }
+
+  });
+</script>
+
+		
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+		$('#commentform').validate({
+		onfocusout: function(element) {
+		  this.element(element);
+		},
+		rules: {
+		  comment: {
+		    required: true,
+		    minlength: 1,
+		    normalizer: function(value) { return $.trim(value); }
+		  }
+		},
+		messages: {
+		  comment: "Please Fill Out this Field"
+		},
+		 
+		errorElement: "div",
+		errorPlacement: function(error, element) {
+		  element.before(error);
+		}
+		});
+		});
+		</script>
+		<link rel='stylesheet' id='acf-global-css'  href='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/assets/css/acf-global.css?ver=5.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='acf-input-css'  href='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/assets/css/acf-input.css?ver=5.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='acf-pro-input-css'  href='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/pro/assets/css/acf-pro-input.css?ver=5.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='acf-datepicker-css'  href='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/assets/inc/datepicker/jquery-ui.min.css?ver=1.11.4' type='text/css' media='all' />
+<link rel='stylesheet' id='acf-timepicker-css'  href='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.min.css?ver=1.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-color-picker-css'  href='http://www.finecooking.com/wp/wp-admin/css/color-picker.min.css?ver=4.9.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.finecooking.com/app/plugins/taunton-wp-recipebox/assets/js/recipe-box-favorites.js?ver=1.0.2'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/assets/js/acf-input.min.js?ver=5.6.9'></script>
+<script type='text/javascript' src='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.min.js?ver=5.6.9'></script>
+<script type='text/javascript' src='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.full.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/app/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.min.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.finecooking.com/wp/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2'></script>
+<script type='text/javascript' src='https://www.finecooking.com/wp/wp-admin/js/iris.min.js?ver=1.0.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpColorPickerL10n = {"clear":"Clear","defaultString":"Default","pick":"Select Color","current":"Current Color"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.finecooking.com/wp/wp-admin/js/color-picker.min.js?ver=4.9.4'></script>
+<script type="text/javascript">
+var acf = acf || null;
+if( acf ) {
+	
+	acf.o = {"screen":"comment","post_id":false,"nonce":"c6c579f9e3","admin_url":"https:\/\/www.finecooking.com\/wp\/wp-admin\/","ajaxurl":"https:\/\/www.finecooking.com\/wp\/wp-admin\/admin-ajax.php","ajax":0,"validation":1,"wp_version":"4.9.4","acf_version":"5.6.9","browser":"safari","locale":"en_US","rtl":false};
+	acf.l10n = {"unload":"The changes you made will be lost if you navigate away from this page","expand_details":"Expand Details","collapse_details":"Collapse Details","validation_successful":"Validation successful","validation_failed":"Validation failed","validation_failed_1":"1 field requires attention","validation_failed_2":"%d fields require attention","restricted":"Restricted","are_you_sure":"Are you sure?","yes":"Yes","no":"No","remove":"Remove","cancel":"Cancel","media":{"select":"Select","edit":"Edit","update":"Update","uploadedTo":"Uploaded to this post","default_icon":"http:\/\/www.finecooking.com\/wp\/wp-includes\/images\/media\/default.png"},"image":{"select":"Select Image","edit":"Edit Image","update":"Update Image","uploadedTo":"Uploaded to this post","all":"All images"},"file":{"select":"Select File","edit":"Edit File","update":"Update File","uploadedTo":"Uploaded to this post"},"select":{"matches_1":"One result is available, press enter to select it.","matches_n":"%d results are available, use up and down arrow keys to navigate.","matches_0":"No matches found","input_too_short_1":"Please enter 1 or more characters","input_too_short_n":"Please enter %d or more characters","input_too_long_1":"Please delete 1 character","input_too_long_n":"Please delete %d characters","selection_too_long_1":"You can only select 1 item","selection_too_long_n":"You can only select %d items","load_more":"Loading more results&hellip;","searching":"Searching&hellip;","load_fail":"Loading failed"},"relationship":{"min":"Minimum values reached ( {min} values )","max":"Maximum values reached ( {max} values )","loading":"Loading","empty":"No matches found"},"google_map":{"locating":"Locating","browser_support":"Sorry, this browser does not support geolocation"},"date_picker":{"closeText":"Done","currentText":"Today","nextText":"Next","prevText":"Prev","weekHeader":"Wk","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesMin":["S","M","T","W","T","F","S"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"date_time_picker":{"timeOnlyTitle":"Choose Time","timeText":"Time","hourText":"Hour","minuteText":"Minute","secondText":"Second","millisecText":"Millisecond","microsecText":"Microsecond","timezoneText":"Time Zone","currentText":"Now","closeText":"Done","selectText":"Select","amNames":["AM","A"],"pmNames":["PM","P"]},"repeater":{"min":"Minimum rows reached ({min} rows)","max":"Maximum rows reached ({max} rows)"},"flexible_content":{"layout":"layout","layouts":"layouts","remove":"remove {layout}?","min":"This field requires at least {min} {identifier}","max":"This field has a limit of {max} {identifier}","min_layout":"This field requires at least {min} {label} {identifier}","max_layout":"Maximum {label} limit reached ({max} {identifier})","available":"{available} {label} {identifier} available (max {max})","required":"{required} {label} {identifier} required (min {min})","layout_warning":"Flexible Content requires at least 1 layout"},"gallery":{"select":"Add Image to Gallery","edit":"Edit Image","update":"Update Image","uploadedTo":"Uploaded to this post","max":"Maximum selection reached"}};
+	
+}
+</script>
+<script type="text/javascript">
+	if( acf ) acf.media.mime_types = {"jpg|jpeg|jpe":"image\/jpeg","gif":"image\/gif","png":"image\/png","bmp":"image\/bmp","tiff|tif":"image\/tiff","ico":"image\/x-icon","asf|asx":"video\/x-ms-asf","wmv":"video\/x-ms-wmv","wmx":"video\/x-ms-wmx","wm":"video\/x-ms-wm","avi":"video\/avi","divx":"video\/divx","flv":"video\/x-flv","mov|qt":"video\/quicktime","mpeg|mpg|mpe":"video\/mpeg","mp4|m4v":"video\/mp4","ogv":"video\/ogg","webm":"video\/webm","mkv":"video\/x-matroska","3gp|3gpp":"video\/3gpp","3g2|3gp2":"video\/3gpp2","txt|asc|c|cc|h|srt":"text\/plain","csv":"text\/csv","tsv":"text\/tab-separated-values","ics":"text\/calendar","rtx":"text\/richtext","css":"text\/css","vtt":"text\/vtt","dfxp":"application\/ttaf+xml","mp3|m4a|m4b":"audio\/mpeg","ra|ram":"audio\/x-realaudio","wav":"audio\/wav","ogg|oga":"audio\/ogg","flac":"audio\/flac","mid|midi":"audio\/midi","wma":"audio\/x-ms-wma","wax":"audio\/x-ms-wax","mka":"audio\/x-matroska","rtf":"application\/rtf","pdf":"application\/pdf","class":"application\/java","tar":"application\/x-tar","zip":"application\/zip","gz|gzip":"application\/x-gzip","rar":"application\/rar","7z":"application\/x-7z-compressed","psd":"application\/octet-stream","xcf":"application\/octet-stream","doc":"application\/msword","pot|pps|ppt":"application\/vnd.ms-powerpoint","wri":"application\/vnd.ms-write","xla|xls|xlt|xlw":"application\/vnd.ms-excel","mdb":"application\/vnd.ms-access","mpp":"application\/vnd.ms-project","docx":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","docm":"application\/vnd.ms-word.document.macroEnabled.12","dotx":"application\/vnd.openxmlformats-officedocument.wordprocessingml.template","dotm":"application\/vnd.ms-word.template.macroEnabled.12","xlsx":"application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet","xlsm":"application\/vnd.ms-excel.sheet.macroEnabled.12","xlsb":"application\/vnd.ms-excel.sheet.binary.macroEnabled.12","xltx":"application\/vnd.openxmlformats-officedocument.spreadsheetml.template","xltm":"application\/vnd.ms-excel.template.macroEnabled.12","xlam":"application\/vnd.ms-excel.addin.macroEnabled.12","pptx":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","pptm":"application\/vnd.ms-powerpoint.presentation.macroEnabled.12","ppsx":"application\/vnd.openxmlformats-officedocument.presentationml.slideshow","ppsm":"application\/vnd.ms-powerpoint.slideshow.macroEnabled.12","potx":"application\/vnd.openxmlformats-officedocument.presentationml.template","potm":"application\/vnd.ms-powerpoint.template.macroEnabled.12","ppam":"application\/vnd.ms-powerpoint.addin.macroEnabled.12","sldx":"application\/vnd.openxmlformats-officedocument.presentationml.slide","sldm":"application\/vnd.ms-powerpoint.slide.macroEnabled.12","onetoc|onetoc2|onetmp|onepkg":"application\/onenote","oxps":"application\/oxps","xps":"application\/vnd.ms-xpsdocument","odt":"application\/vnd.oasis.opendocument.text","odp":"application\/vnd.oasis.opendocument.presentation","ods":"application\/vnd.oasis.opendocument.spreadsheet","odg":"application\/vnd.oasis.opendocument.graphics","odc":"application\/vnd.oasis.opendocument.chart","odb":"application\/vnd.oasis.opendocument.database","odf":"application\/vnd.oasis.opendocument.formula","wp|wpd":"application\/wordperfect","key":"application\/vnd.apple.keynote","numbers":"application\/vnd.apple.numbers","pages":"application\/vnd.apple.pages"};
+</script>
+<script type="text/javascript">
+	if( acf ) acf.tinymce.toolbars = {"full":{"1":"formatselect,bold,italic,blockquote,bullist,numlist,alignleft,aligncenter,alignright,link,unlink,undo,redo,spellchecker","2":"fontselect,fontsizeselect,outdent,indent,pastetext,removeformat,charmap,wp_more,forecolor,table,wp_help","3":"","4":""},"basic":{"1":"bold,italic,underline,blockquote,strikethrough,bullist,numlist,alignleft,aligncenter,alignright,undo,redo,link,unlink,fullscreen"}};
+</script>
+<script type="text/javascript">
+	if( acf ) acf.fields.google_map.url = 'https://maps.googleapis.com/maps/api/js?libraries=places&ver=3&callback';
+</script>
+<script type="text/javascript">
+	if( acf ) acf.do_action('prepare');
+</script>
+
+<!-- HTML Templates -->
+<!-- Article Share Buttons -->
+<script type="text/template" id="article-share-template">
+  <li class="article__actions__social__list-item" data-social-network="Facebook" data-social-action="share">
+    <a class="article__actions__social__facebook" href="https://www.facebook.com/sharer.php?u=<%= url %>" target="_blank">
+      <svg class="svg-social">
+        <use xlink:href="#facebook" />
+      </svg>
+    </a>
+  </li>
+  <li class="article__actions__social__list-item" data-social-network="Twitter" data-social-action="share">
+    <a class="article__actions__social__twitter" href="https://twitter.com/intent/tweet?url=<%= url %>&text=<%= title %>&via=finecooking" target="_blank">
+      <svg class="svg-social">
+        <use xlink:href="#twitter" />
+      </svg>
+    </a>
+  </li>
+
+
+  <li class="article__actions__social__list-item" data-social-network="Pinterest" data-social-action="share">
+    <a class="article__actions__social__pinterest" href="http://www.pinterest.com/pin/create/button/?url=<%= url %>&description=<%= title %>&media=<%= image %>" target="_blank">
+      <svg class="svg-social">
+        <use xlink:href="#pinterest" />
+      </svg>
+    </a>
+  </li>
+  <li class="article__actions__social__list-item" data-social-network="Email" data-social-action="share">
+    <a class="article__actions__social__email" href="mailto:?subject=<%= title %>&body=<%= url %>" target="_blank">
+      <svg class="svg-social">
+        <use xlink:href="#email" />
+      </svg>
+    </a>
+  </li>
+  <!-- <li class="article__actions__social__list-item" data-social-network="Linkedin" data-social-action="share">
+    <a class="article__actions__social__linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=<%= url %>&title=<%= title %>" target="_blank">
+      <svg class="svg-social">
+        <use xlink:href="#linkedin" />
+      </svg>
+    </a>
+  </li> -->
+  <!-- <li class="item-favorite">
+    <a class="item__link favorite" href="#0" data-favorite_saved="<%= FC.user.favorite %>" data-auth_status="<%= FC.user.authStatus %>" data-post_id="<%= FC.page.contentID %>">
+      <svg class="svg-icon">
+        <use xlink:href="#star-1" />
+      </svg>
+    </a>
+    <span class="item-favorite__save  item-favorite__action">Save to your <a href="/user/favorites">favorites</a></span>
+    <span class="item-favorite__confirmation item-favorite__action">Saved to your <a href="/user/favorites">favorites</a></span>
+    <span class="item-favorite__loggedout item-favorite__action"><a href="https://www.finecooking.com/user/login?return_url=http%3A%2F%2Fwww.finecooking.com%2Farticle%2Fbaking-brownies-just-right-cakey-chewy-or-fudgy-2">Log in</a> or <a href="https://www.finecooking.com/user/login">Sign up</a> to save your favorite articles</span>
+  </li> -->
+</script>
+<!-- /Article Share Buttons -->
+
+<!-- Content Browser -->
+<script type="text/template" id="content-browser-template">
+  <p class="content-browser__results__empty">No results found.</p>
+  <ul class="content-browser__results">
+    <% _.each( items, function( item ){ %>
+      <li class="content-browser__results__list-item">
+        <div class="content-browser__results__block">
+          <a class="content-browser__linked-image" href="<%= item.link %>">
+            <img src="<%= item.img %>" />
+            <% if (item.video) { %>
+            <svg class="video-overlay">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-play"></use>
+            </svg>
+            <% } %>
+          </a>
+          <% if (item.premium) { %>
+          <span class="non-member__tag"></span>
+          <% } %>
+		 <% if (item.label) { %>
+          <span class="article-list__taxonomy"><%= item.label %></span>
+          <% } %>
+          <h2 class="content-browser__title">
+            <a href="<%= item.link %>"><%= item.title %></a>
+          </h2>
+           <% if (item.author_byline) { %>
+          <span class="content-browser__author">By <%= item.author_byline %></span>
+ 		   <% } %>
+        </div>
+        <!-- /__block -->
+      </li>
+    <% }); %>
+  </ul>
+<div class="content-browser__results__pagination">
+  <% if ( typeof pagination !== "undefined" ) { %>
+    <%= pagination %>
+  <% } %>
+</div>
+</script>
+<!-- /Content Browser -->
+<script type="text/template" id="favorites-table-template">
+  <% _.each( items, function( item ){ %>
+  <tr>
+    <td class="favorites__table__cell"><a href="<%= item.link %>"><%= item.title %></a></td>
+    <td class="favorites__table__cell"><span class="favorites__table__cell--date"><%= item.date %></span></td>
+  </tr>
+  <% }); %>
+</script>
+
+<!-- Interstitial -->
+<div id="gpt-ad-oop">
+<div class="dfp-ad interstitial-ad" data-dfp-id="dfp-interstitial"><div class="inner container"><div id="dfp-interstitial"></div></div></div></div>
+
+<!-- Top Promo Ad -->
+
+<!-- Skin Ad -->
+<div id="siteskin-wrap">
+  <div id="siteskin-container">
+  <div class="dfp-ad skin-ad" data-dfp-id="dfp-skin"><div class="inner container"><div id="dfp-skin"></div></div></div>  </div>
+</div>
+
+<!-- Quantcast -->
+<script>
+  _qevents.push( { qacct:"p-d07fgYEfZvje6"} );
+</script>
+<noscript>
+  <div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-d07fgYEfZvje6.gif" height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+
+<script>
+(function() {
+var d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('script'),sc = 'https:' == document.location.protocol ? 'https://' : 'http://';
+s.type='text/javascript';
+s.async=true;
+s.src=sc+'s.dpmsrv.com/dpm_b888b29826bb53dc531437e723738383d8339b56.min.js';
+h.appendChild(s);
+})();
+</script>
+
+<!-- Survey Gizmo embed code -->
+<script type="text/javascript">
+(function(d,e,j,h,f,c,b){d.SurveyGizmoBeacon=f;d[f]=d[f]||function()
+{(d[f].q=d[f].q||[]).push(arguments)}
+;c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,'script','//d2bnxibecyz4h5.cloudfront.net/runtimejs/intercept/intercept.js','sg_beacon');
+sg_beacon('init','MjA3NzA2LTViNzJjMzBmNTA5ZWFiMmE2NGY1Y2YwYTdiZjM4YjEzYTM5NGMwNWUxNzY2MDBmMzhm');
+</script>
+
+
+<!--Experian Marketing Suite -->
+<!-- ECCMP SDK Code  - WebEvents Add to Bottom of All Pages like Google Analytics -->
+<!-- If JQUERY is defined on page will use that otherwise makes call to Latest version -->
+<!-- Sets Cookie for traffic coming from emails to site saving TP (Tracking Param) value -->
+<!-- tp={(TrackingParams)} should be added to append Tracking in platform -->
+<script type="text/javascript">
+//Conversen SDK
+window.cnvAsyncInit = function () {
+	Cnv.init({
+		custId: '694',
+		entityId: '112',
+		restLink: 'sts.eccmp.com',
+		enableFacebook: false,
+		enableSocialEvents: false
+	});
+};
+(function () {
+	var cnv = document.createElement('script');
+	cnv.async = true;
+	var cnvJsHost = (("https:" == document.location.protocol) ? "https://sts.eccmp.com" : "http://sts.eccmp.com");
+	cnv.src = cnvJsHost + '/sts/scripts/conversen-SDK.js';
+	document.getElementsByTagName('body')[0].appendChild(cnv);
+}());
+</script>
+
+<!-- Google Code for Remarketing Tag -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 874806146;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/874806146/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1821171921486206');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1 width=1" src="https://www.facebook.com/tr?id=1821171921486206&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 1942/116 objects using memcached
+Page Caching using disk 
+
+Served from: www.finecooking.com @ 2018-03-18 19:08:03 by W3 Total Cache
+-->

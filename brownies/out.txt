@@ -1,0 +1,42 @@
+https://www.bettycrocker.com/recipes/dishes/brownie-recipes	
+ gid=b781d21442312b82
+ continue=true
+http://www.instructables.com/id/Brownie-Recipe/	
+ gid=f7cfba6e38fd90b7
+ continue=true
+http://www.foodandwine.com/desserts/brownies	
+ gid=8584c2dcb9cea246
+ continue=true
+https://www.yummly.com/recipes/brownies	
+ gid=09cf0c60063969d3
+ continue=true
+https://www.ghirardelli.com/recipes-by-category	
+ gid=34d75dae25152af2
+ continue=true
+http://www.oprah.com/food/the-best-chocolate-brownie-recipes/all	
+ gid=cac170efce47c906
+ continue=true
+https://www.landolakes.com/recipe/20584/ultimate-fudgy-brownies/	
+ gid=9380f97739aabfd3
+ continue=true
+http://mycaliforniaroots.com/the-ultimate-easy-vegan-brownies-recipe/	
+ gid=adbbf121688c205f
+ continue=true
+http://www.oprah.com/food/slow-cooker-brownies--slow-cooker-brownie-recipe	
+ gid=9f018080767af749
+ continue=true
+https://www.williams-sonoma.com/recipe/brownies.html	
+ gid=fd5477a78903f1e8
+ continue=true
+http://www.goodhousekeeping.com/food-recipes/a7665/cocoa-brownies/	
+ gid=6b358bd45fd8da99
+ continue=true
+https://www.foodfanatic.com/recipes/paleo-sweet-potato-brownies-recipe/	
+ gid=314a66ffc52e214d
+ continue=true
+http://the420times.com/2013/06/recipe-simple-and-effective-weed-brownies/	
+ gid=3428d6df909dd61b
+ continue=true
+http://the420times.com/2010/01/top-3-pot-brownie-recipes/	
+ gid=387162d567f1319d
+ continue=true

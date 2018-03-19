@@ -1,0 +1,2163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6a6c870add","applicationID":"179693","transactionName":"cg5XEhZeVAkGQR5KBlIISQMXHksNDEQ=","queueTime":0,"applicationTime":851,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UA4HV1VACQQJUlhR"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+  <title>Easy Brownies Recipe - Chowhound</title>
+  <meta name="description" content="This easy brownie recipe uses no fancy equipment or ingredients, takes only 20 minutes to put together, and makes a delicious brownie sundae.">
+  <meta name="author" content="Chowhound">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta property='fb:app_id' content='177874162887'>
+      <meta property='og:site_name' content='Chowhound'>
+      <meta property='og:title' content='Easy Brownies Recipe' />
+      <meta property='og:description' content='This easy brownie recipe uses no fancy equipment or ingredients, takes only 20 minutes to put together, and makes a delicious brownie sundae.' />
+      <meta property='og:url' content='https://www.chowhound.com/recipes/easy-brownies-30376'>
+      <meta property='og:type' content='food'>
+      <meta property='og:image' content='https://search.chow.com/thumbnail/1280/800/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg' />
+      <meta property='og:image:type' content='image/jpeg' />
+      <meta property='og:image:width' content='1280' />
+      <meta property='og:image:height' content='800' />
+
+      <script>
+         var cbsiAdGlobal = {};
+         var chowRecipeVideo = {};
+         var sharethrough_key = '54ee49f3';
+        chowRecipeVideo.videoPlayer = function() {};
+    </script>
+
+  
+<meta name='twitter:card' content='summary_large_image' />
+<meta name='twitter:site' content='@chow' />
+<meta name='twitter:creator' content='@chow' />
+<meta name='twitter:title' content='Easy Brownies Recipe' />
+<meta name='twitter:description' content='This easy brownie recipe uses no fancy equipment or ingredients, takes only 20 minutes to put together, and makes a delicious brownie sundae.' />
+<meta name='twitter:image' content='https://search.chow.com/thumbnail/1280/800/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg' />
+
+    <link rel="amphtml" href="https://www.chowhound.com/recipes/easy-brownies-30376/amp" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Recipe",
+    "mainEntityOfPage": "https://www.chowhound.com/recipes/easy-brownies-30376",
+    "name": "Easy Brownies",
+    "image": {
+      "@type": "ImageObject",
+        "url": "https://www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg"
+    },
+    "author": {
+      "@type":"Person",
+      "name":"Christine Gallary"
+    },
+    "datePublished": "Jun  6, 2012 01:20 PM",
+    "dateModified": "Sep 10, 2017 11:19 AM",
+    "description": "This easy brownie recipe uses no fancy equipment or ingredients, takes only 20 minutes to put together, and makes a delicious brownie sundae.",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.0",
+      "reviewCount": "16"
+    },
+    "video": {
+      "@type": "VideoObject",
+      "description": "This easy brownie recipe uses no fancy equipment or ingredients, takes only 20 minutes to put together, and makes a delicious brownie sundae.",
+      "duration": "PT0H02M50S",
+      "name": "Easy Brownies",
+      "uploadDate": "2012-06-06T13:20:00-07:00",
+      "embedURL": "https://www.chowhound.com/videos/117005/player",
+      "thumbnailUrl": "https://search.chow.com/thumbnail/1280/800/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg"
+    },
+    "prepTime": "PT0H20M",
+    "totalTime": "PT1H15M",
+    "recipeYield": "16 brownies",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": 188
+      },
+    "recipeIngredient": ["6 ounces bittersweet chocolate chips (about 1 cup) or coarsely chopped bittersweet chocolate","8 tablespoons unsalted butter (1 stick), cut into 8 pieces","2 large eggs, at room temperature","1 cup granulated sugar","1 teaspoon vanilla extract","1/2 teaspoon baking powder","1/4 teaspoon fine salt","1 cup all-purpose flour"],
+    "recipeInstructions": "Heat the oven to 350°F and arrange a rack in the middle. Line an 8-by-8-inch metal baking pan with aluminum foil. Combine the chocolate and butter in a medium saucepan and cook over low heat, stirring frequently, until melted and smooth. Remove from the heat and let cool slightly, about 5 minutes. (Alternatively, melt the chocolate and butter in the microwave, stirring every 30 seconds.) Combine the eggs, sugar, vanilla, baking powder, and salt in a large bowl and stir with a rubber spatula until just evenly incorporated. Add the chocolate mixture and stir until evenly combined. Add the flour and fold in until just incorporated, about 20 strokes (no white streaks should remain). Pour the batter into the prepared pan, push it to the edges in an even layer, and smooth the top. Bake until a cake tester or skewer inserted into the center comes out clean, about 25 minutes. Remove to a wire rack and let the brownies cool for at least 20 minutes. To remove the brownies, grip the excess foil and pull it out of the baking pan. Transfer to a cutting board and cut the brownies into 2-inch squares.",
+    "recipeCategory": ["Dessert","Brunch","Lunch","Snack"],
+    "recipeCuisine": ["Comfort Food"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Chowhound",
+      "url": "https://www.chowhound.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.chowhound.com/s/touch-icon-180x180.png",
+        "width": 180,
+        "height": 180
+      }
+    }
+  }
+</script>
+
+
+
+  <link rel="shortcut icon" href="https://www.chowstatic.com/s/favicon-303daa1f570649b1917f7a06594ba02a.ico?v=2" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://www.chowstatic.com/s/touch-icon-76x76-b8730b86f99c210c40a3d968ad37bd31.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://www.chowstatic.com/s/touch-icon-120x120-d2c9ee4b10030243e91d440c3f232601.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://www.chowstatic.com/s/touch-icon-152x152-2d078d8f88793ec16844b88b976d14a6.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.chowstatic.com/s/touch-icon-180x180-3250f549455fa59a6eab85c68dca414b.png">
+  <link href="https://www.chowstatic.com/s/touch-icon-76x76-b8730b86f99c210c40a3d968ad37bd31.png" rel="icon" sizes="76x76" />
+  <link href="https://www.chowstatic.com/s/touch-icon-120x120-d2c9ee4b10030243e91d440c3f232601.png" rel="icon" sizes="120x120" />
+  <link href="https://www.chowstatic.com/s/touch-icon-152x152-2d078d8f88793ec16844b88b976d14a6.png" rel="icon" sizes="152x152" />
+  <link href="https://www.chowstatic.com/s/touch-icon-180x180-3250f549455fa59a6eab85c68dca414b.png" rel="icon" sizes="180x180" />
+  <link rel="apple-touch-icon-precomposed" href="https://www.chowstatic.com/s/apple-touch-icon-precomposed-0a022dd067dedc62bfd4e26e158b47bc.png">
+  <link rel="canonical" href="https://www.chowhound.com/recipes/easy-brownies-30376"/>
+  
+  
+
+  <link rel="stylesheet" media="screen" href="https://www.chowstatic.com/s/freyja/ch_recipes-d7d268204ac1cd5ca24d13c5ef2f1041.css" />
+
+
+  <script type="text/javascript">
+    window._taboola = window._taboola || [];
+    _taboola.push({other:'auto'});
+    // !function (e, f, u) {
+    //   e.async = 1;
+    //   e.src = u;
+    //   f.parentNode.insertBefore(e, f);
+    // }(document.createElement('script'),
+    // document.getElementsByTagName('script')[0],
+    // '//cdn.taboola.com/libtrc/cbsinteractive-chowhound/loader.js');
+  </script>
+
+
+<script>
+
+// for testing instart:
+//    window.I11C = {};
+//    window.I11C.Morph = 1;
+</script>
+
+
+  <style id="antiClickjack">body{display:none !important;}</style>
+<script type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+</script>
+
+  <style>.async-hide { opacity: 0 !important} </style>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-8105127-1', 'auto');
+    ga('require', 'GTM-T6985QS');
+    (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-T6985QS':true});
+  </script>
+
+</head>
+<body id="" class="debates_show recipes_show recipes is_desktop no_touch" itemscope="itemscope" itemtype="http://schema.org/Recipe">
+<div id='fb-root'></div>
+
+
+
+<script>
+  var search_txt = "entire site";
+</script>
+
+<div class="freyja_overlay close_freyja_login" style="display:none"></div>
+    <div id="nav-ad"></div>
+    <div id="flex_nav"></div>
+
+
+
+
+
+
+
+      
+
+
+        <div id="fr_eye_nav">
+          <div class="fr_ebrow">
+
+
+              <div class="fr_eb_eb fr_eb_elm">
+                <div class="fr_eb_hid">
+
+                  <div class="fr_nav_track" data-track="eyebrow">
+                    <span><strong>New! Chowhound Cities:</strong> Satisfy your curiosity and your palate.</span>
+                    <a class="pop" href="https://www.chowhound.com/cities"><span>Explore Cities</span></a>
+                  </div>
+
+                </div>
+              </div>
+
+          <a href class="fr_eb_close"><span>+</span></a>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--CHOW desktop nav-->
+
+
+
+<!--NEW NAV-->
+
+<div class="sticky-wrapper is-st">
+
+
+
+
+  <nav id="freyja_top_nav" class="fr_navi freyja_desknav ch_dk_nav  ch_dk_flip">
+
+<div class="chlogosw fr_nav_track" data-track="home">
+
+<span class="act_submenu act_submenu_logo" style="height:auto;position:relative"><a href="https://www.chowhound.com/" class="ch_logo" title="Chowhound.com">
+
+      <svg width="48px" class="ch_svg_logo_round" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs></defs>
+          <g id="nav-shorter-1-city" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-40.000000, -16.000000)">
+              <g id="Group-3" transform="translate(40.000000, 16.000000)">
+                  <rect id="Rectangle-2" x="0" y="0" width="48" height="48"></rect>
+                  <circle id="Oval" stroke="#FF7B62" stroke-width="4" cx="24" cy="24" r="22"></circle>
+                  <g id="Group-2" transform="translate(9.000000, 15.000000)" fill="#FF7B62">
+                      <path d="M7.33158355,16.4516129 C2.81714786,16.4516129 0,14.0976872 0,9.80371272 C0,4.37157638 3.40332458,0 8.53893263,0 C11.0673666,0 12.4934383,1.06918239 13.0446194,2.20734429 L14.2519685,0.353519984 L16.8766404,0.353519984 L15.1881015,6.62203287 L11.312336,6.62203287 C11.7410324,4.68198418 11.1898513,3.27652668 9.28258968,3.27652668 C7.45406824,3.27652668 6.36920385,4.60438223 5.57305337,7.40667478 C5.25809274,8.50172449 5.01312336,9.7088659 5.01312336,10.6314668 C5.01312336,12.4163116 5.90551181,13.2958004 7.62029746,13.2958004 C9.33508311,13.2958004 10.1749781,12.3473321 10.9448819,10.2520795 L14.5406824,11.2781497 C13.6045494,14.8133496 10.9273841,16.4516129 7.33158355,16.4516129 Z M24.1207349,0.0517346318 L22.2834646,6.52718604 C23.4383202,4.96652465 24.9168854,4.1301481 26.7979003,4.1301481 C28.6264217,4.1301481 30,5.06137147 30,6.71687969 C30,8.59657131 28.1714786,12.2955975 28.1714786,13.2958004 C28.1714786,13.701055 28.3814523,13.839014 28.6964129,13.839014 C28.9151356,13.839014 29.1338583,13.7959018 29.3525809,13.7182999 L28.7226597,16.1153378 C27.8827647,16.3567661 26.9903762,16.4516129 26.1417323,16.4516129 C24.2607174,16.4516129 23.2020997,15.8307973 23.2020997,14.0804423 C23.2020997,12.5111584 24.9343832,8.9069791 24.9343832,7.88090891 C24.9343832,7.38080747 24.6019248,7.12213431 24.0944882,7.12213431 C22.4496938,7.12213431 21.2248469,10.398661 19.6587927,16.1153378 L15.0306212,16.1153378 L18.4514436,3.68178129 C18.6439195,2.9919862 18.5739283,2.80229255 18.2064742,2.80229255 L17.4103237,2.80229255 L18.0664917,0.353519984 L21.032371,0.353519984 C22.335958,0.353519984 23.4645669,0.215560966 24.1207349,0.0517346318 Z" id="Combined-Shape-Copy-7"></path>
+                  </g>
+              </g>
+          </g>
+      </svg>
+
+
+      <svg width="701px" class="ch_svg_logo_full" height="84px" viewBox="0 0 701 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="ch-logo" fill="#FF7b62">
+                  <path d="M37.5,83.8 C55.5,83.8 68.9,75.5 73.6,57.5 L55.6,52.3 C51.7,63 47.5,67.8 39,67.8 C30.4,67.8 26,63.3 26,54.3 C26,49.6 27.2,43.5 28.8,37.9 C32.8,23.7 38.2,16.9 47.4,16.9 C56.9,16.9 59.7,24 57.5,33.9 L76.9,33.9 L85.3,2.1 L72.1,2.1 L66.1,11.5 C63.3,5.7 56.2,0.3 43.5,0.3 C17.8,0.3 0.8,22.5 0.8,50 C0.9,71.9 15,83.8 37.5,83.8 Z M121.5,0.6 C118.2,1.4 112.6,2.2 106.1,2.2 L91.2,2.2 L87.9,14.6 L91.9,14.6 C93.7,14.6 94.1,15.6 93.1,19.1 L76,82.1 L99.2,82.1 C107,53.1 113.2,36.5 121.4,36.5 C123.9,36.5 125.6,37.8 125.6,40.4 C125.6,45.6 116.9,63.9 116.9,71.8 C116.9,80.7 122.2,83.8 131.6,83.8 C135.8,83.8 140.3,83.3 144.5,82.1 L147.6,69.9 C146.5,70.3 145.4,70.5 144.3,70.5 C142.7,70.5 141.6,69.8 141.6,67.7 C141.6,62.6 150.8,43.9 150.8,34.3 C150.8,25.9 143.9,21.2 134.8,21.2 C125.4,21.2 118,25.4 112.3,33.4 L121.5,0.6 Z M182,70.3 C176.7,70.3 174.3,67.2 174.3,62.6 C174.3,55.5 179,34.9 188.3,34.9 C193.4,34.9 195.9,38 195.9,42.5 C195.9,49.5 191.3,70.3 182,70.3 Z M182.9,83.8 C203,83.8 217.9,68.5 217.9,48.5 C217.9,30.7 205,21.3 186.9,21.3 C166.6,21.3 152.4,36.1 152.4,56 C152.3,73.9 164.9,83.8 182.9,83.8 Z M287.8,68.7 C283.9,68.7 282.3,67.1 282.3,64.5 C282.3,61.5 283.7,56.7 285.3,51.6 L293.4,22.9 L270,22.9 L262.5,49.6 C260,58.5 255.1,68.6 248.8,68.6 C246.1,68.6 244.3,67.2 244.3,64.5 C244.3,62 245.5,57.8 246.6,53.8 L255.9,21.4 C252.6,22.2 245.2,22.8 238.7,22.8 L225.3,22.8 L222,35.2 L226.6,35.2 C228.4,35.2 228.5,37.8 227.9,39.7 L222.6,56.6 C220.9,61.9 219.3,66.5 219.3,70.7 C219.3,79 226.2,83.7 235.3,83.7 C245.8,83.7 255,79 261.6,69.6 L261.6,70.1 C261.6,77 266.2,83.7 279,83.7 C306.1,83.7 323.3,56 323.3,35.9 C323.3,26.9 318.1,21.2 309.8,21.2 C302.2,21.2 296.8,26.5 296.8,34.8 C296.8,41.7 300.7,45.4 306.3,46.6 C301.5,60.9 295.6,68.7 287.8,68.7 Z M365.1,0.6 C361.8,1.4 356.2,2.2 349.7,2.2 L334.9,2.2 L331.6,14.6 L335.6,14.6 C337.4,14.6 337.8,15.6 336.8,19.1 L319.7,82.2 L342.9,82.2 C350.7,53.2 356.9,36.6 365.1,36.6 C367.6,36.6 369.3,37.9 369.3,40.5 C369.3,45.7 360.6,64 360.6,71.9 C360.6,80.8 365.9,83.9 375.3,83.9 C379.5,83.9 384,83.4 388.2,82.2 L391.3,70 C390.2,70.4 389.1,70.6 388,70.6 C386.4,70.6 385.3,69.9 385.3,67.8 C385.3,62.7 394.5,44 394.5,34.4 C394.5,26 387.6,21.3 378.5,21.3 C369.1,21.3 361.7,25.5 355.9,33.5 L365.1,0.6 Z M428.1,70.3 C422.8,70.3 420.4,67.2 420.4,62.6 C420.4,55.5 425.1,34.9 434.4,34.9 C439.5,34.9 442,38 442,42.5 C441.9,49.5 437.3,70.3 428.1,70.3 Z M428.9,83.8 C449,83.8 463.9,68.5 463.9,48.5 C463.9,30.7 451,21.3 432.9,21.3 C412.6,21.3 398.4,36.1 398.4,56 C398.4,73.9 410.9,83.8 428.9,83.8 Z M506.7,71.7 C506.7,79.5 512,83.7 521.7,83.7 C526.2,83.7 529.9,83 534,82 L537,70 C536,70.2 534.8,70.5 533.9,70.5 C532.2,70.5 531,69.9 531,67.6 C531,66.2 531.7,63.9 532.7,61.1 L543.1,21.5 C540.1,22.3 535.3,22.9 529.5,22.9 L519.4,22.9 C511.4,52.8 505.5,68.7 497.3,68.7 C494.5,68.7 492.8,67.3 492.8,64.6 C492.8,62.1 494,57.9 495.1,53.9 L504.4,21.5 C501.1,22.3 493.7,22.9 487.2,22.9 L473.8,22.9 L470.5,35.3 L475.1,35.3 C476.9,35.3 477,37.9 476.4,39.8 L471.1,56.7 C469.4,62 467.8,66.6 467.8,70.8 C467.8,79.1 474.7,83.8 483.8,83.8 C493.4,83.8 500.9,79.5 506.8,71.2 C506.7,71.4 506.7,71.7 506.7,71.7 Z M581.8,21.5 C578.5,22.3 573,22.9 566.5,22.9 L551.7,22.9 L548.4,35.3 L553.1,35.3 C554.9,35.3 555.3,36.4 554.4,39.8 L542.8,82.1 L566,82.1 C573.7,53.1 579.9,36.5 588.1,36.5 C590.6,36.5 592.3,37.8 592.3,40.4 C592.3,45.6 583.6,63.9 583.6,71.8 C583.6,80.7 588.9,83.8 598.3,83.8 C602.5,83.8 607,83.3 611.1,82.1 L614.2,69.9 C613.1,70.3 612.2,70.5 611.1,70.5 C609.4,70.5 608.4,69.8 608.4,67.7 C608.4,62.6 617.7,43.9 617.7,34.3 C617.7,25.9 610.8,21.2 601.7,21.2 C591.7,21.2 584.1,25.8 578.2,34.4 L581.8,21.5 Z M640,83.8 C647.8,83.8 654.4,79.6 658.8,73.7 C659.6,80.3 664.6,83.8 673.6,83.8 C677.9,83.8 681.9,83.1 686,82.1 L689.1,69.9 C687.9,70.3 686.9,70.5 685.8,70.5 C684.2,70.5 682.9,69.8 682.9,67.5 C682.9,66.1 683.7,63.8 684.6,61 L700.8,0.5 C697.5,1.3 692,2.1 685.5,2.1 L671,2.1 L667.7,14.5 L671.1,14.5 C673.2,14.5 673.5,15.6 672.5,19.3 L668.9,31.9 C666.9,25.4 661.3,21.2 653.8,21.2 C633.2,21.2 620.3,42.8 620.3,62.5 C620.3,74.8 627.8,83.8 640,83.8 Z M650.1,69.5 C646.1,69.5 643.2,67.1 643.2,62.4 C643.2,49.9 650.3,35.5 658,35.5 C662.1,35.5 664.8,38.5 664.8,42.5 C664.8,54.3 658,69.5 650.1,69.5 Z" id="Shape"></path>
+              </g>
+          </g>
+      </svg>
+</a>
+    <div class="fr_fs_subm fr_cr_w fr_fs_newpdd_w ftsh">         
+
+      <div class="fr_top_sh_pop" style="text-align:center">
+        <h6>Follow us!</h6>
+        <ul style="display:inline-block">
+          <li><a class="freyja_fb fr_socbt facebook_follow" href="https://www.facebook.com/chowhound" target="_blank" data-social-location="nav"></a></li>
+          <li><a class="freyja_tw fr_socbt twitter_follow" href="https://twitter.com/Chow" target="_blank" data-social-location="nav"></a></li>
+          <li><a class="freyja_pi fr_socbt share_pinterest" href="https://www.pinterest.com/chowhound/" target="_blank" data-social-location="nav"></a></li>
+          <li><a class="freyja_in fr_socbt om_instagram_follow" data-social-location="nav" href="https://instagram.com/chowhound/" target="_blank"></a></li>
+          <li><a class="freyja_yt fr_socbt om_youtube_follow" data-social-location="nav" href="https://www.youtube.com/user/CHOW" target="_blank"></a></li>
+        </ul>
+        <a href="https://www.chowhound.com/feedback" class="fr_top_sh_lk">Site Feedback</a>
+        <a href="https://www.chowhound.com/faq" class="fr_top_sh_lk">FAQ</a>
+      </div>
+
+    </div>    
+  </span>
+
+</div>
+
+
+
+
+
+  <!--FLIP NAV-->
+
+
+
+      <div class="ch_dk_bck fr_nav_track" data-track="rollover">
+
+
+            <div class="ch_dk_bck_i">
+
+                <h2 class="divid"><a href="https://www.chowhound.com/recipes">Recipes</a></h2>
+                <div class="ttgs">
+                  <h3><span>Easy Brownies</a></h3>
+                  <span class="freyja_tagslist freyja_myfilters redirectit">
+                        <a href="https://www.chowhound.com/tag/baking" class="freyja_tag">Baking</a>
+                        <a href="https://www.chowhound.com/tag/dessert" class="freyja_tag">Dessert</a>
+                        <a href="https://www.chowhound.com/tag/chocolate" class="freyja_tag">Chocolate</a>
+                        <a href="https://www.chowhound.com/tag/eggs" class="freyja_tag">Eggs</a>
+                        <a href="https://www.chowhound.com/tag/butter" class="freyja_tag">Butter</a>
+                        <a href="https://www.chowhound.com/tag/brownies" class="freyja_tag">Brownies</a>
+                        <a href="https://www.chowhound.com/tag/sugar" class="freyja_tag">Sugar</a>
+                        <a href="https://www.chowhound.com/tag/super-bowl" class="freyja_tag">Super Bowl</a>
+                        <a href="https://www.chowhound.com/tag/christmas" class="freyja_tag">Christmas</a>
+                        <a href="https://www.chowhound.com/tag/mothers-day" class="freyja_tag">Mother&#39;s Day</a>
+                        <a href="https://www.chowhound.com/tag/valentines-day" class="freyja_tag">Valentine&#39;s Day</a>
+                        <a href="https://www.chowhound.com/tag/picnic" class="freyja_tag">Picnic</a>
+                        <a href="https://www.chowhound.com/tag/camping" class="freyja_tag">Camping</a>
+                        <a href="https://www.chowhound.com/tag/bake-sale" class="freyja_tag">Bake Sale</a>
+                        <a href="https://www.chowhound.com/tag/potluck" class="freyja_tag">Potluck</a>
+                        <a href="https://www.chowhound.com/tag/bridal-shower" class="freyja_tag">Bridal Shower</a>
+                        <a href="https://www.chowhound.com/tag/vegetarian" class="freyja_tag">Vegetarian</a>
+                        <a href="https://www.chowhound.com/tag/baking-powder" class="freyja_tag">Baking Powder</a>
+                        <a href="https://www.chowhound.com/tag/brunch" class="freyja_tag">Brunch</a>
+                        <a href="https://www.chowhound.com/tag/lunch" class="freyja_tag">Lunch</a>
+                        <a href="https://www.chowhound.com/tag/snack" class="freyja_tag">Snack</a>
+                        <a href="https://www.chowhound.com/tag/kid-friendly" class="freyja_tag">Kid Friendly</a>
+                        <a href="https://www.chowhound.com/tag/salt" class="freyja_tag">Salt</a>
+                        <a href="https://www.chowhound.com/tag/party-planning" class="freyja_tag">Party Planning</a>
+                        <a href="https://www.chowhound.com/tag/flour" class="freyja_tag">Flour</a>
+                        <a href="https://www.chowhound.com/tag/comfort-food" class="freyja_tag">Comfort Food</a>
+                        <a href="https://www.chowhound.com/tag/easy" class="freyja_tag">Easy</a>
+                  </span>
+                </div>
+                <div class="bxhide"></div>
+            </div>
+
+
+
+      </div>
+
+
+
+
+  <!--end FLIP-->
+
+
+
+
+
+
+    <div class="ch_search ch_flip_h">
+
+
+          <form class="freyja_search" action="/search" method="get">
+            <div class="freyja_search_bar">
+              <button type="submit" class="freyja_search_button" value="Search">
+
+                  <svg  style="margin: 0 auto;" width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="nav4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-276.000000, -33.000000)">
+                          <g id="navsearch" fill="#9B9B9B">
+                              <g id="search" transform="translate(256.000000, 20.000000)">
+                                  <path d="M33.9999994,26.4473678 C34.0002152,26.2945067 33.9449521,26.1624891 33.8342099,26.0513152 L30.7486837,22.965789 C31.3895109,22.2201202 31.8101249,21.3788922 32.0105258,20.4421049 L32.0105258,20.4328944 C32.1080758,19.9999037 32.1571986,19.548588 32.1578942,19.0789471 C32.1580861,17.3971386 31.5624721,15.9602966 30.3710522,14.768421 C29.1917451,13.5895696 27.7610434,13.0000959 26.0789471,13 C24.3972586,13.0003118 22.9604165,13.5897855 21.768421,14.768421 C20.5897855,15.9604165 20.0003118,17.3972586 20,19.0789471 C20.0000959,20.7610434 20.5895696,22.1917451 21.768421,23.3710522 C22.9602966,24.5624721 24.3971386,25.1580861 26.0789471,25.1578942 C27.5729472,25.158254 28.8685611,24.6885172 29.965789,23.7486837 L33.0513152,26.8342099 C33.1624891,26.9449521 33.2945067,27.0002152 33.4473678,26.9999994 C33.600205,27.0002152 33.7291523,26.9449521 33.8342099,26.8342099 C33.9449521,26.7291523 34.0002152,26.600205 33.9999994,26.4473678 L33.9999994,26.4473678 Z M31.0526311,19.0789471 C31.0533267,19.4689553 31.0134144,19.8435167 30.9328942,20.2026313 C30.73482,21.1031281 30.2896445,21.8952333 29.597368,22.5789469 C28.6165429,23.5671356 27.4498763,24.0522233 26.0789471,24.0526311 C24.702837,24.0524152 23.5269598,23.5642573 22.5513157,22.5881575 C21.5871847,21.6244822 21.1051672,20.4547454 21.1052631,19.0789471 C21.1049513,17.702741 21.5869688,16.5268639 22.5513157,15.5513157 C23.5268639,14.5869688 24.702741,14.1049513 26.0789471,14.1052631 C27.4547454,14.1051672 28.6244822,14.5871847 29.5881575,15.5513157 C30.5642573,16.5269598 31.0524152,17.702837 31.0526311,19.0789471 Z" id="Shape"></path>
+                              </g>
+                          </g>
+                      </g>
+                  </svg>
+              </button>
+              <input type="text" placeholder="Search" data-searchsection="Search entire site" class="s_input ch_search" id="primary_search" name="q" value="" autocomplete="off">
+              <input type="hidden" name="tq" value="1">
+              <input type="hidden" name="c" value="allsite">
+            </div>
+          </form>
+
+
+    </div>
+    <div class="ch_dk_subnav freyja_drmenu ch_flip_h">
+          
+          <!--cities -->
+            <span class="act_menu exp_nav fr_nav_track" data-menu="cities" data-track="cities">
+              <div class="act_submenu">
+                <a href="https://www.chowhound.com/cities" class="fr_l_w_c lvl1 noipad">Explore Cities
+                  <span>
+                      <svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <defs></defs>
+                          <g id="nav4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-781.000000, -39.000000)" stroke-linecap="round">
+                              <g id="navcarret" stroke="#4A4A4A" stroke-width="1.8">
+                                  <g id="Group-6">
+                                      <g id="Site-Nav">
+                                          <g id="Group" transform="translate(661.000000, 29.000000)">
+                                              <g id="Group-2-Copy" transform="translate(124.500000, 11.500000) rotate(-45.000000) translate(-124.500000, -11.500000) translate(122.000000, 9.000000)">
+                                                  <path d="M0.454545455,3.15404268e-17 L0.454545455,4.54545455" id="Line-2"></path>
+                                                  <path d="M5,4.54545455 L0.454545455,4.54545455" id="Line-2"></path>
+                                              </g>
+                                          </g>
+                                      </g>
+                                  </g>
+                              </g>
+                          </g>
+                      </svg>
+                  </span>
+                </a>
+                <div class="fr_fs_subm wide sml commu fr_fs_newpdd_w">
+                  <div class="wflx">
+                  <ul class="ch_citym">
+                        <li><a href="https://www.chowhound.com/san-francisco">
+                            <div class="ch_city_rpic" style="background-image: url(&quot;https://search.chow.com/thumbnail/60/60/www.chowstatic.com/assets/models/city_guides/background_images/1/original/Cities-SF.jpg&quot;);"></div>
+                          SF Bay Area</a></li>
+                        <li><a href="https://www.chowhound.com/new-york-city">
+                            <div class="ch_city_rpic" style="background-image: url(&quot;https://search.chow.com/thumbnail/60/60/www.chowstatic.com/assets/models/city_guides/background_images/4/original/Cities-NYC.jpg&quot;);"></div>
+                          New York City</a></li>
+                        <li><a href="https://www.chowhound.com/chicago">
+                            <div class="ch_city_rpic" style="background-image: url(&quot;https://search.chow.com/thumbnail/60/60/www.chowstatic.com/assets/models/city_guides/background_images/6/original/Cities-CHI.jpg&quot;);"></div>
+                          Chicago</a></li>
+                        <li><a href="https://www.chowhound.com/boston">
+                            <div class="ch_city_rpic" style="background-image: url(&quot;https://search.chow.com/thumbnail/60/60/www.chowstatic.com/assets/models/city_guides/background_images/7/original/Cities-Boston.jpg&quot;);"></div>
+                          Boston</a></li>
+                        <li><a href="https://www.chowhound.com/atlanta">
+                            <div class="ch_city_rpic" style="background-image: url(&quot;https://search.chow.com/thumbnail/60/60/www.chowstatic.com/assets/models/city_guides/background_images/8/original/Cities-Atlanta_(1).jpg&quot;);"></div>
+                          Atlanta</a></li>
+                  </ul>
+                  <div class="ch_col bd"></div>
+                  <ul>
+                    <span class="frn_ttb">
+                                  
+
+                              <li><a href="https://www.chowhound.com/philadelphia">Philadelphia</a></li>
+                              <li><a href="https://www.chowhound.com/los-angeles">Los Angeles</a></li>
+                              <li><a href="https://www.chowhound.com/miami">Miami</a></li>
+                              <li><a href="https://www.chowhound.com/dallas">Dallas</a></li>
+                              <li><a href="https://www.chowhound.com/new-orleans">New Orleans</a></li>
+                              <li><a href="https://www.chowhound.com/washington-dc">Washington DC</a></li>
+                              <li><a href="https://www.chowhound.com/denver">Denver</a></li>
+
+                              <li><a href="https://www.chowhound.com/tag/manhattan">Manhattan</a></li>
+                              <li><a href="https://www.chowhound.com/tag/outer-boroughs">Outer Boroughs</a></li>
+                              <li><a href="https://www.chowhound.com/tag/austin">Austin</a></li>
+                              <li><a href="https://www.chowhound.com/tag/seattle">Seattle Area</a></li>
+                              <li><a href="https://www.chowhound.com/tag/portland">Portland Area</a></li>
+                              <li><a href="https://www.chowhound.com/tag/san-diego">San Diego</a></li>
+                              <li><a href="https://www.chowhound.com/tag/houston">Houston</a></li>
+                              <li><a href="https://www.chowhound.com/tag/las-vegas">Las Vegas</a></li>
+                              <li><a href="https://www.chowhound.com/tag/phoenix">Phoenix</a></li>
+                              <li><a href="https://www.chowhound.com/tag/minneapolis">Minneapolis-St. Paul</a></li>
+                              <li><a href="https://www.chowhound.com/tag/san-antonio">San Antonio</a></li>
+                              <li><a href="https://www.chowhound.com/tag/san-jose">San Jose</a></li>
+                              <li><a href="https://www.chowhound.com/tag/indianapolis">Indianapolis</a></li>
+                              <li><a href="https://www.chowhound.com/tag/jacksonville">Jacksonville</a></li>
+                              <li><a href="https://www.chowhound.com/tag/columbus-oh">Columbus</a></li>
+                              <li><a href="https://www.chowhound.com/tag/charlotte">Charlotte</a></li>
+                              <li><a href="https://www.chowhound.com/tag/detroit">Detroit</a></li>
+                              <li><a href="https://www.chowhound.com/tag/el-paso">El Paso</a></li>
+                              <li><a href="https://www.chowhound.com/tag/memphis">Memphis</a></li>
+                    </span>
+                    <li><a href="https://www.chowhound.com/cities" class="fr_smr">See All Cities &rsaquo;</a></li>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+            </span>
+            <!--cities end -->
+
+      
+
+        <!--eat -->
+            <span class="act_menu exp_nav fr_nav_track" data-menu="recipes" data-track="eat">
+              <div class="act_submenu">
+                <a href="https://www.chowhound.com/recipes" class="s_b lvl1 noipad">Eat</a>
+                <div class="fr_fs_subm fr_fs_newpdd_w wthb">
+                    <ul>
+
+
+                  <span id="fr_eat_nav" class="fr_nav_edito">
+                    <li><a href="https://www.chowhound.com/food-news/198073/7-eleven-now-has-a-tater-tot-bar" class="fr_r_ftn">
+                      <span class="fr_r_pic" style="background-image: url(&quot;https://search.chow.com/thumbnail/200/0/www.chowstatic.com/blog-media/2018/03/tater-tots-chowhound.jpg&quot;);"></span>
+                      <span class="fr_r_rt">7-Eleven Now Has a Tater Tot Bar<span class="fr_nw">NEW</span></span>
+                    </a></li>
+                  </span>
+
+
+
+                            <li><a href="https://www.chowhound.com/recipes/easy">Easy Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/healthy">Healthy Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/breakfast">Breakfast Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/main-dish">Main Dish Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/vegetarian">Vegetarian Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/pasta">Pasta Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/salad">Salad Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/soup">Soup Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/cocktails">Cocktails Recipes</a></li>
+                            <li><a href="https://www.chowhound.com/recipes/dessert">Dessert Recipes</a></li>
+                        <li><a href="https://www.chowhound.com/recipes" class="fr_smr">See All Recipes &rsaquo;</a></li>
+                    
+                    </ul>
+                </div>
+              </div>
+            </span>
+        <!--eat end --> 
+
+
+
+        <!--drink -->
+            <span class="act_menu exp_nav fr_nav_track" data-menu="drink" data-track="drink">
+              <div class="act_submenu">
+                <a href="https://www.chowhound.com/recipes/drink" class="s_b lvl1 noipad">Drink</a>
+                <div class="fr_fs_subm fr_fs_newpdd_w wthb">
+                    <ul>
+
+
+
+                              <span id="fr_drink_nav" class="fr_nav_edito">
+                                <li><a href="https://www.chowhound.com/videos/road-less-traveled/authentic-speakeasy-york" class="fr_r_ftn">
+                                  <span class="fr_r_pic" style="background-image: url(&quot;https://search.chow.com/thumbnail/200/0/www.chowstatic.com/assets/models/videos/main_images/133712/original/back_room_thumb_final.jpg&quot;);"></span>
+                                  <span class="fr_r_rt">Hide Out In An Authentic Prohibition-Era Speakeasy<span class="fr_nw">NEW</span></span>
+                                </a></li>
+                              </span>
+
+
+
+                          <li><a href="https://www.chowhound.com/recipes/cocktails">Cocktails Recipes</a></li>
+                          <li><a href="https://www.chowhound.com/recipes/whiskey">Whiskey Cocktails</a></li>
+                          <li><a href="https://www.chowhound.com/recipes/bourbon">Bourbon Cocktails</a></li>
+                          <li><a href="https://www.chowhound.com/recipes/gin">Gin Cocktails</a></li>
+                          <li><a href="https://www.chowhound.com/recipes/rum">Rum Cocktails</a></li>
+                          <li><a href="https://www.chowhound.com/recipes/tequila">Tequila Cocktails</a></li>
+                          <li><a href="https://www.chowhound.com/recipes/beer">Beer Cocktails</a></li>
+                          <li><a href="https://www.chowhound.com/recipes/nonalcoholic">Nonalcoholic Cocktails</a></li>
+                      <li><a href="https://www.chowhound.com/recipes/drink" class="fr_smr">See All Drink Recipes &rsaquo;</a></li>
+
+                    </ul>
+                </div>
+              </div>
+            </span>
+        <!--drink end -->
+
+
+
+        <!--discuss -->
+          <span class="act_menu nfttip exp_nav fr_nav_track" data-menu="galleries" data-track="discuss">
+              <div class="act_submenu">
+                <a href="https://www.chowhound.com/community" class="s_b lvl1 noipad">Discuss</a>
+                <div class="fr_fs_subm commu  nowrap fr_fs_newpdd_w">         
+                    <ul class="fw">
+                      <li><a href="https://www.chowhound.com/community" class="fr_mn_wic frm_user str">Most Popular</a></li>
+                      <li><a href="https://www.chowhound.com/latest" class="fr_mn_wic frm_late str">Latest Discussions</a></li>
+                    </ul>
+                    
+                    <ul>
+                      <li><h3>Topics</h3></li>
+                      <span class="frn_tt">
+
+   
+                            <li><a href="https://www.chowhound.com/home-cooking" class="" data-tagname="Home Cooking">Home Cooking</a></li>
+                            <li><a href="https://www.chowhound.com/cookware" class="" data-tagname="Cookware">Cookware</a></li>
+                            <li><a href="https://www.chowhound.com/spirits" class="" data-tagname="Cocktails & Spirits">Cocktails & Spirits</a></li>
+                            <li><a href="https://www.chowhound.com/general-discussion" class="" data-tagname="General Discussion">General Discussion</a></li>
+                            <li><a href="https://www.chowhound.com/food-media" class="" data-tagname="Food Media">Food Media</a></li>
+                            <li><a data-tagname="Cookbook of the Month" href="https://www.chowhound.com/tag/cookbook-of-the-month">Cookbook of the Month</a></li>
+                            <li><a data-tagname="Dish of the Month" href="https://www.chowhound.com/tag/dish-of-the-month">Dish of the Month</a></li>
+                            <li><a data-tagname="Table Talk" href="https://www.chowhound.com/tag/table-talk">Table Talk</a></li>
+                            <li><a data-tagname="What&#39;s for Dinner" href="https://www.chowhound.com/tag/whats-for-dinner">What&#39;s for Dinner</a></li>
+                            <li><a data-tagname="Coupons and Deals" href="https://www.chowhound.com/tag/coupons-and-deals">Coupons and Deals</a></li>
+                    </span>
+                      <li><a href="https://www.chowhound.com/browse/tags" class="fr_smr">See All &rsaquo;</a></li>
+                    </ul>
+                    
+                    <ul>
+                      <li><h3>Locations</h3></li>
+                      <span class="frn_tt">
+
+                                <li><a href="https://www.chowhound.com/tag/manhattan">Manhattan</a></li>
+                                <li><a href="https://www.chowhound.com/tag/los-angeles">Los Angeles Area</a></li>
+                                <li><a href="https://www.chowhound.com/tag/san-francisco">San Francisco Bay Area</a></li>
+                                <li><a href="https://www.chowhound.com/tag/boston">Boston Area</a></li>
+                                <li><a href="https://www.chowhound.com/tag/ontario">Ontario (inc. Toronto)</a></li>
+                                <li><a href="https://www.chowhound.com/tag/washington-dc">Washington DC</a></li>
+                                <li><a href="https://www.chowhound.com/tag/outer-boroughs">Outer Boroughs</a></li>
+                                <li><a href="https://www.chowhound.com/tag/chicago">Chicago Area</a></li>
+                                <li><a href="https://www.chowhound.com/tag/pennsylvania">Pennsylvania</a></li>
+                                <li><a href="https://www.chowhound.com/tag/california">California</a></li>
+                                <li><a href="https://www.chowhound.com/tag/florida">Florida</a></li>
+                                <li><a href="https://www.chowhound.com/tag/quebec">Quebec (inc. Montreal)</a></li>
+                                <li><a href="https://www.chowhound.com/tag/pacific-northwest">Pacific Northwest</a></li>
+                                <li><a href="https://www.chowhound.com/tag/new-orleans">New Orleans</a></li>
+                                <li><a href="https://www.chowhound.com/tag/southwest">Southwest</a></li>
+                                <li><a href="https://www.chowhound.com/tag/france">France</a></li>
+                                <li><a href="https://www.chowhound.com/tag/uk">U.K.</a></li>
+                                <li><a href="https://www.chowhound.com/tag/new-jersey">New Jersey</a></li>
+                                <li><a href="https://www.chowhound.com/tag/texas">Texas</a></li>
+                                <li><a href="https://www.chowhound.com/tag/mid-atlantic">Mid-Atlantic</a></li>
+                    </span>
+                      <li><a href="https://www.chowhound.com/browse/locations" class="fr_smr">See All &rsaquo;</a></li>
+                    
+                    </ul>
+                  
+                </div>
+              </div>
+            </span>
+          <!--discuss end -->
+
+
+          <!--browse -->
+
+            <span class="act_menu fr_nav_track" data-menu="discover" data-track="browse">
+              <div class="act_submenu">
+                <a href="https://www.chowhound.com/browse" class="s_b lvl1 noipad">Browse</a>
+                <div class="fr_fs_subm fr_br_w nowrap fr_fs_newpdd_w">         
+                    <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                      <li itemprop="name" class="fr_hfm"><a itemprop="url" href="https://www.chowhound.com/community">Community</a></li>
+                      <li itemprop="name" class="fr_hfm"><a itemprop="url" href="https://www.chowhound.com/latest">Latest Discussions</a></li>
+                      <li itemprop="name" class="fr_hfm"><a itemprop="url" href="https://www.chowhound.com/cities">Explore Cities</a></li>
+                      <li itemprop="name"><a itemprop="url" href="https://www.chowhound.com/videos" class="fr_mn_wic frm_vid">Videos</a></li>
+                      <li itemprop="name"><a itemprop="url" href="https://www.chowhound.com/recipes" class="fr_mn_wic frm_reci">Recipes</a></li>
+                      <li itemprop="name"><a itemprop="url" href="https://www.chowhound.com/food-news" class="fr_mn_wic frm_art">Articles</a></li>
+                      <li itemprop="name"><a itemprop="url" href="https://www.chowhound.com/pictures" class="fr_mn_wic frm_phot">Photo Galleries</a></li>
+                      <li itemprop="name"><a itemprop="url" href="https://www.chowhound.com/features" class="fr_mn_wic frm_feat">Features</a></li>
+                      
+                      <!-- <li><a href="https://www.chowhound.com/cookbooks" class="fr_mn_wic frm_cook">Cookbooks</a></li> -->
+                    </ul>
+                </div>
+              </div>
+            </span>
+
+          <!--browse end -->
+
+
+          <!--post -->
+
+          <!--post end -->
+
+
+          <!--login/signup-->
+
+              <a class=" show_login_tab li_su fr_nav_track" data-track="login" href="https://secure.chowhound.com/users/sign_in"><span>Log In</span></a>
+              <a class=" show_login_tab li_su li_en fr_nav_track" data-track="signup" href="https://secure.chowhound.com/users/sign_up"><span>Sign Up</span></a>
+
+
+          <!--login/signup end-->
+
+
+
+    </div>
+  </nav>
+</div>
+
+<!--NEW NAV END -->
+
+
+
+
+
+
+
+
+
+<script>
+uli = 0;
+ismob = 0;
+</script>
+
+
+<div class="fr_content_wrap">
+
+
+<script type="text/javascript">
+function parse(e,s,r){var n=s&&r||0,t=0;for(s=s||[],e.toLowerCase().replace(/[0-9a-f]{2}/g,function(e){16>t&&(s[n+t++]=_hexToByte[e])});16>t;)s[n+t++]=0;return s}function unparse(e,s){var r=s||0,n=_byteToHex;return n[e[r++]]+n[e[r++]]+n[e[r++]]+n[e[r++]]+"-"+n[e[r++]]+n[e[r++]]+"-"+n[e[r++]]+n[e[r++]]+"-"+n[e[r++]]+n[e[r++]]+"-"+n[e[r++]]+n[e[r++]]+n[e[r++]]+n[e[r++]]+n[e[r++]]+n[e[r++]]}function v1(e,s,r){var n=s&&r||0,t=s||[];e=e||{};var _=null!=e.clockseq?e.clockseq:_clockseq,a=null!=e.msecs?e.msecs:(new Date).getTime(),o=null!=e.nsecs?e.nsecs:_lastNSecs+1,c=a-_lastMSecs+(o-_lastNSecs)/1e4;if(0>c&&null==e.clockseq&&(_=_+1&16383),(0>c||a>_lastMSecs)&&null==e.nsecs&&(o=0),o>=1e4)throw new Error("uuid.v1(): Can't create more than 10M uuids/sec");_lastMSecs=a,_lastNSecs=o,_clockseq=_,a+=122192928e5;var l=(1e4*(268435455&a)+o)%4294967296;t[n++]=l>>>24&255,t[n++]=l>>>16&255,t[n++]=l>>>8&255,t[n++]=255&l;var d=a/4294967296*1e4&268435455;t[n++]=d>>>8&255,t[n++]=255&d,t[n++]=d>>>24&15|16,t[n++]=d>>>16&255,t[n++]=_>>>8|128,t[n++]=255&_;for(var u=e.node||_nodeId,i=0;6>i;i++)t[n+i]=u[i];return s?s:unparse(t)}var _rng;if(window.crypto&&crypto.getRandomValues){var _rnds8=new Uint8Array(16);_rng=function(){return crypto.getRandomValues(_rnds8),_rnds8}}if(!_rng){var _rnds=new Array(16);_rng=function(){for(var e,s=0;16>s;s++)0===(3&s)&&(e=4294967296*Math.random()),_rnds[s]=e>>>((3&s)<<3)&255;return _rnds}}for(var _byteToHex=[],_hexToByte={},i=0;256>i;i++)_byteToHex[i]=(i+256).toString(16).substr(1),_hexToByte[_byteToHex[i]]=i;var _seedBytes=_rng(),_nodeId=[1|_seedBytes[0],_seedBytes[1],_seedBytes[2],_seedBytes[3],_seedBytes[4],_seedBytes[5]],_clockseq=16383&(_seedBytes[6]<<8|_seedBytes[7]),_lastMSecs=0,_lastNSecs=0;
+
+    generate_vguid = function(){
+        view_tracking_guid = v1();
+    }
+    
+    generate_vguid();
+    var utag_data = {"siteType":"responsive web","siteSection":"recipes","deviceType":"desktop","siteHier":"recipes","pageType":"section_detail","pageFindingMethod":"External","articleAuthorName":"christinegallary","articleAuthorId":"ch-User-1123479","recipeId":30376,"recipeTitle":"Easy Brownies","recipePubDate":"2012-06-06","tags":"super-bowl|christmas|mothers-day|valentines-day|baking|dessert|picnic|camping|bake-sale|potluck|bridal-shower|chocolate|vegetarian|baking-powder|eggs|butter|brunch|lunch|snack|kid-friendly|brownies|salt|party-planning|flour|sugar|comfort-food|easy","pageViewGuid" : view_tracking_guid }
+
+</script>
+
+
+
+<div id="out"></div>
+<div id="alert_container"></div>
+
+  <script>
+  var original_recipe_id = 30376;
+  var relatedrecipes = [{"title":"Vegan Brownies ","id":29435,"url":"https://www.chowhound.com/recipes/vegan-brownies-29435","img":"https://search.chow.com/thumbnail/800/600/www.chowstatic.com/assets/recipe_photos/29435_vegan_brownies2.jpg"},{"title":"Easy Peach Cobbler","id":30401,"url":"https://www.chowhound.com/recipes/easy-peach-cobbler-30401","img":"https://search.chow.com/thumbnail/800/600/www.chowstatic.com/assets/recipe_photos/30401_easy_peach_cobbler.jpg"},{"title":"Easy Chocolate Ganache","id":28649,"url":"https://www.chowhound.com/recipes/basic-chocolate-ganache-28649","img":"https://search.chow.com/thumbnail/800/600/www.chowstatic.com/assets/recipe_photos/28649_chocolate_ganache2.jpg"},{"title":"Easy Toffee","id":31899,"url":"https://www.chowhound.com/recipes/easy-toffee-31899","img":"https://search.chow.com/thumbnail/800/600/www.chowstatic.com/assets/models/promotions/photos/29061/original/easy-toffee_resized_cropped.jpg"},{"title":"Easy Waffles","id":30302,"url":"https://www.chowhound.com/recipes/easy-waffles-30302","img":"https://search.chow.com/thumbnail/800/600/www.chowstatic.com/assets/recipe_photos/30302_waffles.jpg"},{"title":"Easy Rice Pudding","id":28594,"url":"https://www.chowhound.com/recipes/basic-rice-pudding-28594","img":"https://search.chow.com/thumbnail/800/600/www.chowstatic.com/assets/models/promotions/photos/28137/original/28594_easy_rice_pudding.jpg"}];
+</script>
+<div id="r_30376"></div>
+<div class="frajax_recipe_head">
+  <div class="freyja_recipe_head freayja_recipe_head_30376 fr_r_vid_head"
+       data-recipetags="baking,dessert,chocolate,eggs,butter,brownies,sugar,super-bowl,christmas,mothers-day,valentines-day,picnic,camping,bake-sale,potluck,bridal-shower,vegetarian,baking-powder,brunch,lunch,snack,kid-friendly,salt,party-planning,flour,comfort-food,easy" 
+       data-recipeid="30376"
+       data-recipetitle="recipe_Easy Brownies"
+       data-recipeurl="https://www.chowhound.com/recipes/easy-brownies-30376"
+       data-fbshare="https://www.facebook.com/sharer/sharer.php?u=https://www.chowhound.com/recipes/easy-brownies-30376&t=Easy+Brownies"
+       data-twshare="https://twitter.com/intent/tweet?text=Easy+Brownies https://www.chowhound.com/recipes/easy-brownies-30376 @Chow"
+       data-ptshare="http://pinterest.com/pin/create/button/?url=https://www.chowhound.com/recipes/easy-brownies-30376&media=https://search.chow.com/thumbnail/1200/0/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg&description=Easy+Brownies"
+       data-pubdate="2012-06-06"
+       data-authorname="christinegallary"
+       data-authorid="ch-User-1123479"
+       data-adid=""
+       data-cid="easy-brownies"
+       data-feat=""
+       data-collection="egglands"
+       data-description="This easy brownie recipe uses no fancy equipment or ingredients, takes only 20 minutes to put together, and makes a delicious brownie sundae."
+  >
+
+    <div class="fr_r_info">
+
+
+
+          <div class="fr_r_header_vid_wrapper">
+              
+<div class="fr_uvpjs_wrap">
+  <div
+    id="uvpjsContainer"
+    class="fr_uvpjs_cont"
+    data-thumb="https://search.chow.com/thumbnail/825/0/www.chowstatic.com/blog-media/2012/06/117005_CarouselImage_TEW_Brownies.jpg"
+    data-video-queue="[{&quot;id&quot;:117005,&quot;pid&quot;:&quot;BH1lsgKtCRIy&quot;,&quot;collection&quot;:&quot;&quot;,&quot;content_id&quot;:&quot;2242866376&quot;,&quot;feat&quot;:&quot;&quot;,&quot;title&quot;:&quot;How to Make Easy Brownies&quot;,&quot;container_id&quot;:&quot;uvpjsContainer&quot;},{&quot;id&quot;:128469,&quot;pid&quot;:&quot;oR6wE2pwZDBN&quot;,&quot;collection&quot;:&quot;&quot;,&quot;content_id&quot;:&quot;2334416233&quot;,&quot;feat&quot;:&quot;&quot;,&quot;title&quot;:&quot;How to Make Easy Teriyaki Chicken&quot;,&quot;container_id&quot;:&quot;uvpjsContainer&quot;},{&quot;id&quot;:128394,&quot;pid&quot;:&quot;dOgOsGFerNli&quot;,&quot;collection&quot;:&quot;&quot;,&quot;content_id&quot;:&quot;2310138811&quot;,&quot;feat&quot;:&quot;&quot;,&quot;title&quot;:&quot;How to Make Easy Curried Turkey Salad&quot;,&quot;container_id&quot;:&quot;uvpjsContainer&quot;},{&quot;id&quot;:117615,&quot;pid&quot;:&quot;TUtC6DccvrOS&quot;,&quot;collection&quot;:&quot;&quot;,&quot;content_id&quot;:&quot;2244999650&quot;,&quot;feat&quot;:&quot;&quot;,&quot;title&quot;:&quot;How to Make Easy Potato Salad&quot;,&quot;container_id&quot;:&quot;uvpjsContainer&quot;},{&quot;id&quot;:128596,&quot;pid&quot;:&quot;mU_T00HbRaBA&quot;,&quot;collection&quot;:&quot;&quot;,&quot;content_id&quot;:&quot;E82F322C-BA45-A1CB-B683-CA6DBD656154&quot;,&quot;feat&quot;:&quot;&quot;,&quot;title&quot;:&quot;How to Make Easy Vanilla Pudding &quot;,&quot;container_id&quot;:&quot;uvpjsContainer&quot;},{&quot;id&quot;:124470,&quot;pid&quot;:&quot;9gEqQ4bLnhqk&quot;,&quot;collection&quot;:&quot;&quot;,&quot;content_id&quot;:&quot;2274225615&quot;,&quot;feat&quot;:&quot;&quot;,&quot;title&quot;:&quot;How to Make Easy Basil Pesto&quot;,&quot;container_id&quot;:&quot;uvpjsContainer&quot;},{&quot;id&quot;:121103,&quot;pid&quot;:&quot;ftYA_GW8SyM1&quot;,&quot;collection&quot;:&quot;&quot;,&quot;content_id&quot;:&quot;2260048065&quot;,&quot;feat&quot;:&quot;&quot;,&quot;title&quot;:&quot;How to Make Easy Quick Pickles&quot;,&quot;container_id&quot;:&quot;uvpjsContainer&quot;}]"
+  ></div>
+</div>
+
+
+          </div>
+
+          <div class="fr_r_right_header">
+
+        <h1 itemprop="name">Easy Brownies</h1>
+        
+
+        <div class="freyja_box7 fr_tagswrap">
+          <div class="freyja_tagslist fr_bigger fr_collapsible_tags white">
+                <a class="freyja_tag act_filter act_filter_reset" data-seo="baking" data-id="165" data-name="Baking" href="https://www.chowhound.com/recipes/baking">
+                    <span>Baking</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="dessert" data-id="315" data-name="Dessert" href="https://www.chowhound.com/recipes/dessert">
+                    <span itemprop="recipeCategory">Dessert</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="chocolate" data-id="805" data-name="Chocolate" href="https://www.chowhound.com/recipes/chocolate">
+                    <span>Chocolate</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="eggs" data-id="2001" data-name="Eggs" href="https://www.chowhound.com/recipes/eggs">
+                    <span>Eggs</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="butter" data-id="2007" data-name="Butter" href="https://www.chowhound.com/recipes/butter">
+                    <span>Butter</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="brownies" data-id="3685" data-name="Brownies" href="https://www.chowhound.com/recipes/brownies">
+                    <span>Brownies</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="sugar" data-id="3897" data-name="Sugar" href="https://www.chowhound.com/recipes/sugar">
+                    <span>Sugar</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="super-bowl" data-id="89" data-name="Super Bowl" href="https://www.chowhound.com/recipes/super-bowl">
+                    <span>Super Bowl</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="christmas" data-id="93" data-name="Christmas" href="https://www.chowhound.com/recipes/christmas">
+                    <span>Christmas</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="mothers-day" data-id="106" data-name="Mother&#39;s Day" href="https://www.chowhound.com/recipes/mothers-day">
+                    <span>Mother&#39;s Day</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="valentines-day" data-id="112" data-name="Valentine&#39;s Day" href="https://www.chowhound.com/recipes/valentines-day">
+                    <span>Valentine&#39;s Day</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="picnic" data-id="344" data-name="Picnic" href="https://www.chowhound.com/recipes/picnic">
+                    <span>Picnic</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="camping" data-id="345" data-name="Camping" href="https://www.chowhound.com/recipes/camping">
+                    <span>Camping</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="bake-sale" data-id="348" data-name="Bake Sale" href="https://www.chowhound.com/recipes/bake-sale">
+                    <span>Bake Sale</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="potluck" data-id="352" data-name="Potluck" href="https://www.chowhound.com/recipes/potluck">
+                    <span>Potluck</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="bridal-shower" data-id="356" data-name="Bridal Shower" href="https://www.chowhound.com/recipes/bridal-shower">
+                    <span>Bridal Shower</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="vegetarian" data-id="865" data-name="Vegetarian" href="https://www.chowhound.com/recipes/vegetarian">
+                    <span>Vegetarian</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="baking-powder" data-id="1917" data-name="Baking Powder" href="https://www.chowhound.com/recipes/baking-powder">
+                    <span>Baking Powder</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="brunch" data-id="3535" data-name="Brunch" href="https://www.chowhound.com/recipes/brunch">
+                    <span itemprop="recipeCategory">Brunch</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="lunch" data-id="3538" data-name="Lunch" href="https://www.chowhound.com/recipes/lunch">
+                    <span itemprop="recipeCategory">Lunch</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="snack" data-id="3600" data-name="Snack" href="https://www.chowhound.com/recipes/snack">
+                    <span itemprop="recipeCategory">Snack</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="kid-friendly" data-id="3637" data-name="Kid Friendly" href="https://www.chowhound.com/recipes/kid-friendly">
+                    <span>Kid Friendly</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="salt" data-id="3748" data-name="Salt" href="https://www.chowhound.com/recipes/salt">
+                    <span>Salt</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="party-planning" data-id="3764" data-name="Party Planning" href="https://www.chowhound.com/recipes/party-planning">
+                    <span>Party Planning</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="flour" data-id="3896" data-name="Flour" href="https://www.chowhound.com/recipes/flour">
+                    <span>Flour</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="comfort-food" data-id="4042" data-name="Comfort Food" href="https://www.chowhound.com/recipes/comfort-food">
+                    <span itemprop="recipeCuisine">Comfort Food</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="easy" data-id="4351" data-name="Easy" href="https://www.chowhound.com/recipes/easy">
+                    <span>Easy</span>
+</a>          </div>
+        </div>
+
+          <div class="freyja_fulltags" style="display:none!important">
+                <a class="freyja_tag act_filter act_filter_reset" data-seo="baking" data-id="165" data-name="Baking" href="https://www.chowhound.com/recipes/baking">
+                    <span>Baking</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="dessert" data-id="315" data-name="Dessert" href="https://www.chowhound.com/recipes/dessert">
+                    <span itemprop="recipeCategory">Dessert</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="chocolate" data-id="805" data-name="Chocolate" href="https://www.chowhound.com/recipes/chocolate">
+                    <span>Chocolate</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="eggs" data-id="2001" data-name="Eggs" href="https://www.chowhound.com/recipes/eggs">
+                    <span>Eggs</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="butter" data-id="2007" data-name="Butter" href="https://www.chowhound.com/recipes/butter">
+                    <span>Butter</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="brownies" data-id="3685" data-name="Brownies" href="https://www.chowhound.com/recipes/brownies">
+                    <span>Brownies</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="sugar" data-id="3897" data-name="Sugar" href="https://www.chowhound.com/recipes/sugar">
+                    <span>Sugar</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="super-bowl" data-id="89" data-name="Super Bowl" href="https://www.chowhound.com/recipes/super-bowl">
+                    <span>Super Bowl</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="christmas" data-id="93" data-name="Christmas" href="https://www.chowhound.com/recipes/christmas">
+                    <span>Christmas</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="mothers-day" data-id="106" data-name="Mother&#39;s Day" href="https://www.chowhound.com/recipes/mothers-day">
+                    <span>Mother&#39;s Day</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="valentines-day" data-id="112" data-name="Valentine&#39;s Day" href="https://www.chowhound.com/recipes/valentines-day">
+                    <span>Valentine&#39;s Day</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="picnic" data-id="344" data-name="Picnic" href="https://www.chowhound.com/recipes/picnic">
+                    <span>Picnic</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="camping" data-id="345" data-name="Camping" href="https://www.chowhound.com/recipes/camping">
+                    <span>Camping</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="bake-sale" data-id="348" data-name="Bake Sale" href="https://www.chowhound.com/recipes/bake-sale">
+                    <span>Bake Sale</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="potluck" data-id="352" data-name="Potluck" href="https://www.chowhound.com/recipes/potluck">
+                    <span>Potluck</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="bridal-shower" data-id="356" data-name="Bridal Shower" href="https://www.chowhound.com/recipes/bridal-shower">
+                    <span>Bridal Shower</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="vegetarian" data-id="865" data-name="Vegetarian" href="https://www.chowhound.com/recipes/vegetarian">
+                    <span>Vegetarian</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="baking-powder" data-id="1917" data-name="Baking Powder" href="https://www.chowhound.com/recipes/baking-powder">
+                    <span>Baking Powder</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="brunch" data-id="3535" data-name="Brunch" href="https://www.chowhound.com/recipes/brunch">
+                    <span itemprop="recipeCategory">Brunch</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="lunch" data-id="3538" data-name="Lunch" href="https://www.chowhound.com/recipes/lunch">
+                    <span itemprop="recipeCategory">Lunch</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="snack" data-id="3600" data-name="Snack" href="https://www.chowhound.com/recipes/snack">
+                    <span itemprop="recipeCategory">Snack</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="kid-friendly" data-id="3637" data-name="Kid Friendly" href="https://www.chowhound.com/recipes/kid-friendly">
+                    <span>Kid Friendly</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="salt" data-id="3748" data-name="Salt" href="https://www.chowhound.com/recipes/salt">
+                    <span>Salt</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="party-planning" data-id="3764" data-name="Party Planning" href="https://www.chowhound.com/recipes/party-planning">
+                    <span>Party Planning</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="flour" data-id="3896" data-name="Flour" href="https://www.chowhound.com/recipes/flour">
+                    <span>Flour</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="comfort-food" data-id="4042" data-name="Comfort Food" href="https://www.chowhound.com/recipes/comfort-food">
+                    <span itemprop="recipeCuisine">Comfort Food</span>
+</a>                <a class="freyja_tag act_filter act_filter_reset" data-seo="easy" data-id="4351" data-name="Easy" href="https://www.chowhound.com/recipes/easy">
+                    <span>Easy</span>
+</a>          </div>
+
+
+            <a class="pinterest-pin-hd share_pinterest"
+   title="Pin it on Pinterest!"
+   data-social-location="header-image"
+   target="_blank"
+   data-href="http://pinterest.com/pin/create/button/?url=https://www.chowhound.com/recipes/easy-brownies-30376&description=This easy brownie recipe uses no fancy equipment or ingredients, takes only 20 minutes to put together, and makes a delicious brownie sundae.&media=https://search.chow.com/thumbnail/1600/0/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg"
+></a>
+
+        <span class="frr_save save_recipe show_login_box" style="margin-right:7px" data-recipeid="30376" data-savec="450"><span class="mt"></span><i>Save</i> <span class="frr_sc_thin">(450)</span></span>
+
+          <div style="position:relative;width:0;display:inline-block">
+            <div class="fr_onbm fr_onfl fr_ar_l" style="top:44px;text-align:left;padding:10px 40px 10px 20px;width:auto;left:-182px;white-space:nowrap">
+              Sign up to save this recipe to your profile <a href="https://www.chowhound.com/users/sign_up" class="act_onb_signup" data-omcat="onboarding" data-omev="save_recipe">Sign Up Now ›</a>
+              <span class="fa fa-times act_close_onbm"></span>
+            </div>
+          </div>
+            <div class="frr_ratewrap fr_rela" style="display:inline-block">
+              <a href="#" class="frr_rateit ratencomment_expander show_login_box" data-url="/recipes/easy-brownies-30376/discussion.json">Rate</a>
+              <div class="frr_ratencomment">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    
+          <div data-original="https://search.chow.com/thumbnail/1200/0/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg" data-original-2x="https://search.chow.com/thumbnail/2400/0/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg" data-original-3x="https://search.chow.com/thumbnail/3600/0/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg" class="freyja_featimg lazy">
+            <meta itemprop="image" content="https://www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg">
+</div>    
+
+
+    <div class="fr_r_meta">
+      <div class="fr_inwrap">
+
+        <span class="frr_serves fr_sep" itemprop="recipeYield">16 brownies</span>
+
+            <a style="color: #FFFFFF" href="https://www.chowhound.com/recipes/easy"><span class="frr_difficulty fr_sep">Easy</span></a>
+            <!-- <span class="frr_difficulty fr_sep">Easy</span> -->
+
+      <span class="fr_sep">
+
+        <div class="ratings_wrapper medium frr_ratings">
+        <div class="chow_rating_display" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+          <ul class="viewport" style="width:86.4px;text-align:left">
+            <li class="star" data-stars="5"></li><li class="star" data-stars="4"></li><li class="star" data-stars="3"></li><li class="star" data-stars="2"></li><li class="star" data-stars="1"></li>
+          </ul>
+          <ul class="lower_layer hollow">
+            <li class="star"></li><li class="star"></li><li class="star"></li><li class="star"></li><li class="star"></li>
+          </ul>
+          <span style="display:none" itemprop="ratingValue">4.0</span>
+          <span style="display:none" itemprop="reviewCount">16</span>
+        </div>
+        </div>
+        <span class="frr_ccnt">(16)</span>
+      </span>
+
+        <span class="frr_totaltime"><i>Total:</i> <time itemprop="totalTime" content="PT1H15M">1 hr 15 mins</time></span>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+  <a class="fr_relarrow_prev fr_relarrow" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'header_arrow_prev'});" href="https://www.chowhound.com/recipes/basic-rice-pudding-28594">
+  <span class="fr_relwrap_prev">
+    <span class="fr_relimg lazy" data-original="https://search.chow.com/thumbnail/0/100/www.chowstatic.com/assets/models/promotions/photos/28137/original/28594_easy_rice_pudding.jpg"></span>
+    <span class="fr_prenex">PREVIOUS:</span>
+    <span class="fr_reltitle">Easy Rice Pudding</span>
+  </span>
+  </a>
+
+
+  <a class="fr_relarrow_next fr_relarrow" onclick="om.trackEvent({eventCategory: 'recirculation', eventAction: 'header_arrow_next'});" href="https://www.chowhound.com/recipes/vegan-brownies-29435">
+  <span class="fr_relwrap_next">
+    <span class="fr_relimg lazy" data-original="https://search.chow.com/thumbnail/0/100/www.chowstatic.com/assets/recipe_photos/29435_vegan_brownies2.jpg"></span>
+    <span class="fr_prenex">NEXT:</span>
+    <span class="fr_reltitle">Vegan Brownies </span>
+  </span>
+  </a>
+
+
+  <style>
+  .freyja_mainbody {border-bottom:1px solid #efefef;}
+  .next_ajax_recipe { position: relative;}
+  .freyja_ads_lb { background: none !important }
+  .freyja_container + .freyja_ads_lb { display: none }
+  .freyja_mainbody > .gu12 { padding-left: 0 !important }
+  </style>
+            <div class="fr_mod_wrap fr_tip_modal fr_tip_modal-30376" style="display: none;">
+      <div class="modal_container">
+        <div class="modal_content">
+          <div class="fr_tips_content_wrap">
+            <div class="fr_tip_nav">
+              <div class="fr_tip_nav_hd">
+                    <div class="fr_tag_img wico"></div>
+                <h4>Tips for Eggs and Christmas</h4>
+              </div>
+                  <div
+                  class="fr_tip_nav_item fr_tip_nav_item_js"
+                  data-index="0"
+                  >
+                        <span class="fr_nav_item_ico fr_icon_store"></span>
+
+                    How to Store Eggs
+                    <div class="fr_tip_triangle"></div>
+
+                  </div>
+                  <div
+                  class="fr_tip_nav_item fr_tip_nav_item_js"
+                  data-index="1"
+                  >
+                        <span class="fr_nav_item_ico fr_icon_cook"></span>
+
+                    How to Cook Eggs
+                    <div class="fr_tip_triangle"></div>
+
+                  </div>
+                  <div
+                  class="fr_tip_nav_item fr_tip_nav_item_js"
+                  data-index="2"
+                  >
+                        <span class="fr_nav_item_ico fr_icon_freeze"></span>
+
+                    How to Freeze Eggs
+                    <div class="fr_tip_triangle"></div>
+
+                  </div>
+                  <div
+                  class="fr_tip_nav_item fr_tip_nav_item_js"
+                  data-index="3"
+                  >
+                        <span class="fr_nav_item_ico fr_icon_why"></span>
+
+                    Why Do We Celebrate Christmas on Dec. 25?
+                    <div class="fr_tip_triangle"></div>
+
+                  </div>
+                  <div
+                  class="fr_tip_nav_item fr_tip_nav_item_js"
+                  data-index="4"
+                  >
+                        <span class="fr_nav_item_ico fr_icon_what"></span>
+
+                    What Does the Name &#39;Christmas&#39; Mean and What Is the Meaning of Christmas?
+                    <div class="fr_tip_triangle"></div>
+
+                  </div>
+                  <div
+                  class="fr_tip_nav_item fr_tip_nav_item_js"
+                  data-index="5"
+                  >
+                        <span class="fr_nav_item_ico fr_icon_celebrate"></span>
+
+                    How Can We Celebrate Christmas?
+                    <div class="fr_tip_triangle"></div>
+
+                  </div>
+            </div>
+            <div class="fr_message_modal">
+              <div class="fr_close_modal act_cancel"><i class="fa fa-times"></i></div>
+
+                  <div
+                  class="fr_tip_modal_content fr_tip_modal_content_0"
+                  data-index="0"
+                  style="display: block"
+                  >
+                    <div class="fr_tip_content_hd">
+                      <div class="fr_tip_label">Tip</div><h4 class="fr_speak_tip_head_0">How to Store Eggs</h4>
+                    </div>
+
+                    <div class="fr_tip_full_text fr_speak_tip_body_0">
+                      Eggs should keep a consistent and low temperature. This is best achieved by placing their carton in the center of your fridge. The eggs should also remain in their original packaging to avoid the absorption of strong odors. <br/><br/> It is wise to follow the “best by” date to determine overall freshness, but eggs can be tested by simply dropping them into a bowl of water. Older eggs will float while fresh eggs will sink. This is due to the size of their air cells, which gradually increase over time.<br/><br/> Cooked eggs have a refrigerator shelf life of no more than four days, while hard-boiled eggs, peeled or unpeeled, are safe to consume up to one week after they’re prepared. 
+                    </div>
+                        <div class="fr_tip_wp_wrap">
+                          <div class="fr_tip_wp_desc">
+                            <div>From the article:</div>
+                            <a href="https://www.chowhound.com/food-news/184014/egg-food-safety-guide/">The Ultimate Egg Food Safety Guide</a>
+                          </div>
+                          <a class="freyja_bigbt fr_tip_wp_btn" href="https://www.chowhound.com/food-news/184014/egg-food-safety-guide/">See Full Article <span>&rsaquo;</span></a>
+                        </div>
+
+                  </div>
+                  <div
+                  class="fr_tip_modal_content fr_tip_modal_content_1"
+                  data-index="1"
+                  style="display: none;"
+                  >
+                    <div class="fr_tip_content_hd">
+                      <div class="fr_tip_label">Tip</div><h4 class="fr_speak_tip_head_1">How to Cook Eggs</h4>
+                    </div>
+
+                    <div class="fr_tip_full_text fr_speak_tip_body_1">
+                      The beauty of an egg is its versatility. Eggs can be cooked in a variety of ways. Here are some tips in accomplishing the four most common preparations. <br><br> Scrambled: Whip your eggs in a bowl. The consistency of your scrambled eggs is a personal preference, though it seems like the majority of breakfast connoisseurs enjoy a more runny and fluffy option. In this case, add about ¼ cup of milk for every four eggs. This will help to thin the mix. Feel free to also season with salt and pepper (or stir in cream cheese for added decadence). Grease a skillet with butter over medium heat and pour in the egg mixture. As the eggs begin to cook, begin to pull and fold the eggs with a spatula until it forms curds. Do not stir constantly. Once the egg is cooked to your liking, remove from heat and serve. <br><br> Hard-boiled: Fill a pot that covers your eggs by about two inches. Remove the eggs and bring the water to a boil. Once the water begins to boil, carefully drop in the eggs and leave them for 10-12 minutes. For easy peeling, give the eggs an immediate ice bath after the cooking time is completed. For soft-boiled eggs, follow the same process, but cut the cooking time in half. <br><br> Poached: Add a dash of vinegar to a pan filled with steadily simmering water. Crack eggs individually into a dish or small cup. With a spatula, create a gentle whirlpool in the pan. Slowly add the egg, whites first, into the water and allow to cook for three minutes. Remove the egg with a slotted spoon and immediately transfer to kitchen paper to drain the water. <br><br> Sunny Side Up/Over Easy/Medium/Hard: For each of these preparations, you are cracking an egg directly into a greased frying pan. For sunny side up, no flipping is involved. Simply allow the edges to fry until they’re golden brown. To achieve an over easy egg, flip a sunny side up egg and cook until a thin film appears over the yolk. The yolk should still be runny upon serving. An over medium egg is flipped, fried, and cooked longer until the yolk is still slightly runny. An over hard is cooked until the yolk is hard. 
+                    </div>
+                        <div class="fr_tip_wp_wrap">
+                          <div class="fr_tip_wp_desc">
+                            <div>From the article:</div>
+                            <a href="https://www.chowhound.com/food-news/184014/egg-food-safety-guide/">The Ultimate Egg Food Safety Guide</a>
+                          </div>
+                          <a class="freyja_bigbt fr_tip_wp_btn" href="https://www.chowhound.com/food-news/184014/egg-food-safety-guide/">See Full Article <span>&rsaquo;</span></a>
+                        </div>
+
+                  </div>
+                  <div
+                  class="fr_tip_modal_content fr_tip_modal_content_2"
+                  data-index="2"
+                  style="display: none;"
+                  >
+                    <div class="fr_tip_content_hd">
+                      <div class="fr_tip_label">Tip</div><h4 class="fr_speak_tip_head_2">How to Freeze Eggs</h4>
+                    </div>
+
+                    <div class="fr_tip_full_text fr_speak_tip_body_2">
+                      Eggs can easily be frozen, but instructions vary based on the egg’s physical state. As a general rule, uncooked eggs in their shells should not be frozen. They must be cracked first and have their contents frozen. <br><br> Uncooked whole eggs: The eggs must be removed from their shells, blended, and poured into containers that can seal tightly. <br><br> Uncooked egg whites: The same process as whole eggs, but you can freeze whites in ice cube trays before transferring them to an airtight container. This speeds up the thawing process and can help with measuring. <br><br> Uncooked yolks: Egg yolks alone can turn extremely gelatinous if frozen. For use in savory dishes, add ⅛ teaspoon of salt per four egg yolks. Substitute the salt for sugar for use in sweet dishes and/or desserts. <br><br> Cooked eggs: Scrambled eggs are fine to freeze, but it is advised to not freeze cooked egg whites. They become too watery and rubbery if not mixed with the yolk. <br><br> Hard-boiled eggs: As mentioned above, it is best to not freeze hard-boiled eggs because cooked whites become watery and rubbery when frozen. 
+                    </div>
+                        <div class="fr_tip_wp_wrap">
+                          <div class="fr_tip_wp_desc">
+                            <div>From the article:</div>
+                            <a href="https://www.chowhound.com/food-news/184014/egg-food-safety-guide/">The Ultimate Egg Food Safety Guide</a>
+                          </div>
+                          <a class="freyja_bigbt fr_tip_wp_btn" href="https://www.chowhound.com/food-news/184014/egg-food-safety-guide/">See Full Article <span>&rsaquo;</span></a>
+                        </div>
+
+                  </div>
+                  <div
+                  class="fr_tip_modal_content fr_tip_modal_content_3"
+                  data-index="3"
+                  style="display: none;"
+                  >
+                    <div class="fr_tip_content_hd">
+                      <div class="fr_tip_label">Tip</div><h4 class="fr_speak_tip_head_3">Why Do We Celebrate Christmas on Dec. 25?</h4>
+                    </div>
+
+                    <div class="fr_tip_full_text fr_speak_tip_body_3">
+                      There are several reasons Christmas is celebrated on Dec. 25. The date is nine months after March 25, a day recognized by Christians as Annunciation. It was the day Mary was told she would was having a baby. The nine months that follow are an approximation of Jesus’ birth. Dec. 25 also coincides with pagan Winter Solstice celebrations like Saturnalia' and Dies Natalis Solis Invicti. Since they were historically celebrated around that time of year there was precedent for holiday festivities during this time of year.
+                    </div>
+
+                  </div>
+                  <div
+                  class="fr_tip_modal_content fr_tip_modal_content_4"
+                  data-index="4"
+                  style="display: none;"
+                  >
+                    <div class="fr_tip_content_hd">
+                      <div class="fr_tip_label">Tip</div><h4 class="fr_speak_tip_head_4">What Does the Name &#39;Christmas&#39; Mean and What Is the Meaning of Christmas?</h4>
+                    </div>
+
+                    <div class="fr_tip_full_text fr_speak_tip_body_4">
+                      Christmas is a shortened from the words “Christ’s mass.” It’s derived from the Middle English word "Cristemasse" which has Greek, Hebrew and Latin origins. Christmas is an annual holiday that honors the birth of Jesus Christ. It is celebrated by Christians around the world and is regarded as an important religious and cultural holiday.
+                    </div>
+
+                  </div>
+                  <div
+                  class="fr_tip_modal_content fr_tip_modal_content_5"
+                  data-index="5"
+                  style="display: none;"
+                  >
+                    <div class="fr_tip_content_hd">
+                      <div class="fr_tip_label">Tip</div><h4 class="fr_speak_tip_head_5">How Can We Celebrate Christmas?</h4>
+                    </div>
+
+                    <div class="fr_tip_full_text fr_speak_tip_body_5">
+                      Christmas is traditionally celebrated in many ways and celebrations vary across cultures. In the days leading up to Christmas, people usually put up special decorations including colorful lights and evergreen trees. Gifts are often placed under the tree and exchanged on Christmas day among loved ones. Large meals are also typically served as part of the celebration as well. 
+                    </div>
+
+                  </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+        <script type="application/ld+json">
+  {
+   "@context": "http://schema.org/",
+   "@type": "WebPage",
+   "name": "Easy Brownies Recipe ",
+   "speakable":
+   {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["fr_speak_tip_head_0", "fr_speak_tip_body_0"]
+   },
+   "speakable":
+   {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["fr_speak_tip_head_1", "fr_speak_tip_body_1"]
+   },
+   "speakable":
+   {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["fr_speak_tip_head_2", "fr_speak_tip_body_2"]
+   },
+   "speakable":
+   {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["fr_speak_tip_head_3", "fr_speak_tip_body_3"]
+   },
+   "speakable":
+   {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["fr_speak_tip_head_4", "fr_speak_tip_body_4"]
+   },
+   "speakable":
+   {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["fr_speak_tip_head_5", "fr_speak_tip_body_5"]
+   },
+   "url": "https://www.chowhound.com/recipes/easy-brownies-30376"
+  }
+</script>
+
+
+
+
+
+
+      <div class="freyja_ads_lb">
+          <div id="leader_plus_top"></div>
+      </div>
+
+
+
+<div class="freyja_container clearit freyja_mainbody bt_body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="col gu12">
+    <section class="freyja_colwrapper fr_recipewrapper">
+  <section class="col gu3 freyja_notmobile nopad">
+  <div class="freyja_box freyja_box81">
+    <h3><span>Ingredients (8)</span></h3>
+    <ul><li itemprop="ingredients">6 ounces bittersweet chocolate chips (about 1 cup) or coarsely chopped bittersweet chocolate</li>
+<li itemprop="ingredients">8 tablespoons unsalted butter (1 stick), cut into 8 pieces</li>
+<li itemprop="ingredients">2 large eggs, at room temperature</li>
+<li itemprop="ingredients">1 cup granulated sugar</li>
+<li itemprop="ingredients">1 teaspoon vanilla extract</li>
+<li itemprop="ingredients">1/2 teaspoon baking powder</li>
+<li itemprop="ingredients">1/4 teaspoon fine salt</li>
+<li itemprop="ingredients">1 cup all-purpose flour</li>
+</ul>
+  </div>
+
+    <div class="edaman_wrap">
+      <a href="#" target="_blank" class="freyja_bigbt edamam_bt">Nutritional Information</a>
+      <div class="edaman_info_wb">
+        <div class="edaman_info_w">
+          <ul>
+            <li><span class="edamam_nam">Calories</span><span class="edamam_dot"></span><span class="edamam_val">188</span></li>
+            <li><span class="edamam_nam">Fat</span><span class="edamam_dot"></span><span class="edamam_val">9.59g</span></li>
+            <li><span class="edamam_nam">Saturated fat</span><span class="edamam_dot"></span><span class="edamam_val">5.72g</span></li>
+            <li><span class="edamam_nam">Trans fat</span><span class="edamam_dot"></span><span class="edamam_val">0.23g</span></li>
+            <li><span class="edamam_nam">Carbs</span><span class="edamam_dot"></span><span class="edamam_val">25.37g</span></li>
+            <li><span class="edamam_nam">Fiber</span><span class="edamam_dot"></span><span class="edamam_val">0.84g</span></li>
+            <li><span class="edamam_nam">Sugar</span><span class="edamam_dot"></span><span class="edamam_val">18.35g</span></li>
+            <li><span class="edamam_nam">Protein</span><span class="edamam_dot"></span><span class="edamam_val">2.1g</span></li>
+            <li><span class="edamam_nam">Cholesterol</span><span class="edamam_dot"></span><span class="edamam_val">38.43mg</span></li>
+            <li><span class="edamam_nam">Sodium</span><span class="edamam_dot"></span><span class="edamam_val">58.81mg</span></li>
+            <li class="edamam_foot">
+              <span class="edamam_br">Nutritional Analysis per serving <strong>(16 servings)</strong></span>
+              <a href="https://www.edamam.com/nutrition_wizard/" target="_blank"><span  class="edamam_br" style="display: block">Powered by <span class="edamam_logo"></span></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  <span class="popcart-wrapper" style="margin-bottom:20px"><div class="popcart-buy-button"></div></span>
+
+  <div id="mpu_plus_top" class="mpu_plus_top_30376"></div>
+
+</section>
+
+
+  
+
+
+  <section class="col gu9 nopad ">
+    <div class="freyja_box freyja_box82 clearit ">
+      <div class="frr_summary" itemprop="description">
+
+        <div class="frr_tip_wrp">
+          <div
+            class="fr_tips_carousel fr_tips_carousel-30376 owl-carousel"
+            data-id="30376"
+            data-initiated="false"
+          >
+                <div class="fr_tip_card fr_tip_card_0">
+                  <div class="fr_back_card"></div>
+                  <div class="fr_tip_card_top" data-index="0">
+                    <div class="fr_tip_card_head">
+                      <div class="fr_tip_label">Tip</div><div class="fr_tip_card_title">How to Store Eggs</div>
+                    </div>
+                    <div class="fr_tip_trun_desc ">
+                      Eggs should keep a consistent and low temperature. This is best achieved by placing their carton in the center of your fridge. The eggs should also remain in their original packaging to avoid the absorption of strong odors. <br/><br/> It is wise to follow the “best by” date to determine overall freshness, but eggs can be tested by simply dropping them into a bowl of water. Older eggs will float while fresh eggs will sink. This is due to the size of their air cells, which gradually increase over time.<br/><br/> Cooked eggs have a refrigerator shelf life of no more than four days, while hard-boiled eggs, peeled or unpeeled, are safe to consume up to one week after they’re prepared. 
+                    </div>
+                    <div class="fr_tip_read_more">Read More</div>
+                  </div>
+                      <div class="fr_tip_num">1 of 6</div>
+                      <div class="fr_tip_btm_nav">
+                        <div class="fr_next_card_js fr_next_card" data-index="1">
+                          <div>
+                            Next: <span class="fr_tip_next_title">How to Cook Eggs</span>
+                          </div>
+                          <span class="fr_tip_arrow"></span>
+                        </div>
+                      </div>
+                </div>
+                <div class="fr_tip_card fr_tip_card_1">
+                  <div class="fr_back_card"></div>
+                  <div class="fr_tip_card_top" data-index="1">
+                    <div class="fr_tip_card_head">
+                      <div class="fr_tip_label">Tip</div><div class="fr_tip_card_title">How to Cook Eggs</div>
+                    </div>
+                    <div class="fr_tip_trun_desc ">
+                      The beauty of an egg is its versatility. Eggs can be cooked in a variety of ways. Here are some tips in accomplishing the four most common preparations. <br><br> Scrambled: Whip your eggs in a bowl. The consistency of your scrambled eggs is a personal preference, though it seems like the majority of breakfast connoisseurs enjoy a more runny and fluffy option. In this case, add about ¼ cup of milk for every four eggs. This will help to thin the mix. Feel free to also season with salt and pepper (or stir in cream cheese for added decadence). Grease a skillet with butter over medium heat and pour in the egg mixture. As the eggs begin to cook, begin to pull and fold the eggs with a spatula until it forms curds. Do not stir constantly. Once the egg is cooked to your liking, remove from heat and serve. <br><br> Hard-boiled: Fill a pot that covers your eggs by about two inches. Remove the eggs and bring the water to a boil. Once the water begins to boil, carefully drop in the eggs and leave them for 10-12 minutes. For easy peeling, give the eggs an immediate ice bath after the cooking time is completed. For soft-boiled eggs, follow the same process, but cut the cooking time in half. <br><br> Poached: Add a dash of vinegar to a pan filled with steadily simmering water. Crack eggs individually into a dish or small cup. With a spatula, create a gentle whirlpool in the pan. Slowly add the egg, whites first, into the water and allow to cook for three minutes. Remove the egg with a slotted spoon and immediately transfer to kitchen paper to drain the water. <br><br> Sunny Side Up/Over Easy/Medium/Hard: For each of these preparations, you are cracking an egg directly into a greased frying pan. For sunny side up, no flipping is involved. Simply allow the edges to fry until they’re golden brown. To achieve an over easy egg, flip a sunny side up egg and cook until a thin film appears over the yolk. The yolk should still be runny upon serving. An over medium egg is flipped, fried, and cooked longer until the yolk is still slightly runny. An over hard is cooked until the yolk is hard. 
+                    </div>
+                    <div class="fr_tip_read_more">Read More</div>
+                  </div>
+                      <div class="fr_tip_num">2 of 6</div>
+                      <div class="fr_tip_btm_nav">
+                        <div class="fr_next_card_js fr_next_card" data-index="2">
+                          <div>
+                            Next: <span class="fr_tip_next_title">How to Freeze Eggs</span>
+                          </div>
+                          <span class="fr_tip_arrow"></span>
+                        </div>
+                      </div>
+                </div>
+                <div class="fr_tip_card fr_tip_card_2">
+                  <div class="fr_back_card"></div>
+                  <div class="fr_tip_card_top" data-index="2">
+                    <div class="fr_tip_card_head">
+                      <div class="fr_tip_label">Tip</div><div class="fr_tip_card_title">How to Freeze Eggs</div>
+                    </div>
+                    <div class="fr_tip_trun_desc ">
+                      Eggs can easily be frozen, but instructions vary based on the egg’s physical state. As a general rule, uncooked eggs in their shells should not be frozen. They must be cracked first and have their contents frozen. <br><br> Uncooked whole eggs: The eggs must be removed from their shells, blended, and poured into containers that can seal tightly. <br><br> Uncooked egg whites: The same process as whole eggs, but you can freeze whites in ice cube trays before transferring them to an airtight container. This speeds up the thawing process and can help with measuring. <br><br> Uncooked yolks: Egg yolks alone can turn extremely gelatinous if frozen. For use in savory dishes, add ⅛ teaspoon of salt per four egg yolks. Substitute the salt for sugar for use in sweet dishes and/or desserts. <br><br> Cooked eggs: Scrambled eggs are fine to freeze, but it is advised to not freeze cooked egg whites. They become too watery and rubbery if not mixed with the yolk. <br><br> Hard-boiled eggs: As mentioned above, it is best to not freeze hard-boiled eggs because cooked whites become watery and rubbery when frozen. 
+                    </div>
+                    <div class="fr_tip_read_more">Read More</div>
+                  </div>
+                      <div class="fr_tip_num">3 of 6</div>
+                      <div class="fr_tip_btm_nav">
+                        <div class="fr_next_card_js fr_next_card" data-index="3">
+                          <div>
+                            Next: <span class="fr_tip_next_title">Why Do We Celebrate Christmas on Dec. 25?</span>
+                          </div>
+                          <span class="fr_tip_arrow"></span>
+                        </div>
+                      </div>
+                </div>
+                <div class="fr_tip_card fr_tip_card_3">
+                  <div class="fr_back_card"></div>
+                  <div class="fr_tip_card_top" data-index="3">
+                    <div class="fr_tip_card_head">
+                      <div class="fr_tip_label">Tip</div><div class="fr_tip_card_title">Why Do We Celebrate Christmas on Dec. 25?</div>
+                    </div>
+                    <div class="fr_tip_trun_desc ">
+                      There are several reasons Christmas is celebrated on Dec. 25. The date is nine months after March 25, a day recognized by Christians as Annunciation. It was the day Mary was told she would was having a baby. The nine months that follow are an approximation of Jesus’ birth. Dec. 25 also coincides with pagan Winter Solstice celebrations like Saturnalia' and Dies Natalis Solis Invicti. Since they were historically celebrated around that time of year there was precedent for holiday festivities during this time of year.
+                    </div>
+                    <div class="fr_tip_read_more">Read More</div>
+                  </div>
+                      <div class="fr_tip_num">4 of 6</div>
+                      <div class="fr_tip_btm_nav">
+                        <div class="fr_next_card_js fr_next_card" data-index="4">
+                          <div>
+                            Next: <span class="fr_tip_next_title">What Does the Name &#39;Christmas&#39; Mean and What Is the Meaning of Christmas?</span>
+                          </div>
+                          <span class="fr_tip_arrow"></span>
+                        </div>
+                      </div>
+                </div>
+                <div class="fr_tip_card fr_tip_card_4">
+                  <div class="fr_back_card"></div>
+                  <div class="fr_tip_card_top" data-index="4">
+                    <div class="fr_tip_card_head">
+                      <div class="fr_tip_label">Tip</div><div class="fr_tip_card_title">What Does the Name &#39;Christmas&#39; Mean and What Is the Meaning of Christmas?</div>
+                    </div>
+                    <div class="fr_tip_trun_desc ">
+                      Christmas is a shortened from the words “Christ’s mass.” It’s derived from the Middle English word "Cristemasse" which has Greek, Hebrew and Latin origins. Christmas is an annual holiday that honors the birth of Jesus Christ. It is celebrated by Christians around the world and is regarded as an important religious and cultural holiday.
+                    </div>
+                    <div class="fr_tip_read_more">Read More</div>
+                  </div>
+                      <div class="fr_tip_num">5 of 6</div>
+                      <div class="fr_tip_btm_nav">
+                        <div class="fr_next_card_js fr_next_card" data-index="5">
+                          <div>
+                            Next: <span class="fr_tip_next_title">How Can We Celebrate Christmas?</span>
+                          </div>
+                          <span class="fr_tip_arrow"></span>
+                        </div>
+                      </div>
+                </div>
+                <div class="fr_tip_card fr_tip_card_5">
+                  <div class="fr_back_card"></div>
+                  <div class="fr_tip_card_top" data-index="5">
+                    <div class="fr_tip_card_head">
+                      <div class="fr_tip_label">Tip</div><div class="fr_tip_card_title">How Can We Celebrate Christmas?</div>
+                    </div>
+                    <div class="fr_tip_trun_desc ">
+                      Christmas is traditionally celebrated in many ways and celebrations vary across cultures. In the days leading up to Christmas, people usually put up special decorations including colorful lights and evergreen trees. Gifts are often placed under the tree and exchanged on Christmas day among loved ones. Large meals are also typically served as part of the celebration as well. 
+                    </div>
+                    <div class="fr_tip_read_more">Read More</div>
+                  </div>
+                      <div class="fr_tip_num">6 of 6</div>
+                      <div class="fr_tip_btm_nav">
+                        <div class="fr_next_card_js fr_next_card" data-index="0">
+                          <div>
+                            Next: <span class="fr_tip_next_title">How to Store Eggs</span>
+                          </div>
+                          <span class="fr_tip_arrow"></span>
+                        </div>
+                      </div>
+                </div>
+          </div>
+
+        </div>
+
+
+
+
+              <p>Brownies are one of the easiest baked goods to make: You don’t need any fancy equipment, just some elbow grease to stir everything together. And to make it even easier, we use chocolate chips here instead of chopping the chocolate by hand. Start by melting the chocolate and butter together, then stir in the rest of the ingredients to make a thick batter. Spread it into a foil-lined baking pan—the foil makes removing the brownies fail-proof and cleanup a snap. Top with <a target="_blank" href="https://www.chowhound.com/recipes/vanilla-bean-ice-cream-11117"> ice cream</a> and <a target="_blank" href="https://www.chowhound.com/recipes/basic-caramel-sauce-28706"> caramel sauce</a> for a delicious brownie sundae.</p>
+<p><strong>Game plan:</strong> These brownies will last up to 3 days in an airtight container at room temperature.</p>
+      </div>
+
+      <div class="fr_byline full_summ ">
+        <span class="by_line">
+              by <a href="https://www.chowhound.com/search?q=Christine%20Gallary">
+                  <span itemprop="author">Christine Gallary</span>
+                </a>
+</span>
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="freyja_box freyja_box82 ">
+      <h3><span>Instructions</span></h3>
+      <div class="frr_wrap" itemprop="recipeInstructions">
+        <ol>
+	<li>
+<span class="number_divider">1</span>Heat the oven to 350°F and arrange a rack in the middle. Line an 8-by-8-inch metal baking pan with aluminum foil.</li>
+	<li>
+<span class="number_divider">2</span>Combine the chocolate and butter in a medium saucepan and cook over low heat, stirring frequently, until melted and smooth. Remove from the heat and let cool slightly, about 5 minutes. (Alternatively, melt the chocolate and butter in the microwave, stirring every 30 seconds.)</li>
+	<li>
+<span class="number_divider">3</span>Combine the eggs, sugar, vanilla, baking powder, and salt in a large bowl and stir with a rubber spatula until just evenly incorporated. Add the chocolate mixture and stir until evenly combined. Add the flour and fold in until just incorporated, about 20 strokes (no white streaks should remain).</li>
+	<li>
+<span class="number_divider">4</span>Pour the batter into the prepared pan, push it to the edges in an even layer, and smooth the top. Bake until a cake tester or skewer inserted into the center comes out clean, about 25 minutes. Remove to a wire rack and let the brownies cool for at least 20 minutes.</li>
+	<li>
+<span class="number_divider">5</span>To remove the brownies, grip the excess foil and pull it out of the baking pan. Transfer to a cutting board and cut the brownies into 2-inch squares.</li>
+</ol>
+
+          <img id="recipe_top_img" itemprop="image" alt="Easy Brownies" class="lazy" srcset="https://search.chow.com/thumbnail/1280/0/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg 2x, https://search.chow.com/thumbnail/1920/0/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg 3x" src="https://search.chow.com/thumbnail/640/0/www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg" />
+
+          <div class="fr_r_shw"><div class="freyja_sharing fr_inlineshare fr_r_shar" style="clear:both">
+<ul>
+  <li><a class="freyja_fb fr_sbt_rp custom_fb_share" data-social-location="recipe-bottom" href="https://www.facebook.com/sharer/sharer.php?u=https://www.chowhound.com/recipes/easy-brownies-30376&t=Easy+Brownies" target="_blank">Share<span class="hd_r"> on Facebook</span></a></li><!--
+    --><li><a class="fr_reddit fr_sbt_rp fr_reddit_share" href="//www.reddit.com/submit?url=https%3A%2F%2Fwww.chowhound.com%2Frecipes%2Feasy-brownies-30376&title=Easy+Brownies" target="_blank" data-social-location="recipe-bottom">Share<span class="hd_r"> on Reddit</span></a></li><!--
+  --><li><a class="freyja_pr fr_sbt_rp omniture_print" href="https://www.chowhound.com/recipes/easy-brownies-30376/print">Print</a></li><!--
+  --><li><a class="freyja_em fr_sbt_rp act_emailit omniture_email" rel="nofollow" data-shareimg="https://www.chowstatic.com/assets/2014/09/30376_easy_brownies.jpg" data-sharetitle="Easy Brownies" data-shareurl="https://www.chowhound.com/recipes/easy-brownies-30376" data-sharedescription="This easy brownie recipe uses no fancy equipment or ingredients, takes only 20 minutes to put together, and makes a delicious brownie sundae." data-social-location="recipe-bottom">Email</a></li><!--
+  --><li style="min-width:150px;max-width:200px"><span class="frr_save save_recipe show_login_box" data-recipeid="30376" data-savec="450"><span class="frr_divider"></span><i>Save</i> <span class="frr_sc_thin">(450)</span></span></li>
+</ul>
+</div>
+
+</div>
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+  </section>
+
+
+    </section>
+  </div>
+    <div id="pbr_native_top" style="position: relative;top: -2px;background: #FFF;z-index: 99;"></div>
+  <div class="freyja_container clearit freyja_mainbody bt_body">
+    <section class="col gu12">
+
+    <section class="col gu12 nopad frr_comments">
+      <div class="freyja_bigbt comment_expander" data-url="/recipes/easy-brownies-30376/discussion.json">Load Comments</div>
+<div id="embedded_discussion_wrapper" class="frr_replies_wrap">
+      <div id="embedded_discussion_wrapper" class="clearfix">
+          <div id='discussion_placeholder' class="tac" data-url="/recipes/easy-brownies-30376/discussion.json">
+  
+
+</div>
+    </div>
+
+</div>
+    </section>
+
+
+
+
+
+
+
+
+
+<section class="col gu12 nopad frp_mfrc ">
+
+  <div class="freyja_box">
+    <h3><span>Recommended from Chowhound</span></h3>
+  </div>
+
+  <div class="fr_r_related_wrap">
+
+    <div class="fr_r_related_left_col">
+
+      <div class="fr_r_related_gals_wrap">
+            <div
+            class="freyja_box7 fr_r_related_gal fr_related_item"
+            data-current-page-type="Recipe"
+            data-content-type="Gallery"
+            data-title="Chocolate Christmas Cookie, Candy, and Bar Recipes"
+            data-rank="1"
+            data-total-related="7"
+            >
+              <a title="Chocolate Christmas Cookie, Candy, and Bar Recipes" href="https://www.chowhound.com/pictures/chocolate-christmas-cookie-candy-and-bar-recipes">
+                <div data-original="https://search.chow.com/thumbnail/320/0/www.chowstatic.com/assets/recipe_photos/30523_chocolate_cookie_sandwich_pepperment_filling3.jpg" data-original-2x="https://search.chow.com/thumbnail/640/0/www.chowstatic.com/assets/recipe_photos/30523_chocolate_cookie_sandwich_pepperment_filling3.jpg" data-original-3x="https://search.chow.com/thumbnail/960/0/www.chowstatic.com/assets/recipe_photos/30523_chocolate_cookie_sandwich_pepperment_filling3.jpg" class="fr_bck lazy"></div>
+              </a>
+
+              <div class="fr_r_r_deets_wrap">
+                <div class="fr_r_r_label">Photo Gallery</div>
+
+                <a title="Chocolate Christmas Cookie, Candy, and Bar Recipes" href="https://www.chowhound.com/pictures/chocolate-christmas-cookie-candy-and-bar-recipes"><h2>Chocolate Christmas Cookie, Candy, and Bar Recipes</h2></a>
+
+                <div class="fr_r_r_pic_count">36 Photos</div>
+
+                    <div class="freyja_tagslist fr_collapsible_tags">
+                          <a href="https://www.chowhound.com/tag/christmas" class="freyja_tag act_filter act_filter_reset" data-seo="christmas" data-id="93" data-name="Christmas">Christmas</a>
+                          <a href="https://www.chowhound.com/tag/baking" class="freyja_tag act_filter act_filter_reset" data-seo="baking" data-id="165" data-name="Baking">Baking</a>
+                          <a href="https://www.chowhound.com/tag/chocolate" class="freyja_tag act_filter act_filter_reset" data-seo="chocolate" data-id="805" data-name="Chocolate">Chocolate</a>
+                          <a href="https://www.chowhound.com/tag/cookies" class="freyja_tag act_filter act_filter_reset" data-seo="cookies" data-id="3575" data-name="Cookies">Cookies</a>
+                          <a href="https://www.chowhound.com/tag/holidays" class="freyja_tag act_filter act_filter_reset" data-seo="holidays" data-id="3754" data-name="Holidays">Holidays</a>
+                    </div>
+              </div>
+            </div>
+
+            <div
+            class="freyja_box7 fr_r_related_gal fr_related_item"
+            data-current-page-type="Recipe"
+            data-content-type="Gallery"
+            data-title="Easy Christmas Cookies, Brownies, and Bar Recipes"
+            data-rank="2"
+            data-total-related="7"
+            >
+              <a title="Easy Christmas Cookies, Brownies, and Bar Recipes" href="https://www.chowhound.com/pictures/easy-christmas-cookies-brownies-and-bar-recipes">
+                <div data-original="https://search.chow.com/thumbnail/320/0/www.chowstatic.com/assets/2013/10/30895_RecipeImage_620x413_cranberry_shortbread_bars_almond_streusel.jpg" data-original-2x="https://search.chow.com/thumbnail/640/0/www.chowstatic.com/assets/2013/10/30895_RecipeImage_620x413_cranberry_shortbread_bars_almond_streusel.jpg" data-original-3x="https://search.chow.com/thumbnail/960/0/www.chowstatic.com/assets/2013/10/30895_RecipeImage_620x413_cranberry_shortbread_bars_almond_streusel.jpg" class="fr_bck lazy"></div>
+              </a>
+
+              <div class="fr_r_r_deets_wrap">
+                <div class="fr_r_r_label">Photo Gallery</div>
+
+                <a title="Easy Christmas Cookies, Brownies, and Bar Recipes" href="https://www.chowhound.com/pictures/easy-christmas-cookies-brownies-and-bar-recipes"><h2>Easy Christmas Cookies, Brownies, and Bar Recipes</h2></a>
+
+                <div class="fr_r_r_pic_count">33 Photos</div>
+
+                    <div class="freyja_tagslist fr_collapsible_tags">
+                          <a href="https://www.chowhound.com/tag/christmas" class="freyja_tag act_filter act_filter_reset" data-seo="christmas" data-id="93" data-name="Christmas">Christmas</a>
+                          <a href="https://www.chowhound.com/tag/baking" class="freyja_tag act_filter act_filter_reset" data-seo="baking" data-id="165" data-name="Baking">Baking</a>
+                          <a href="https://www.chowhound.com/tag/cookies" class="freyja_tag act_filter act_filter_reset" data-seo="cookies" data-id="3575" data-name="Cookies">Cookies</a>
+                          <a href="https://www.chowhound.com/tag/brownies" class="freyja_tag act_filter act_filter_reset" data-seo="brownies" data-id="3685" data-name="Brownies">Brownies</a>
+                          <a href="https://www.chowhound.com/tag/holidays" class="freyja_tag act_filter act_filter_reset" data-seo="holidays" data-id="3754" data-name="Holidays">Holidays</a>
+                          <a href="https://www.chowhound.com/tag/easy" class="freyja_tag act_filter act_filter_reset" data-seo="easy" data-id="4351" data-name="Easy">Easy</a>
+                    </div>
+              </div>
+            </div>
+
+                </div>
+                <div class="fr_r_related_gals_wrap">
+            <div
+            class="freyja_box7 fr_r_related_gal fr_related_item"
+            data-current-page-type="Recipe"
+            data-content-type="Gallery"
+            data-title="Super Bowl Party Recipes"
+            data-rank="3"
+            data-total-related="7"
+            >
+              <a title="Super Bowl Party Recipes" href="https://www.chowhound.com/pictures/super-bowl-party-recipes">
+                <div data-original="https://search.chow.com/thumbnail/320/0/www.chowstatic.com/assets/2016/01/31682_red_pepper_hummus.jpg" data-original-2x="https://search.chow.com/thumbnail/640/0/www.chowstatic.com/assets/2016/01/31682_red_pepper_hummus.jpg" data-original-3x="https://search.chow.com/thumbnail/960/0/www.chowstatic.com/assets/2016/01/31682_red_pepper_hummus.jpg" class="fr_bck lazy"></div>
+              </a>
+
+              <div class="fr_r_r_deets_wrap">
+                <div class="fr_r_r_label">Photo Gallery</div>
+
+                <a title="Super Bowl Party Recipes" href="https://www.chowhound.com/pictures/super-bowl-party-recipes"><h2>Super Bowl Party Recipes</h2></a>
+
+                <div class="fr_r_r_pic_count">117 Photos</div>
+
+                    <div class="freyja_tagslist fr_collapsible_tags">
+                          <a href="https://www.chowhound.com/tag/super-bowl" class="freyja_tag act_filter act_filter_reset" data-seo="super-bowl" data-id="89" data-name="Super Bowl">Super Bowl</a>
+                          <a href="https://www.chowhound.com/tag/party-planning" class="freyja_tag act_filter act_filter_reset" data-seo="party-planning" data-id="3764" data-name="Party Planning">Party Planning</a>
+                    </div>
+              </div>
+            </div>
+
+            <div
+            class="freyja_box7 fr_r_related_gal fr_related_item"
+            data-current-page-type="Recipe"
+            data-content-type="Gallery"
+            data-title="Shippable Cookies and Treats for Christmas"
+            data-rank="4"
+            data-total-related="7"
+            >
+              <a title="Shippable Cookies and Treats for Christmas" href="https://www.chowhound.com/pictures/shippable-cookies-and-treats-for-christmas">
+                <div data-original="https://search.chow.com/thumbnail/320/0/www.chowstatic.com/assets/2015/10/31611_salted_caramel_popcorn_balls.jpg" data-original-2x="https://search.chow.com/thumbnail/640/0/www.chowstatic.com/assets/2015/10/31611_salted_caramel_popcorn_balls.jpg" data-original-3x="https://search.chow.com/thumbnail/960/0/www.chowstatic.com/assets/2015/10/31611_salted_caramel_popcorn_balls.jpg" class="fr_bck lazy"></div>
+              </a>
+
+              <div class="fr_r_r_deets_wrap">
+                <div class="fr_r_r_label">Photo Gallery</div>
+
+                <a title="Shippable Cookies and Treats for Christmas" href="https://www.chowhound.com/pictures/shippable-cookies-and-treats-for-christmas"><h2>Shippable Cookies and Treats for Christmas</h2></a>
+
+                <div class="fr_r_r_pic_count">48 Photos</div>
+
+                    <div class="freyja_tagslist fr_collapsible_tags">
+                          <a href="https://www.chowhound.com/tag/christmas" class="freyja_tag act_filter act_filter_reset" data-seo="christmas" data-id="93" data-name="Christmas">Christmas</a>
+                          <a href="https://www.chowhound.com/tag/baking" class="freyja_tag act_filter act_filter_reset" data-seo="baking" data-id="165" data-name="Baking">Baking</a>
+                          <a href="https://www.chowhound.com/tag/cookies" class="freyja_tag act_filter act_filter_reset" data-seo="cookies" data-id="3575" data-name="Cookies">Cookies</a>
+                          <a href="https://www.chowhound.com/tag/holidays" class="freyja_tag act_filter act_filter_reset" data-seo="holidays" data-id="3754" data-name="Holidays">Holidays</a>
+                    </div>
+              </div>
+            </div>
+
+      </div>
+
+
+    </div>
+    <div class="fr_r_related_right_col fr_r_related_right_col-30376">
+      <div id="mpu_bottom" class="mpu_bottom mpu_bottom_30376"></div>
+
+      <div class="fr_related_rec_list">
+            <div
+            class="fr_related_item fr_related_recipe_wrap"
+            data-current-page-type="Recipe"
+            data-content-type="Recipe"
+            data-title="Vegan Brownies "
+            data-rank="5"
+            data-total-related="7"
+            >
+              <a href="https://www.chowhound.com/recipes/vegan-brownies-29435" class="fr_related_recipe_img_wrap">
+                <div data-original="https://search.chow.com/thumbnail/150/0/www.chowstatic.com/assets/recipe_photos/29435_vegan_brownies2.jpg" data-original-2x="https://search.chow.com/thumbnail/300/0/www.chowstatic.com/assets/recipe_photos/29435_vegan_brownies2.jpg" data-original-3x="https://search.chow.com/thumbnail/450/0/www.chowstatic.com/assets/recipe_photos/29435_vegan_brownies2.jpg" class="fr_bck fr_related_recipe_img lazy"></div>
+              </a>
+              <div class="fr_related_recipe_info">
+                <div class="fr_related_recipe_label">Recipe</div>
+                <a href="https://www.chowhound.com/recipes/vegan-brownies-29435"><h5>Vegan Brownies </h5></a>
+              </div>
+            </div>
+            <div
+            class="fr_related_item fr_related_recipe_wrap"
+            data-current-page-type="Recipe"
+            data-content-type="Recipe"
+            data-title="Easy Peach Cobbler"
+            data-rank="6"
+            data-total-related="7"
+            >
+              <a href="https://www.chowhound.com/recipes/easy-peach-cobbler-30401" class="fr_related_recipe_img_wrap">
+                <div data-original="https://search.chow.com/thumbnail/150/0/www.chowstatic.com/assets/recipe_photos/30401_easy_peach_cobbler.jpg" data-original-2x="https://search.chow.com/thumbnail/300/0/www.chowstatic.com/assets/recipe_photos/30401_easy_peach_cobbler.jpg" data-original-3x="https://search.chow.com/thumbnail/450/0/www.chowstatic.com/assets/recipe_photos/30401_easy_peach_cobbler.jpg" class="fr_bck fr_related_recipe_img lazy"></div>
+              </a>
+              <div class="fr_related_recipe_info">
+                <div class="fr_related_recipe_label">Recipe</div>
+                <a href="https://www.chowhound.com/recipes/easy-peach-cobbler-30401"><h5>Easy Peach Cobbler</h5></a>
+              </div>
+            </div>
+            <div
+            class="fr_related_item fr_related_recipe_wrap"
+            data-current-page-type="Recipe"
+            data-content-type="Recipe"
+            data-title="Easy Chocolate Ganache"
+            data-rank="7"
+            data-total-related="7"
+            >
+              <a href="https://www.chowhound.com/recipes/basic-chocolate-ganache-28649" class="fr_related_recipe_img_wrap">
+                <div data-original="https://search.chow.com/thumbnail/150/0/www.chowstatic.com/assets/recipe_photos/28649_chocolate_ganache2.jpg" data-original-2x="https://search.chow.com/thumbnail/300/0/www.chowstatic.com/assets/recipe_photos/28649_chocolate_ganache2.jpg" data-original-3x="https://search.chow.com/thumbnail/450/0/www.chowstatic.com/assets/recipe_photos/28649_chocolate_ganache2.jpg" class="fr_bck fr_related_recipe_img lazy"></div>
+              </a>
+              <div class="fr_related_recipe_info">
+                <div class="fr_related_recipe_label">Recipe</div>
+                <a href="https://www.chowhound.com/recipes/basic-chocolate-ganache-28649"><h5>Easy Chocolate Ganache</h5></a>
+              </div>
+            </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  </section>
+
+
+    <section class="col gu12 nopad">
+      <div class="freyja_box freyja_box83">
+        
+
+
+
+<!-- TABOOLA AD taboola-bottom-page-thumbnails_30376 -->
+<div id="taboola-bottom-page-thumbnails_30376"></div>
+
+  <script type="text/javascript" >
+    window._taboola = window._taboola || [];
+    _taboola.push({
+      mode: 'thumbnails-c',
+      container: 'taboola-bottom-page-thumbnails_30376',
+      placement: 'Desktop Recipe Bottom Page Thumbnails',
+      target_type: 'mix'
+    });
+    var placement_name = "Desktop Recipe Bottom Page Thumbnails";
+  </script>
+
+      </div>
+    </section>
+
+    <div class="ad_box_foot_wrap" style="float:left;width:100%">
+      <div class="ad_box ad_box_foot" style="margin-bottom:10px">
+        <div id="leader_bottom" class="freyjaad_72890 leader_bottom leader_bottom_30376"></div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+</section>
+</span>
+
+  </section>
+
+
+
+
+</div>
+
+
+  <div class="freyja_ads_lb">
+    <div id="leader_bottom"></div>
+  </div>
+
+
+  <div class="next_ajax_recipe"></div>
+  <style>.fr_wp_more_articles{ display: none !important }.fa-clock-o{ position: relative; top: -6px;}</style>
+
+
+<section id="freyja_footer">
+  <div class="freyja_container rela">
+    <div class="freyja_footwrap">
+      <div class="fr_foot_h">
+        <a href="https://www.chowhound.com/" class="freyja_logo" title="chowhound.com"></a>
+        <div class="freyja_mob_follow in_foot">
+          <h3>Follow us!</h3>
+          <ul>
+            <li><a class="freyja_fb facebook_follow" href="https://www.facebook.com/chowhound" target="_blank" data-social-location="footer"></a></li>
+            <li><a class="freyja_tw twitter_follow" href="https://twitter.com/Chow" target="_blank" data-social-location="footer"></a></li>
+            <li><a class="freyja_pi share_pinterest" href="https://www.pinterest.com/chowhound/" target="_blank" data-social-location="footer"></a></li>
+            <li><a class="freyja_in om_instagram_follow" data-social-location="footer" href="https://instagram.com/chowhound/" target="_blank"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fr_foot_f freyja_notmobile">
+        <ul class="fr_fcol">
+          <li><h4>CBS Interactive</h4></li>
+          <li><a href="http://www.cbsinteractive.com/" target="_blank">About CBS Interactive</a></li>
+          <li><a href="https://www.cbscorporation.com/" target="_blank">CBS Corporation</a></li>
+          <li><a href="http://www.cbsinteractive.com/careers" target="_blank">Careers</a></li>
+          <li><a href="https://www.cbsinteractive.com/legal/cbsi/privacy-policy/managing-cookies" target="_blank">Cookies</a></li>
+          <li><a href="https://www.guide.com/" target="_blank">Product Reviews on Guide.com</a></li>
+        </ul>
+        <ul class="fr_fcol">
+          <li><h4>Chowhound</h4></li>
+          <li><a href="https://www.chowhound.com/about">About Chowhound</a></li>
+          <li><a href="https://www.chowhound.com/faq">FAQ</a></li>
+          <li><a href="https://www.chowhound.com/guidelines">Posting Guidelines</a></li>
+          <li><a href="https://www.chowhound.com/feedback">Feedback</a></li>
+          <li><a href="https://www.chowhound.com/editorial-sitemap">Editorial Sitemap</a></li>
+        </ul>
+        <ul class="fr_fcol">
+          <li><h4>Topics</h4></li>
+          <li><a href="https://www.chowhound.com/home-cooking">Home Cooking</a></li>
+          <li><a href="https://www.chowhound.com/restaurants">Restaurants &amp; Bars</a></li>
+          <li><a href="https://www.chowhound.com/cookware">Cookware</a></li>
+          <li><a href="https://www.chowhound.com/tag/whats-for-dinner">What&#39;s for Dinner</a></li>
+          <li><a href="https://www.chowhound.com/tag/cookbook-of-the-month">Cookbook of the Month</a></li>
+        </ul>
+        <ul class="fr_fcol">
+          <li><h4><a href="https://www.chowhound.com/recipes/">Recipes</a></h4></li>
+          <li><a href="https://www.chowhound.com/recipes/easy">Easy Recipes</a></li>
+          <li><a href="https://www.chowhound.com/recipes/healthy">Healthy Recipes</a></li>
+          <li><a href="https://www.chowhound.com/recipes/main-dish">Main Dish Recipes</a></li>
+          <li><a href="https://www.chowhound.com/recipes/dessert">Dessert Recipes</a></li>
+          <li><a href="https://www.chowhound.com/recipes/drink">Drink Recipes</a></li>
+        </ul>
+        <ul class="fr_fcol">
+          <li><h4>Editorial</h4></li>
+          <li><a href="https://www.chowhound.com/cities">City Guides</a></li>
+          <li><a href="https://www.chowhound.com/food-news">Articles</a></li>
+          <li><a href="https://www.chowhound.com/videos">Videos</a></li>
+          <li><a href="https://www.chowhound.com/features">Features</a></li>
+          <li><a href="https://www.chowhound.com/pictures">Photo Galleries</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="freyja_ff">
+    <div class="freyja_container rela">
+    <div class="freyja_footwrap">
+    &copy; CBS Interactive, All rights reserved | <a href="http://www.tvguide.com/" rel="nofollow" target="_blank">A TV Guide site</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Privacy-Policy-Highlights" target="_blank">Privacy Policy</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mThird-Party-Online-Advertising" target="_blank">Ad Choice</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive--Terms-of-Use?retURL=%2FCBSi%2Fapex%2Fknowledgehome%3Freferer%3DmobileTerms.com&popup=false&categories=CBS_Interactive%3AmTOU&template=template_mobileTerms&referer=mobileTerms.com" target="_blank">Terms of Use</a>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<script type="text/javascript">
+    var vglnk = { key: 'de1ca4a39035d42afcc2fd1441684b35' };
+
+    // (function(d, t) {
+    //     var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+    //     s.src = '//cdn.viglink.com/api/vglnk.js';
+    //     var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+    // }(document, 'script'));
+</script>
+
+<script type="text/javascript">
+    is_prod = true;
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    //TODO: This should improve page speed, but needs to be tested by ad team
+  
+
+    //pageview counter code
+    googletag.CBSigetCookieValue = function(ckNm) {
+        var value = null;
+        var allCookies = document.cookie;
+        var pos = allCookies.indexOf(ckNm);
+        if (pos != -1) {
+            var start = pos + ckNm.length + 1;
+            var end = allCookies.indexOf(";", start);
+            if (end == -1) end = allCookies.length;
+            value = allCookies.substring(start, end);
+         }
+         return value;
+    };
+     
+    // determine if it's DST in the Eastern Timezone on the given date
+    googletag.CBSiisEDT = function(dt) {
+        // EDT starts second Sunday of March
+        var edtStart = new Date(dt.getFullYear(), 2, 1);
+        edtStart = Date.UTC(edtStart.getUTCFullYear(), 2, 14-(edtStart.getUTCDay()+13)%7, 5);
+        // EDT ends first Sunday of November
+        var edtEnd = new Date(dt.getFullYear(), 10, 1);
+        edtEnd = Date.UTC(edtEnd.getUTCFullYear(), 10, 7-(edtEnd.getUTCDay()+6)%7, 4);
+        // see if current date is within the EDT range
+        return dt.getTime() >= edtStart && dt.getTime() < edtEnd;
+    };
+     
+    googletag.CBSiaddPageView = function () {
+        var pv=1;
+        var cookiename="pv";
+        //If there's a cookie, get the current value and add one to it.
+        if (document.cookie.indexOf(cookiename)!=-1) {
+            pv=parseInt(googletag.CBSigetCookieValue(cookiename));
+            if(isNaN(pv))
+            {  pv=1;
+            } else {
+                pv+=1;
+            }
+        }
+        // set expiration to midnight using EDT or EST offset (4|5)
+        var dt = new Date();
+        var exp = Date.UTC(dt.getUTCFullYear(), dt.getUTCMonth(), dt.getUTCDate(), googletag.CBSiisEDT(dt) ? 4 : 5);
+        // adjust 1 day if set to midnight of previous day
+        exp += exp > dt.getTime() ? 0 : 24*60*60*1000;
+        exp = new Date(exp).toUTCString();
+        // get L2 domain
+        var domainArr = document.domain.split('.').reverse();
+        var l2domain=document.domain;
+        if(domainArr[1]!=null)
+        {   l2domain = domainArr[1] + "." + domainArr[0];
+        }
+     
+        // save the value in the cookie
+        document.cookie = cookiename + "=" + pv + ";path=/;domain=" + l2domain + ";expires=" + exp;
+        //update the value for the next ad call
+        googletag.pubads().setTargeting("pv",""+pv);
+    };
+    //end pageview counter
+
+
+
+
+        // (function() {
+        //   var gads = document.createElement("script");
+        //   gads.async = true;
+        //   gads.type = "text/javascript";
+        //   var useSSL = "https:" == document.location.protocol;
+        //   gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+        //   var node =document.getElementsByTagName("script")[0];
+        //   node.parentNode.insertBefore(gads, node);
+        //  })();
+
+</script>
+
+
+
+<script>
+
+    var mpu_top, mpu_plus_top, mpu_bottom, leader_plus_top, leader_plus_top_b, leader_top, leader_bottom, mantle_skin, power_bar_incontent, intromercial, mobile_banner_top, mobile_banner_middle, mobile_flex_0, mobile_flex_1, mobile_mpu_top, mobile_mpu_bottom, mobile_flex_top, mobile_flex_bottom, leader_middle, leader_middle2, leader_middle3, pbr_leader_plus_top, pbr_leader_plus_middle, pbr_native_top, flex_nav, mobile_pbr_native_top;
+
+
+    xfp_id = '8264/aw-chowhound/recipes';
+
+
+            googletag.cmd.push(function() {
+
+                var env = is_prod ? "production" : "staging"
+                
+                  intromercial = googletag.defineOutOfPageSlot("8264/aw-chowhound/recipes", "intromercial").addService(googletag.pubads()).setCollapseEmptyDiv(true,true);
+
+                    flex_nav=googletag.defineSlot("8264/aw-chowhound/recipes", [7,7], "flex_nav").addService(googletag.pubads()).setTargeting("pos", "nav").setTargeting("miirefresh","0");
+
+
+                  leader_plus_top=googletag.defineSlot("8264/aw-chowhound/recipes", [[728,90],[970,66],[728,91],[970,250],[7,7]], "leader_plus_top").addService(googletag.pubads()).setTargeting("pos", "top")
+                          .setCollapseEmptyDiv(true,true);
+
+
+
+                  mpu_plus_top=googletag.defineSlot("8264/aw-chowhound/recipes", [[300, 250],[300, 600]], "mpu_plus_top").addService(googletag.pubads()).setTargeting("pos", "top");
+
+
+
+
+
+                    pbr_native_top=googletag.defineSlot("8264/aw-chowhound/recipes", [[11,11],[321,31]], "pbr_native_top").addService(googletag.pubads()).setTargeting("pos", "top").setTargeting("strnativekey", "54ee49f3");
+
+
+                  mpu_bottom=googletag.defineSlot("8264/aw-chowhound/recipes", [300, 250], "mpu_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom");
+
+
+                    if (window.I11C && window.I11C.Morph && window.I11C.Morph === 1) {
+                      googletag.defineSlot("8264/aw-chowhound/recipes", [7,7], "nav-ad").addService(googletag.pubads()).setTargeting("pos", "nav").setTargeting("miirefresh","0");
+                    }
+
+
+
+
+                  leader_bottom=googletag.defineSlot("8264/aw-chowhound/recipes", [[728,90],[970,66],[728,92],[7,7]], "leader_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom");
+
+
+                googletag.pubads().setTargeting("ptype", "section_detail");
+
+                    googletag.pubads().setTargeting("tag", "baking,dessert,chocolate,eggs,butter,brownies,sugar,super-bowl,christmas,mothers-day,valentines-day,picnic,camping,bake-sale,potluck,bridal-shower,vegetarian,baking-powder,brunch,lunch,snack,kid-friendly,salt,party-planning,flour,comfort-food,easy");
+                    utag_taglist = "baking|dessert|chocolate|eggs|butter|brownies|sugar|super-bowl|christmas|mothers-day|valentines-day|picnic|camping|bake-sale|potluck|bridal-shower|vegetarian|baking-powder|brunch|lunch|snack|kid-friendly|salt|party-planning|flour|comfort-food|easy";
+                    utag_data.tags = utag_taglist;
+
+
+                googletag.pubads().setTargeting("loggedin", "0");googletag.pubads().setTargeting("cid", "easy-brownies");
+                googletag.pubads().setTargeting("env", env);
+                googletag.pubads().setTargeting("vguid", view_tracking_guid); 
+
+                googletag.CBSiaddPageView(); //pv counter
+                googletag.pubads().enableAsyncRendering();
+                googletag.pubads().enableSingleRequest();
+                googletag.pubads().collapseEmptyDivs(true);
+                googletag.pubads().disableInitialLoad();
+                googletag.enableServices();
+            // });
+
+
+            // googletag.cmd.push(function() {
+            if(typeof index_headertag_lightspeed !== 'undefined') {
+                index_headertag_lightspeed.add_session_end_hook(function(){
+                var slots = googletag.pubads().getSlots();
+                index_headertag_lightspeed.set_slot_targeting(slots);
+
+                  googletag.display("intromercial");
+
+                
+                  googletag.display("leader_plus_top");
+
+
+
+                  googletag.display("mpu_plus_top");
+
+
+                  googletag.display("mpu_bottom");
+
+                  googletag.display("leader_bottom");
+
+
+
+
+
+                
+
+                    googletag.display("pbr_native_top");
+
+                    googletag.display("flex_nav");
+
+
+                  googletag.pubads().refresh();
+
+                }, true);
+                    index_headertag_lightspeed.refresh();
+                } else {
+
+                  googletag.display("intromercial");
+
+                
+                  googletag.display("leader_plus_top");
+
+
+
+                  googletag.display("mpu_plus_top");
+
+
+                  googletag.display("mpu_bottom");
+
+                  googletag.display("leader_bottom");
+
+
+
+
+
+
+
+                    googletag.display("pbr_native_top");
+
+                    googletag.display("flex_nav");
+
+
+
+
+                    googletag.pubads().refresh();
+
+                }
+            });
+            
+
+</script>
+
+
+<script type="text/javascript">
+/*!
+  * $script.js JS loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz 2014 | License MIT
+  */
+(function(e,t){typeof module!="undefined"&&module.exports?module.exports=t():typeof define=="function"&&define.amd?define(t):this[e]=t()})("$script",function(){function p(e,t){for(var n=0,i=e.length;n<i;++n)if(!t(e[n]))return r;return 1}function d(e,t){p(e,function(e){return t(e),1})}function v(e,t,n){function g(e){return e.call?e():u[e]}function y(){if(!--h){u[o]=1,s&&s();for(var e in f)p(e.split("|"),g)&&!d(f[e],g)&&(f[e]=[])}}e=e[i]?e:[e];var r=t&&t.call,s=r?t:n,o=r?e.join(""):t,h=e.length;return setTimeout(function(){d(e,function t(e,n){if(e===null)return y();!n&&!/^https?:\/\//.test(e)&&c&&(e=e.indexOf(".js")===-1?c+e+".js":c+e);if(l[e])return o&&(a[o]=1),l[e]==2?y():setTimeout(function(){t(e,!0)},0);l[e]=1,o&&(a[o]=1),m(e,y)})},0),v}function m(n,r){var i=e.createElement("script"),u;i.onload=i.onerror=i[o]=function(){if(i[s]&&!/^c|loade/.test(i[s])||u)return;i.onload=i[o]=null,u=1,l[n]=2,r()},i.async=1,i.src=h?n+(n.indexOf("?")===-1?"?":"&")+h:n,t.insertBefore(i,t.lastChild)}var e=document,t=e.getElementsByTagName("head")[0],n="string",r=!1,i="push",s="readyState",o="onreadystatechange",u={},a={},f={},l={},c,h;return v.get=m,v.order=function(e,t,n){(function r(i){i=e.shift(),e.length?v(i,r):v(i,t,n)})()},v.path=function(e){c=e},v.urlArgs=function(e){h=e},v.ready=function(e,t,n){e=e[i]?e:[e];var r=[];return!d(e,function(e){u[e]||r[i](e)})&&p(e,function(e){return u[e]})?t():!function(e){f[e]=f[e]||[],f[e][i](t),n&&n(r)}(e.join("|")),v},v.done=function(e){v([null],e)},v})
+</script>
+
+
+    <script>
+      var load_popcart = 1;
+      var ads_loaded = [];
+      page = "is_recipe";
+      ads_loaded.push(30376);
+      fr_pinterest_modal = "<h2>Thanks for pinning!<\/h2>\n<h2>Follow us for more great suggestions.<\/h2>\n\n<div class=\"fr_pt_follow_wrapper\">\n  <a href=\"https://www.pinterest.com/chowhound/\"\n     data-pin-do=\"buttonFollow\">\n    Follow Chowhound\n  <\/a>\n<\/div>\n\n<h4>Here are some more pins we think you might like:<\/h4>\n\n<div class=\"fr_embbed_pins_wrapper\">\n  <div class=\"fr_embed_pin\" data-social-location=\"thanks-modal\">\n    <a data-pin-do=\"embedPin\" href=\"https://www.pinterest.com/pin/176695985359488789/\"><\/a>\n  <\/div>\n  <div class=\"fr_embed_pin\" data-social-location=\"thanks-modal\">\n    <a data-pin-do=\"embedPin\" href=\"https://www.pinterest.com/pin/176695985359378383/\"><\/a>\n  <\/div>\n  <div class=\"fr_embed_pin\" data-social-location=\"thanks-modal\">\n    <a data-pin-do=\"embedPin\" href=\"https://www.pinterest.com/pin/176695985359385732/\"><\/a>\n  <\/div>\n<\/div>\n\n<a href=\"https://www.pinterest.com/chowhound/\" target=\"_blank\" class=\"freyja_bigbt fr_pin_btn\"><span class=\"fr_pin_btn_arrow\">Show me More<\/span><\/a>\n\n<div class=\"fr_suppress_pin_wrapper\">\n  <label for=\"fr_suppress_pin_modal\"><input type=\"checkbox\" name=\"fr_suppress_pin_modal\" class=\"fr_suppress_pin_modal\" id=\"fr_suppress_pin_modal\">Don\'t show me this again<\/label>\n<\/div>\n";
+
+    </script>
+    <script>
+    $script.ready('recipes_script', function(){
+      chowRecipe.loadedPosts.push(30376);
+      chowRecipe.loadedAds.push(30376);
+    })
+    </script>
+
+
+
+<script type="text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  $script('//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', 'jquery', function() {
+      $script('https://www.chowstatic.com/s/freyja/application-8be96fd88092a7cde92dd5cc9111cbe2.js', 'freyja_main', function() {
+        $script('//js-sec.indexww.com/ht/ls-chowhound.js', 'lsch', function() {
+          $script('//www.googletagservices.com/tag/js/gpt.js', 'gpt', function() {
+
+            $script('//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js', 'jquery_ui', function() {
+              $script('https://www.chowstatic.com/s/main-1c89abe12954c8d980ae8fb5fe7644c6.js', 'main', function() {
+                $script('https://www.chowstatic.com/s/application-30e25682a1467e40c8d07f0777f05eb2.js', 'application', function() {
+                });
+              });
+            });
+
+            $script('//tags.tiqcdn.com/utag/cbsi/chowsite/prod/utag.js', 'utag', function() {
+            $script('//native.sharethrough.com/assets/tag.js', 'sharethrough', function() {
+            $script('//cdn.taboola.com/libtrc/cbsinteractive-chowhound/loader.js', 'taboola');
+              $script('//cdn.viglink.com/api/vglnk.js','vglnks');
+              });
+            });
+          });
+        });
+
+      chowFunctions.canRunAds = false;
+  $script('//vidtech.cbsinteractive.com/uvpjs/2.7.0/CBSI-PLAYER.js', 'uvpjs', function() {
+    $script('//imasdk.googleapis.com/js/sdkloader/ima3.js', 'video_ads', function() {
+      $script('/Ads/showads.js', 'detect_adblocker', function() {
+        $script('https://www.chowstatic.com/s/freyja/uvpjs-6bca1554fa7ef5062bcd2ae82bc0c133.js', 'chow_uvpjs', function() {
+        });
+      });
+    });
+  });
+      $script('https://www.chowstatic.com/s/freyja/parsley-db00bb21e3eb49bf28bbe19dafde77af.js', 'parsley');
+        $script('https://www.chowstatic.com/s/freyja/recipe-e8fd1f63cfa7c3c8a8cf8ecbb2d1c6f0.js', 'recipes_script');
+
+
+    });
+  });
+</script>
+
+  
+  <script>
+    
+    function pageInit() {
+        var signedInStatus = ((typeof jQuery.cookie('cs_sig')) == "string") ? 'Yes' : 'No';
+        chow_js.init();
+        
+                
+                
+                        var css = 'content { display: none; }',
+            head = document.head || document.getElementsByTagName('head')[0],
+            style = document.createElement('style');
+            style.type = 'text/css';
+        if (style.styleSheet){
+            style.styleSheet.cssText = css;
+        } else {
+            style.appendChild(document.createTextNode(css));
+        }
+        head.appendChild(style);
+        
+        var css = '.needs_js { visibility: visible; }',
+            head = document.head || document.getElementsByTagName('head')[0],
+            style = document.createElement('style');
+            style.type = 'text/css';
+        if (style.styleSheet){
+            style.styleSheet.cssText = css;
+        } else {
+            style.appendChild(document.createTextNode(css));
+        }
+        head.appendChild(style);
+    } // end pageInit
+
+    $script.ready('application', function(){
+      pageInit();
+    });
+  </script>
+
+
+</div>
+
+
+<script type="text/javascript">
+    document.domain = 'chowhound.com';
+    is_mobile = false;
+    is_ipad = false;
+    is_tablet = false;
+    is_prod = true;
+    var chow_js_files = chow_js_files || [];
+    chowSecureURL = 'https://secure.chowhound.com';
+    chowThumbnailerUrl = 'https://search.chow.com/thumbnail'
+    fr_email_share_form = "<h4 class=\"fr_email_title\">Share with Your Friends<\/h4>\n<div id=\"chow_email_modal_form_msg\" style=\"display:none;width:450px;padding:50px 0;font-size:18px\"><\/div>\n<form class=\"mt15 reset_on_close fr_email_sharer\" data-submit-btn-id=\"chow_email_modal_submit\" id=\"chow_email_modal_form\" style=\"width:450px\" action=\"/share_tools/email\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\" name=\"authenticity_token\" value=\"8hJTQWUGI3ujQlFFoQvpLs8JFGONRIy5Y90y7ZkRdz5daJnf1bINmIDOnxVfy82LjsKk3YCuR7GsLj4yos952Q==\" />\n  <input type=\"hidden\" name=\"email_image\" value=\"SHARE_IMG\"><input type=\"hidden\" name=\"email_title\" value=\"SHARE_TITLE\"><input type=\"hidden\" name=\"email_link\" value=\"SHARE_URL\"><input type=\"hidden\" name=\"email_description\" value=\"SHARE_DESCRIPTION\"><input type=\"hidden\" name=\"content_type\" value=\"Recipe\">\n\n  <p>To: Separate multiple addresses with commas (limit 5)<\/p>\n  <input id=\"email_recipients\" name=\"email_recipients\" class=\"text_input required validate_email validate_recipient_limit has_default_text default_text\" placeholder=\"Recipient(s) email address(es)\" style=\"outline:none\" data-parsley-myvalidator type=\"text\" >\n\n  <p>From:<\/p>\n  <input id=\"email_sender_name\" name=\"email_sender_name\" class=\"text_input required validate_email has_default_text default_text\" placeholder=\"Your email address\" type=\"text\" data-parsley-type=\"email\" style=\"outline:none\">\n\n  <p>Message:<\/p>\n  <textarea id=\"email_message\" name=\"email_message\" class=\"text_input\" rows=\"4\" style=\"outline:none\" placeholder=\"Your message\" data-parsley-required data-parsley-minlength=\"2\" data-parsley-maxlength=\"500\" data-parsley-minlength-message=\"Add a message between 2 and 500 characters.\" data-parsley-validation-threshold=\"10\"><\/textarea>\n\n  <div class=\"fr_sharepreview\"><span class=\"pr_img\" style=\"background-image:url(SHARE_IMG)\"><\/span>\n    <h5><span class=\"tit\">Share:<\/span>SHARE_TITLE<\/h5><span class=\"freyja_logo fr_smver\"><\/span><\/div>\n  <script src=\"//www.google.com/recaptcha/api.js\" async=\"\" defer=\"\"><\/script>\n  <div style=\"text-align:center\">\n    <div style=\"display:inline-block\">\n      <div class=\"g-recaptcha\" data-sitekey=\"6LfjswUTAAAAAHTdozHCMpQck5GAr21sLKadcw1p\"><\/div>\n    <\/div>\n  <\/div>\n  <a type=\"submit\" href=\"#\" onclick=\"return false\" class=\"clear freyja_bigbt act_emailshare\" style=\"display:block;margin:18px auto 0 auto\">Send<\/a>\n<\/form>"
+    var fbApiKey = '0278fc1adf6dc1daf1156f306ce2c5cc';
+    var unconfirmed_user = false;
+    var unconfirmed_user_has_already_replied = false;
+          var log_in_url = "https://secure.chowhound.com/users/sign_in";
+      var sign_up_url = "https://secure.chowhound.com/users/sign_up";
+    lightweight_action_target = '';
+
+    
+
+        rating_module_classes = "";
+
+
+    
+            
+            
+                    var css = 'content { display: none; }',
+            head = document.head || document.getElementsByTagName('head')[0],
+            style = document.createElement('style');
+            style.type = 'text/css';
+        if (style.styleSheet){
+            style.styleSheet.cssText = css;
+        } else {
+            style.appendChild(document.createTextNode(css));
+        }
+        head.appendChild(style);
+</script>
+
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,2777 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+
+
+
+
+
+
+    
+
+        
+
+        
+
+
+        
+            
+
+
+
+
+
+
+
+
+
+
+<head>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+
+    <meta charset="UTF-8">
+        <title>Brownie recipe: 36 of the best chocolate brownie recipes - Good Housekeeping</title>
+<meta name="description" content="Wondering how to make brownies? There&#039;s a chocolate brownie recipe for everyone - from vegan brownies, to oreo packed brownie bars. " />
+<meta name="keywords" content="chocolate recipes, brownie recipes, brownies, recipe, blondies, flourless" />
+<meta name="robots" content="index,follow,archive" />
+
+<meta name="geo.position" content="," />
+<meta name="geo.placename" content="" />
+<meta name="geo.region" content="" />
+
+    
+    
+    
+    <!-- OG DATA -->
+    
+    <meta property="og:site_name" content="food:food">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="37 of the best chocolate brownie recipes">
+    <meta property="og:description" content="Nothing quite gets the stomach rumbling like the smell of freshly-baked, gooey chocolate brownies. Whether you’re after an indulgent treat packed full of peanut butter, bacon or pretzels, or something flourless, vegan or veggie based, you’ve come to the right place...">
+    <meta property="og:url" content="http://www.goodhousekeeping.co.uk/food/find-your-ultimate-chocolate-brownie-recipe">
+    <meta property="og:image" content="https://assets.goodhousekeeping.co.uk/main/embedded/8920/peppermint-brownies-on-plate-peppermint-brownies-recipe-food-Good-Housekeeping-UK_590_590_90.jpg">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Standard Favicon -->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.goodhousekeeping.co.uk/assets/css/img/ghuk-64x64.ico" />
+    <link rel="icon" type="image/x-icon" href="http://www.goodhousekeeping.co.uk/assets/css/img/ghuk-64x64.ico" />
+
+    <link rel="apple-touch-icon" sizes="144x144" href="http://www.goodhousekeeping.co.uk/assets/css/img/ghuk-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://www.goodhousekeeping.co.uk/assets/css/img/ghuk-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://www.goodhousekeeping.co.uk/assets/css/img/ghuk-icon-72x72.png">
+    <link rel="apple-touch-icon" href="http://www.goodhousekeeping.co.uk/assets/css/img/ghuk-icon-57x57.png">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.goodhousekeeping.co.uk/index.php/feeds/rss" />
+
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" media="screen" href="http://www.goodhousekeeping.co.uk/assets/css/global.css">
+    <link type="text/css" rel="stylesheet" media="print" href="http://www.goodhousekeeping.co.uk/assets/css/global_print.css">
+
+    <link rel="stylesheet" href="http://www.goodhousekeeping.co.uk/assets/js/vendor/royalslider/royalslider.css" />
+    <link rel="stylesheet" href="http://www.goodhousekeeping.co.uk/assets/js/vendor/royalslider/skins/hearst/rs-default.css">
+    <link rel="stylesheet" type="text/css" href="http://www.goodhousekeeping.co.uk/assets/js/vendor/touchcarousel/touchcarousel.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.goodhousekeeping.co.uk/assets/js/vendor/touchcarousel/black-and-white-skin/black-and-white-skin.css" />
+
+    <!-- js -->
+    <script type="text/javascript" src="http://www.goodhousekeeping.co.uk/assets/js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="http://www.goodhousekeeping.co.uk/assets/js/good-house-keeping.combined.js"></script>
+    <script type="text/javascript" src="http://www.goodhousekeeping.co.uk/assets/js/vendor/newsletters.js"></script>
+    <script type="text/javascript" src="http://www.goodhousekeeping.co.uk/assets/js/vendor/TweenMax.min.js"></script>
+
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            $('.royalSlider').css('display', 'block');
+        });
+    </script>
+
+    <script type="text/javascript">
+        function fixCookTimes(){
+            if($('#cookTime').length>0) $('#cookTime').text( convertToHours($('#cookTime').text()));
+            if($('#prepTime').length>0) $('#prepTime').text( convertToHours($('#prepTime').text()));
+            function convertToHours(mins){
+                var h=Math.floor(parseInt(mins)/60);
+                var m=parseInt(mins)%60;var time_string="";
+                if(h!==0){if(h==1){time_string+=h+" hr ";}else{time_string+=h+" hrs ";}}
+                if(m!==0){if(m==1){time_string+=m+" min";}else{time_string+=m+" mins";}}
+                return time_string;
+            }
+        }
+    </script>
+
+    <!-- picturefill -->
+    <!--<script>-->
+        <!--// Picture element HTML5 shiv-->
+        <!--document.createElement( "picture" );-->
+    <!--</script>-->
+    <!--<script type="text/javascript" src="http://www.goodhousekeeping.co.uk/assets/js/vendor/picturefill/picturefill.min.js" async></script>-->
+
+    <!-- embed codes -->
+
+    <!-- Start HOK Testing Tool -->
+    <script type='text/javascript'>
+    var _vwo_code=(function(){
+    var account_id=251657,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=true,
+    // DO NOT EDIT BELOW THIS LINE
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+    </script>
+    <!-- End HOK Testing Tool -->
+
+    
+
+            <script type='text/javascript'>
+
+    var HRST = HRST || {};
+
+    HRST.site = {
+        name:     "Good Housekeeping UK",
+        prefix:   "googdhousekeeping",
+        domain:   "www.goodhousekeeping.co.uk",
+        dartZone: "/36117602/hmiuk-goodhousekeeping//",
+        isMobile:  false,
+        isPhone:  false
+    };
+
+    HRST.contentTesting = HRST.site;
+
+    HRST.article = {
+        section: {
+            name:   "food",
+            prefix: ""
+        },
+
+        subSection: {
+            name:   "find-your-ultimate-chocolate-brownie-recipe",
+            prefix: ""
+        },
+
+        collection: "",
+        sponsor: {
+            type: "",
+            name: "",
+            program: ""
+        },
+
+        pageUrl: "",
+        id: "",
+        type: "find-your-ultimate-chocolate-brownie-recipe",
+        template: "food",
+        title: "food",
+        author: "",
+
+        publishDate: {
+            year: "",
+            month: "",
+            day: "",
+            hour: "",
+            minute: ""
+        },
+
+        adCategory: {
+            id: "",
+            name: "",
+            prefix: ""
+        }
+    };
+
+    HRST.landing = {
+        type: "food",
+        value: {
+            name: "",
+            type: "gallery"
+        }
+    };
+
+    HRST.targeting = {
+        sect: "food",
+        sub: "find-your-ultimate-chocolate-brownie-recipe",
+        page: "",
+        tool: "gallery",
+        type: "gallery",
+        artid: "8920",
+        author: "",
+        clc: ""
+    };
+</script>
+
+<script type='text/javascript'>
+    // get some more meta into HRST.targeting
+    var metaTags=document.getElementsByTagName("meta");
+
+    var ogAuthorContent = "";
+    var ogTitleContent = "";
+
+    for (var i = 0; i < metaTags.length; i++) {
+        if (metaTags[i].getAttribute("property") === "og:author") {
+            ogAuthorContent = metaTags[i].getAttribute("content");
+        }
+        if (metaTags[i].getAttribute("property") === "og:title") {
+            ogTitleContent = metaTags[i].getAttribute("content");
+        }
+    }
+    if(HRST.targeting.author === '' ) {
+        HRST.targeting.author = ogAuthorContent;
+    }
+    if(HRST.targeting.page === '' ) {
+        HRST.targeting.page = ogTitleContent;
+    }
+
+</script>
+        <script type="text/javascript">(function(d) {
+            var e = d.createElement('script');
+            e.async = true;
+            e.src = d.location.protocol + '//nexus.ensighten.com/hearst/mag-uk/Bootstrap.js';
+            
+            if (document.cookie.indexOf("nsghtn=dev") > -1) {
+                e.src = d.location.protocol + '//nexus.ensighten.com/hearst/mag-uk-dev/Bootstrap.js';
+            }
+            
+            if (e.src.length > 0) {d.getElementsByTagName("head")[0].appendChild(e);}
+          }(document));
+        </script> 
+    
+    
+    
+    
+    
+    <script>
+		var strProtocol = document.location.protocol+"//";
+		var strAddInEyeSrc = "ds.serving-sys.com/BurstingScript/addineye.js";
+		if(strProtocol == "https://")
+		    strAddInEyeSrc = "secure-"+ strAddInEyeSrc;
+			strAddInEyeSrc = strProtocol + strAddInEyeSrc;
+			document.write("<scr"+"ipt src="+strAddInEyeSrc+"></scr"+"ipt>");
+	</script>
+
+    
+
+    <script type="text/javascript">
+        window._mNHandle = window._mNHandle || {};
+        window._mNHandle.queue = window._mNHandle.queue || [];
+        medianet_versionId = "121199"; 
+        (function() {
+            var sct = document.createElement("script"),
+            sctHl = document.getElementsByTagName("script")[0],
+            isSSL = 'https:' == document.location.protocol;
+            sct.type = "text/javascript";
+            sct.src = (isSSL ? 'https:' : 'http:') + '//contextual.media.net/dmedianet.js?cid=8CUYNN8UR' + (isSSL ? '&https=1' : '')+'';
+            sct.async = "async";
+            sctHl.parentNode.insertBefore(sct, sctHl);
+        })();
+    </script>
+</head>
+<body  class="food find-your-ultimate-chocolate-brownie-recipe guest ie8 win">
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: GH - Sitewide
+URL of the webpage where the tag is expected to be placed: http://www.goodhousekeeping.co.uk/
+This tag must be placed between the body tags, as close as possible to the opening tag.
+Creation Date: 01/06/2015
+-->
+<script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="http://4558209.fls.doubleclick.net/activityi;src=4558209;type=counter;cat=gh-si0;u6=[page_name];ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+    <iframe src="http://4558209.fls.doubleclick.net/activityi;src=4558209;type=counter;cat=gh-si0;u6=[page_name];ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+<div class="wrapper header-site">
+    <div class="container">
+        <ul class="sites">
+            <li>
+                <a class="gh selected" href="http://www.goodhousekeeping.co.uk/" title="Good Housekeeping">
+                    Good Housekeeping
+                </a>
+            </li>
+            <li>
+                <a class="ghi tracking-go-ghi" href="http://www.goodhousekeeping.co.uk/institute/?utm_source=goodhousekeeping.co.uk&utm_medium=hearst_website&utm_campaign=global_nav_bar" title="Good Housekeeping Institute">
+                    Good Housekeeping Institute
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- fireplace & wallpaper ads -->
+<div id="takeover-bg"></div>
+<div id="gatefold-container"></div>
+
+<div class="ad wallpaper">
+    <!-- Beginning Sync AdSlot oop for Ad unit townandcountry.hdn ### size:   -->
+<div id="gpt-ad-oop-1" class="ad-position"></div>
+<!-- End AdSlot oop -->
+    <!-- Beginning Sync AdSlot 9 for Ad unit townandcountry.hdn ### size: [[1,1]]  -->
+<div id='adslot-9-1by1' class="ad-position"></div>
+<!-- End AdSlot 9 -->
+    <!-- Beginning Sync AdSlot 11 Gate Fold for Ad unit townandcountry.hdn ### size: [[1920,1000]]  -->
+<div id="adslot-11-reskin" class="ad-position"></div>
+<!-- End AdSlot 11 -->
+</div>
+
+
+<div id="headerWrapper" class="container">
+    <!-- header -->
+
+
+
+<!-- nav -->
+
+<header class="main has-sub">
+
+
+    <!-- inner -->
+    <div class="inner">
+        <!-- mobile nav toggle -->
+        <div class="mobile-nav-toggle hide"></div>
+        <div class="logos-search">
+            
+            <a class="logo" href="http://www.goodhousekeeping.co.uk/">
+                
+                <h1>
+                    <img src="/assets/css/img/ghkmask-new.svg" class="svg" alt="GoodHousekeeping">
+                    <img src="/assets/css/img/ghkmask.png" class="png" alt="GoodHousekeeping">
+                </h1>
+            </a>
+            <div class="tt">
+                
+                        <img src="/assets/img/brand/ghi-tt-logo.jpg" width="134" height="88" class="png" alt="Goodhousekeeping Institute TRIED &#42; TESTED">
+                    
+            </div>
+
+            
+
+            
+            
+ 
+            
+            <form class="search" method="post" action="http://www.goodhousekeeping.co.uk/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="153" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+                <div class="searchBackground">
+                <div id="search">
+                    <input type="text" name="keywords" id="search-field" autocomplete="off" placeholder="Search..." value="" size="18" maxlength="100" />
+                    <input type="hidden" name="search_type" value="articles" />
+                    <button type="submit"><span>Go</span></button>
+                </div>
+                </div>
+            
+            </form>
+
+        </div>
+        <!-- logo -->
+
+
+
+        <!-- nav -->
+        
+
+        <nav class="top">
+            <span class="shadow"></span>
+            <!-- nav menus -->
+            <ul id="main-nav">
+                <li id="mobile-nav-close-button"><a class="mobile-nav-close">X</a></li>
+                
+                <li class="">
+                    <a href="/easter" class="mainnav">Easter</a>
+                    
+                    </li>
+
+                    
+                <li class="yes">
+                    <a href="/food" class="mainnav">Food</a>
+                                        <a class="toggle-subnav" id="food">+</a>
+                    <div class="arrow-down"></div>
+                    <div class="sub food">
+                        <ul class="sub-nav food">
+                            
+                            <li class=""><a href="/food/recipes" class="">Triple-tested recipes</a></li>
+                                                        
+                            <li class=""><a href="/food/food-news" class="">Food news</a></li>
+                                                        
+                            <li class=""><a href="/food/30-minute-meals" class="">30 minute meals</a></li>
+                                                        
+                            <li class=""><a href="/food/sunday-lunch-recipes" class="">Sunday lunch recipes</a></li>
+                                                        
+                            <li class=""><a href="www.goodhousekeeping.co.uk/food/quick-easy-student-recipes" class="">Student recipes</a></li>
+                                                        
+                            <li class=""><a href="/food/comfort-food-recipes" class="">Comfort food recipes</a></li>
+                            
+                            </ul><ul class="sub-nav food">
+                                                        
+                            <li class=""><a href="/food/seasonal-food-calendar" class="">Seasonal food calendar</a></li>
+                                                        
+                            <li class=""><a href="/food/ultimate-chocolate-recipes" class="">Chocolate recipes</a></li>
+                                                        
+                            <li class=""><a href="/food/warming-soup-and-stew-recipes" class="">Soups and stews</a></li>
+                                                        
+                            <li class=""><a href="/food/midweek-meals" class="">Midweek meals</a></li>
+                                                        
+                            <li class=""><a href="/food/ghi-cookery-school" class="tracking-go-ghi-subnav-food">GHI Cookery School</a></li>
+                                                        
+                            <li class=""><a href="/food/baking-recipes" class="">Baking recipes</a></li>
+                                                        
+
+                        </ul>
+
+                        <div class="sub-nav-latest food">
+                        <h2><div id="bullet"></div>Latest <span class="bold">Food</span></h2>
+                        
+    <ul class="latest">
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/food/best-easter-cakes-easter-desserts">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/8880/easter-cakes-bakes-desserts__small.jpg?20180221154459" alt="30 of the best Easter dessert recipes" />
+                            
+
+                        <div class="title">30 of the best Easter dessert recipes</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/easter/easter-baking-recipes/best-easter-biscuit-cookie-recipes">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/36078/easter-biscuit-recipes__small.jpg?20180308114240" alt="Best Easter biscuit and cookie recipes" />
+                            
+
+                        <div class="title">Best Easter biscuit and cookie recipes</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/food/recipes/easter-cupcakes">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/36093/easter_cupcake_decorating_ideas__small.jpg?20180308114938" alt="12 Easter cupcakes recipes" />
+                            
+
+                        <div class="title">12 Easter cupcakes recipes</div>
+                    </a>
+                </li>
+
+        
+    </ul>
+
+
+                        </div>
+
+                    </div>
+                        
+                    </li>
+
+                    
+                <li class="">
+                    <a href="/institute/" class="mainnav">Tried & Tested®</a>
+                    
+                    </li>
+
+                    
+                <li class="">
+                    <a href="/consumer-advice" class="mainnav">Consumer Advice</a>
+                                        <a class="toggle-subnav" id="consumer-advice">+</a>
+                    <div class="arrow-down"></div>
+                    <div class="sub consumer-advice">
+                        <ul class="sub-nav consumer-advice">
+                            
+                            <li class=""><a href="/consumer-advice/news-views" class="">News and views</a></li>
+                                                        
+                            <li class=""><a href="/consumer-advice/consumer-rights" class="">Consumer Rights</a></li>
+                                                        
+                            <li class=""><a href="/consumer-advice/save-money" class="">Save money</a></li>
+                                                        
+                            <li class=""><a href="/consumer-advice/managing-your-money" class="">Managing your money</a></li>
+                                                        
+                            <li class=""><a href="/consumer-advice/money-and-work" class="">Money and work</a></li>
+                                                        
+                            <li class=""><a href="/consumer-advice/planning-for-the-future" class="">Future planning</a></li>
+                            
+                            </ul><ul class="sub-nav consumer-advice">
+                                                        
+                            <li class=""><a href="/consumer-advice/technology-made-easy" class="">Technology made easy</a></li>
+                                                        
+                            <li class=""><a href="/consumer-advice/car-advice" class="">Car advice</a></li>
+                                                        
+
+                        </ul>
+
+                        <div class="sub-nav-latest consumer-advice">
+                        <h2><div id="bullet"></div>Latest <span class="bold">Consumer Advice</span></h2>
+                        
+    <ul class="latest">
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/consumer-advice/news-views/One-million-fire-risk-tumble-dryers-still-in-use-whirlpool">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/44857/tumbldryer__small.jpg?20180122100024" alt="One million fire-risk tumble dryers still in use" />
+                            
+
+                        <div class="title">One million fire-risk tumble dryers still in use</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/consumer-advice/news-views/this-is-the-end-of-card-payment-charges">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/44762/credit-card-charges__small.png?20180112163708" alt="The end of card payment charges" />
+                            
+
+                        <div class="title">The end of card payment charges</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/consumer-advice/news-views/what-open-banking-will-mean-for-you">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/44756/open-banking-changes__small.png?20180219121735" alt="What Open Banking means for you" />
+                            
+
+                        <div class="title">What Open Banking means for you</div>
+                    </a>
+                </li>
+
+        
+    </ul>
+
+
+                        </div>
+
+                    </div>
+                        
+                    </li>
+
+                    
+                <li class="">
+                    <a href="/fashion-beauty" class="mainnav">Fashion & Beauty</a>
+                                        <a class="toggle-subnav" id="fashion-beauty">+</a>
+                    <div class="arrow-down"></div>
+                    <div class="sub fashion-beauty">
+                        <ul class="sub-nav fashion-beauty">
+                            
+                            <li class=""><a href="/fashion-beauty/beauty-news" class="">Beauty news</a></li>
+                                                        
+                            <li class=""><a href="/fashion-beauty/hair-advice" class="">Hair advice</a></li>
+                                                        
+                            <li class=""><a href="/fashion-beauty/skincare-advice" class="">Skincare advice</a></li>
+                                                        
+                            <li class=""><a href="/fashion-beauty/anti-ageing-advice" class="">Anti-ageing advice</a></li>
+                                                        
+                            <li class=""><a href="/fashion-beauty/best-make-up-products" class="">Best make-up products</a></li>
+                                                        
+                            <li class=""><a href="/fashion-beauty/salons-spas-and-beauty-treatments" class="">Salons, spas and beauty treatments</a></li>
+                            
+                            </ul><ul class="sub-nav fashion-beauty">
+                                                        
+                            <li class=""><a href="/fashion-beauty/fashion-news" class="">Fashion news</a></li>
+                                                        
+                            <li class=""><a href="/fashion-beauty/dressing-for-your-shape" class="">Dressing for your shape</a></li>
+                                                        
+                            <li class=""><a href="/fashion-beauty/style-advice" class="">Style advice</a></li>
+                                                        
+                            <li class=""><a href="/fashion-beauty/best-accessories" class="">Best accessories</a></li>
+                                                        
+
+                        </ul>
+
+                        <div class="sub-nav-latest fashion-beauty">
+                        <h2><div id="bullet"></div>Latest <span class="bold">Fashion & Beauty</span></h2>
+                        
+    <ul class="latest">
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/fashion-beauty/fashion-news/the-best-black-friday-fashion-deals">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/35295/black-firday-2017__small.jpg?20171124101632" alt="The best Black Friday fashion deals for 2017" />
+                            
+
+                        <div class="title">The best Black Friday fashion deals for 2017</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/fashion-beauty/hair-advice/hair-extensions-review-inanch">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/43148/hair-exnteions__small.jpg?20171103092854" alt="‘I tried hair extensions to see if they really are a nightmare to maintain’" />
+                            
+
+                        <div class="title">‘I tried hair extensions to see if they&#8230;</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/fashion-beauty/fashion-news/holly-willoughby-marks-and-spencer-pleated-magenta-skirt">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/42351/holly-willoughby-christmas__small.jpg?20171117151556" alt="Holly Willoughby just wore a beautiful M&amp;S skirt on This Morning" />
+                            
+
+                        <div class="title">Holly Willoughby just wore a beautiful M&amp;S skirt&#8230;</div>
+                    </a>
+                </li>
+
+        
+    </ul>
+
+
+                        </div>
+
+                    </div>
+                        
+                    </li>
+
+                    
+                <li class="">
+                    <a href="/health" class="mainnav">Health</a>
+                                        <a class="toggle-subnav" id="health">+</a>
+                    <div class="arrow-down"></div>
+                    <div class="sub health">
+                        <ul class="sub-nav health">
+                            
+                            <li class=""><a href="/health/healthy-eating" class="">Healthy eating</a></li>
+                                                        
+                            <li class=""><a href="/health/weight-loss-and-exercise" class="">Weight loss and exercise</a></li>
+                                                        
+                            <li class=""><a href="/health/anti-ageing-health-advice" class="">Anti-ageing health advice</a></li>
+                                                        
+                            <li class=""><a href="/health/symptoms-and-treatments" class="">Symptoms and treatments</a></li>
+                                                        
+                            <li class=""><a href="/health/aches-and-pains" class="">Aches and pains</a></li>
+                                                        
+                            <li class=""><a href="/health/cancer-advice" class="">Cancer advice</a></li>
+                            
+                            </ul><ul class="sub-nav health">
+                                                        
+                            <li class=""><a href="/health/family-health" class="">Family health</a></li>
+                                                        
+                            <li class=""><a href="/health/sexual-health" class="">Sexual health</a></li>
+                                                        
+                            <li class=""><a href="/health/ask-the-doctor" class="">Ask the doctor</a></li>
+                                                        
+                            <li class=""><a href="/health/health-advice/" class="">Health advice</a></li>
+                                                        
+
+                        </ul>
+
+                        <div class="sub-nav-latest health">
+                        <h2><div id="bullet"></div>Latest <span class="bold">Health</span></h2>
+                        
+    <ul class="latest">
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/health/health-advice/this-is-why-you-wake-up-in-the-night-for-no-apparent-reason">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/32597/insomnia-main__small.jpg?20160726122430" alt="This is why you wake up in the night for no apparent reason" />
+                            
+
+                        <div class="title">This is why you wake up in the&#8230;</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/health/ways-to-help-someone-with-anxiety">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/32614/anxiety-main__small.jpg?20160719103456" alt="7 ways you can help someone with anxiety" />
+                            
+
+                        <div class="title">7 ways you can help someone with anxiety</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/health/healthy-eating/the-pros-and-cons-of-non-dairy-milks">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/32472/milk-main__small.jpg?20160708121751" alt="The pros and cons of non-dairy milks" />
+                            
+
+                        <div class="title">The pros and cons of non-dairy milks</div>
+                    </a>
+                </li>
+
+        
+    </ul>
+
+
+                        </div>
+
+                    </div>
+                        
+                    </li>
+
+                    
+                <li class="">
+                    <a href="/lifestyle" class="mainnav">Lifestyle</a>
+                                        <a class="toggle-subnav" id="lifestyle">+</a>
+                    <div class="arrow-down"></div>
+                    <div class="sub lifestyle">
+                        <ul class="sub-nav lifestyle">
+                            
+                            <li class=""><a href="/news" class="">News</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/gh-events-and-whats-on" class="">GH events and what's on</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/home-decorating-ideas" class="">Home decorating ideas</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/home-accessories" class="">Home accessories</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/declutter-your-home" class="">Declutter your home</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/when-to-plant" class="">When to plant</a></li>
+                            
+                            </ul><ul class="sub-nav lifestyle">
+                                                        
+                            <li class=""><a href="/lifestyle/gardening-advice" class="">Gardening advice</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/holiday-destinations" class="">Holiday destinations</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/british-breaks" class="">British breaks</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/city-breaks" class="">City breaks</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/editors-choice-book-reviews" class="">GH book room</a></li>
+                                                        
+                            <li class=""><a href="/lifestyle/gh-women-celebrity-interviews" class="">GH women and celebrity interviews</a></li>
+                                                        
+
+                        </ul>
+
+                        <div class="sub-nav-latest lifestyle">
+                        <h2><div id="bullet"></div>Latest <span class="bold">Lifestyle</span></h2>
+                        
+    <ul class="latest">
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/lifestyle/home-decorating-ideas/spring-refresh-interiors-tips">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/37378/roseto-celadon-2__small.png?20170405075826" alt="Expert tips for giving your home a spring refresh" />
+                            
+
+                        <div class="title">Expert tips for giving your home a spring&#8230;</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/lifestyle/gardening-advice/top-gardening-pests">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/31927/garden-snail__small.jpg?20170314121711" alt="These are the top 10 gardening pests" />
+                            
+
+                        <div class="title">These are the top 10 gardening pests</div>
+                    </a>
+                </li>
+
+        
+                <!-- img -->
+                <li class="img">
+
+                    <a href="http://www.goodhousekeeping.co.uk/lifestyle/declutter-your-home/things-all-organised-people-have">
+
+                        
+
+                            
+                                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/37348/5-ikea__small.png?20170307113849" alt="6 things all organised people have in their homes" />
+                            
+
+                        <div class="title">6 things all organised people have in their&#8230;</div>
+                    </a>
+                </li>
+
+        
+    </ul>
+
+
+                        </div>
+
+                    </div>
+                        
+                    </li>
+
+                    
+                <li class="">
+                    <a href="http://comps.goodhousekeeping.co.uk" class="mainnav">Win</a>
+                    
+                    </li>
+
+                    
+                    <li class="external"><a href="/institute" target="">Good Housekeeping Institute</a></li>
+                
+            </ul>
+            <!-- end nav menus -->
+        </nav>
+    </div>
+</header>
+</div>
+
+
+    <div id="leaderboard-wrapper"> 
+        <div id="leaderboard--container">
+            <section class="container"></section>
+        </div>
+
+        <!-- leaderboard -->
+        <section class="ad leaderboard" id="ad-leaderboard">
+            <!-- Beginning Sync AdSlot 1 for Ad unit townandcountry.hdn ### size: [[970,250],[728,90],[970,251],[728,91],[980,90]]  -->
+<div id="adslot-1-top-leaderboard" class="ad-position"></div>
+<!-- End AdSlot 1 -->
+        </section>
+    </div>
+
+
+<!-- site wrapper -->
+<section id="siteWrapper" class="container">
+
+    <section class="content">
+
+
+
+
+<!-- body content -->
+<section class="body-content">
+    <!-- left -->
+    <section class="col-main">
+        <div class="col-main-inner">
+
+        <!-- article -->
+        <article class="text gallery">
+            <!-- breadcrumbs -->
+            <nav class="breadcrumbs">
+                <a href="http://www.goodhousekeeping.co.uk/">Home</a><span> > </span><a href ='/food/' />Food</a><span> > </span><a href ='/food/find-your-ultimate-chocolate-brownie-recipe/' />Find Your Ultimate Chocolate Brownie Recipe</a>
+            </nav>
+
+            <!-- header -->
+            <h1>37 of the best chocolate brownie recipes</h1>
+
+            <!-- Byline -->
+            <div class="byline">Written By Victoria Chandler  | 16 March 2018</div>
+
+            <!-- teaser -->
+                        <p class="teaser">Nothing quite gets the stomach rumbling like the smell of freshly-baked, gooey chocolate brownies. Whether you’re after an indulgent treat packed full of peanut butter, bacon or pretzels, or something flourless, vegan or veggie based, you’ve come to the right place...</p>
+            
+            <div id="addthis">
+                <!-- addthis social sharing -->
+                <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_facebook_share" fb:share:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+<a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal" pi:pinit:url="http://www.goodhousekeeping.co.uk/food/find-your-ultimate-chocolate-brownie-recipe" pi:pinit:media="http://assets.goodhousekeeping.co.uk/main/embedded/8920/brownie-recipes__large.jpg?20180316095439"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+<script type="text/javascript">
+var headerTitle = window.document.getElementsByTagName("h1")[1];
+var addthis_share = addthis_share || {};
+addthis_share = {
+	passthrough : {
+		twitter: {
+			via: "GHmagazine",
+			text: headerTitle.textContent
+		}
+	}
+};
+</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5318a6f94b17c1b4"></script>
+<!-- AddThis Button END -->
+            </div>
+
+            <!-- gallery -->
+            <div id="gallery-1" class="royalSlider rsDefault">
+
+                <!-- gallery channel images-->
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/jaffa_cake__large.jpg?20180316095439" data-rsw="590" data-rsh="590" alt="image:description" />
+                                        <span class="rsCaption"><h2>Jaffa cake brownies</h2><p><p>You'll want more than one of these, that's for sure.</p>
+
+<p><strong><em><a href="http://www.goodhousekeeping.co.uk/food/recipes/jaffa-cake-brownies" target="_blank">Recipe</a> by Good Housekeeping</em></strong></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/jaffa_cake__small.jpg?20180316095439" alt="Jaffa cake brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/jammy-dodger-brownies__large.jpg?20180316095439" data-rsw="1080" data-rsh="1080" alt="image:description" />
+                                        <span class="rsCaption"><h2>Jammie Dodger Brownies</h2><p><p>Already decorated with hearts without any extra effort required, these biscuit-topped brownies are an easy Valentine 's Day treat. Oh, and did we mention they're studded with raspberry jam and peanut butter?!</p>
+
+<p><strong><em><a href="http://www.goodhousekeeping.co.uk/food/recipes/jammie-dodger-brownies" target="_blank">Recipe</a> by Good Housekeeping</em></strong></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/jammy-dodger-brownies__small.jpg?20180316095439" alt="Jammie Dodger Brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/peppermint-brownies-on-plate-peppermint-brownies-recipe-food-goodhousekeeping_co.uk__large.jpg?20180316095439" data-rsw="1200" data-rsh="1200" alt="image:description" />
+                                        <span class="rsCaption"><h2>Peppermint brownies</h2><p><p>A perfect after-dinner indulgence!<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/peppermint-brownies" target="_blank">Recipe</a> by Good Housekeeping </strong></em></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/peppermint-brownies-on-plate-peppermint-brownies-recipe-food-goodhousekeeping_co.uk__small.jpg?20180316095439" alt="Peppermint brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/chocolate-truffle-studded-brownies__large.jpg?20180316095439" data-rsw="689" data-rsh="689" alt="image:description" />
+                                        <span class="rsCaption"><h2>Chocolate truffle studded brownies</h2><p><p>What’s better than chocolatey rich brownies? Chocolatey rich brownies with crushed chocolate truffles inside! </p>
+
+<p><strong><em><a href="http://www.spoonforkbacon.com/2014/12/chocolate-truffle-studded-brownies/" target="_blank">Recipe</a> by Spoon Fork Bacon</em></strong></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/chocolate-truffle-studded-brownies__small.jpg?20180316095439" alt="Chocolate truffle studded brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/screen_shot_2017-07-06_at_15.37.02__large__large.jpg?20180316095439" data-rsw="590" data-rsh="590" alt="image:description" />
+                                        <span class="rsCaption"><h2>Baileys and Nutella brownies</h2><p><p>So many of our favourite things rolled into one</p>
+
+<p><strong>Recipe: <a href="http://www.goodhousekeeping.co.uk/food/recipes/nutella-baileys-brownies">Baileys and Nutella cheesecake brownies</a></strong></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/screen_shot_2017-07-06_at_15.37.02__large__small.jpg?20180316095439" alt="Baileys and Nutella brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/Os-flourless-brownie-recipe-200314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Flourless chocolate brownie recipe</h2><p><p>This delicious brownie recipe requires no flour at all!<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/flourless-brownies" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/Os-flourless-brownie-recipe-200314-de__small.jpg?20180316095439" alt="Flourless chocolate brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/coconut-peanut-butter-brownies__large.jpg?20180316095439" data-rsw="693" data-rsh="693" alt="image:description" />
+                                        <span class="rsCaption"><h2>Coconut and peanut butter brownies</h2><p><p>No need to add frosting to these coconut topped bars.</p>
+
+<p><em><strong><a href="http://www.spoonforkbacon.com/2016/04/coconut-and-peanut-butter-brownie-bars/" target="_blank">Recipe</a> by Spoon Fork Bacon</strong></em></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/coconut-peanut-butter-brownies__small.jpg?20180316095439" alt="Coconut and peanut butter brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/Lc-cherry-cheesecake-brownies-010314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Cherry cheesecake brownie recipe</h2><p><p>This decadent cherry cheesecake chocolate brownie recipe can also be served up as a pudding.</p>
+
+<p><em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/cherry-cheesecake-brownies" target="_blank" title="Good Housekeeping">Recipe</a> </strong><em><strong>by Good Housekeeping </strong></em></em></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/Lc-cherry-cheesecake-brownies-010314-de__small.jpg?20180316095439" alt="Cherry cheesecake brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/peppermint-oreo__large.jpg?20180316095439" data-rsw="680" data-rsh="680" alt="image:description" />
+                                        <span class="rsCaption"><h2>Peppermint Oreo brownies</h2><p><p>‘No one will be able to resist peppermint bark brownies with a hidden Oreo surprise. These are the perfect wintry treat to celebrate the season.’</p>
+
+<p><em><strong><a href="http://cookienameddesire.com/peppermint-bark-brownies-recipe/" target="_blank">Recipe</a> by A Cookie Named Desire</strong></em></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/peppermint-oreo__small.jpg?20180316095439" alt="Peppermint Oreo brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/9u-krispie-brownies-010314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Marshmallow crunch brownie recipe</h2><p><p>This Marshmallow crunch brownie is set to be a real crowd pleaser!<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/marshmallow-crunch-brownies" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em><br />
+ </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/9u-krispie-brownies-010314-de__small.jpg?20180316095439" alt="Marshmallow crunch brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/white-chocolate-brownie__large.jpg?20180316095439" data-rsw="680" data-rsh="680" alt="image:description" />
+                                        <span class="rsCaption"><h2>White chocolate brownies</h2><p><p>‘Rich and ultra decadent white chocolate brownies with a luscious vanilla cream cheese frosting. The perfect dessert for a white chocolate lover<em>.’</em></p>
+
+<p><em><strong><a href="http://cookienameddesire.com/white-chocolate-brownies-recipe/" target="_blank">Recipe</a> by A Cookie Named Desire</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/white-chocolate-brownie__small.jpg?20180316095439" alt="White chocolate brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/du-low-fat-brownies-010314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Low-fat chocolate brownie recipe</h2><p><p>Most chocolate brownie recipes contain lashings of butter, but what if you’re after a less sinful treat? We’ve perfected a version using sunflower oil, and much less of it.<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/low-fat-brownies-1" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank">All the best cookies recipes for you to try</a></strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/du-low-fat-brownies-010314-de__small.jpg?20180316095439" alt="Low-fat chocolate brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/s3-blondie-brownies-010314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Blondie brownie recipe</h2><p><p>This white chocolate brownie recipe is the perfect teatime treat!<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/blondies" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em><br />
+ </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/s3-blondie-brownies-010314-de__small.jpg?20180316095439" alt="Blondie brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/bacon-brownies-__large.jpg?20180316095439" data-rsw="680" data-rsh="680" alt="image:description" />
+                                        <span class="rsCaption"><h2>Bacon brownies</h2><p><p>‘Sweet, salty, and utterly addictive. These bacon brownies are the perfect dessert for people who need a decadent treat that hits all the right spots.’</p>
+
+<p><em><strong><a href="http://cookienameddesire.com/bacon-brownies-recipe/" target="_blank">Recipe</a> by A Cookie Named Desire</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank">All the best cookies recipes for you to try</a></strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/bacon-brownies-__small.jpg?20180316095439" alt="Bacon brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/44-guiness-brownies-010314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Frosted Guinness brownie recipe</h2><p><p>Guinness adds a wonderful depth of flavour to this dark and delightful brownie recipe.<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/frosted-guinness-brownies" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you're back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a><br />
+<br />
+<a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+
+<p> </p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/44-guiness-brownies-010314-de__small.jpg?20180316095439" alt="Frosted Guinness brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/eggnog-brownie__large.jpg?20180316095439" data-rsw="700" data-rsh="700" alt="image:description" />
+                                        <span class="rsCaption"><h2>Eggnog cheesecake brownies</h2><p><p>‘These eggnog cheesecake brownies are guaranteed to make even the most strong-headed eggnog hater fall in love.’</p>
+
+<p><em><strong><a href="http://cookienameddesire.com/eggnog-cheesecake-brownies/" target="_blank">Recipe</a> by A Cookie Named Desire</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that'll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/eggnog-brownie__small.jpg?20180316095439" alt="Eggnog cheesecake brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/Cw-maple-bacon-pecan-brownies-010314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Maple, bacon and pecan brownie recipe</h2><p><p>Try something new with this Triple-Tested brownie recipe. Odd though it may sound, the bacon adds a wonderful depth to these moreish squares. Trust us, it works – think bacon and syrup pancakes.<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/maple-bacon-pecan-brownies?click=main_sr" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em><br />
+ </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a><br />
+<br />
+<a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/Cw-maple-bacon-pecan-brownies-010314-de__small.jpg?20180316095439" alt="Maple, bacon and pecan brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/mississippi-mud-brownies__large.jpg?20180316095439" data-rsw="625" data-rsh="625" alt="image:description" />
+                                        <span class="rsCaption"><h2>Mississippi mud brownies</h2><p><p>The addition of mini marshmallows makes these brownies fluffy and even more tasty. </p>
+
+<p><em><strong><a href="http://www.bunsinmyoven.com/2015/06/15/mississippi-mud-brownies/" target="_blank">Recipe</a> by Buns in my Oven</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/mississippi-mud-brownies__small.jpg?20180316095439" alt="Mississippi mud brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/WM-marbled-peanut-butter-brownies-270213-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Marbled peanut butter brownie recipe</h2><p><p>Not a fan of peanut butter? Just leave it out.<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/marbled-peanut-butter-brownies" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/WM-marbled-peanut-butter-brownies-270213-de__small.jpg?20180316095439" alt="Marbled peanut butter brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/superfood-brownies-8-600x750__large.jpg?20180316095439" data-rsw="600" data-rsh="750" alt="image:description" />
+                                        <span class="rsCaption"><h2>Superfood brownies</h2><p><p>‘These gluten free superfood brownies are packed with goji berries and cacao nibs and baked to chewy fudge-brownie perfection!’</p>
+
+<p><em><strong><a href="http://www.runningtothekitchen.com/superfood-brownies/" target="_blank">Recipe</a> by Running to the Kitchen</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/superfood-brownies-8-600x750__small.jpg?20180316095439" alt="Superfood brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/lG-beetroot-brownies-010314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Beetroot and ginger brownie recipe</h2><p><p>Deviate from your standard chocolate brownie recipe and try something different today! The earthiness of beetroot and warmth of ginger mix beautifully with chocolate.<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/beetroot-and-ginger-brownies" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em><br />
+ </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/lG-beetroot-brownies-010314-de__small.jpg?20180316095439" alt="Beetroot and ginger brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/sweet-potato-brownies-recipe__large.jpg?20180316095439" data-rsw="1200" data-rsh="1200" alt="image:description" />
+                                        <span class="rsCaption"><h2>Sweet potato brownies</h2><p><p>‘Ultra chocolaty, and clean-eating approved – although we can’t guarantee they’re one of your five-a-day!’</p>
+
+<p><em><strong><a href="http://www.wellplated.com/sweet-potato-brownies/" target="_blank">Recipe</a> by Well Plated</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/sweet-potato-brownies-recipe__small.jpg?20180316095439" alt="Sweet potato brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/aq-ultimate-brownie010314-de__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Ultimate chocolate brownie recipe</h2><p><p>Looking for the perfect brownie recipe – a chocolate square that’s glossy on top, and dense and fudgy in the centre? Look no further…<br />
+<br />
+<em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/ultimate-brownies?click=main_sr" target="_blank" title="Good Housekeeping">Recipe</a> by Good Housekeeping </strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/aq-ultimate-brownie010314-de__small.jpg?20180316095439" alt="Ultimate chocolate brownie recipe" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/cookie-brownies-3__large.jpg?20180316095439" data-rsw="600" data-rsh="600" alt="image:description" />
+                                        <span class="rsCaption"><h2>Chocolate chip cookie brownies</h2><p><p>These delicious brownies are underbaked to add to their fudgy gooeyness. </p>
+
+<p><em><strong><a href="http://pinchofyum.com/chocolate-chip-cookie-brownies" target="_blank">Recipe</a> by Pinch of Yum</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/cookie-brownies-3__small.jpg?20180316095439" alt="Chocolate chip cookie brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8829/NC-04-gh-christmas-brownie-bites-141112-de__large.jpg?20180316095439" data-rsw="" data-rsh="" alt="image:description" />
+                                        <span class="rsCaption"><h2>Christmas brownie bites</h2><p><p>Great as a sweet nibble to end a party, with a cup of tea or presented in a special tin or box. If you prefer your brownie bites less sweet, simply drizzle them with plain chocolate.</p>
+
+<p><em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/christmas-brownie-bites" target="_blank">Recipe</a> by Good Housekeeping </strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8829/NC-04-gh-christmas-brownie-bites-141112-de__small.jpg?20180316095439" alt="Christmas brownie bites" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/g4-brownie-bites-de__large__large.jpg?20180316095439" data-rsw="496" data-rsh="496" alt="image:description" />
+                                        <span class="rsCaption"><h2>Chocolate brownie bites</h2><p><p>Complete your party with a rich and intense bite of chocolate perfection!</p>
+
+<p><em><strong><a href="http://www.goodhousekeeping.co.uk/food/recipes/brownie-bites" target="_blank">Recipe</a> by Good Housekeeping</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/g4-brownie-bites-de__large__small.jpg?20180316095439" alt="Chocolate brownie bites" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/espresso-brownies-6-600x900__large.jpg?20180316095439" data-rsw="600" data-rsh="600" alt="image:description" />
+                                        <span class="rsCaption"><h2>6 ingredient espresso brownies</h2><p><p>Six ingredients, 40 minutes, these brownies are a definite ‘treat yourself'’snack.</p>
+
+<p><strong><em><a href="http://pinchofyum.com/6-ingredient-espresso-brownies" target="_blank">Recipe</a> by Pinch of Yum</em></strong></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/espresso-brownies-6-600x900__small.jpg?20180316095439" alt="6 ingredient espresso brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/twix-brownies-3__large.jpg?20180316095439" data-rsw="600" data-rsh="600" alt="image:description" />
+                                        <span class="rsCaption"><h2>Salted caramel Twix brownies</h2><p><p>‘These salted caramel Twix brownies are salty/sweet, so chewy, and so easy to prepare!’</p>
+
+<p><em><strong><a href="http://sweetpeasandsaffron.com/2014/10/salted-caramel-twix-brownies.html" target="_blank">Recipe</a> by Sweet Peas & Saffron</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/twix-brownies-3__small.jpg?20180316095439" alt="Salted caramel Twix brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/peanutbutterpretzelbrownies_1_s__large.jpg?20180316095439" data-rsw="650" data-rsh="650" alt="image:description" />
+                                        <span class="rsCaption"><h2>Peanut butter pretzel brownies</h2><p><p>If you fancy it, you can put pretzels in the batter too!</p>
+
+<p><em><strong><a href="https://www.supergoldenbakes.com/2015/10/peanut-butter-pretzel-brownies.html" target="_blank">Recipe</a> by Supergolden Bakes</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/peanutbutterpretzelbrownies_1_s__small.jpg?20180316095439" alt="Peanut butter pretzel brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/creme_egg_brownies_2_s__large.jpg?20180316095439" data-rsw="650" data-rsh="650" alt="image:description" />
+                                        <span class="rsCaption"><h2>Totally Addictive Creme Egg brownies 2 s</h2><p><p>‘They are gooey chocolatey little pieces of pure indulgence.’</p>
+
+<p><em><strong><a href="https://www.supergoldenbakes.com/2016/02/totally-addictive-creme-egg-brownies.html" target="_blank">Recipe</a> by Supergolden Bakes</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/creme_egg_brownies_2_s__small.jpg?20180316095439" alt="Totally Addictive Creme Egg brownies 2 s" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/popcorn-peanut-brownies-5__large.jpg?20180316095439" data-rsw="600" data-rsh="600" alt="image:description" />
+                                        <span class="rsCaption"><h2>Loaded popcorn brownies</h2><p><p>‘These are not your plain old brownies… they are loaded with popcorn, honey roasted peanuts, caramel, and chocolate! Salty, sweet, chewy and crunchy!’</p>
+
+<p><em><strong><a href="http://sweetpeasandsaffron.com/2015/04/loaded-popcorn-brownies.html" target="_blank">Recipe</a> by Sweet Peas & Saffron</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/popcorn-peanut-brownies-5__small.jpg?20180316095439" alt="Loaded popcorn brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/pbcupcheesecakebrownies-8__large.jpg?20180316095439" data-rsw="650" data-rsh="650" alt="image:description" />
+                                        <span class="rsCaption"><h2>Peanut butter cup cheesecake brownies</h2><p><p>‘There’s a layer of peanut butter cheesecake that runs through the center of these fudgy brownies that are topped with peanuts and Reese’s peanut butter cups.’</p>
+
+<p><em><strong><a href="http://www.averiecooks.com/2015/12/peanut-butter-cup-cheesecake-brownies.html" target="_blank">Recipe</a> by Averie Cooks</strong></em></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/pbcupcheesecakebrownies-8__small.jpg?20180316095439" alt="Peanut butter cup cheesecake brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/courgettebrownies__large.jpg?20180316095439" data-rsw="584" data-rsh="584" alt="image:description" />
+                                        <span class="rsCaption"><h2>Chocolate, courgette and pecan brownies</h2><p><p>‘Hello vegan, vegetable-filled, quick and easy brownies!’</p>
+
+<p><strong><em><a href="http://veggiedesserts.co.uk/chocolate-courgette-zucchini-and-pecan-brownies-vegan/" target="_blank">Recipe</a> by Veggie Desserts</em></strong></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/courgettebrownies__small.jpg?20180316095439" alt="Chocolate, courgette and pecan brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/avocado-brownies-2__large.jpg?20180316095439" data-rsw="600" data-rsh="600" alt="image:description" />
+                                        <span class="rsCaption"><h2>Fudgy avocado brownies with chocolate fudge frosting</h2><p><p>‘These brownies are full of healthy avocados, have no butter, no flour and are made with natural coconut sugar.’</p>
+
+<p><strong><em><a href="http://www.halfbakedharvest.com/fudgy-avocado-brownies-with-chocolate-fudge-frosting/" target="_blank">Recipe</a> by Half Baked Harvest</em></strong></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/avocado-brownies-2__small.jpg?20180316095439" alt="Fudgy avocado brownies with chocolate fudge frosting" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/baileys-brownies_1wp-2__large.jpg?20180316095439" data-rsw="640" data-rsh="640" alt="image:description" />
+                                        <span class="rsCaption"><h2>Fudge brownies with Baileys buttercream frosting</h2><p><p>Boozy and chocolatey, what more could you want? </p>
+
+<p><strong><em><a href="http://diethood.com/fudge-brownies-with-baileys-buttercream-frosting/" target="_blank">Recipe</a> by Diethood</em></strong></p>
+
+<p> </p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/baileys-brownies_1wp-2__small.jpg?20180316095439" alt="Fudge brownies with Baileys buttercream frosting" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/saintly-chocolate-brownies__large.jpg?20180316095439" data-rsw="462" data-rsh="504" alt="image:description" />
+                                        <span class="rsCaption"><h2>Saintly chocolate brownies</h2><p><p><a href="http://www.goodhousekeeping.co.uk/food/recipes/ghost-brownies">http://www.goodhousekeeping.co.uk/food/recipes/ghost-brownies</a>This recipe uses aubergine to replace much of the butter normally found in brownies, resulting in a dense and fudgy texture.</p>
+
+<p><strong>Recipe: <a href="http://www.goodhousekeeping.co.uk/food/recipes/sainty-chocolate-brownies">Saintly chocolate brownies</a></strong></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/saintly-chocolate-brownies__small.jpg?20180316095439" alt="Saintly chocolate brownies" width="590" />
+                    </div>
+                </div>
+                
+                <div class="rsContent">
+                    <img class="rsImg" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/ghost-brownies__large__large.png?20180316095439" data-rsw="590" data-rsh="590" alt="image:description" />
+                                        <span class="rsCaption"><h2>Ghost brownies</h2><p><p>Who could say no to the combination of brownie, Nutella and marshmallow? So simple to make, and eat!</p>
+
+<p><strong>Recipe: Ghost brownies</strong></p>
+
+<p><strong>Like this? You'll love...</strong></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/chocolate-truffle-recipe" target="_blank"><strong>The easiest chocolate truffles you’ll ever make</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/food-news/vegetable-cake-recipes" target="_blank"><strong>10 desserts that’ll make you a vegetable cake convert</strong></a> </p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/baking-recipes/school-dinner-desserts" target="_blank"><strong>9 home-made puddings that’ll make you feel like you’re back at school</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/best-cookie-recipes" target="_blank"><strong>All the best cookies recipes for you to try</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/plain-scones"><strong>How to make plain scones</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/lemon-drizzle-cake"><strong>Lemon drizzle cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/Gluten-free-banana-cake"><strong>Gluten free banana cake</strong></a></p>
+
+<p><a href="http://www.goodhousekeeping.co.uk/food/recipes/chocolate-fudge-cake-1"><strong>Chocolate fudge cake</strong></a></p>
+</p></span>
+
+                    <div class="rsTmb">
+                        <img class="rsTmb" src="http://assets.goodhousekeeping.co.uk/main/galleries/8920/ghost-brownies__large__small.png?20180316095439" alt="Ghost brownies" width="590" />
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="adslot-2-top-mpu-inlinemobile" class="ad-position"></div><p>&nbsp;</p>
+
+
+            
+
+
+            
+
+
+        </article>
+
+        <!-- Prev - Next articles -->
+        
+
+        <!-- Next gallery -->
+        
+
+        <!-- Outbrain -->
+        <div class="sponsored-reccomended-wrapper">
+    <div id='sponsored-reccomended-bottom-main-column-mix' class="module-recommended"></div>
+</div>
+
+        <!-- related articles -->
+        <!-- Removing embedding  _related_articles (Marketplace widget) -->
+        
+
+        <!-- top content (elasticsearch) -->
+        
+<!-- Top content widget -->
+<section>
+	
+    
+    	    <div class="list-box-section header">
+        <h2>Your Favourites</h2>
+    </div>
+            
+            
+
+    
+
+            
+
+
+<div class="box " id="box_6379">
+
+    <a href="/food/recipes/chicken-casserole" >
+        <div class="square {primary_category_parent_url_title}">
+
+            
+
+            
+
+                
+                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/6379/4P-chicken-casserole-291112-de__small.jpg?" alt="Chicken casserole" id="img_6379" />
+                
+
+
+            
+
+                            <div class="boxOverlay">
+                        <header>
+                
+                <div class="short-title">
+                    Chicken casserole
+                </div>
+            </header>
+
+            </div>
+        </div>
+    </a>
+
+</div>
+
+
+        
+            
+
+            
+            
+
+    
+
+            
+
+
+<div class="box " id="box_8754">
+
+    <a href="/food/recipes/best-slow-cooker" >
+        <div class="square {primary_category_parent_url_title}">
+
+            
+
+            
+
+                
+                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/8754/slow-cooker__small.jpg?" alt="Best slow cooker recipes" id="img_8754" />
+                
+
+
+            
+
+                            <div class="boxOverlay">
+                        <header>
+                
+                <div class="short-title">
+                    Best slow cooker recipes
+                </div>
+            </header>
+
+            </div>
+        </div>
+    </a>
+
+</div>
+
+
+        
+            
+
+            
+            
+
+    
+
+            
+
+
+<div class="box col3" id="box_7061">
+
+    <a href="/food/recipes/slow-cooker-beef-stew-with-dumplings" >
+        <div class="square {primary_category_parent_url_title}">
+
+            
+
+            
+
+                
+                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/7061/CC-slow-cooker-proper-beef-stew-and-dumplings-240913-de__small.jpg?" alt="Slow cooker beef stew with dumplings" id="img_7061" />
+                
+
+
+            
+
+                            <div class="boxOverlay">
+                        <header>
+                
+                <div class="short-title">
+                    Slow cooker beef stew with dumplings
+                </div>
+            </header>
+
+            </div>
+        </div>
+    </a>
+
+</div>
+
+
+        
+            
+
+            
+            
+
+    
+
+            
+
+
+<div class="box " id="box_31011">
+
+    <a href="/food/recipes/chicken-fajita-pasta" >
+        <div class="square {primary_category_parent_url_title}">
+
+            
+
+            
+
+                
+                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/31011/chicken-fajita-pasta__small.jpg?" alt="Chicken fajita pasta" id="img_31011" />
+                
+
+
+            
+
+                            <div class="boxOverlay">
+                        <header>
+                
+                <div class="short-title">
+                    Chicken fajita pasta
+                </div>
+            </header>
+
+            </div>
+        </div>
+    </a>
+
+</div>
+
+
+        
+            
+
+            
+            
+
+    
+
+            
+
+
+<div class="box " id="box_21521">
+
+    <a href="/food/midweek-meals/best-leftover-chicken-recipes" >
+        <div class="square {primary_category_parent_url_title}">
+
+            
+
+            
+
+                
+                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/21521/chicken-ham-enchiladas-recipe-good-housekeeping__small.jpg?" alt="10 of the best leftover chicken recipes" id="img_21521" />
+                
+
+
+            
+
+                            <div class="boxOverlay">
+                        <header>
+                
+                <div class="short-title">
+                    10 of the best leftover chicken recipes
+                </div>
+            </header>
+
+            </div>
+        </div>
+    </a>
+
+</div>
+
+
+        
+            
+
+            
+            
+
+    
+
+            
+
+
+<div class="box col3" id="box_36696">
+
+    <a href="/food/food-news/foods-you-shouldnt-put-in-a-slow-cooker" >
+        <div class="square {primary_category_parent_url_title}">
+
+            
+
+            
+
+                
+                <img src="http://assets.goodhousekeeping.co.uk/main/embedded/36696/slow-cooker__small.jpg?" alt="​12 things you shouldn’t put in your slow cooker" id="img_36696" />
+                
+
+
+            
+
+                            <div class="boxOverlay">
+                        <header>
+                
+                <div class="short-title">
+                    ​12 things you shouldn’t put in your slow&#8230;
+                </div>
+            </header>
+
+            </div>
+        </div>
+    </a>
+
+</div>
+
+
+        
+            
+
+            
+		
+		
+		<script type="text/javascript">
+			// Track visit via Ajax (bypassing Varnish)
+			var params = {
+				section: 'food',
+				entry_id: '8920'
+			};
+
+			// Generate unique id to append it to the url
+			var c = 1;
+			var d = new Date();
+            var m = d.getMilliseconds() + "";
+            var unique = ++d + m + (++c === 10000 ? (c = 1) : c);
+
+	    $.getJSON('/?ACT=' + 154 + '&u=' + unique, params);
+		</script>
+		
+	
+</section>
+<!-- Top content widget -->
+
+
+
+        </div>
+    </section>
+    <!-- end col-main -->
+
+
+
+    
+<!-- sidebar -->
+<aside >
+<div id="sticky_column">
+	<!-- social media -->
+    <ul class="social-media">
+        <li class="join">Join us here...</li>
+        <li class="facebook"><a onclick="javascript:_gaTrackingEvent('Social', 'Sidebar', 'facebook')" href="http://www.facebook.com/goodhousekeepinguk/" title="Facebook" target="_blank">Facebook</a></li>
+        <li class="twitter"><a onclick="javascript:_gaTrackingEvent('Social', 'Sidebar', 'twitter')" href="https://twitter.com/ghmagazine" title="Twitter" target="_blank">Facebook</a></li>
+        <li class="pinterest"><a onclick="javascript:_gaTrackingEvent('Social', 'Sidebar', 'pinterest')" href="http://www.pinterest.com/ghkuk" title="Pinterest" target="_blank">Facebook</a></li>
+        <li class="instagram"><a onclick="javascript:_gaTrackingEvent('Social', 'Sidebar', 'instagram')" href="https://www.instagram.com/goodhousekeepinguk/" title="Instagram" target="_blank">Instagram</a></li>
+    	
+    </ul>
+	<!-- end social media -->
+
+    <!-- mpu lg -->
+    <div class="ad mpu">
+        
+            <!-- Beginning Sync AdSlot 2  for Ad unit townandcountry.hdn ### size: [[300,250],[300,600]]  -->
+<div id="adslot-2-top-mpu" class="ad-position module"></div>
+<!-- End AdSlot 2 -->
+        
+    </div>
+
+    <div class="social-media-container wallpaper"></div>
+
+    <!-- Subscribe Box -->
+    
+<div class="box box-aside">
+<a href="http://www.hearstmagazines.co.uk/gh/good-housekeeping-magazine-subscription-website?utm_source=goodhousekeeping.co.uk&utm_medium=referral&utm_content=right-hand-cover&utm_campaign=solus" target="_blank">
+    <div id="subscribe" class="box-aside-inner">
+        <div class="left">
+            
+
+
+            <img src="https://www.subscription.co.uk/covers/large/W400/current/goodhousekeeping.jpg" width="125" />
+
+            
+        </div>
+
+        <div class="right">
+            <header id="headline">Subscribe</header>
+            <p>and make great savings on the shop price</p>
+            <div class="btn">Subscribe</div>
+        </div>
+    </div>
+</a>
+</div>
+
+
+    <!-- Newsletter Box -->
+    <div class="box box-aside">
+        <a href="http://www.goodhousekeeping.co.uk/news/sign-good-housekeeping-newsletter" target="_blank">
+            <section class="newsletter module box-aside-inner">
+            <header>Good Housekeeping Weekly</header>
+
+            <div class="left">
+                
+
+                <img src="http://assets.goodhousekeeping.co.uk/main/options/GH_Newsletters.jpg" width="125" />
+
+                
+            </div>
+
+            <div class="right">
+                <p>Advice straight to your inbox from the GH experts</p>
+                <div class="btn" title="Sign up to newsletter">Sign Up</div>
+            </div>
+        </section>
+    </a>
+</div>
+
+
+    <!-- Carousel Box -->
+            <div class="box box-aside">
+    <section class="carousel-small module box-aside-inner">
+
+        <h2 class="gh-travel-headline">GH Institute</h2>
+        <!-- Carousel -->
+        <div id="carousel-ghi-promo" class="carousel-ghi-promo royalSlider rsDefault">
+            
+            <div class="rsContent">
+                <!-- slide -->
+                <a href="https://www.goodhousekeeping.co.uk/institute/the-institute" class="tracking-go-ghi-carousel">
+                    <div class="img">
+                        <img src="http://assets.goodhousekeeping.co.uk/main/options/sized-good-housekeeping-institute-cookery-school-outside-institute__medium.jpg" alt="ghi_promo_title" />
+                        <!-- <img class="rsImg" src="http://www.goodhousekeeping.co.uk//assets/css/img/placeholder.png" width="370" alt=""  /> -->
+                    </div>
+                </a>
+                <!-- overlay -->
+                <div class="overlay rsABlock">
+                    <a href="https://www.goodhousekeeping.co.uk/institute/the-institute" class="tracking-go-ghi-carousel">
+                        <p>What is the Good Housekeeping Institute?</p>
+                    </a>
+                </div>
+            </div> <!--rsContent-->
+            
+            <div class="rsContent">
+                <!-- slide -->
+                <a href="https://www.goodhousekeeping.co.uk/institute/cookery-school" class="tracking-go-ghi-carousel">
+                    <div class="img">
+                        <img src="http://assets.goodhousekeeping.co.uk/main/options/sized-cooking-at-ghi-cookery-school-04__medium1.jpg" alt="ghi_promo_title" />
+                        <!-- <img class="rsImg" src="http://www.goodhousekeeping.co.uk//assets/css/img/placeholder.png" width="370" alt=""  /> -->
+                    </div>
+                </a>
+                <!-- overlay -->
+                <div class="overlay rsABlock">
+                    <a href="https://www.goodhousekeeping.co.uk/institute/cookery-school" class="tracking-go-ghi-carousel">
+                        <p>Take a cooking course at the GHI</p>
+                    </a>
+                </div>
+            </div> <!--rsContent-->
+            
+            <div class="rsContent">
+                <!-- slide -->
+                <a href="https://www.goodhousekeeping.co.uk/institute/product-reviews" class="tracking-go-ghi-carousel">
+                    <div class="img">
+                        <img src="http://assets.goodhousekeeping.co.uk/main/options/sized-buying-guide-blender.jpg" alt="ghi_promo_title" />
+                        <!-- <img class="rsImg" src="http://www.goodhousekeeping.co.uk//assets/css/img/placeholder.png" width="370" alt=""  /> -->
+                    </div>
+                </a>
+                <!-- overlay -->
+                <div class="overlay rsABlock">
+                    <a href="https://www.goodhousekeeping.co.uk/institute/product-reviews" class="tracking-go-ghi-carousel">
+                        <p>Going shopping? Read our buying guides first</p>
+                    </a>
+                </div>
+            </div> <!--rsContent-->
+            
+            <div class="rsContent">
+                <!-- slide -->
+                <a href="https://www.goodhousekeeping.co.uk/institute/household-advice" class="tracking-go-ghi-carousel">
+                    <div class="img">
+                        <img src="http://assets.goodhousekeeping.co.uk/main/options/sized-ketchupstain__medium.jpg" alt="ghi_promo_title" />
+                        <!-- <img class="rsImg" src="http://www.goodhousekeeping.co.uk//assets/css/img/placeholder.png" width="370" alt=""  /> -->
+                    </div>
+                </a>
+                <!-- overlay -->
+                <div class="overlay rsABlock">
+                    <a href="https://www.goodhousekeeping.co.uk/institute/household-advice" class="tracking-go-ghi-carousel">
+                        <p>Your guide to stain removal and cleaning</p>
+                    </a>
+                </div>
+            </div> <!--rsContent-->
+            
+            <div class="rsContent">
+                <!-- slide -->
+                <a href="https://www.goodhousekeeping.co.uk/institute/cookery-videos" class="tracking-go-ghi-carousel">
+                    <div class="img">
+                        <img src="http://assets.goodhousekeeping.co.uk/main/options/sized-mixer.jpg" alt="ghi_promo_title" />
+                        <!-- <img class="rsImg" src="http://www.goodhousekeeping.co.uk//assets/css/img/placeholder.png" width="370" alt=""  /> -->
+                    </div>
+                </a>
+                <!-- overlay -->
+                <div class="overlay rsABlock">
+                    <a href="https://www.goodhousekeeping.co.uk/institute/cookery-videos" class="tracking-go-ghi-carousel">
+                        <p>How-to cooking advice and recipe videos</p>
+                    </a>
+                </div>
+            </div> <!--rsContent-->
+            
+            <div class="rsContent">
+                <!-- slide -->
+                <a href="https://www.goodhousekeeping.co.uk/institute/product-reviews/buying-guides" class="tracking-go-ghi-carousel">
+                    <div class="img">
+                        <img src="http://assets.goodhousekeeping.co.uk/main/options/sized-swan-1-7l-traditional-kettle-sk23010-0__small.jpg" alt="ghi_promo_title" />
+                        <!-- <img class="rsImg" src="http://www.goodhousekeeping.co.uk//assets/css/img/placeholder.png" width="370" alt=""  /> -->
+                    </div>
+                </a>
+                <!-- overlay -->
+                <div class="overlay rsABlock">
+                    <a href="https://www.goodhousekeeping.co.uk/institute/product-reviews/buying-guides" class="tracking-go-ghi-carousel">
+                        <p>GHI before you buy: product reviews and taste tests</p>
+                    </a>
+                </div>
+            </div> <!--rsContent-->
+            
+        </div>  <!-- carousel-travel -->
+
+    </section>  <!-- /carousel -->
+</div> <!-- /box -->
+
+    
+
+    <!-- mpu sm -->
+    <div class="ad mpu no-margin bottom_mpu">
+        <!-- Beginning Sync AdSlot 4 for Ad unit townandcountry.hdn ### size: [[300,600],[300,602],[300,250],[300,252]]  -->
+<div id="adslot-4-bottom-mpu" class="ad-position module"></div>
+<!-- End AdSlot 4 -->
+    </div>
+
+    <!-- promo ad slots -->
+    
+
+    
+
+</div>
+</aside>
+        
+        
+
+
+
+
+
+    
+
+</section>
+<!-- end body content -->
+
+
+
+    
+
+    <!-- leaderboard -->
+    <div class="ad leaderboard btm">
+        
+            <!-- Beginning Sync AdSlot 3 for Ad unit townandcountry.hdn  -->
+<div id="adslot-3-bottom-leaderboard" class="ad-position"></div>
+<!-- End AdSlot 3 -->
+        
+    </div>
+
+    <!-- footer -->
+    <footer class="main">
+        <div class="sitemap-statement">
+            <!-- site map -->
+            <ul id='site-map'>
+            <li class=""><a href="http://www.goodhousekeeping.co.uk/misc/contact-us">Contact</a></li>
+            
+            <li class=""><a href="http://www.hearst.co.uk/magazines/Data-protection.html">Privacy</a></li>
+            
+            <li class=""><a href="http://www.hearst.co.uk/magazines/Terms-and-Conditions.html">Terms & Conditions</a></li>
+            
+            <li class=""><a href="http://www.hearst.co.uk/magazines/cookie-policy.html">Cookie Policy</a></li>
+            
+            <li class=""><a href="http://www.hearst.co.uk/">Advertising</a></li>
+            
+            <li class=""><a href="http://www.hearst.co.uk/hearst-magazines-uk-complaints-procedure">Complaints</a></li>
+            
+            <li class=""><a href="http://www.goodhousekeeping.co.uk/site-map">Site Map</a></li>
+            
+            <li class="last"><a href="#">Hearst UK Sites</a><ul>
+            <li class=""><a href="https://www.goodhousekeeping.co.uk/institute/">Good Housekeeping Institute</a></li>
+            
+            <li class=""><a href="http://www.prima.co.uk/">Prima</a></li>
+            
+            <li class=""><a href="http://www.cosmopolitan.co.uk/">Cosmopolitan</a></li>
+            
+            <li class=""><a href="http://www.digitalspy.co.uk/">Digital Spy</a></li>
+            
+            <li class=""><a href="http://www.elleuk.com/">Elle</a></li>
+            
+            <li class=""><a href="http://www.elledecoration.co.uk/">Elle Decoration</a></li>
+            
+            <li class=""><a href="http://www.esquire.co.uk/">Esquire</a></li>
+            
+            <li class=""><a href="http://empowering.hearst.co.uk/">Hearst Empowering Women</a></li>
+            
+            <li class=""><a href="http://www.menshealth.co.uk/">Men's Health</a></li>
+            
+            <li class=""><a href="http://www.netdoctor.co.uk/">Net Doctor</a></li>
+            
+            <li class=""><a href="http://www.redonline.co.uk/">Red Online</a></li>
+            
+            <li class=""><a href="http://www.sugarscape.com/">Sugarscape</a></li>
+            
+            <li class=""><a href="http://www.reveal.co.uk/">Reveal</a></li>
+            
+            <li class=""><a href="http://www.countryliving.co.uk/">Country Living</a></li>
+            
+            <li class="last"><a href="http://www.housebeautiful.co.uk/">House Beautiful</a></li>
+            </ul></li>
+            </ul>
+            <div class="statement">GOOD HOUSEKEEPING PART OF THE HEARST UK FASHION &amp; BEAUTY NETWORK</div>
+        </div>
+        <!-- logo -->
+        <a class="logo-footer" href="http://www.hearst.co.uk" target="_blank">
+            
+            <img src="/assets/css/img/hearst-logo.svg" class="svg" alt="Hearst Magazines UK National Magazine company" width="226" height="32">
+            <img src="/assets/css/img/hearst-logo.png" class="png" alt="Hearst Magazines UK National Magazine company" width="226" height="32">
+        </a>
+        <script type="text/javascript" charset="utf-8" src="http://player.hearst.io/player.js"></script>
+    </footer>
+
+</section>
+
+<!-- newsletter signup modal -->
+
+
+<script>
+    var hearstUK = {
+        ads:{
+            ads_enabled:"y"=="y",
+            galleryRefreshInterval:3
+        },
+        tracking_enabled:"y"=="y"
+    };
+</script>
+
+
+   
+
+<!-- global functions -->
+    <script type="text/javascript" src="http://www.goodhousekeeping.co.uk/assets/js/main.js"></script>
+    <script type="text/javascript" src="http://www.goodhousekeeping.co.uk/assets/js/ads.js"></script>
+    <script type="text/javascript" src="http://www.goodhousekeeping.co.uk/assets/js/tracking.js"></script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+        
+    
+
