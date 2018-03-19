@@ -79,7 +79,7 @@ def get_ingredient_lines(fname):
     group_mags = {}
     group_mag = 0
     group_list = []
-    lines = out.decode('utf-8').split("\n")
+    lines = out.decode('utf-8').replace('⅔','2/3').replace('½','1/2').split("\n")
     for i,line in enumerate(lines):
         words = set(regex.sub('',line.lower()).split())
         if len(words) > 0:
@@ -164,7 +164,13 @@ def process_ingredient_lines(ingredient_lines):
 
     if 'eggs' not in all_ingredients:
         return {'lines':[],'ingredients':[]}
-    return ({'lines':processed_ingredients,'ingredients':list(set(all_ingredients))})
+    return ({'lines':processed_ingredients,'ingredients':list(sorted(set(all_ingredients)))})
+
+# ingredient_lines = get_ingredient_lines(os.path.join('brownies',sys.argv[1]))
+# j= process_ingredient_lines(ingredient_lines)
+# print(j)
+# raise
+
 
 # filenames =  os.listdir("brownies")
 # recipes = []
@@ -173,6 +179,8 @@ def process_ingredient_lines(ingredient_lines):
 #     j= process_ingredient_lines(ingredient_lines)
 #     # print(json.dumps(j,indent=2))
 #     if len(j['lines']) > 3:
+#         j['id'] = len(recipes)
+#         j['fname'] = fname
 #         recipes.append(j)
 
 # with open("brownie_recipes.json",'w') as f:
@@ -242,3 +250,167 @@ for ing in mean_recipe:
         m = m*48
         qty = 'tsp'
     print(ing,m,qty)
+
+
+from sklearn import tree
+all_ingredients = []
+for recipe in recipes:
+    all_ingredients += recipe['ingredients']
+all_ingredients = list(set(all_ingredients))
+print(all_ingredients)
+X = np.zeros((len(recipes),len(all_ingredients)))
+for i,recipe in enumerate(recipes):
+    for line in recipe['lines']:
+        X[i,all_ingredients.index(line['ingredient'])] = 1
+
+print(X)
+clf = tree.DecisionTreeClassifier()
+clf = clf.fit(X,np.zeros((len(recipes),1)))
+
+import graphviz
+dot_data = tree.export_graphviz(clf, out_file=None) 
+dot_data = tree.export_graphviz(clf, out_file=None, 
+                         feature_names=all_ingredients,  
+                         class_names=np.zeros((len(recipes),1)),  
+                         filled=True, rounded=True,  
+                         special_characters=True)  
+graph = graphviz.Source(dot_data) 
+graph
+graph.render('iris')
+
+
+
+import numpy as np
+from sklearn.cluster import AgglomerativeClustering
+import ete3
+
+def build_Newick_tree(children,n_leaves,X,leaf_labels,spanner):
+    """
+    build_Newick_tree(children,n_leaves,X,leaf_labels,spanner)
+
+    Get a string representation (Newick tree) from the sklearn
+    AgglomerativeClustering.fit output.
+
+    Input:
+        children: AgglomerativeClustering.children_
+        n_leaves: AgglomerativeClustering.n_leaves_
+        X: parameters supplied to AgglomerativeClustering.fit
+        leaf_labels: The label of each parameter array in X
+        spanner: Callable that computes the dendrite's span
+
+    Output:
+        ntree: A str with the Newick tree representation
+
+    """
+    return go_down_tree(children,n_leaves,X,leaf_labels,len(children)+n_leaves-1,spanner)[0]+';'
+
+def go_down_tree(children,n_leaves,X,leaf_labels,nodename,spanner):
+    """
+    go_down_tree(children,n_leaves,X,leaf_labels,nodename,spanner)
+
+    Iterative function that traverses the subtree that descends from
+    nodename and returns the Newick representation of the subtree.
+
+    Input:
+        children: AgglomerativeClustering.children_
+        n_leaves: AgglomerativeClustering.n_leaves_
+        X: parameters supplied to AgglomerativeClustering.fit
+        leaf_labels: The label of each parameter array in X
+        nodename: An int that is the intermediate node name whos
+            children are located in children[nodename-n_leaves].
+        spanner: Callable that computes the dendrite's span
+
+    Output:
+        ntree: A str with the Newick tree representation
+
+    """
+    nodeindex = nodename-n_leaves
+    if nodename<n_leaves:
+        return leaf_labels[nodeindex],np.array([X[nodeindex]])
+    else:
+        node_children = children[nodeindex]
+        branch0,branch0samples = go_down_tree(children,n_leaves,X,leaf_labels,node_children[0],spanner)
+        branch1,branch1samples = go_down_tree(children,n_leaves,X,leaf_labels,node_children[1],spanner)
+        node = np.vstack((branch0samples,branch1samples))
+        branch0span = spanner(branch0samples)
+        branch1span = spanner(branch1samples)
+        nodespan = spanner(node)
+        branch0distance = nodespan-branch0span
+        branch1distance = nodespan-branch1span
+        nodename = '({branch0}:{branch0distance},{branch1}:{branch1distance})'.format(branch0=branch0,branch0distance=branch0distance,branch1=branch1,branch1distance=branch1distance)
+        return nodename,node
+
+def get_cluster_spanner(aggClusterer):
+    """
+    spanner = get_cluster_spanner(aggClusterer)
+
+    Input:
+        aggClusterer: sklearn.cluster.AgglomerativeClustering instance
+
+    Get a callable that computes a given cluster's span. To compute
+    a cluster's span, call spanner(cluster)
+
+    The cluster must be a 2D numpy array, where the axis=0 holds
+    separate cluster members and the axis=1 holds the different
+    variables.
+
+    """
+    if aggClusterer.linkage=='ward':
+        if aggClusterer.affinity=='euclidean':
+            spanner = lambda x:np.sum((x-aggClusterer.pooling_func(x,axis=0))**2)
+    elif aggClusterer.linkage=='complete':
+        if aggClusterer.affinity=='euclidean':
+            spanner = lambda x:np.max(np.sum((x[:,None,:]-x[None,:,:])**2,axis=2))
+        elif aggClusterer.affinity=='l1' or aggClusterer.affinity=='manhattan':
+            spanner = lambda x:np.max(np.sum(np.abs(x[:,None,:]-x[None,:,:]),axis=2))
+        elif aggClusterer.affinity=='l2':
+            spanner = lambda x:np.max(np.sqrt(np.sum((x[:,None,:]-x[None,:,:])**2,axis=2)))
+        elif aggClusterer.affinity=='cosine':
+            spanner = lambda x:np.max(np.sum((x[:,None,:]*x[None,:,:]))/(np.sqrt(np.sum(x[:,None,:]*x[:,None,:],axis=2,keepdims=True))*np.sqrt(np.sum(x[None,:,:]*x[None,:,:],axis=2,keepdims=True))))
+        else:
+            raise AttributeError('Unknown affinity attribute value {0}.'.format(aggClusterer.affinity))
+    elif aggClusterer.linkage=='average':
+        if aggClusterer.affinity=='euclidean':
+            spanner = lambda x:np.mean(np.sum((x[:,None,:]-x[None,:,:])**2,axis=2))
+        elif aggClusterer.affinity=='l1' or aggClusterer.affinity=='manhattan':
+            spanner = lambda x:np.mean(np.sum(np.abs(x[:,None,:]-x[None,:,:]),axis=2))
+        elif aggClusterer.affinity=='l2':
+            spanner = lambda x:np.mean(np.sqrt(np.sum((x[:,None,:]-x[None,:,:])**2,axis=2)))
+        elif aggClusterer.affinity=='cosine':
+            spanner = lambda x:np.mean(np.sum((x[:,None,:]*x[None,:,:]))/(np.sqrt(np.sum(x[:,None,:]*x[:,None,:],axis=2,keepdims=True))*np.sqrt(np.sum(x[None,:,:]*x[None,:,:],axis=2,keepdims=True))))
+        else:
+            raise AttributeError('Unknown affinity attribute value {0}.'.format(aggClusterer.affinity))
+    else:
+        raise AttributeError('Unknown linkage attribute value {0}.'.format(aggClusterer.linkage))
+    return spanner
+
+clusterer = AgglomerativeClustering(n_clusters=8,compute_full_tree=False) # You can set compute_full_tree to 'auto', but I left it this way to get the entire tree plotted
+clusterer.fit(X) # X for whatever you want to fit
+spanner = get_cluster_spanner(clusterer)
+leaf_labels = []
+for i in range(0,len(recipes)):
+    print(i,clusterer.labels_[i])
+    leaf_labels.append('{} ({})'.format(i,clusterer.labels_[i]))
+leaf_labels = list(range(0,len(recipes)))
+newick_tree = build_Newick_tree(clusterer.children_,clusterer.n_leaves_,X,leaf_labels,spanner) # leaf_labels is a list of labels for each entry in X
+tree = ete3.Tree(newick_tree)
+
+print(tree)
+
+label_counts = {}
+for i,l in enumerate(clusterer.labels_):
+    if l not in label_counts:
+        label_counts[l] = 0
+    label_counts[l] += 1
+
+print(label_counts)
+best_label = 0
+print(label_counts)
+for i,l in enumerate(sorted(label_counts.items(), key=operator.itemgetter(1),reverse=True)):
+    print("-"*30)
+    print("cluster {}".format(l[0]))
+    for j,l2 in enumerate(clusterer.labels_):
+        if l2 == l[0]:
+            print(recipes[j]['ingredients'])
+    if i == 10:
+        break
