@@ -541,7 +541,6 @@ cumin seeds
 bourbon
 currants
 pizza sauce
-lg. eggs
 red kidney beans
 lemonade
 rosemary leaves
@@ -1386,7 +1385,6 @@ green chili
 canadian bacon
 graham cracker pie crust
 chocolate ice cream
-butter softened
 breakstone's
 red chili pepper
 french dressing
@@ -1482,7 +1480,6 @@ white sesame seeds
 oyster mushrooms
 bow-tie pasta
 lg. cream cheese
-eggs egg
 white wine dry
 7-up
 knoblauchzehen
@@ -1737,14 +1734,12 @@ pork loin roast
 yellow bell peppers
 peach preserves
 golden mushroom soup
-. chuck
 kosher salt
 sweet relish
 rosemary rosemary
-light brown sugar
+brown sugar
 wasabi powder
 tortellini
-g champignons
 tasty cheese
 shallots onion
 coca-cola
@@ -2034,7 +2029,7 @@ pea shoots
 fontina
 sweet red peppers
 rib
-sweet potatoes large
+sweet potatoes 
 coleslaw mix
 tahini paste
 haddock
@@ -2098,7 +2093,6 @@ belgian endive
 ice cube
 sushi rice
 lasagne noodles
-cage eggs
 root beer
 savoy cabbage
 anise
@@ -2182,7 +2176,7 @@ lemon pudding
 crabs
 melted butter
 cayenne powder
-large shrimp
+ shrimp
 pineapple preserves
 fresh-ground black pepper
 garden peas
@@ -2196,6 +2190,8 @@ liquid egg substitute
 cocktail sauce
 gelatin dessert
 potato flour
+allpurpose flour
+flour
 ancho chiles
 chocolate sprinkles
 madras curry powder
@@ -2576,7 +2572,6 @@ bocconcini
 shortbread cookies
 black bean sauce
 quick-cooking barley
-deggs
 prosecco
 cream of potato soup
 paraffin
@@ -2755,7 +2750,6 @@ x flour
 stale bread
 ml oil
 prosciutto ham
-pkgs.
 flaky sea salt
 natural yoghurt
 mixed peel
@@ -2871,7 +2865,7 @@ mung beans
 sirloin steaks
 serrano ham
 crema
-baking potatoes large
+baking potatoes 
 parsley leaves minced
 xylitol sweetener
 liver
@@ -3029,7 +3023,7 @@ shredded low-fat cheddar cheese
 turkey kieasa
 brussels sprout
 mandarin orange segments
-yellow onion large
+yellow onion 
 horseradish cream
 won ton wrappers
 lard oil
@@ -3052,7 +3046,6 @@ raisin bread
 butter crackers
 limeade concentrate
 rapid rise yeast
-large eggs
 kiwis
 packung
 portobello mushroom caps
@@ -3097,7 +3090,7 @@ buckwheat groats
 vegetable soup
 wonton skins
 italian dressing
-purple onion large
+purple onion 
 red wine dry
 green tea bags
 chicken liver
@@ -3218,7 +3211,7 @@ leaf lettuce
 red currants
 jell-o
 snapper
-russet potatoes large
+russet potatoes 
 bay leaf dried
 campbell's cream of mushroom soup
 unbaked 9 inch pie shell
@@ -3243,7 +3236,7 @@ ml crã¨me fraã®che
 pepperoncini peppers
 biscuit dough
 jar pimientos
-flour tortillas large
+flour tortillas 
 unsalted butter butter
 sqs. chocolate
 white almond bark
@@ -3628,7 +3621,7 @@ treacle
 gold tequila
 nonfat greek yogurt
 habanero chile
-large bell pepper
+ bell pepper
 11/2 seasoning salt
 chicory
 unbeaten egg
@@ -3752,7 +3745,7 @@ hot roll mix
 garlic bread
 italian herbs
 chicken:
-bay leaf large
+bay leaf 
 tostadas
 millet flour
 glue
@@ -3872,7 +3865,7 @@ nam pla
 nacho chips
 vine ripened tomatoes
 fluid water
-sweet onion large
+sweet onion 
 pearl tapioca
 matzo cake meal
 lamb stock
@@ -4034,8 +4027,6 @@ rice-wine vinegar
 almonds sliced
 chanterelle
 cooked white rice
-pkg
-100g butter
 wheat crackers
 cookie dough
 vanilla custard
@@ -4374,7 +4365,7 @@ basil leaves basil
 chicken breasts chicken thighs
 lime wedges optional
 lamb rib chops
-basil leaves large
+basil leaves 
 white fish
 asian pear
 fren pink lemonade
@@ -4527,7 +4518,7 @@ for the salad:
 swiss cheese shredded
 tomatoes ripe
 pt. cherry tomatoes
-large marshmallows
+ marshmallows
 coffee cream
 oil tomatoes
 meatloaf
@@ -4570,7 +4561,7 @@ eggs water
 buttercake mix
 brandy extract
 brown cardamom
-portabello mushroom large
+portabello mushroom 
 verde
 dumpling wrappers
 white beans beans
@@ -4707,7 +4698,7 @@ bow tie pasta
 cool water
 yogurt cheese
 chocolate cookies
-red pepper large
+red pepper 
 knorr vegetable soup mix
 chuck beef
 60ml 1/4 lemon juice
@@ -4761,7 +4752,7 @@ pasta noodles
 caesar salad dressing
 chestnut flour
 whole corn
-white onion large
+white onion 
 sure jell
 cabbage head
 white granulated sugar
@@ -4801,7 +4792,7 @@ roll ritz crackers
 lemon flavor
 boneless lamb
 sunflower kernels
-large artichokes
+ artichokes
 flour, all purpose
 ear corn
 103/4 condensed cheddar cheese soup
@@ -4849,7 +4840,6 @@ live lobsters
 gravy master
 baby turnips
 brewer's yeast
-eggs eggs
 cream quark
 kraft lite ranch dressing
 29 stewed tomatoes
