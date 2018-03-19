@@ -5,7 +5,9 @@ import operator
 import json
 from fractions import Fraction
 import subprocess
+import os
 
+from tqdm import tqdm
 
 def hasNumbers(inputString):
     return any(char.isdigit() for char in inputString)
@@ -27,7 +29,7 @@ conversion_to_cup = {
 }
 def get_ingredient_list():
     possible_ingredients_map = {}
-    with open('../top_5k.txt','r') as f:
+    with open('top_5k.txt','r') as f:
         for line in f:
             ing = regex.sub('',line.lower()).strip()
             if len(ing) < 3:
@@ -119,6 +121,8 @@ def process_ingredient_lines(ingredient_lines):
             print(ingredient_line)
             print(sentence)
 
+    num_eggs = 1
+
     # determine quantity 
     for i,_ in enumerate(processed_ingredients):
         ingredient_line = processed_ingredients[i]['line']
@@ -138,6 +142,14 @@ def process_ingredient_lines(ingredient_lines):
                 except:
                     pass
         processed_ingredients[i]['qty'] = value 
+        if processed_ingredients[i]['ingredient'] == 'eggs':
+            if value == 0:
+                value = 1
+            num_eggs = value
+
+    scale_factor = 2 / num_eggs
+    for i, _ in enumerate(processed_ingredients):
+        processed_ingredients[i]['qty'] = processed_ingredients[i]['qty']*scale_factor
 
     # convert to cups
     for i,_ in enumerate(processed_ingredients):
@@ -150,8 +162,83 @@ def process_ingredient_lines(ingredient_lines):
                 processed_ingredients[i]['unit'] = 'cup'
                 processed_ingredients[i]['qty'] = processed_ingredients[i]['qty']*conversion_to_cup[conv]
 
+    if 'eggs' not in all_ingredients:
+        return {'lines':[],'ingredients':[]}
     return ({'lines':processed_ingredients,'ingredients':list(set(all_ingredients))})
 
-ingredient_lines = get_ingredient_lines(sys.argv[1])
-j= process_ingredient_lines(ingredient_lines)
-print(json.dumps(j,indent=2))
+# filenames =  os.listdir("brownies")
+# recipes = []
+# for fname in tqdm(filenames):
+#     ingredient_lines = get_ingredient_lines(os.path.join('brownies',fname))
+#     j= process_ingredient_lines(ingredient_lines)
+#     # print(json.dumps(j,indent=2))
+#     if len(j['lines']) > 3:
+#         recipes.append(j)
+
+# with open("brownie_recipes.json",'w') as f:
+#     f.write(json.dumps(recipes,indent=2))
+
+
+
+recipes = json.load(open('brownie_recipes.json','r'))
+for ii in enumerate(tqdm(recipes)):
+    recipes[ii[0]]['similarity'] = {}
+    for j,_ in enumerate(recipes):
+        i = ii[0]
+        set1 = set(recipes[i]['ingredients'])
+        set2 = set(recipes[j]['ingredients'])
+        print(set1)
+        print(set2)
+        similarity = 2*float(len(set1 & set2))/float(len(set1)+len(set2))
+        print(i,j,similarity)
+        recipes[ii[0]]['similarity'][j] = similarity
+
+
+num_similar = {}
+for i,recipe in enumerate(recipes):
+    num_similar[i] = 0
+    for k in recipe['similarity']:
+        if recipe['similarity'][k] > 0.5:
+            num_similar[i] += 1
+
+print(num_similar)
+similar_recipes = []
+for k in  sorted(num_similar.items(), key=operator.itemgetter(1),reverse=True):
+    print(k)
+    print(recipes[k[0]]['similarity'])
+    for i in recipes[k[0]]['similarity']:
+        if recipes[k[0]]['similarity'][i] > 0.5:
+            similar_recipes.append(i)
+    break
+
+print(similar_recipes)
+mean_recipe = {}
+for recipe in recipes:
+    for line in recipe['lines']:
+        if line['ingredient'] not in mean_recipe:
+            mean_recipe[line['ingredient']] = []
+        if line['qty'] > 0.0001 and line['qty'] < 20:
+            mean_recipe[line['ingredient']].append(line['qty'])
+
+with open('mean_recipe.json','w') as f:
+    f.write(json.dumps(mean_recipe,indent=2))
+
+
+import numpy as np 
+
+def reject_outliers(data, m=2):
+    if len(data) < 3:
+        return data
+    return data[abs(data - np.mean(data)) < m * np.std(data)]
+
+for ing in mean_recipe:
+    a = np.array(mean_recipe[ing])
+    a = reject_outliers(a) 
+    if len(a) < 3:
+        continue
+    m = np.mean(a)
+    qty = 'cups'
+    if m < 0.1:
+        m = m*48
+        qty = 'tsp'
+    print(ing,m,qty)
