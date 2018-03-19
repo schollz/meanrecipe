@@ -6,6 +6,7 @@ import json
 from fractions import Fraction
 import subprocess
 import os
+import collections 
 
 from tqdm import tqdm
 
@@ -176,10 +177,12 @@ def process_ingredient_lines(ingredient_lines):
 # raise
 
 
-# filenames =  os.listdir("brownies2")
+folder_name = 'pancakes'
+
+# filenames =  os.listdir(folder_name)
 # recipes = []
 # for fname in tqdm(filenames):
-#     ingredient_lines = get_ingredient_lines(os.path.join('brownies2',fname))
+#     ingredient_lines = get_ingredient_lines(os.path.join(folder_name,fname))
 #     j= process_ingredient_lines(ingredient_lines)
 #     # print(json.dumps(j,indent=2))
 #     if len(j['lines']) > 3:
@@ -187,107 +190,21 @@ def process_ingredient_lines(ingredient_lines):
 #         j['fname'] = fname
 #         recipes.append(j)
 
-# with open("brownie_recipes.json",'w') as f:
+# with open(folder_name + "_recipes.json",'w') as f:
 #     f.write(json.dumps(recipes,indent=2))
 
+recipes = json.load(open(folder_name + '_recipes.json','r'))
 
 
-recipes = json.load(open('brownie_recipes.json','r'))
-for ii in enumerate(tqdm(recipes)):
-    recipes[ii[0]]['similarity'] = {}
-    for j,_ in enumerate(recipes):
-        i = ii[0]
-        set1 = set(recipes[i]['ingredients'])
-        set2 = set(recipes[j]['ingredients'])
-        print(set1)
-        print(set2)
-        similarity = 2*float(len(set1 & set2))/float(len(set1)+len(set2))
-        print(i,j,similarity)
-        recipes[ii[0]]['similarity'][j] = similarity
 
-
-num_similar = {}
-for i,recipe in enumerate(recipes):
-    num_similar[i] = 0
-    for k in recipe['similarity']:
-        if recipe['similarity'][k] > 0.5:
-            num_similar[i] += 1
-
-print(num_similar)
-similar_recipes = []
-for k in  sorted(num_similar.items(), key=operator.itemgetter(1),reverse=True):
-    print(k)
-    print(recipes[k[0]]['similarity'])
-    for i in recipes[k[0]]['similarity']:
-        if recipes[k[0]]['similarity'][i] > 0.5:
-            similar_recipes.append(i)
-    break
-
-print(similar_recipes)
-mean_recipe = {}
-for recipe in recipes:
-    for line in recipe['lines']:
-        if line['ingredient'] not in mean_recipe:
-            mean_recipe[line['ingredient']] = []
-        if line['qty'] > 0.0001 and line['qty'] < 20:
-            mean_recipe[line['ingredient']].append(line['qty'])
-
-with open('mean_recipe.json','w') as f:
-    f.write(json.dumps(mean_recipe,indent=2))
 
 
 import numpy as np 
-
-def reject_outliers(data, m=2):
-    if len(data) < 3:
-        return data
-    return data[abs(data - np.mean(data)) < m * np.std(data)]
-
-for ing in mean_recipe:
-    a = np.array(mean_recipe[ing])
-    a = reject_outliers(a) 
-    if len(a) < 3:
-        continue
-    m = np.mean(a)
-    qty = 'cups'
-    if m < 0.1:
-        m = m*48
-        qty = 'tsp'
-    print(ing,m,qty)
-
-
 from sklearn import tree
-all_ingredients = []
-for recipe in recipes:
-    all_ingredients += recipe['ingredients']
-all_ingredients = list(set(all_ingredients)-set(['salt','vanilla','eggs']))
-print(all_ingredients)
-X = np.zeros((len(recipes),len(all_ingredients)))
-for i,recipe in enumerate(recipes):
-    for line in recipe['lines']:
-        if line['ingredient'] in all_ingredients:
-            X[i,all_ingredients.index(line['ingredient'])] = 1# line['qty']
-
-print(X)
-clf = tree.DecisionTreeClassifier()
-clf = clf.fit(X,np.zeros((len(recipes),1)))
-
-import graphviz
-dot_data = tree.export_graphviz(clf, out_file=None) 
-dot_data = tree.export_graphviz(clf, out_file=None, 
-                         feature_names=all_ingredients,  
-                         class_names=np.zeros((len(recipes),1)),  
-                         filled=True, rounded=True,  
-                         special_characters=True)  
-graph = graphviz.Source(dot_data) 
-graph
-graph.render('iris')
-
-
-
-import numpy as np
 from sklearn.cluster import AgglomerativeClustering
 import ete3
+
+
 
 def build_Newick_tree(children,n_leaves,X,leaf_labels,spanner):
     """
@@ -389,34 +306,83 @@ def get_cluster_spanner(aggClusterer):
         raise AttributeError('Unknown linkage attribute value {0}.'.format(aggClusterer.linkage))
     return spanner
 
-clusterer = AgglomerativeClustering(n_clusters=30,compute_full_tree=True) # You can set compute_full_tree to 'auto', but I left it this way to get the entire tree plotted
+
+all_ingredients = []
+for recipe in recipes:
+    all_ingredients += recipe['ingredients']
+all_ingredients = list(set(all_ingredients)-set(['salt','vanilla','eggs']))
+
+X = np.zeros((len(recipes),len(all_ingredients)))
+for i,recipe in enumerate(recipes):
+    for line in recipe['lines']:
+        if line['ingredient'] in all_ingredients:
+            X[i,all_ingredients.index(line['ingredient'])] = 1 # line['qty']
+
+clusterer = AgglomerativeClustering(n_clusters=20,compute_full_tree=True) # You can set compute_full_tree to 'auto', but I left it this way to get the entire tree plotted
 clusterer.fit(X) # X for whatever you want to fit
 spanner = get_cluster_spanner(clusterer)
 leaf_labels = []
 for i in range(0,len(recipes)):
-    print(i,clusterer.labels_[i])
     leaf_labels.append('{} ({})'.format(i,clusterer.labels_[i]))
 leaf_labels = list(range(0,len(recipes)))
 newick_tree = build_Newick_tree(clusterer.children_,clusterer.n_leaves_,X,leaf_labels,spanner) # leaf_labels is a list of labels for each entry in X
 tree = ete3.Tree(newick_tree)
 
-print(tree)
 label_counts = {}
+cluster_labels = {}
 for i,l in enumerate(clusterer.labels_):
     if l not in label_counts:
+        cluster_labels[l] = []
         label_counts[l] = 0
     label_counts[l] += 1
+    cluster_labels[l].append(i)
 
-print(label_counts)
-best_label = 0
-print(label_counts)
+
+print(cluster_labels)
+
+
+def get_mean_recipe(recipes,recipe_ids):
+    recipe = {}
+    for i in recipe_ids:
+        for line in recipes[i]['lines']:
+            ing = line['ingredient']
+            qty = line['qty']
+            unit = line['unit']
+            if ing not in recipe:
+                recipe[ing] = {'qty':[],'unit':unit}
+            if qty > 0.00001:
+                recipe[ing]['qty'].append(qty)
+    ordering = {}
+    for ing in recipe:
+        if len(recipe[ing]['qty']) <2:
+            continue
+        recipe[ing]['freq'] = len(recipe[ing]['qty'])/len(recipe_ids)
+        recipe[ing]['qty'] = np.median(recipe[ing]['qty'])
+        ordering[ing] = recipe[ing]['freq']
+
+    d = collections.OrderedDict()
+    for k in sorted(ordering.items(), key=operator.itemgetter(1),reverse=True):
+        ing = k[0]
+        d[ing] = {'freq':k[1],'qty':recipe[ing]['qty'],'unit':'cup'}
+        if ing == 'eggs':
+            d[ing]['qty'] = d[ing]['qty'] * 2
+            d[ing]['unit'] = 'whole'           
+        elif d[ing]['qty'] < 0.0417:
+            d[ing]['qty'] = d[ing]['qty'] * 48
+            d[ing]['unit'] = 'tsp'
+        elif d[ing]['qty'] < 0.125:
+            d[ing]['qty'] = d[ing]['qty'] * 16
+            d[ing]['unit'] = 'tbsp'
+    return d
+
 for i,l in enumerate(sorted(label_counts.items(), key=operator.itemgetter(1),reverse=True)):
+    if len(cluster_labels[l[0]]) < 5:
+        continue
     print("-"*30)
-    print("cluster {}".format(l[0]))
-    for j,l2 in enumerate(clusterer.labels_):
-        if l2 == l[0]:
-            print(recipes[j]['ingredients'])
-    if i == 20:
-        break
+    print("cluster {} (n={})".format(l[0],len(cluster_labels[l[0]])))
+    mean_recipe = get_mean_recipe(recipes,cluster_labels[l[0]])
+    for ing in mean_recipe:
+        if mean_recipe[ing]['freq'] > 0.5:
+            print('{:2.1f} {} {} ({:2.1f}%)'.format(mean_recipe[ing]['qty'],mean_recipe[ing]['unit'],ing,mean_recipe[ing]['freq']*100))
 
 

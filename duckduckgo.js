@@ -22,7 +22,7 @@ const puppeteer = require('puppeteer');
 
 const browser = await puppeteer.launch();
 const page = await browser.newPage();
-await page.goto('https://duckduckgo.com/?q=best+brownies', {waitUntil: 'networkidle2'});
+await page.goto('https://duckduckgo.com/?q=homemade+noodle+recipe', {waitUntil: 'networkidle2'});
 await page.setViewport({
     width: 1200,
     height: 800
