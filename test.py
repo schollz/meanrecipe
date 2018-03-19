@@ -142,14 +142,6 @@ def process_ingredient_lines(ingredient_lines):
                 except:
                     pass
         processed_ingredients[i]['qty'] = value 
-        if processed_ingredients[i]['ingredient'] == 'eggs':
-            if value == 0:
-                value = 1
-            num_eggs = value
-
-    scale_factor = 2 / num_eggs
-    for i, _ in enumerate(processed_ingredients):
-        processed_ingredients[i]['qty'] = processed_ingredients[i]['qty']*scale_factor
 
     # convert to cups
     for i,_ in enumerate(processed_ingredients):
@@ -161,21 +153,33 @@ def process_ingredient_lines(ingredient_lines):
             if conv in ingredient_line:
                 processed_ingredients[i]['unit'] = 'cup'
                 processed_ingredients[i]['qty'] = processed_ingredients[i]['qty']*conversion_to_cup[conv]
+        if processed_ingredients[i]['ingredient'] == 'eggs':
+            processed_ingredients[i]['unit'] = 'cup'
+            processed_ingredients[i]['qty'] = processed_ingredients[i]['qty']*0.5
+        if processed_ingredients[i]['qty'] > 20:
+            processed_ingredients[i]['qty'] = 0
 
-    if 'eggs' not in all_ingredients:
+    total_cups = 0
+    for i, _ in enumerate(processed_ingredients):
+        total_cups +=  processed_ingredients[i]['qty']
+    if total_cups == 0:
         return {'lines':[],'ingredients':[]}
+
+    for i, _ in enumerate(processed_ingredients):
+        processed_ingredients[i]['qty'] = float(processed_ingredients[i]['qty']) * float(10)/float(total_cups)
+
     return ({'lines':processed_ingredients,'ingredients':list(sorted(set(all_ingredients)))})
 
-# ingredient_lines = get_ingredient_lines(os.path.join('brownies',sys.argv[1]))
+# ingredient_lines = get_ingredient_lines(os.path.join('brownies2',sys.argv[1]))
 # j= process_ingredient_lines(ingredient_lines)
 # print(j)
 # raise
 
 
-# filenames =  os.listdir("brownies")
+# filenames =  os.listdir("brownies2")
 # recipes = []
 # for fname in tqdm(filenames):
-#     ingredient_lines = get_ingredient_lines(os.path.join('brownies',fname))
+#     ingredient_lines = get_ingredient_lines(os.path.join('brownies2',fname))
 #     j= process_ingredient_lines(ingredient_lines)
 #     # print(json.dumps(j,indent=2))
 #     if len(j['lines']) > 3:
@@ -256,12 +260,13 @@ from sklearn import tree
 all_ingredients = []
 for recipe in recipes:
     all_ingredients += recipe['ingredients']
-all_ingredients = list(set(all_ingredients))
+all_ingredients = list(set(all_ingredients)-set(['salt','vanilla','eggs']))
 print(all_ingredients)
 X = np.zeros((len(recipes),len(all_ingredients)))
 for i,recipe in enumerate(recipes):
     for line in recipe['lines']:
-        X[i,all_ingredients.index(line['ingredient'])] = 1
+        if line['ingredient'] in all_ingredients:
+            X[i,all_ingredients.index(line['ingredient'])] = 1# line['qty']
 
 print(X)
 clf = tree.DecisionTreeClassifier()
@@ -384,7 +389,7 @@ def get_cluster_spanner(aggClusterer):
         raise AttributeError('Unknown linkage attribute value {0}.'.format(aggClusterer.linkage))
     return spanner
 
-clusterer = AgglomerativeClustering(n_clusters=8,compute_full_tree=False) # You can set compute_full_tree to 'auto', but I left it this way to get the entire tree plotted
+clusterer = AgglomerativeClustering(n_clusters=30,compute_full_tree=True) # You can set compute_full_tree to 'auto', but I left it this way to get the entire tree plotted
 clusterer.fit(X) # X for whatever you want to fit
 spanner = get_cluster_spanner(clusterer)
 leaf_labels = []
@@ -396,7 +401,6 @@ newick_tree = build_Newick_tree(clusterer.children_,clusterer.n_leaves_,X,leaf_l
 tree = ete3.Tree(newick_tree)
 
 print(tree)
-
 label_counts = {}
 for i,l in enumerate(clusterer.labels_):
     if l not in label_counts:
@@ -412,5 +416,7 @@ for i,l in enumerate(sorted(label_counts.items(), key=operator.itemgetter(1),rev
     for j,l2 in enumerate(clusterer.labels_):
         if l2 == l[0]:
             print(recipes[j]['ingredients'])
-    if i == 10:
+    if i == 20:
         break
+
+
