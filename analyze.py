@@ -371,10 +371,10 @@ def process_ingredient_lines(ingredient_lines):
                 all_ingredients.append(ing.strip())
                 gotOne = True
                 break
-        if not gotOne:
-            print("PROBLEM")
-            print(ingredient_line)
-            print(sentence)
+        # if not gotOne:
+        #     print("PROBLEM")
+        #     print(ingredient_line)
+        #     print(sentence)
 
     # determine quantity 
     for i,_ in enumerate(processed_ingredients):
