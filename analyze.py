@@ -14,6 +14,7 @@ import numpy as np
 from sklearn import tree
 from sklearn.cluster import AgglomerativeClustering
 import ete3
+from prettytable import PrettyTable
 
 def hasNumbers(inputString):
     return any(char.isdigit() for char in inputString)
@@ -349,7 +350,7 @@ def get_ingredient_lines(fname):
             ingredient_lines.append(lines[i].strip().lower())
         break
 
-    return ingredient_lines
+    return lines[0],ingredient_lines
 
 
 
@@ -415,11 +416,13 @@ def process_ingredient_lines(ingredient_lines):
     if total_cups == 0:
         return {'lines':[],'ingredients':[]}
 
+    new_total = 0
     for i, _ in enumerate(processed_ingredients):
         processed_ingredients[i]['original_qty'] = processed_ingredients[i]['qty']
         processed_ingredients[i]['qty'] = float(processed_ingredients[i]['qty']) * float(4)/float(total_cups)
+        new_total += processed_ingredients[i]['qty']
 
-    return ({'lines':processed_ingredients,'ingredients':list(sorted(set(all_ingredients))),'total':total_cups})
+    return ({'lines':processed_ingredients,'ingredients':list(sorted(set(all_ingredients))),'original_total':total_cups,'total':new_total})
 
 # ingredient_lines = get_ingredient_lines(os.path.join('brownies2',sys.argv[1]))
 # j= process_ingredient_lines(ingredient_lines)
@@ -534,7 +537,9 @@ def get_cluster_spanner(aggClusterer):
 
 def get_mean_recipe(recipes,recipe_ids):
     recipe = {}
+    totals = []
     for i in recipe_ids:
+        totals.append(recipes[i]['original_total'])
         for line in recipes[i]['lines']:
             ing = line['ingredient']
             qty = line['qty']
@@ -544,17 +549,22 @@ def get_mean_recipe(recipes,recipe_ids):
             if qty > 0.00001:
                 recipe[ing]['qty'].append(qty)
     ordering = {}
+    cur_total = 0
     for ing in recipe:
         if len(recipe[ing]['qty']) <2:
             continue
         recipe[ing]['freq'] = len(recipe[ing]['qty'])/len(recipe_ids)
         recipe[ing]['qty'] = np.median(recipe[ing]['qty'])
+        cur_total += recipe[ing]['qty']
         ordering[ing] = recipe[ing]['freq']
+
+    median_total = np.median(totals)
+    conv_quantity = median_total / cur_total
 
     d = collections.OrderedDict()
     for k in sorted(ordering.items(), key=operator.itemgetter(1),reverse=True):
         ing = k[0]
-        d[ing] = {'freq':k[1],'qty':recipe[ing]['qty'],'unit':'cup'}
+        d[ing] = {'freq':k[1],'qty':recipe[ing]['qty']*conv_quantity,'unit':'cup'}
         if ing == 'eggs':
             d[ing]['qty'] = d[ing]['qty'] * 2
             d[ing]['unit'] = 'whole'           
@@ -564,8 +574,18 @@ def get_mean_recipe(recipes,recipe_ids):
         elif d[ing]['qty'] < 0.125*4:
             d[ing]['qty'] = d[ing]['qty'] * 16
             d[ing]['unit'] = 'tbsp'
+        d[ing]['qty'] = round(d[ing]['qty']*8)/8
     return d
 
+def dec_to_proper_frac(dec):
+    sign = "-" if dec < 0 else ""
+    frac = Fraction(abs(dec))
+    if frac.numerator % frac.denominator == 0:
+        return "{}".format(round(dec))
+    if frac.numerator / frac.denominator < 1:
+        return f"{frac.numerator % frac.denominator}/{frac.denominator}"
+    return (f"{sign}{frac.numerator // frac.denominator} "
+            f"{frac.numerator % frac.denominator}/{frac.denominator}")
 
 def get_clusters(folder_name):
     if not os.path.isfile(folder_name + "_recipes.json"):
@@ -574,9 +594,10 @@ def get_clusters(folder_name):
         for fname in tqdm(filenames):
             if not fname.endswith(".txt"):
                 continue
-            ingredient_lines = get_ingredient_lines(os.path.join(folder_name,fname))
+            url,ingredient_lines = get_ingredient_lines(os.path.join(folder_name,fname))
             j= process_ingredient_lines(ingredient_lines)
             if len(j['lines']) > 3:
+                j['url'] = url
                 j['id'] = len(recipes)
                 j['fname'] = fname
                 recipes.append(j)
@@ -617,16 +638,27 @@ def get_clusters(folder_name):
         cluster_labels[l].append(i)
 
 
-    print(cluster_labels)
-
     for i,l in enumerate(sorted(label_counts.items(), key=operator.itemgetter(1),reverse=True)):
         if len(cluster_labels[l[0]]) < 5:
             continue
-        print("-"*30)
-        print("cluster {} (n={})".format(l[0],len(cluster_labels[l[0]])))
         mean_recipe = get_mean_recipe(recipes,cluster_labels[l[0]])
-        for ing in mean_recipe:
-            if mean_recipe[ing]['freq'] > 0.5:
-                print('{:2.1f} {} {} ({:2.1f}%)'.format(mean_recipe[ing]['qty'],mean_recipe[ing]['unit'],ing,mean_recipe[ing]['freq']*100))
 
+        num_ingredients = 0
+        for ing in sorted(mean_recipe.keys()):
+            if mean_recipe[ing]['freq'] > 0.5:
+                num_ingredients += 1
+
+        if num_ingredients < 3:
+            continue
+
+        print("\ncluster {} (n={})".format(l[0],len(cluster_labels[l[0]])))
+        t = PrettyTable(["Ingredient","Amount","Rel. Freq."])
+        for ing in sorted(mean_recipe.keys()):
+            if mean_recipe[ing]['freq'] > 0.5:
+                row = []
+                row.append(ing)
+                row.append(dec_to_proper_frac(mean_recipe[ing]['qty']) + " " + mean_recipe[ing]['unit'])
+                row.append(round(mean_recipe[ing]['freq']*100))
+                t.add_row(row)
+        print(t)
 

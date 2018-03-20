@@ -22,7 +22,7 @@ def process_url(url):
     if os.path.isfile(fpath):
         return
     try:
-        r = requests.get(url, timeout=3)
+        r = requests.get(url, timeout=1)
         text = pypandoc.convert_text(r.text,'plain',format='html')
     except:
         return
