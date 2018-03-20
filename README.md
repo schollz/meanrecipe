@@ -1,6 +1,6 @@
 # consensus-cookery
 
-This repository is a quick-and-dirty implementation of recipe clustering and recipe averaging. Sometimes I want to get a recipe for something so I will go find a couple of recipes for the same thing and try to use them as a guide to generate a consensus or "average" recipe to cook with. This code should make it easy to generate consensus recipes (useful!) and also show variation between recipes (interesting!).
+Sometimes when I want a recipe to cook something new I will find several recipes for the same thing and try to use them as a guide to generate an average or "consensus" recipe. This code should make it easy to generate consensus recipes (useful!) and also show variation between recipes (interesting!).
 
 Finding a consensus recipe requires first clustering many recipes. This is because a single recipe (*e.g.* a recipe for brownies) might have many significant variations (*e.g.* brownies can have just cocoa, just chocolate, or both). This code will first cluster recipes and then use the clusters to deliver the consensus recipe.
 
