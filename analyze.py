@@ -7,6 +7,7 @@ from fractions import Fraction
 import subprocess
 import os
 import collections 
+import gzip
 
 from tqdm import tqdm
 import numpy as np 
@@ -314,7 +315,7 @@ ingredient_words = set(regex.sub('',ingredient_corpus.lower()).split())
 def get_ingredient_lines(fname):
     global regex
 
-    out = open(fname,'rb').read()
+    out = gzip.open(fname,'rb').read()
     newlines = []
 
     group_mags = {}
@@ -426,32 +427,6 @@ def process_ingredient_lines(ingredient_lines):
 # raise
 
 
-folder_name = 'brownies'
-
-filenames =  os.listdir(folder_name)
-recipes = []
-for fname in tqdm(filenames):
-    if not fname.endswith(".txt"):
-        continue
-    ingredient_lines = get_ingredient_lines(os.path.join(folder_name,fname))
-    j= process_ingredient_lines(ingredient_lines)
-    # print(json.dumps(j,indent=2))
-    if len(j['lines']) > 3:
-        j['id'] = len(recipes)
-        j['fname'] = fname
-        recipes.append(j)
-
-with open(folder_name + "_recipes.json",'w') as f:
-    f.write(json.dumps(recipes,indent=2))
-
-recipes = json.load(open(folder_name + '_recipes.json','r'))
-
-
-
-
-
-
-
 
 
 def build_Newick_tree(children,n_leaves,X,leaf_labels,spanner):
@@ -555,38 +530,6 @@ def get_cluster_spanner(aggClusterer):
     return spanner
 
 
-all_ingredients = []
-for recipe in recipes:
-    all_ingredients += recipe['ingredients']
-all_ingredients = list(set(all_ingredients)-set(['salt','vanilla','eggs']))
-
-X = np.zeros((len(recipes),len(all_ingredients)))
-for i,recipe in enumerate(recipes):
-    for line in recipe['lines']:
-        if line['ingredient'] in all_ingredients:
-            X[i,all_ingredients.index(line['ingredient'])] = 1 # line['qty']
-
-clusterer = AgglomerativeClustering(n_clusters=20,compute_full_tree=True) # You can set compute_full_tree to 'auto', but I left it this way to get the entire tree plotted
-clusterer.fit(X) # X for whatever you want to fit
-spanner = get_cluster_spanner(clusterer)
-leaf_labels = []
-for i in range(0,len(recipes)):
-    leaf_labels.append('{} ({})'.format(i,clusterer.labels_[i]))
-leaf_labels = list(range(0,len(recipes)))
-newick_tree = build_Newick_tree(clusterer.children_,clusterer.n_leaves_,X,leaf_labels,spanner) # leaf_labels is a list of labels for each entry in X
-tree = ete3.Tree(newick_tree)
-
-label_counts = {}
-cluster_labels = {}
-for i,l in enumerate(clusterer.labels_):
-    if l not in label_counts:
-        cluster_labels[l] = []
-        label_counts[l] = 0
-    label_counts[l] += 1
-    cluster_labels[l].append(i)
-
-
-print(cluster_labels)
 
 
 def get_mean_recipe(recipes,recipe_ids):
@@ -623,14 +566,67 @@ def get_mean_recipe(recipes,recipe_ids):
             d[ing]['unit'] = 'tbsp'
     return d
 
-for i,l in enumerate(sorted(label_counts.items(), key=operator.itemgetter(1),reverse=True)):
-    if len(cluster_labels[l[0]]) < 5:
-        continue
-    print("-"*30)
-    print("cluster {} (n={})".format(l[0],len(cluster_labels[l[0]])))
-    mean_recipe = get_mean_recipe(recipes,cluster_labels[l[0]])
-    for ing in mean_recipe:
-        if mean_recipe[ing]['freq'] > 0.5:
-            print('{:2.1f} {} {} ({:2.1f}%)'.format(mean_recipe[ing]['qty'],mean_recipe[ing]['unit'],ing,mean_recipe[ing]['freq']*100))
+
+def get_clusters(folder_name):
+    if not os.path.isfile(folder_name + "_recipes.json"):
+        filenames =  os.listdir(folder_name)
+        recipes = []
+        for fname in tqdm(filenames):
+            if not fname.endswith(".txt"):
+                continue
+            ingredient_lines = get_ingredient_lines(os.path.join(folder_name,fname))
+            j= process_ingredient_lines(ingredient_lines)
+            if len(j['lines']) > 3:
+                j['id'] = len(recipes)
+                j['fname'] = fname
+                recipes.append(j)
+        with open(folder_name + "_recipes.json",'w') as f:
+            f.write(json.dumps(recipes,indent=2))
+
+    recipes = json.load(open(folder_name + '_recipes.json','r'))
+
+
+    all_ingredients = []
+    for recipe in recipes:
+        all_ingredients += recipe['ingredients']
+    all_ingredients = list(set(all_ingredients)-set(['salt','vanilla','eggs']))
+
+    X = np.zeros((len(recipes),len(all_ingredients)))
+    for i,recipe in enumerate(recipes):
+        for line in recipe['lines']:
+            if line['ingredient'] in all_ingredients:
+                X[i,all_ingredients.index(line['ingredient'])] = 1 # line['qty']
+
+    clusterer = AgglomerativeClustering(n_clusters=20,compute_full_tree=True) # You can set compute_full_tree to 'auto', but I left it this way to get the entire tree plotted
+    clusterer.fit(X) # X for whatever you want to fit
+    spanner = get_cluster_spanner(clusterer)
+    leaf_labels = []
+    for i in range(0,len(recipes)):
+        leaf_labels.append('{} ({})'.format(i,clusterer.labels_[i]))
+    leaf_labels = list(range(0,len(recipes)))
+    newick_tree = build_Newick_tree(clusterer.children_,clusterer.n_leaves_,X,leaf_labels,spanner) # leaf_labels is a list of labels for each entry in X
+    tree = ete3.Tree(newick_tree)
+
+    label_counts = {}
+    cluster_labels = {}
+    for i,l in enumerate(clusterer.labels_):
+        if l not in label_counts:
+            cluster_labels[l] = []
+            label_counts[l] = 0
+        label_counts[l] += 1
+        cluster_labels[l].append(i)
+
+
+    print(cluster_labels)
+
+    for i,l in enumerate(sorted(label_counts.items(), key=operator.itemgetter(1),reverse=True)):
+        if len(cluster_labels[l[0]]) < 5:
+            continue
+        print("-"*30)
+        print("cluster {} (n={})".format(l[0],len(cluster_labels[l[0]])))
+        mean_recipe = get_mean_recipe(recipes,cluster_labels[l[0]])
+        for ing in mean_recipe:
+            if mean_recipe[ing]['freq'] > 0.5:
+                print('{:2.1f} {} {} ({:2.1f}%)'.format(mean_recipe[ing]['qty'],mean_recipe[ing]['unit'],ing,mean_recipe[ing]['freq']*100))
 
 
