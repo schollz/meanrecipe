@@ -1,7 +1,6 @@
 salt
 sugar
 butter
-eggs
 garlic
 water
 olive oil
@@ -12,7 +11,7 @@ pepper
 onions
 black pepper
 brown sugar
-egg
+eggs
 cinnamon
 baking powder
 lemon juice

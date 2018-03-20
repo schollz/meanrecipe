@@ -25,12 +25,19 @@ def hasNumbers(inputString):
 regex = re.compile('[^a-zA-Z\d\s:]')
 conversion_to_cup = {
     'tablespoon': 1/16,
+    'tablespoons': 1/16,
     'tbsp': 1/16,
+    'tbsps': 1/16,
     'teaspoon': 1/48, 
+    'teaspoons': 1/48, 
     'tsp': 1/48,
+    'tsps': 1/48,
     'cup': 1,
+    'cups': 1,
     'ounce': 0.1331427,
+    'ounces': 0.1331427,
     'gram':0.00469,
+    'grams':0.00469,
 }
 def get_ingredient_list():
     possible_ingredients_map = {}
@@ -45,30 +52,260 @@ def get_ingredient_list():
         ingredient_list.append(' ' + ing[0] + ' ')
     return ingredient_list
 ingredient_list = get_ingredient_list()
-ingredient_corpus="""    chopped bittersweet chocolate
--   8 tablespoons unsalted butter (1 stick), cut into 8 pieces
--   2 large eggs, at room temperature
--   1 cup granulated sugar
--   1 teaspoon vanilla extract
--   1/2 teaspoon baking powder
--   1/4 teaspoon fine salt
--   1 cup all-purpose flour
--    ┬╜ cup cocoa
--    ┬╜ cup butter (1 stick)
--    2 eggs
--    1 cup sugar
--    ┬╝ cup flour
--    1 cup chopped or broken-up walnuts or pecans
--    1 teaspoon vanilla
--    Pinch of salt
--    1 stick unsalted butter, cut into large pieces
--    6 ounces bittersweet chocolate, chopped
--    1 1/2 cups sugar
+ingredient_corpus="""
+chopped sliced diced cut canned sticks of cut into pieces
+unsalted cup teaspoon sugar flour egg vanilla egegs pinch
+dash large coarse fine sifted broken-up salt tsp tbsp 
+oil optional extract banana mashed
+salt
+sugar
+butter
+garlic
+water
+olive oil
+milk
+flour
+onion
+pepper
+onions
+black pepper
+brown sugar
+eggs
+cinnamon
+baking powder
+lemon juice
+tomatoes
+vanilla
+parsley
+baking soda
+sour cream
+vegetable oil
+celery
+ginger
+lemon
+cream cheese
+carrots
+cheddar cheese
+beef
+potatoes
+oil
+honey
+nutmeg
+cheese
+soy sauce
+mayonnaise
+chicken broth
+oregano
+cumin
+thyme
+garlic powder
+salt and pepper
+mushrooms
+cilantro
+basil
+pecans
+bacon
+heavy cream
+chicken breasts
+worcestershire sauce
+paprika
+chocolate
+chicken
+walnuts
+chili powder
+almonds
+lime juice
+parmesan cheese
+pineapple
+rice
+orange juice
+green pepper
+raisins
+coconut
+cayenne pepper
+nuts
+dijon mustard
+cornstarch
+mzarella cheese
+buttermilk
+vinegar
+apples
+red pepper
+tomato sauce
+bread crumbs
+oats
+spinach
+shortening
+red pepper flakes
+shallots
+tomato paste
+red bell pepper
+lime
+shrimp
 semolina
--    3 large eggs
--    1/4 cup unsweetened Dutch-process cocoa powder
--    1/2 teaspoon coarse salt
--    1/2 cup plus 2 tablespoons all-purpose flour, sifted
+zucchini
+strawberries
+rosemary
+canola oil
+green onions
+bananas
+scallions
+cloves
+mustard
+chicken stock
+chives
+whipping cream
+bread
+maple syrup
+orange
+corn starch
+balsamic vinegar
+dry white wine
+coriander
+bay leaf
+ketchup
+yogurt
+red wine vinegar
+avocado
+sesame oil
+cabbage
+bay leaves
+broccoli
+salt and black pepper
+chicken breast
+cocoa
+carrot
+basil leaves
+onion powder
+cucumber
+peanut butter
+allspice
+dry mustard
+cranberries
+mint
+ham
+green bell pepper
+blueberries
+soda
+peas
+curry powder
+corn
+coconut milk
+lettuce
+white pepper
+sesame seeds
+pork
+turmeric
+pasta
+dill
+yellow onion
+white wine
+red onion
+jalapeno chilies
+cream of mushroom soup
+beans
+almond extract
+black beans
+garlic salt
+peanuts
+cider vinegar
+white vinegar
+margarine
+green beans
+cream
+molasses
+confectioners sugar
+pumpkin
+coconut oil
+sauce
+turkey
+yeast
+olives
+corn syrup
+sage
+rice vinegar
+raspberries
+beef broth
+salt & pepper
+ricotta cheese
+salsa
+tomato
+breadcrumbs
+spray
+cilantro leaves
+parsley leaves
+apple cider vinegar
+capers
+bell pepper
+gelatin
+green chilies
+black olives
+feta cheese
+swiss cheese
+cherry tomatoes
+potato
+oranges
+cool whip
+cream of tartar
+cornmeal
+pineapple juice
+italian seasoning
+cherries
+cauliflower
+white wine vinegar
+whipped cream
+applesauce
+asparagus
+thyme leaves
+salmon
+cooking oil
+cayenne
+flour tortillas
+dates
+leeks
+purple onion
+green onion
+mint leaves
+dressing
+skim milk
+oatmeal
+mango
+graham cracker crumbs
+fish sauce
+peanut oil
+red wine
+cottage cheese
+salad oil
+heavy whipping cream
+tuna
+apple
+sausage
+vanilla ice cream
+cooking spray
+eggplant
+plum tomatoes
+tarragon
+thru
+peaches
+goat cheese
+ice
+kidney beans
+can cream of chicken soup
+chicken thighs
+tofu
+corn tortillas
+chickpeas
+vegetable broth
+celery seed
+shallot
+clove
+chicken soup
+spaghetti
+lemon peel
+black peppercorns
+lg. onion
+yellow cake mix
+banana
 """
 ingredient_words = set(regex.sub('',ingredient_corpus.lower()).split())
 # print(ingredient_words)
@@ -76,17 +313,21 @@ ingredient_words = set(regex.sub('',ingredient_corpus.lower()).split())
 
 def get_ingredient_lines(fname):
     global regex
-    cmd = "pandoc -f html -t plain {}".format(fname)
-    proc = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE)
-    out = proc.communicate()[0]
-    # print(out.decode('utf-8'))
+
+    out = open(fname,'rb').read()
     newlines = []
 
     group_mags = {}
     group_mag = 0
     group_list = []
     try:
-        lines = out.decode('utf-8').replace('⅔','2/3').replace('⅓','1/3').replace('½','1/2').split("\n")
+        lines = out.decode('utf-8')
+        lines = lines.replace('¾',' 3/4 ').replace('¼',' 1/4 ').replace('⅔',' 2/3 ').replace('⅓',' 1/3 ').replace('½',' 1/2 ').lower()
+        gRegex = re.compile("\d+g ")
+        for g in gRegex.findall(lines):
+            num = g.split('g ')[0]
+            lines = lines.replace(g,num + ' grams ')
+        lines = lines.split("\n")        
     except:
         return []
     for i,line in enumerate(lines):
@@ -118,6 +359,7 @@ def process_ingredient_lines(ingredient_lines):
     # determine the ingredient  
     for ingredient_line in ingredient_lines:
         sentence = ' ' +  ' '.join(regex.sub('',ingredient_line.lower()).strip().split()) + ' ' 
+        sentence = sentence.replace(' egg ',' eggs ')
         gotOne = False
         for ing in ingredient_list:
             if ing in sentence:     
@@ -173,9 +415,10 @@ def process_ingredient_lines(ingredient_lines):
         return {'lines':[],'ingredients':[]}
 
     for i, _ in enumerate(processed_ingredients):
-        processed_ingredients[i]['qty'] = float(processed_ingredients[i]['qty']) * float(10)/float(total_cups)
+        processed_ingredients[i]['original_qty'] = processed_ingredients[i]['qty']
+        processed_ingredients[i]['qty'] = float(processed_ingredients[i]['qty']) * float(4)/float(total_cups)
 
-    return ({'lines':processed_ingredients,'ingredients':list(sorted(set(all_ingredients)))})
+    return ({'lines':processed_ingredients,'ingredients':list(sorted(set(all_ingredients))),'total':total_cups})
 
 # ingredient_lines = get_ingredient_lines(os.path.join('brownies2',sys.argv[1]))
 # j= process_ingredient_lines(ingredient_lines)
@@ -188,6 +431,8 @@ folder_name = 'brownies'
 filenames =  os.listdir(folder_name)
 recipes = []
 for fname in tqdm(filenames):
+    if not fname.endswith(".txt"):
+        continue
     ingredient_lines = get_ingredient_lines(os.path.join(folder_name,fname))
     j= process_ingredient_lines(ingredient_lines)
     # print(json.dumps(j,indent=2))
@@ -370,10 +615,10 @@ def get_mean_recipe(recipes,recipe_ids):
         if ing == 'eggs':
             d[ing]['qty'] = d[ing]['qty'] * 2
             d[ing]['unit'] = 'whole'           
-        elif d[ing]['qty'] < 0.0417:
+        elif d[ing]['qty'] < 0.0417*4:
             d[ing]['qty'] = d[ing]['qty'] * 48
             d[ing]['unit'] = 'tsp'
-        elif d[ing]['qty'] < 0.125:
+        elif d[ing]['qty'] < 0.125*4:
             d[ing]['qty'] = d[ing]['qty'] * 16
             d[ing]['unit'] = 'tbsp'
     return d
