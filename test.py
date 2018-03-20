@@ -9,6 +9,10 @@ import os
 import collections 
 
 from tqdm import tqdm
+import numpy as np 
+from sklearn import tree
+from sklearn.cluster import AgglomerativeClustering
+import ete3
 
 def hasNumbers(inputString):
     return any(char.isdigit() for char in inputString)
@@ -60,6 +64,7 @@ ingredient_corpus="""    chopped bittersweet chocolate
 -    1 stick unsalted butter, cut into large pieces
 -    6 ounces bittersweet chocolate, chopped
 -    1 1/2 cups sugar
+semolina
 -    3 large eggs
 -    1/4 cup unsweetened Dutch-process cocoa powder
 -    1/2 teaspoon coarse salt
@@ -80,7 +85,10 @@ def get_ingredient_lines(fname):
     group_mags = {}
     group_mag = 0
     group_list = []
-    lines = out.decode('utf-8').replace('⅔','2/3').replace('½','1/2').split("\n")
+    try:
+        lines = out.decode('utf-8').replace('⅔','2/3').replace('⅓','1/3').replace('½','1/2').split("\n")
+    except:
+        return []
     for i,line in enumerate(lines):
         words = set(regex.sub('',line.lower()).split())
         if len(words) > 0:
@@ -121,8 +129,6 @@ def process_ingredient_lines(ingredient_lines):
             print("PROBLEM")
             print(ingredient_line)
             print(sentence)
-
-    num_eggs = 1
 
     # determine quantity 
     for i,_ in enumerate(processed_ingredients):
@@ -177,21 +183,21 @@ def process_ingredient_lines(ingredient_lines):
 # raise
 
 
-folder_name = 'pancakes'
+folder_name = 'brownies'
 
-# filenames =  os.listdir(folder_name)
-# recipes = []
-# for fname in tqdm(filenames):
-#     ingredient_lines = get_ingredient_lines(os.path.join(folder_name,fname))
-#     j= process_ingredient_lines(ingredient_lines)
-#     # print(json.dumps(j,indent=2))
-#     if len(j['lines']) > 3:
-#         j['id'] = len(recipes)
-#         j['fname'] = fname
-#         recipes.append(j)
+filenames =  os.listdir(folder_name)
+recipes = []
+for fname in tqdm(filenames):
+    ingredient_lines = get_ingredient_lines(os.path.join(folder_name,fname))
+    j= process_ingredient_lines(ingredient_lines)
+    # print(json.dumps(j,indent=2))
+    if len(j['lines']) > 3:
+        j['id'] = len(recipes)
+        j['fname'] = fname
+        recipes.append(j)
 
-# with open(folder_name + "_recipes.json",'w') as f:
-#     f.write(json.dumps(recipes,indent=2))
+with open(folder_name + "_recipes.json",'w') as f:
+    f.write(json.dumps(recipes,indent=2))
 
 recipes = json.load(open(folder_name + '_recipes.json','r'))
 
@@ -199,10 +205,7 @@ recipes = json.load(open(folder_name + '_recipes.json','r'))
 
 
 
-import numpy as np 
-from sklearn import tree
-from sklearn.cluster import AgglomerativeClustering
-import ete3
+
 
 
 
