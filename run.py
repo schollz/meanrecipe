@@ -73,7 +73,7 @@ def start(recipe, url):
 
     # download urls
     urls = open(datafolder + '_urls', 'r').read().split('\n')
-    print("downloading {} recipes...".format(len(urls)))
+    print("downloading {} {} recipes...".format(len(urls), recipe))
     with Pool(processes=30) as p:
         with tqdm(total=len(urls)) as pbar:
             for i, _ in tqdm(enumerate(p.imap_unordered(process_url, urls))):
