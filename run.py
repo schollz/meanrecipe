@@ -33,10 +33,20 @@ def process_url(url):
 
 @click.command()
 @click.option("--recipe",prompt="Which recipe",help="name of basic recipe")
-def start(recipe):
+@click.option("--url",help="test against a single url")
+def start(recipe,url):
     global datafolder
     datafolder = recipe
-    if not os.path.isdir(datafolder):
+    if url is not None:
+        datafolder = "testing"
+        recipe = "testing"
+        with open('urls','w') as f:
+            f.write(url)
+        try:
+            os.remove(datafolder+"_recipes.json")
+        except:
+            pass
+    elif not os.path.isdir(datafolder):
         os.mkdir(datafolder)
         try:
             os.remove('urls')

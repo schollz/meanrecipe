@@ -11,6 +11,7 @@ import gzip
 
 from tqdm import tqdm
 import numpy as np 
+np.random.seed(1)
 from sklearn import tree
 from sklearn.cluster import AgglomerativeClustering
 import ete3
@@ -648,7 +649,7 @@ def get_clusters(folder_name):
 
         num_ingredients = 0
         for ing in sorted(mean_recipe.keys()):
-            if mean_recipe[ing]['freq'] > 0.5:
+            if mean_recipe[ing]['freq'] > 0.3:
                 num_ingredients += 1
 
         if num_ingredients < 3:
@@ -657,7 +658,7 @@ def get_clusters(folder_name):
         print("\ncluster {} (n={})".format(l[0],len(cluster_labels[l[0]])))
         t = PrettyTable(["Ingredient","Amount","Rel. Freq."])
         for ing in sorted(mean_recipe.keys()):
-            if mean_recipe[ing]['freq'] > 0.5:
+            if mean_recipe[ing]['freq'] > 0.3:
                 row = []
                 row.append(ing)
                 row.append(dec_to_proper_frac(mean_recipe[ing]['qty']) + " " + mean_recipe[ing]['unit'])
