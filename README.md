@@ -224,7 +224,7 @@ $ sudo apt-get install pandoc
 And then install python dependencies:
 
 ```
-$ sudo python3 -m pip install pypandoc requests tqdm ete3 sklearn numpy click
+$ sudo python3 -m pip install prettytable pypandoc requests tqdm ete3 sklearn numpy click
 ```
 
 ## Run
