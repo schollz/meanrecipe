@@ -42,6 +42,10 @@ def start(recipe):
             os.remove('urls')
         except:
             pass
+        try:
+            os.remove(datafolder+"_recipes.json")
+        except:
+            pass
 
     # get urls
     if not os.path.isfile("urls"):

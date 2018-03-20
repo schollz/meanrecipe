@@ -324,7 +324,8 @@ def get_ingredient_lines(fname):
     group_list = []
     try:
         lines = out.decode('utf-8')
-        lines = lines.replace('¾',' 3/4 ').replace('¼',' 1/4 ').replace('⅔',' 2/3 ').replace('⅓',' 1/3 ').replace('½',' 1/2 ').lower()
+        url = lines.split("\n")[0]
+        lines = lines.replace('¾',' 3/4 ').replace('-',' ').replace('¼',' 1/4 ').replace('⅔',' 2/3 ').replace('⅓',' 1/3 ').replace('½',' 1/2 ').lower()
         gRegex = re.compile("\d+g ")
         for g in gRegex.findall(lines):
             num = g.split('g ')[0]
@@ -350,7 +351,7 @@ def get_ingredient_lines(fname):
             ingredient_lines.append(lines[i].strip().lower())
         break
 
-    return lines[0],ingredient_lines
+    return url,ingredient_lines
 
 
 
@@ -414,7 +415,7 @@ def process_ingredient_lines(ingredient_lines):
     for i, _ in enumerate(processed_ingredients):
         total_cups +=  processed_ingredients[i]['qty']
     if total_cups == 0:
-        return {'lines':[],'ingredients':[]}
+        return {'lines':[],'ingredients':[],'original_total':0}
 
     new_total = 0
     for i, _ in enumerate(processed_ingredients):
@@ -538,8 +539,10 @@ def get_cluster_spanner(aggClusterer):
 def get_mean_recipe(recipes,recipe_ids):
     recipe = {}
     totals = []
+    urls = []
     for i in recipe_ids:
         totals.append(recipes[i]['original_total'])
+        urls.append(recipes[i]['url'])
         for line in recipes[i]['lines']:
             ing = line['ingredient']
             qty = line['qty']
@@ -575,7 +578,7 @@ def get_mean_recipe(recipes,recipe_ids):
             d[ing]['qty'] = d[ing]['qty'] * 16
             d[ing]['unit'] = 'tbsp'
         d[ing]['qty'] = round(d[ing]['qty']*8)/8
-    return d
+    return d, urls
 
 def dec_to_proper_frac(dec):
     sign = "-" if dec < 0 else ""
@@ -641,7 +644,7 @@ def get_clusters(folder_name):
     for i,l in enumerate(sorted(label_counts.items(), key=operator.itemgetter(1),reverse=True)):
         if len(cluster_labels[l[0]]) < 5:
             continue
-        mean_recipe = get_mean_recipe(recipes,cluster_labels[l[0]])
+        mean_recipe,urls = get_mean_recipe(recipes,cluster_labels[l[0]])
 
         num_ingredients = 0
         for ing in sorted(mean_recipe.keys()):
@@ -661,4 +664,6 @@ def get_clusters(folder_name):
                 row.append(round(mean_recipe[ing]['freq']*100))
                 t.add_row(row)
         print(t)
+        print("urls:")
+        print("\n".join(urls))
 
