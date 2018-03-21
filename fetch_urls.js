@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 'use strict';
 
+process.setMaxListeners(Infinity); // <== Important line
+
 const argv = require('yargs').argv
 const puppeteer = require('puppeteer');
 
@@ -69,4 +71,7 @@ getResults("delicious","recipe")
 getResults("easy","recipe")
 getResults("simple","recipe")
 getResults("recipe for","from scratch")
+getResults("vegetarian","recipe")
+getResults("vegan","recipe")
+getResults("gluten free","recipe")
 
