@@ -68,4 +68,5 @@ getResults("favorite","recipe")
 getResults("delicious","recipe")
 getResults("easy","recipe")
 getResults("simple","recipe")
+getResults("recipe for","from scratch")
 

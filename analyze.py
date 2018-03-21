@@ -643,9 +643,8 @@ def dec_to_proper_frac(dec):
     if frac.numerator % frac.denominator == 0:
         return "{}".format(int(round(dec)))
     if frac.numerator / frac.denominator < 1:
-        return f"{frac.numerator % frac.denominator}/{frac.denominator}"
-    return (f"{sign}{frac.numerator // frac.denominator} "
-            f"{frac.numerator % frac.denominator}/{frac.denominator}")
+        return "{}/{}".format(frac.numerator % frac.denominator,frac.denominator)
+    return "{} {}/{}".format(int(frac.numerator / frac.denominator),frac.numerator % frac.denominator,frac.denominator)
 
 
 def get_clusters(folder_name,num_clusters=20):
