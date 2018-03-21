@@ -651,6 +651,7 @@ def get_clusters(folder_name,num_clusters=20):
     if not os.path.isfile(folder_name + "_recipes.json"):
         filenames = os.listdir(folder_name)
         recipes = []
+        print("parsing recipes...")
         for fname in tqdm(filenames):
             if not fname.endswith(".txt"):
                 continue
