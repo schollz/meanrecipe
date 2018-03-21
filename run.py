@@ -1,7 +1,7 @@
 import os
 import sys
 import hashlib
-from multiprocessing import Pool
+import multiprocessing
 import time
 import gzip
 import subprocess
@@ -80,7 +80,7 @@ def start(recipe, url, clusters):
     print("have downloaded {} songs".format(len(fs)))
     if len(fs)/len(urls) < 0.9:
 	    print("downloading {} {} recipes...".format(len(urls), recipe))
-	    with Pool(processes=30) as p:
+	    with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as p:
 	        with tqdm(total=len(urls)) as pbar:
 	            for i, _ in tqdm(enumerate(p.imap_unordered(process_url, urls))):
 	                pbar.update()

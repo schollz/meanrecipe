@@ -9,7 +9,7 @@ function getResults(beforePhrase,afterPhrase) {
     const food = argv.food.replace(' ','+');
     beforePhrase = beforePhrase.replace(' ','+')
     afterPhrase = afterPhrase.replace(' ','+')
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({args:['--no-sandbox']});
     const page = await browser.newPage();
     const url = 'https://duckduckgo.com/?q='+beforePhrase+'+'+food+'+'+afterPhrase
     console.error(url)
