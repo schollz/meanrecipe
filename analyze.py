@@ -21,6 +21,16 @@ from prettytable import PrettyTable
 def hasNumbers(inputString):
     return any(char.isdigit() for char in inputString)
 
+def reject_outliers(data, m=1.5):
+    if not isinstance(data,list):
+        return data
+    if len(data) < 3:
+        return data
+    data = np.array(data)
+    newdata = data[abs(data - np.mean(data)) < m * np.std(data)]
+    if len(newdata) < 2:
+        return data
+    return newdata
 
 # GLOBALS
 # 1 ounce = 28.3495 grams
@@ -67,7 +77,7 @@ ingredient_corpus = """
 chopped sliced diced cut canned sticks of cut into pieces
 unsalted cup teaspoon sugar flour egg vanilla egegs pinch
 dash large coarse fine sifted broken-up salt tsp tbsp 
-oil optional extract banana mashed
+oil optional extract banana mashed large small all
 salt
 sugar
 butter
@@ -439,7 +449,7 @@ def process_ingredient_lines(ingredient_lines):
         processed_ingredients[i]['original_qty'] = processed_ingredients[i][
             'qty']
         processed_ingredients[i]['qty'] = float(
-            processed_ingredients[i]['qty']) * float(4) / float(total_cups)
+            processed_ingredients[i]['qty']) / float(total_cups)
         new_total += processed_ingredients[i]['qty']
 
     return ({
@@ -591,13 +601,14 @@ def get_mean_recipe(recipes, recipe_ids):
     for ing in recipe:
         if len(recipe[ing]['qty']) < 2:
             continue
+        data = reject_outliers(recipe[ing]['qty'])
         recipe[ing]['freq'] = len(recipe[ing]['qty']) / len(recipe_ids)
-        recipe[ing]['qty'] = np.median(recipe[ing]['qty'])
+        recipe[ing]['qty'] = np.mean(data)
+        recipe[ing]['std'] = np.std(data)
         cur_total += recipe[ing]['qty']
         ordering[ing] = recipe[ing]['freq']
 
-    median_total = np.median(totals)
-    conv_quantity = median_total / cur_total
+    median_total = np.mean(reject_outliers(totals))
 
     d = collections.OrderedDict()
     for k in sorted(
@@ -605,19 +616,24 @@ def get_mean_recipe(recipes, recipe_ids):
         ing = k[0]
         d[ing] = {
             'freq': k[1],
-            'qty': recipe[ing]['qty'] * conv_quantity,
+            'qty': recipe[ing]['qty'] * median_total,
+            'std': recipe[ing]['std'] * median_total,
             'unit': 'cup'
         }
         if ing == 'eggs':
-            d[ing]['qty'] = d[ing]['qty'] * 2
+            d[ing]['qty'] = int(round(d[ing]['qty'] * 2))
+            d[ing]['std'] = d[ing]['std'] * 2
             d[ing]['unit'] = 'whole'
         elif d[ing]['qty'] < 0.0417 * 4:
             d[ing]['qty'] = d[ing]['qty'] * 48
+            d[ing]['std'] = d[ing]['std'] * 48
             d[ing]['unit'] = 'tsp'
         elif d[ing]['qty'] < 0.125 * 4:
             d[ing]['qty'] = d[ing]['qty'] * 16
+            d[ing]['std'] = d[ing]['std'] * 16
             d[ing]['unit'] = 'tbsp'
         d[ing]['qty'] = round(d[ing]['qty'] * 8) / 8
+        d[ing]['std'] = round(d[ing]['std'] * 8) / 8
     return d, urls
 
 
@@ -625,14 +641,14 @@ def dec_to_proper_frac(dec):
     sign = "-" if dec < 0 else ""
     frac = Fraction(abs(dec))
     if frac.numerator % frac.denominator == 0:
-        return "{}".format(round(dec))
+        return "{}".format(int(round(dec)))
     if frac.numerator / frac.denominator < 1:
         return f"{frac.numerator % frac.denominator}/{frac.denominator}"
     return (f"{sign}{frac.numerator // frac.denominator} "
             f"{frac.numerator % frac.denominator}/{frac.denominator}")
 
 
-def get_clusters(folder_name):
+def get_clusters(folder_name,num_clusters=20):
     if not os.path.isfile(folder_name + "_recipes.json"):
         filenames = os.listdir(folder_name)
         recipes = []
@@ -666,7 +682,8 @@ def get_clusters(folder_name):
                     'ingredient'])] = 1  # line['qty']
 
     clusterer = AgglomerativeClustering(
-        n_clusters=20, compute_full_tree=True
+        n_clusters=num_clusters
+        , compute_full_tree=True
     )  # You can set compute_full_tree to 'auto', but I left it this way to get the entire tree plotted
     clusterer.fit(X)  # X for whatever you want to fit
     spanner = get_cluster_spanner(clusterer)
@@ -705,7 +722,7 @@ def get_clusters(folder_name):
             continue
 
         print("\ncluster {} (n={})".format(l[0], len(cluster_labels[l[0]])))
-        t = PrettyTable(["Ingredient", "Amount", "Rel. Freq."])
+        t = PrettyTable(["Ingredient", "Amount", "Variation","Rel. Freq."])
         for ing in sorted(mean_recipe.keys()):
             if mean_recipe[ing]['freq'] > 0.3:
                 row = []
@@ -713,6 +730,7 @@ def get_clusters(folder_name):
                 row.append(
                     dec_to_proper_frac(mean_recipe[ing]['qty']) + " " +
                     mean_recipe[ing]['unit'])
+                row.append("± {}".format(dec_to_proper_frac(mean_recipe[ing]['std'])))
                 row.append(round(mean_recipe[ing]['freq'] * 100))
                 t.add_row(row)
         print(t)

@@ -6,6 +6,7 @@ import time
 import gzip
 import subprocess
 import stat
+import glob
 
 import click
 from tqdm import *
@@ -35,8 +36,9 @@ def process_url(url):
 
 @click.command()
 @click.option("--recipe", prompt="Which recipe", help="name of basic recipe")
+@click.option("--clusters", default=20, help="number of clusters")
 @click.option("--url", help="test against a single url")
-def start(recipe, url):
+def start(recipe, url, clusters):
     global datafolder
     datafolder = recipe.replace(' ', '_')
     if url is not None:
@@ -73,15 +75,19 @@ def start(recipe, url):
 
     # download urls
     urls = open(datafolder + '_urls', 'r').read().split('\n')
-    print("downloading {} {} recipes...".format(len(urls), recipe))
-    with Pool(processes=30) as p:
-        with tqdm(total=len(urls)) as pbar:
-            for i, _ in tqdm(enumerate(p.imap_unordered(process_url, urls))):
-                pbar.update()
+    # check how many are downloaded
+    fs = glob.glob(datafolder+"/*.txt")
+    print("have downloaded {} songs".format(len(fs)))
+    if len(fs)/len(urls) < 0.9:
+	    print("downloading {} {} recipes...".format(len(urls), recipe))
+	    with Pool(processes=30) as p:
+	        with tqdm(total=len(urls)) as pbar:
+	            for i, _ in tqdm(enumerate(p.imap_unordered(process_url, urls))):
+	                pbar.update()
 
     # do analysis
     from analyze import get_clusters
-    get_clusters(datafolder)
+    get_clusters(datafolder,num_clusters=clusters)
 
 
 if __name__ == '__main__':
