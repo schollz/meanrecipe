@@ -8,9 +8,9 @@ const puppeteer = require('puppeteer');
 
 function getResults(beforePhrase,afterPhrase) {    
     (async() => {
-    const food = argv.food.replace(' ','+');
-    beforePhrase = beforePhrase.replace(' ','+')
-    afterPhrase = afterPhrase.replace(' ','+')
+    const food = argv.food.replace(/ /g,'+');
+    beforePhrase = beforePhrase.replace(/ /g,'+')
+    afterPhrase = afterPhrase.replace(/ /g,'+')
     const browser = await puppeteer.launch({args:['--no-sandbox']});
     const page = await browser.newPage();
     const url = 'https://duckduckgo.com/?q='+beforePhrase+'+'+food+'+'+afterPhrase
