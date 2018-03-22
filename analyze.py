@@ -49,10 +49,24 @@ conversion_to_cup = {
     'tsps': 1 / 48,
     'cup': 1,
     'cups': 1,
-    'ounce': 0.1331427,
-    'ounces': 0.1331427,
-    'gram': 0.00469,
-    'grams': 0.00469,
+}
+weights = {
+    'ounce': 28.3495,
+    'ounces': 28.3495,
+    'gram':1,
+    'grams':1,
+    'pound': 453.592,
+}
+# densities in g/ml
+densities = {
+    'default': 0.9,
+    'sugar': 0.8,
+    'flour': 0.55,
+    'cocoa': 0.55,
+    'butter':0.911,
+    'milk': 1.03,
+    'water': 1,
+    'chicken': 0.868,
 }
 
 
@@ -432,6 +446,17 @@ def process_ingredient_lines(ingredient_lines):
                 processed_ingredients[i]['unit'] = 'cup'
                 processed_ingredients[i]['qty'] = processed_ingredients[i][
                     'qty'] * conversion_to_cup[conv]
+        if processed_ingredients[i]['unit'] == 'whole':
+            for weight in weights:
+                if weight in ingredient_line:
+                    processed_ingredients[i]['unit'] = 'cup'
+                    dens = densities['default']
+                    ing = processed_ingredients[i]['ingredient']
+                    if ing in densities:
+                        dens = densities[ing]
+                    processed_ingredients[i]['qty'] = weights[weight]*processed_ingredients[i]['qty'] / dens * 0.00422675 # 1 ml = 0.00422675 cups
+                    break
+                    
         if processed_ingredients[i]['ingredient'] == 'eggs':
             processed_ingredients[i]['unit'] = 'cup'
             processed_ingredients[i]['qty'] = processed_ingredients[i][
