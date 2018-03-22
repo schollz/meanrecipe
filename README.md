@@ -198,6 +198,8 @@ $ python3 run.py --recipe brownies
 
 Be patient as it will take 3-5 minutes to download and pre-process the data. Data is only downloaded once, if you run it a second time it will use the previous data.
 
+You can also generate different number of clusters using `--clusters X` where `X` is the number of clusters.
+
 See the examples above for more information.
 
 # Roadmap
