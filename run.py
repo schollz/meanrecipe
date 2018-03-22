@@ -17,8 +17,10 @@ import requests
 
 datafolder = 'recipes'
 
+s = requests.session()
 
 def process_url(datas):
+    global s
     url = datas[0]
     savedata = datas[1]
     if 'http' not in url:
@@ -28,7 +30,7 @@ def process_url(datas):
     if os.path.isfile(fpath):
         return
     try:
-        r = requests.get(url, timeout=1)
+        r = s.get(url, timeout=1)
         text = pypandoc.convert_text(r.text, 'plain', format='html')
     except:
         return
@@ -72,7 +74,7 @@ def get_unique_urls(recipe,datafolder):
         urls = json.load(open(fname,'r'))
         return urls
     phrases = []
-    domains = ['bing','duckduckgo','google']
+    domains = ['bing','duckduckgo','google','yahoo']
     for domain in domains:
         phrases.append(("best {} recipe".format(recipe),domain))
         phrases.append(("homemade {} recipe".format(recipe),domain))

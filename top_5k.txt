@@ -53,6 +53,7 @@ paprika
 chocolate
 chicken
 walnuts
+dark chocolate
 chili powder
 almonds
 lime juice
@@ -145,6 +146,7 @@ red onion
 jalapeno chilies
 cream of mushroom soup
 beans
+almond flour
 almond extract
 black beans
 garlic salt
@@ -185,6 +187,7 @@ feta cheese
 swiss cheese
 cherry tomatoes
 potato
+potato starch
 oranges
 cool whip
 cream of tartar

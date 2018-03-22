@@ -64,6 +64,34 @@ function google(phrase){
 }
 
 
+function yahoo(phrase){
+    (async() => {
+    const browser = await puppeteer.launch({
+        args:['--no-sandbox'],
+    });
+    const page = await browser.newPage();
+
+    const url = 'https://search.yahoo.com/search?n=100&p='+phrase;    
+    console.error(url)
+    await page.goto(url, {waitUntil: 'networkidle2'});
+    await page.setViewport({
+        width: 1200,
+        height: 800
+    });
+    // Wait for the results to show up
+    await page.waitForSelector('h3 a');
+    // Extract the results from the page
+    const links = await page.evaluate(() => {
+      const anchors = Array.from(document.querySelectorAll('h3 a'));
+      return anchors.map(anchor => anchor.href);
+    });
+    console.log(links.join('\n'));
+    await browser.close();
+
+    })();
+}
+
+
 function bing(phrase){
     (async() => {
     const browser = await puppeteer.launch({
@@ -119,6 +147,8 @@ if (argv.search == "google") {
     google(phrase_to_search);
 } else if (argv.search == 'bing') {
     bing(phrase_to_search);
+} else if (argv.search == 'yahoo') {
+    yahoo(phrase_to_search);
 } else {
     duckduckgo(phrase_to_search);
 }
