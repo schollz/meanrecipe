@@ -624,11 +624,11 @@ def get_mean_recipe(recipes, recipe_ids):
             d[ing]['qty'] = int(round(d[ing]['qty'] * 2))
             d[ing]['std'] = d[ing]['std'] * 2
             d[ing]['unit'] = 'whole'
-        elif d[ing]['qty'] < 0.0417 * 4:
+        elif d[ing]['qty'] < 0.0417 * 3:
             d[ing]['qty'] = d[ing]['qty'] * 48
             d[ing]['std'] = d[ing]['std'] * 48
             d[ing]['unit'] = 'tsp'
-        elif d[ing]['qty'] < 0.125 * 4:
+        elif d[ing]['qty'] < 0.125 * 2:
             d[ing]['qty'] = d[ing]['qty'] * 16
             d[ing]['std'] = d[ing]['std'] * 16
             d[ing]['unit'] = 'tbsp'
@@ -648,7 +648,7 @@ def dec_to_proper_frac(dec):
 
 
 def get_clusters(folder_name,num_clusters=20):
-    if not os.path.isfile(folder_name + "_recipes.json"):
+    if not os.path.isfile(os.path.join(folder_name,'recipes.json')):
         filenames = os.listdir(folder_name)
         recipes = []
         print("parsing recipes...")
@@ -663,10 +663,10 @@ def get_clusters(folder_name,num_clusters=20):
                 j['id'] = len(recipes)
                 j['fname'] = fname
                 recipes.append(j)
-        with open(folder_name + "_recipes.json", 'w') as f:
+        with open(os.path.join(folder_name,'recipes.json'), 'w') as f:
             f.write(json.dumps(recipes, indent=2))
 
-    recipes = json.load(open(folder_name + '_recipes.json', 'r'))
+    recipes = json.load(open(os.path.join(folder_name,'recipes.json'), 'r'))
 
     all_ingredients = []
     for recipe in recipes:
@@ -734,5 +734,5 @@ def get_clusters(folder_name,num_clusters=20):
                 row.append(round(mean_recipe[ing]['freq'] * 100))
                 t.add_row(row)
         print(t)
-        print("urls:")
-        print("\n".join(urls))
+        # print("urls:")
+        # print("\n".join(urls))

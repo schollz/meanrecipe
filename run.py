@@ -53,8 +53,29 @@ def get_urls(phrase):
         print(e)
         return []
 
-def get_unique_urls(recipe):
-    fname = os.path.join(recipe,'urls.json')
+def download_urls(urls,recipe,datafolder):
+    fs = glob.glob(datafolder + "/*.txt")
+    print("have downloaded {} recipes".format(len(fs)))
+    if len(fs) / len(urls) > 0.75:
+        return
+    try:
+        os.remove(os.path.join(datafolder,'recipes.json'))
+    except:
+        pass
+    signal.signal(signal.SIGALRM, signal_handler)
+    signal.alarm(600)  
+    try:
+        print("downloading {} {} recipes...".format(len(urls), recipe))
+        with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as p:
+            with tqdm(total=len(urls)) as pbar:
+                for i, _ in tqdm(
+                        enumerate(p.imap_unordered(process_url, urls))):
+                    pbar.update()
+    except:
+        pass
+
+def get_unique_urls(recipe,datafolder):
+    fname = os.path.join(datafolder,'urls.json')
     if os.path.isfile(fname):
         urls = json.load(open(fname,'r'))
         return urls
@@ -107,43 +128,14 @@ def get_unique_urls(recipe):
 def start(recipe, url, clusters):
     global datafolder
     datafolder = recipe.replace(' ', '_')
-    if url is not None:
-        datafolder = "testing"
-        recipe = "testing"
-        with open(datafolder + '_urls', 'w') as f:
-            f.write(url)
-        try:
-            os.remove(datafolder + "_recipes.json")
-        except:
-            pass
     if not os.path.isdir(datafolder):
         os.mkdir(datafolder)
-        try:
-            os.remove(datafolder + '_urls')
-        except:
-            pass
-        try:
-            os.remove(datafolder + "_recipes.json")
-        except:
-            pass
 
     # get urls
-    urls = get_unique_urls(recipe)
+    urls = get_unique_urls(recipe,datafolder)
 
     # check how many are downloaded
-    fs = glob.glob(datafolder + "/*.txt")
-    print("have downloaded {} recipes".format(len(fs)))
-    if len(fs) / len(urls) < 0.7:
-        try:
-            os.remove(recipe + "_recipes.json")
-        except:
-            pass
-        print("downloading {} {} recipes...".format(len(urls), recipe))
-        with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as p:
-            with tqdm(total=len(urls)) as pbar:
-                for i, _ in tqdm(
-                        enumerate(p.imap_unordered(process_url, urls))):
-                    pbar.update()
+    download_urls(urls,recipe,datafolder)
 
     # do analysis
     from analyze import get_clusters
