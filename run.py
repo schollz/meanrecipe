@@ -72,7 +72,7 @@ def get_unique_urls(recipe,datafolder):
         urls = json.load(open(fname,'r'))
         return urls
     phrases = []
-    domains = ['bing','duckduckgo']
+    domains = ['bing','duckduckgo','google']
     for domain in domains:
         phrases.append(("best {} recipe".format(recipe),domain))
         phrases.append(("homemade {} recipe".format(recipe),domain))

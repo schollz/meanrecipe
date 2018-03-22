@@ -40,11 +40,10 @@ function google(phrase){
     (async() => {
     const browser = await puppeteer.launch({
         args:['--no-sandbox'],
-        userDataDir:'~/.config',
     });
     const page = await browser.newPage();
 
-    const url = 'https://www.google.com/search?num=100&q='+phrase;    
+    const url = 'https://www.google.com/search?num=100&hl=en&q='+phrase;    
     console.error(url)
     await page.goto(url, {waitUntil: 'networkidle2'});
     await page.setViewport({
@@ -69,7 +68,6 @@ function bing(phrase){
     (async() => {
     const browser = await puppeteer.launch({
         args:['--no-sandbox'],
-        userDataDir:'~/.config',
     });
     const page = await browser.newPage();
 
