@@ -6,14 +6,11 @@ process.setMaxListeners(Infinity); // <== Important line
 const argv = require('yargs').argv
 const puppeteer = require('puppeteer');
 
-function getResults(beforePhrase,afterPhrase) {    
+function duckduckgo(phrase){
     (async() => {
-    const food = argv.food.replace(/ /g,'+');
-    beforePhrase = beforePhrase.replace(/ /g,'+')
-    afterPhrase = afterPhrase.replace(/ /g,'+')
     const browser = await puppeteer.launch({args:['--no-sandbox']});
     const page = await browser.newPage();
-    const url = 'https://duckduckgo.com/?q='+beforePhrase+'+'+food+'+'+afterPhrase
+    const url = 'https://duckduckgo.com/?q='+phrase;    
     console.error(url)
     await page.goto(url, {waitUntil: 'networkidle2'});
     await page.setViewport({
@@ -25,11 +22,7 @@ function getResults(beforePhrase,afterPhrase) {
     // Wait for the results to show up
     await page.waitForSelector('h2 a');
 
-    await autoScroll(page);
-    // await page.screenshot({
-    //     path: 'jd.png',
-    //     fullPage: true
-    // });
+    await autoScroll(page); // duckduckgo needs to scroll to bottom
 
     // Extract the results from the page
     const links = await page.evaluate(() => {
@@ -42,6 +35,67 @@ function getResults(beforePhrase,afterPhrase) {
     })();
 }
 
+
+function google(phrase){
+    (async() => {
+    const browser = await puppeteer.launch({
+        args:['--no-sandbox'],
+        userDataDir:'~/.config',
+    });
+    const page = await browser.newPage();
+
+    const url = 'https://www.google.com/search?num=100&q='+phrase;    
+    console.error(url)
+    await page.goto(url, {waitUntil: 'networkidle2'});
+    await page.setViewport({
+        width: 1200,
+        height: 800
+    });
+    // Wait for the results to show up
+    await page.waitForSelector('h3 a');
+    // Extract the results from the page
+    const links = await page.evaluate(() => {
+      const anchors = Array.from(document.querySelectorAll('h3 a'));
+      return anchors.map(anchor => anchor.href);
+    });
+    console.log(links.join('\n'));
+    await browser.close();
+
+    })();
+}
+
+
+function bing(phrase){
+    (async() => {
+    const browser = await puppeteer.launch({
+        args:['--no-sandbox'],
+        userDataDir:'~/.config',
+    });
+    const page = await browser.newPage();
+
+
+    for (var j=0; j<100;j += 10) {
+        const url = 'https://www.bing.com/search?first='+j+'&q='+phrase;    
+        console.error(url)
+        await page.goto(url, {waitUntil: 'networkidle2'});
+        await page.setViewport({
+            width: 1200,
+            height: 800
+        });
+        // Wait for the results to show up
+        await page.waitForSelector('h2 a');
+        // Extract the results from the page
+        const links = await page.evaluate(() => {
+          const anchors = Array.from(document.querySelectorAll('h2 a'));
+          return anchors.map(anchor => anchor.href);
+        });
+        console.log(links.join('\n'));        
+    }
+
+    await browser.close();
+
+    })();
+}
 
 function autoScroll(page){
     return page.evaluate(() => {
@@ -62,16 +116,25 @@ function autoScroll(page){
     });
 }
 
-getResults("best","recipe")
-getResults("homemade","recipe")
-getResults("recipes for","")
-getResults("diy","recipe")
-getResults("favorite","recipe")
-getResults("delicious","recipe")
-getResults("easy","recipe")
-getResults("simple","recipe")
-getResults("recipe for","from scratch")
-getResults("vegetarian","recipe")
-getResults("vegan","recipe")
-getResults("gluten free","recipe")
+const phrase_to_search = argv.phrase.replace(/ /g,'+')
+if (argv.search == "google") {
+    google(phrase_to_search);
+} else if (argv.search == 'bing') {
+    bing(phrase_to_search);
+} else {
+    duckduckgo(phrase_to_search);
+}
+
+// getResults("best","recipe")
+// getResults("homemade","recipe")
+// getResults("recipes for","")
+// getResults("diy","recipe")
+// getResults("favorite","recipe")
+// getResults("delicious","recipe")
+// getResults("easy","recipe")
+// getResults("simple","recipe")
+// getResults("recipe for","from scratch")
+// getResults("vegetarian","recipe")
+// getResults("vegan","recipe")
+// getResults("gluten free","recipe")
 
