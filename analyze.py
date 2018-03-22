@@ -8,6 +8,7 @@ import subprocess
 import os
 import collections
 import gzip
+import math
 
 from tqdm import tqdm
 import numpy as np
@@ -620,8 +621,12 @@ def get_mean_recipe(recipes, recipe_ids):
             'std': recipe[ing]['std'] * median_total,
             'unit': 'cup'
         }
+        eggs_scaling = 1
         if ing == 'eggs':
-            d[ing]['qty'] = int(round(d[ing]['qty'] * 2))
+            actual_eggs = d[ing]['qty'] * 2
+            rounded_eggs = int(math.ceil(d[ing]['qty'] * 2))
+            eggs_scaling = float(rounded_eggs)/float(actual_eggs)
+            d[ing]['qty'] = rounded_eggs
             d[ing]['std'] = d[ing]['std'] * 2
             d[ing]['unit'] = 'whole'
         elif d[ing]['qty'] < 0.0417 * 3:
@@ -632,7 +637,12 @@ def get_mean_recipe(recipes, recipe_ids):
             d[ing]['qty'] = d[ing]['qty'] * 16
             d[ing]['std'] = d[ing]['std'] * 16
             d[ing]['unit'] = 'tbsp'
-        d[ing]['qty'] = round(d[ing]['qty'] * 8) / 8
+        
+    for k in sorted(
+            ordering.items(), key=operator.itemgetter(1), reverse=True):
+        ing = k[0]
+        if ing != 'eggs':
+            d[ing]['qty'] = round(d[ing]['qty']*eggs_scaling*8) / 8
         d[ing]['std'] = round(d[ing]['std'] * 8) / 8
     return d, urls
 
