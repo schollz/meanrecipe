@@ -9,7 +9,6 @@ import stat
 import glob
 import random
 import json
-import signal
 
 import click
 from tqdm import *
@@ -19,11 +18,13 @@ import requests
 datafolder = 'recipes'
 
 
-def process_url(url):
+def process_url(datas):
+    url = datas[0]
+    savedata = datas[1]
     if 'http' not in url:
         return
     fname = hashlib.md5(url.encode('utf-8')).hexdigest()
-    fpath = os.path.join(datafolder, fname + ".txt")
+    fpath = os.path.join(savedata, fname + ".gz")
     if os.path.isfile(fpath):
         return
     try:
@@ -36,25 +37,18 @@ def process_url(url):
         f.write(b'\n')
         f.write(text.encode('utf-8'))
 
-
-
-def signal_handler(signum, frame):
-    raise Exception("Timed out!")
-
 def get_urls(phrase):
     if len(phrase[0]) < 3:
         return []
-    signal.signal(signal.SIGALRM, signal_handler)
-    signal.alarm(30)  
     try:
-        output = subprocess.check_output(['node','fetch_urls.js','--phrase',phrase[0],'--search',phrase[1]])
+        output = subprocess.check_output(['node','fetch_urls.js','--phrase',phrase[0],'--search',phrase[1]], timeout=30)
         return output.decode('utf-8').split('\n')
     except Exception as e:
         print(e)
         return []
 
 def download_urls(urls,recipe,datafolder):
-    fs = glob.glob(datafolder + "/*.txt")
+    fs = glob.glob(datafolder + "/*.gz")
     print("have downloaded {} recipes".format(len(fs)))
     if len(fs) / len(urls) > 0.75:
         return
@@ -62,17 +56,15 @@ def download_urls(urls,recipe,datafolder):
         os.remove(os.path.join(datafolder,'recipes.json'))
     except:
         pass
-    signal.signal(signal.SIGALRM, signal_handler)
-    signal.alarm(600)  
-    try:
-        print("downloading {} {} recipes...".format(len(urls), recipe))
-        with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as p:
-            with tqdm(total=len(urls)) as pbar:
-                for i, _ in tqdm(
-                        enumerate(p.imap_unordered(process_url, urls))):
-                    pbar.update()
-    except:
-        pass
+    print("downloading {} {} recipes...".format(len(urls), recipe))
+    datas = []
+    for url in urls:
+        datas.append((url,datafolder))
+    with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as p:
+        with tqdm(total=len(urls)) as pbar:
+            for i, _ in tqdm(
+                    enumerate(p.imap_unordered(process_url, datas))):
+                pbar.update()
 
 def get_unique_urls(recipe,datafolder):
     fname = os.path.join(datafolder,'urls.json')

@@ -653,7 +653,7 @@ def get_clusters(folder_name,num_clusters=20):
         recipes = []
         print("parsing recipes...")
         for fname in tqdm(filenames):
-            if not fname.endswith(".txt"):
+            if not fname.endswith(".gz"):
                 continue
             url, ingredient_lines = get_ingredient_lines(
                 os.path.join(folder_name, fname))
@@ -705,34 +705,37 @@ def get_clusters(folder_name,num_clusters=20):
         label_counts[l] += 1
         cluster_labels[l].append(i)
 
-    for i, l in enumerate(
-            sorted(
-                label_counts.items(), key=operator.itemgetter(1),
-                reverse=True)):
-        if len(cluster_labels[l[0]]) < 5:
-            continue
-        mean_recipe, urls = get_mean_recipe(recipes, cluster_labels[l[0]])
+    with open(os.path.join(folder_name,"results.txt"),"w") as f:
+        for i, l in enumerate(
+                sorted(
+                    label_counts.items(), key=operator.itemgetter(1),
+                    reverse=True)):
+            if len(cluster_labels[l[0]]) < 5:
+                continue
+            mean_recipe, urls = get_mean_recipe(recipes, cluster_labels[l[0]])
 
-        num_ingredients = 0
-        for ing in sorted(mean_recipe.keys()):
-            if mean_recipe[ing]['freq'] > 0.3:
-                num_ingredients += 1
+            num_ingredients = 0
+            for ing in sorted(mean_recipe.keys()):
+                if mean_recipe[ing]['freq'] > 0.3:
+                    num_ingredients += 1
 
-        if num_ingredients < 3:
-            continue
+            if num_ingredients < 3:
+                continue
 
-        print("\ncluster {} (n={})".format(l[0], len(cluster_labels[l[0]])))
-        t = PrettyTable(["Ingredient", "Amount", "Variation","Rel. Freq."])
-        for ing in sorted(mean_recipe.keys()):
-            if mean_recipe[ing]['freq'] > 0.3:
-                row = []
-                row.append(ing)
-                row.append(
-                    dec_to_proper_frac(mean_recipe[ing]['qty']) + " " +
-                    mean_recipe[ing]['unit'])
-                row.append("± {}".format(dec_to_proper_frac(mean_recipe[ing]['std'])))
-                row.append(round(mean_recipe[ing]['freq'] * 100))
-                t.add_row(row)
-        print(t)
-        # print("urls:")
-        # print("\n".join(urls))
+            f.write("\n\n\ncluster {} (n={})\n".format(l[0], len(cluster_labels[l[0]])))
+            t = PrettyTable(["Ingredient", "Amount", "Variation","Rel. Freq."])
+            for ing in sorted(mean_recipe.keys()):
+                if mean_recipe[ing]['freq'] > 0.3:
+                    row = []
+                    row.append(ing)
+                    row.append(
+                        dec_to_proper_frac(mean_recipe[ing]['qty']) + " " +
+                        mean_recipe[ing]['unit'])
+                    row.append("± {}".format(dec_to_proper_frac(mean_recipe[ing]['std'])))
+                    row.append(round(mean_recipe[ing]['freq'] * 100))
+                    t.add_row(row)
+
+            f.write(t.get_string())
+            f.write("\nurls:\n")
+            f.write("\n".join(urls))
+    print("results written to {}".format(os.path.join(folder_name,"results.txt")))
