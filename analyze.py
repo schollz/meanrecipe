@@ -346,7 +346,7 @@ ingredient_words = set(regex.sub('', ingredient_corpus.lower()).split())
 # print(ingredient_words)
 
 
-def get_ingredient_lines(fname):
+def get_ingredient_lines(recipe,fname):
     global regex
 
     out = gzip.open(fname, 'rb').read()
@@ -361,13 +361,15 @@ def get_ingredient_lines(fname):
         lines = lines.replace('¾', ' 3/4 ').replace('-', ' ').replace(
             '¼', ' 1/4 ').replace('⅔', ' 2/3 ').replace('⅓', ' 1/3 ').replace(
                 '½', ' 1/2 ').lower()
+        if recipe not in lines:
+            return url, []
         gRegex = re.compile("\d+g ")
         for g in gRegex.findall(lines):
             num = g.split('g ')[0]
             lines = lines.replace(g, num + ' grams ')
         lines = lines.split("\n")
     except:
-        return []
+        return "", []
     for i, line in enumerate(lines):
         words = set(regex.sub('', line.lower()).split())
         if len(words) > 0:
@@ -566,7 +568,7 @@ def dec_to_proper_frac(dec):
     return "{} {}/{}".format(int(frac.numerator / frac.denominator),frac.numerator % frac.denominator,frac.denominator)
 
 
-def get_clusters(folder_name,num_clusters=20):
+def get_clusters(recipe,folder_name,num_clusters=20):
     if not os.path.isfile(os.path.join(folder_name,'recipes.json')):
         filenames = os.listdir(folder_name)
         recipes = []
@@ -574,14 +576,17 @@ def get_clusters(folder_name,num_clusters=20):
         for fname in tqdm(filenames):
             if not fname.endswith(".gz"):
                 continue
-            url, ingredient_lines = get_ingredient_lines(
+            url, ingredient_lines = get_ingredient_lines(recipe,
                 os.path.join(folder_name, fname))
+            if len(ingredient_lines) == 0:
+                continue
             j = process_ingredient_lines(ingredient_lines)
             if len(j['lines']) > 3:
                 j['url'] = url
                 j['id'] = len(recipes)
                 j['fname'] = fname
                 recipes.append(j)
+        print("determined {} recipes for {}".format(len(recipes),recipe))
         with open(os.path.join(folder_name,'recipes.json'), 'w') as f:
             f.write(json.dumps(recipes, indent=2))
 
@@ -621,7 +626,7 @@ def get_clusters(folder_name,num_clusters=20):
 
             num_ingredients = 0
             for ing in sorted(mean_recipe.keys()):
-                if mean_recipe[ing]['freq'] > 0.3:
+                if mean_recipe[ing]['freq'] > 0.25:
                     num_ingredients += 1
 
             if num_ingredients < 3:
@@ -630,7 +635,7 @@ def get_clusters(folder_name,num_clusters=20):
             f.write("\n\n\ncluster {} (n={})\n".format(l[0], len(cluster_labels[l[0]])))
             t = PrettyTable(["Ingredient", "Amount", "Variation","Rel. Freq."])
             for ing in sorted(mean_recipe.keys()):
-                if mean_recipe[ing]['freq'] > 0.3:
+                if mean_recipe[ing]['freq'] > 0.25:
                     row = []
                     row.append(ing)
                     row.append(

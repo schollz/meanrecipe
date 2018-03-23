@@ -133,7 +133,7 @@ def start(recipe, url, clusters):
 
     # do analysis
     from analyze import get_clusters
-    get_clusters(datafolder, num_clusters=clusters)
+    get_clusters(recipe, datafolder, num_clusters=clusters)
 
 
 if __name__ == '__main__':
