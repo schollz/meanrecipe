@@ -1,0 +1,682 @@
+~D3318~^~D.A. Kline~^~Quantitative determination of sugars in fruits by GLC separation of TMS derivatives~^~1970~^~Journal of AOAC International~^~53~^~6~^~1198~^~1202~
+~D3326~^~C. Martin-Villa~^~High performance liquid chromatographic determination of carbohydrates in raw and cooked vegetables~^~1982~^~Journal of Food Science~^~47~^^~2086~^
+~D3331~^~N.J. NEUCERE, G. SUMRELL~^~Chemical composition of different varieties of grain sorghum~^~1980~^~Journal of Agricultural and Food Chemistry~^~28~^~1~^~19~^~21~
+~D3339~^~K.W. Swallow, N.H. Low~^~Analysis And Quantitation Of The Carbohydrates In Honey Using High-Performance Liquid Chromatography.~^~1990~^~Journal of Agricultural and Food Chemistry~^~38~^~9~^~1828~^~1832~
+~D3357~^~V.C. Morris, O.A. Levander~^~Selenium content of food~^~1970~^~Journal of Nutrition~^~100~^~12~^~1383~^~1388~
+~D3904~^~F Khachik, G R Beecher, W R Lusby~^~Separation, identification and quantification of the major carotenoids in extracts of apricots, peaches, cantaloupe, and pink grapefruit by liquid chromatography~^~1989~^~J Agric Food Chem~^~37~^^~1465~^~1473~
+~D3907~^~C Y Lee, P E McCoon, J H LeBowitz~^~Vitamin A value of sweet corn~^~1981~^~J Agric Food Chem~^~29~^^~1294~^~1295~
+~D3920~^~M. Heinonen, V. Olliloinen, E. Perttivaro, P. Koivistoinen~^~Carotenoids and retinoids in Finnish Foods: Dietary Fats~^~1988~^~J. Food Composition and Analysis~^~1~^^~334~^~340~
+~D3852~^~J Q Wu, D E Carrol~^~Chemical and physical sensory stabilities of prebaked frozen sweet potatoes.~^~1991~^~J. Food Sci.~^~56~^~1~^~710~^~713~
+~D3860~^~LIgia Almeida-Muradian, Fausto Fiorini, Marilene Penteado~^~Provitamin A Evaluation of External and Internal Leaves of Cabbage (Brassica oleracea L. var. capitata)~^~1995~^~Ciencia e Tecnologia de Alimentos~^~15~^~2~^~108~^~111~
+~D3891~^~L A Chandler, S J Schwartz~^~Isomerization and losses of trans-beta-carotene in sweet potatoes as affected by processing treatments~^~1988~^~J Agric Food Chem~^~36~^^~129~^~133~
+~D4043~^~E. Jakob, I. Elmadfa~^~Application of a Simplified HPLC Assay for the Determination of Phylloquinone (Vitamin K) in Animal and Plant Food Items~^~1996~^~Food Chemistry~^~56~^~1~^~87~^~91~
+~D4052~^~T.J. Koivu, V. I. Piironen, S.K. Henttonen, P.H. Mattila~^~Determination of Phylloquinone in Vegetables, Fruits, and Berries by High-Performance Liquid Chromatography with Electrochemical Detection~^~1997~^~American Chemical Society~^^^^
+~D4069~^~S.L. Booth, H.T. Madabushi, KW Davidson, J.A. Sadowski~^~Tea and Coffee Brews are not Dietary Sources of Vitamin K-1 (Phylloquinone)~^~1995~^~Journal of the American Dietetic Assoc.~^~95~^~1~^~82~^~83~
+~D4142~^~W. R. Mindak, S. P. Dolan~^~Determination of arsenic and selenium in food using a microwave digestion-dry ash preparation and flow injection hydride generation atomic absorption spectrometry~^~1999~^~Journal of Food Composition and Analysis~^~12~^^~111~^~122~
+~D3309~^~M. Horbowicz~^~Adaptation of the method of sugars determination by gas chromatography (GC) and characteristics of  their occurrence~^~1980~^~Acta Alimentaria Polonica~^~6~^~4~^~227~^~236~
+~D1417~^~O. Longe~^~Effect of boiling on the carbohydrate constituents of some non-leafy vegetables~^~1981~^~Food Chemistry~^~7~^~1~^~1~^~6~
+~D5004~^~Judy Heilman, Mary Kiritsy, Steven Levy, James Wefel~^~Assessing Fluoride Levels of Carbonated Soft Drinks~^~1999~^~JADA~^~130~^^~1593~^~1599~
+~D5981~^~J. W. DeVries, P.M. Keagy, C.A. Hudson, J.I. Rader~^~AACC collaborative study of a method for determining total folate in cereal products -- microbiological assay using trienzyme extraction (AACC method 86-47)~^~2001~^~Cereal Foods World~^~46~^~5~^~216~^~219~
+~D4341~^~Ira Shannon~^~Fluoride in Carbonated Soft Drinks~^~1977~^~Texas Dental Journal~^~95~^^~6~^~9~
+~D4722~^~H.G. Daood, M. Vinkler, F. Markus, E.A. Hebshi, P.A. Biacs~^~Antioxidant vitamin content of spice red pepper (paprika) as affected by technological and varietal factors~^~1996~^~Food Chemistry~^~55~^~4~^~365~^~372~
+~D4801~^~P. Perkins-Veazie, J.K. Collins, S.D. Pair, W. Roberts~^~Lycopene content differs among red-fleshed watermelon cultivars~^~2001~^~Journal of the Science of Food and Agriculture~^~81~^^~983~^~987~
+~D7282~^~R. Abdulah, K. Miyazaki, M. Nakazawa, H. Koyama~^~Low contribution of rice and vegetables to the daily intake of selenium in Japan~^~2005~^~International Journal of Food Science and Nutrition~^~56~^~7~^~463~^~471~
+~D6941~^~J. Lako, V.C. Trenerry, M. Wahlqvist, N. Wattanapenpaiboon, S. Sotheeswaran, R. Premier~^~Phytochemical flavonols, carotenoids and the antioxidant properties of a wide selection of Fijian fruit, vegetables and other readily available foods~^~2007~^~Food Chemistry~^~101~^^~1727~^~1741~
+~D6343~^~S. Ahrens, M. Venkatachalam, A.M. Mistry, K. Lapsley, S.K. Sathe~^~Almond (Prunus ducis L.) protein quality~^~2005~^~Plant Foods for Human Nutrition~^~60~^^~123~^~128~
+~D9782~^~n/a~^~kimchi~^~2012~^~Standard Food Composition Table~^^^~476~^~476~
+~D1073~^~J.P. McBride, R.A. Maclead~^~Sodium and potassium in fish from the Canadian Pacific coast.~^~1956~^~Journal of the American Dietetic Association~^~32~^^~636~^~638~
+~D964~^~E.H. Jr. Gruger, R.W. Nelson, M.E. Stansby~^~Fatty acid composition of oils from 21 species of marine fish, freshwater fish and shellfish.~^~1964~^~American Oil Chemists' Society, Journal~^~41~^~10~^~662~^~667~
+~D3296~^~C.E. Damon, B.C. Pettitt~^~Sugars and Sugar Products: High Performance Liquid Chomatographic Determination of Fructose, Glucose and Sucrose in Molasses~^~1980~^~J. AOAC~^~63~^~3~^~476~^~480~
+~D3315~^~W.J. Hurst, R.A. Martin, B.L. Zoumas~^~Application of HPLC to Characterization of Individual Carbohydrates in Foods~^~1979~^~Journal of Food Science~^~44~^^~892~^~893~
+~D3344~^~R.B. H. Wills~^~Nutrient composition of stone fruit (Prunus spp.) cultivars: apricot, cherry, nectarine, peach and plum~^~1983~^~J Sci Food Agric~^~34~^^~1383~^~1389~
+~D3359~^~O.E. Olson, I.S. Palmer~^~Selenium in foods purchased or produced in South Dakota~^~1984~^~Journal of Food Science~^~49~^^^
+~D3364~^~J.T. Snook, D. Kinsey, D.L. Palmquist, J.P. DeLaney, V.M. Vivian, A.L. Moxon~^~Selenium content of foods purchased or produced in Ohio~^~1987~^~Journal of the American Dietetic Association~^~87~^~6~^~744~^~749~
+~D3924~^~D.J. Hart, K.J. Scott~^~Development and evaluation of an HPLC method for the analysis of carotenoids in foods, and the measurement of the carotenoid content of vegetables and fruits commonly consumed in the UK~^~1995~^~Food Chemistry~^~54~^^~101~^~111~
+~D3846~^~J P Sweeney, A C Marsh~^~Effect of processing on provitamin A in vegetables~^~1971~^~J Am Diet Assoc~^~59~^^~238~^~243~
+~D3886~^~A A Bushway, D V Setteze, D F McGann, R H True, T M Work, R J Bushway~^~Effect of processing method and storage time on the nutrient composition of fiddlehead greens~^~1985~^~J Food Sci~^~50~^^~1491~^~1492~
+~D3890~^~E D Brown, M S Micozzi, N E Craft, J G Bieri, G Beecher, B K Edwards, A Rose, P R Taylor, J C Smith, Jr.~^~Plasma carotenoids in normal men after a single ingestion of vegetables or purified beta-carotene~^~1989~^~Am J Clin Nutr~^~49~^^~1258~^~1265~
+~D3903~^~F Khachik, G R Beecher~^~Separation and identification of carotenoids and carotenol fatty acid esters in some squash products by liquid chromatography 1. Quantification of carotenoids and related esters by HPLC~^~1988~^~J Agr Food Chem~^~36~^^~929~^~937~
+~D3969~^~E-Siong Tee, Chin-Lam Lim~^~Carotenoid composition and content of Malaysian vegetables and fruits by the AOAC and HPLC methods.~^~1991~^~Food Chemistry~^~41~^^~309~^~339~
+~D4051~^~G. Ferland, J.A. Sadowski~^~Vitamin K (Phylloquinie) Content of Edible Oils:  Effects of Heating and Light Exposure~^~1992~^~Journal of Agricultural and Food Chemistry~^~40~^~10~^~1869~^~1873~
+~D4066~^~V. I. Piironen, T.J. Koivu~^~Quality of Vitamin K Analysis and Food Composition Data in Finland~^~1998~^~Food Chemistry~^~68~^^~223~^~226~
+~D4074~^~T.J. Koivu, V. I. Piironen, A.-M. Lampi, P.H. Mattila~^~Dihydrovitamin K in oils and margarines~^~1999~^~Food Chemistry~^~64~^^~411~^~414~
+~D4941~^~S.D. Senter, G.W.Jr. Chapman, W.R. Jr Forbus, J.A. Payne~^~Sugar and nonvolatile acid composition of persimmons during maturation~^~1991~^~Journal of Food Science~^~56~^~4~^~989~^~991~
+~D5007~^~Robert Ophaug~^~Fluoride, Unpublished - Ophaug~^^~Microdiffision~^^^^
+~D4381~^~S.W. Leonard, K. Hardin, J.E. Leklem~^~Vitamin B-6 Content of Spices~^~2001~^~Journal of Food Composition and Analysis~^~14~^^~163~^~167~
+~D3335~^~D.H. Picha~^~HPLC Determination Of Sugars In Raw And Baked Sweet Potatoes~^~1985~^~Journal Of Food Science~^~50~^^~1189~^~1190~
+~D7521~^~B Li, K.W. Andrews, P.R. Pehrsson~^~Individual sugars, soluble and insoluble dietary fiber contents of 70 high consumption foods~^~2002~^~J Food Comp Anal~^~15~^^~715~^~723~
+~D7121~^~J. L. Montgomery, J. R. Blanton, Jr., R. L. Horst, M. L. Galyean, K. J. Morrow, Jr., D. B. Wester, M.F. Miller~^~Effects of biological type of beef steers on vitamin D, calcium, and phosphorus status.~^~2004~^~J. Animal Sci.~^~82~^^~2043~^~2049~
+~D6461~^~B Kandlakunta, A Rajendran, L Thingnganing~^~Carotene content of some common (cereals, pulses, vegetables, spices and condiments) and unconventional sources of plant origin~^~2008~^~Food Chemistry~^~106~^^~85~^~89~
+~D9541~^~, BJ Ector~^~Compositional and Nutritional Characteristics~^~2001~^~Muscadine Grapes~^^^~341~^~367~
+~D672~^~L. A. Koehler~^~Food and Drug Bulletin (beverages gen)~^~1963~^~Food and Drug Bulletin No. 134, North Dakota State Lab. 1963~^~134~^^~134~^
+~D1394~^~T.E. Ekpenyong, R.L. Borchers~^~Effect of cooking on the chemical composition of winged beans (Psophocarpus tetragonobulus)~^~1980~^~Journal of Food Science~^~45~^~6~^~1559~^
+~D2028~^~A. Sanchez-Marroquin, A. Feria-Morales, S. Maya, V. Ramos-Moreno~^~Processing, nutritional quality and sensory evaluation of amaranth enriched corn tortilla~^~1987~^~Journal of Food Science~^~52~^~5~^^
+~D3342~^~J.W. White, R MeLoy, J Probst, W Huser~^~Sugars Containing Galactose Occur In Honey~^~1986~^~Journal Of Agricultural Research (J Apic Res. V.25 (3)~^~25~^~3~^~182~^~185~
+~D3764~^~J Marlett~^~Content and composition of dietary fiber in 117 frequently consumed foods~^~1992~^~Journal of the American Dietetic Association~^~92~^~2~^^
+~D3765~^~N Vollendorf, J Marlett~^~Comparison of Two Methods of Fiber Analysis of 58 Foods~^~1993~^~Journal of Food Composition and Analysis~^~6~^^~203~^~214~
+~D3767~^~M Cardozo, B Li~^~Total dietary fiber content of selected nuts by two enzymatic-gravimetric methods~^~1994~^~Journal of Food Composition and Analysis~^~7~^^~37~^~43~
+~D3771~^~L Prosky~^~Total Dietary Fiber in Cereals -- Problems and Determination~^~1986~^~AACC Symposium~^^^^
+~D3773~^~R. Mongeau, R. Brassard~^~A Comparison of Three Methods for Analyzing Dietary Fiber in 38 Foods~^~1989~^~Journal of Food Composition and Analysis~^~2~^^~189~^~199~
+~D3776~^~C. Lintas, M. Capelloni~^~Content and composition of dietary fibre in raw and cooked vegetables~^~1988~^~Food Sciences and Nutrition~^~42F~^^~117~^~124~
+~D3777~^~J Marlett, N Vollendorf~^~Dietary fiber content and composition of vegetables determined by two methods of analysis~^~1993~^~Journal of Agriculture and Food Chemistry~^~41~^^~1608~^~1612~
+~D3779~^~N Vollendorf, J Marlett~^~Dietary Fiber Content and Composition in Home-Prepared and Commercially Baked Products: Analysis and Prediction~^~1994~^~Cereal Chemistry~^~71~^~1~^~99~^~105~
+~D3780~^~J Marlett, N Vollendorf~^~Dietary fiber content and composition of different forms of fruits~^~1994~^~Food Chemistry~^~51~^^~39~^~44~
+~D3933~^~C. Y. Lee, R.W. Robinson~^~Influence of the crimson gene (ogc) on vitamin A content of tomato~^~1980~^~Horticultural Science~^~15~^^~260~^~261~
+~D3956~^~D.M. R. Ramos, D B Rodriguez~^~Determination of the vitamin A value of common Brazilian leafy vegetables.~^~1987~^~J. Micronutrient Analysis~^~3~^^~147~^~155~
+~D3845~^~R L Rouseff, G D Sadler, T J Putman, J E Davis~^~Determination of beta-carotene and other hydrocarbon carotenoids in red grapefruit cultivars.~^~1992~^~J. Agric. Food Chem.~^~40~^^~47~^~51~
+~D3870~^~B.H. Chen, J.R. Chuang, J.H. Lin, P. Chiu~^~Quantification of provitamin A compounds in Chinese vegetables by high-performance liquid chromatography~^~1993~^~J. Food Protection~^~56~^^~51~^~54~
+~D3888~^~R J Bushway~^~Determination of alpha- and beta-carotene in some raw fruits and vegetables by high-performance liquid chromatography~^~1986~^~J Agr Food Chem~^~34~^^~409~^~412~
+~D3894~^~G K Gregory, T-S Chen, T R Philip~^~Quantitative analysis of carotenoids and carotenoid esters in fruits by HPLC: red bell peppers~^~1987~^~J Food Sci~^~52~^^~1071~^~1073~
+~D3899~^~A Homnava, W Rogers, R R Eitenmiller~^~Provitamin A activity of specialty fruit marketed in the United States.~^~1990~^~J. Food Composition and Analysis~^~3~^^~119~^~133~
+~D3900~^~L R Howard, T Dewi~^~Minimal processing and edible coating effects on composition and sensory quality of mini-peeled carrots.~^~1996~^~J. Food Science~^~61~^~3~^~643~^~651~
+~D4901~^~J.I. Rader, C. M. Weaver, G. Angyal~^~Total folate in enriched cereal grain products in the United States following fortification~^~2000~^~Food Chemistry~^~70~^^~275~^~289~
+~D3305~^~K.C. Gross~^~Fruits and vegetables are a source of galactose: Implications in planning the diets of patients with galactosaemia~^~1991~^~J. Inher. Metab. Dis.~^~14~^^~253~^~258~
+~D5002~^~J.D.B. Featherstone, Carol Shields~^~A Study of Fluoride Intake in New York State Residents~^~1988~^~New York State Fluoride Analysis Contract - report date 12/1/1988~^^^^
+~D5005~^~Mary Kiritsy, Steven Levy, John Warren, Nupur Guha-Chowdhury, Judy Heilman, Teresa Marshall~^~Assessing Fluoride Concentrations of Juices and Juice-Flavored Drinks~^~1996~^~JADA~^~127~^^~895~^~902~
+~D5021~^~A. Kingman~^~Unpublished data. NIDR/NIH, 1984~^~1984~^~Unpublished data. NIDR/NIH, 1984.~^^^^
+~D4721~^~M.I. Minguez-Mosquera, D. Hornero-Mendez~^~Comparative study of the effect of paprika processing on the carotenoids in peppers (Capsicum annuum) of the Bola and Agridulce varieties~^~1994~^~Journal of Agricultural and Food Chemistry~^~42~^^~1555~^~1560~
+~D4743~^~J.K. Daun, R. Przybylski~^~Environmental effects on the composition of four Canadian flax cultivars~^~2000~^~Proceedings of the 58th Meeting of the Flax Institute of the United States~^^^~80~^~91~
+~D7301~^~E.C. Pappa, A.C. Pappas, P.F. Surai~^~Selenium content in selected foods from the Greek market and estimation of the daily intake~^~2006~^~Science of the Total Environment~^~372~^^~100~^~108~
+~D9421~^~R. Ayerza, Wayne Coates~^~Composition of chia (Salvia hispanica) grown in six tropical and subtropical ecosystems of South America~^~2004~^~Tropical Science~^~44~^^~131~^~135~
+~D7481~^~A. Perry, H. Rasmussen, E.J. Johnson~^~Xanthophyll (lutein, zeaxanthin) content in fruits, vegetables and corn and egg products~^~2009~^~J Food Comp Anal~^~22~^^~9~^~15~
+~D9361~^~R. Ayerza, Wayne Coates~^~Some quality components of four chia (Salvia hispanica L.) genotypes grown under tropical coastal desert ecosystem conditions~^~2009~^~Asian J Plant Sci~^~8~^~4~^~301~^~307~
+~D7261~^~P.P. Sirichakwal, P. Puwastien, J. Polngam, R. Kongkachuichai~^~Selenium content of Thai foods~^~2005~^~J Food Comp Anal~^~18~^^~47~^~59~
+~D9701~^~M. Venkatachalam, S.K. Sathe~^~Chemical composition of selected edible nut seeds~^~2006~^~Journal of Agricultural and Food Chemistry~^~54~^^~4705~^~4714~
+~D9564~^~S.O Serna-Saldivar~^~Chemical COmposition of cereal grains~^~2010~^~Cereal Grains~^^^~81~^~108~
+~D9721~^~A.A. JOSHI~^~Studies on Standardization of Enzyme Concentration and Process for Extraction of Tamarind~^~2012~^~J Food Process Technol~^~3~^~2~^~141~^~143~
+~D389~^~K. Hoppner, B. Lampi, D.E. Perrin~^~The free & Total folate activity in foods available on the Canadian market.~^~1972~^~Canadian Institute of Food Technology Journal~^~5~^~2~^~60~^
+~D390~^~A.V. Lentoc, L.B. Dimannahan, O.N. Gonzalez~^~Vitamin B6 Content of Some Phillipine Foods. Raw Foods~^~1971~^~Philippine Journal of Nutrition~^~24~^^~209~^
+~D1414~^~Y.G. Deosthale~^~Trace Element composition of common oilseeds~^~1981~^~Journal of American Oil Chemist Society~^~11~^^~988~^
+~D1066~^~G.V. Mann~^~The Health and Nutritional status of Alaskan Eskimos.~^~1962~^~American Journal of Clinical Nutrition~^~11~^^~31~^~76~
+~D3306~^~K. Haila~^~Sugar and organic acid content of vegetables consumed in Finland during 1988-1989~^~1992~^~Journal of Food Composition and Analysis~^~5~^^~100~^~107~
+~D3316~^~J.L. Iverson, M.P. Bueno~^~Evaluation of high pressure liquid chromatography and gas liquid chromatography for quantitative determination of sugars in foods~^~1981~^~Journal of the Association of Official Analytical Chemists~^~64~^~1~^~139~^~143~
+~D3337~^~ SMITH~^~Quantitative Determination of Sugars in Various Food Products~^~1986~^~Journal of Food Science~^~51~^~5~^^
+~D3338~^~P. Sporns~^~Alberta honey composition~^~1992~^~Food Research International~^~25~^^~93~^~100~
+~D3352~^~S.N. Ganapathy, R Dhanda~^~Selenium content of omnivorous and vegetarian diets~^~1980~^~The Ind. J. Nutr. Dietet.~^~17~^^~53~^~59~
+~D3358~^~A.L. Moxon, D.L. Palmquist~^~Selenium content of foods grown or sold in Ohio~^~1980~^~Ohio Report~^~65~^~1~^^
+~D3912~^~T Philip, T S Chen~^~Development of a method for the quantitative estimation of provitamin A carotenoids in some fruits.~^~1988~^~J. Food Science~^~53~^^~1703~^~1707~
+~D3921~^~I.M. Heinonen, V. Ollilainen, E. Linkola, P. Varo, P. Koivistoinen~^~Carotenoids and Retinoids in Finnish Foods:  Cereal and Bakery Products~^~1989~^~Cereal Chemistry~^~66~^~4~^~270~^~273~
+~D3844~^~D B Rodriguez, L C Raymundo, K L Simpson, C O Chichester~^~Carotenoid pigment changes in ripening Momordica charantia fruits~^~1976~^~Ann Bot (London)~^~40~^^~615~^~624~
+~D3850~^~P W Simon, X Y Wolff~^~Carotenes in typical and dark orange carrots~^~1987~^~J Agric Food Chem~^~35~^^~1017~^~1022~
+~D3871~^^~Carotenoid Table Document Number C9325~^^^^^^
+~D3885~^~R J Bushway, A M Wilson~^~Determination of alpha- and beta-carotene in fruit and vegetables by high performance liquid chromatography~^~1982~^~Can Inst Food Sci Technol~^~15~^^~165~^~169~
+~D4002~^~S.L. Booth, J.A. Sadowski, J.A. T. Pennington~^~Phylloquinone (Vitamin K) Content of Foods in the U.S. Food and Drug Administration's Total Diet Study~^~1995~^~Journal of Agricultural and Food Chemistry~^~43~^~6~^~1574~^~1579~
+~D4041~^~S.L. Booth, KW Davidson, J.A. Sadowski~^~Evaluation of an HPLC Method for the Determination of Phylloquinone (Vitamin K) in Various Food Matrices~^~1994~^~Journal of Agricultural and Food Chemistry~^~42~^~2~^~295~^~300~
+~D4071~^~V. I. Piironen, T.J. Koivu, O. Tammisalo, P.H. Mattila~^~Determination of phylloquinone in oils, margarines and butter by HPLC with electrochemical detection~^~1997~^~Food Chemistry~^~59~^~3~^~473~^~480~
+~D4072~^~C. Bolton-Smith, R.J.G. Price, Steven T. Fenton, Dominic J. Harrington, M.J. Shearer~^~Compilation of a provisional UK database for the phylloquinone (vitamin K) content of foods~^~2000~^~British Journal of Nutrition~^~83~^^~389~^~399~
+~D4078~^~S.L. Booth, J.A. T. Pennington, J.A. Sadowski~^~Dihydro-vitamin K: primary food sources and estimated dietary intakes in the American diet~^~1996~^~Lipids~^~31~^~7~^~714~^~719~
+~D4863~^~V.C. Wilberg, D.B. Rodriguez-Amaya~^~HPLC quantitation of major carotenoids of fresh and processed guava, mango and papaya~^~1995~^~Lebensmittel-Wissenschaft und-Technologie~^~28~^~5~^~474~^~480~
+~D4981~^~Earle Schulz, Joel Epstein, Donald Forrester~^~Fluoride Content of Popular Carbonated Beverages~^~1976~^~Journal of Preventive Dentistry~^~3~^^~27~^~29~
+~D5003~^~Stephen Adair, Dennis Leverett, Carol Shields~^~Fluoride Content of School Lunches from Optimally Fluoridated and a Fluoride-Deficient Community~^~1991~^~Journal of Food Composition and Analysis~^~4~^^~216~^~226~
+~D5162~^~Jan Stannard, J Rovero, Anthi Tsamtsouris, V Gavris~^~Fluoride Content of Some Bottled Waters and Recommendations for Fluoride Supplementation~^~1990~^~Journal of Pedodontics~^~14~^~2~^~103~^~107~
+~D5261~^~Prakash Bhosale, Igor V. Ermakkov, Maia R. Ermakova, Werner Gellermann, Paul S. Bernstein~^~Resonance Raman notification of nutritionally important carotenoids in fruit, vegetables, and their juices in comparison to high-pressure liquid chromatography analysis.~^~2004~^~Journal of Agricultural and Food Chemistry~^~52~^~11~^~3281~^~3285~
+~D5201~^~Steven Levy~^~Fluoride data on infant foods and beverages~^~2003~^~unpublished Fluoride data from Dr. Steven Levy, University of Iowa~^^^^
+~D4541~^~Nutrient Data Lab, USDA-ARS~^~Bottled Water Sampling Study Final Report~^^^^^^
+~D3284~^~R. Becker~^~Identification of some sugars and mannitol in celery~^~1968~^~Journal of Food Science~^~33~^^~128~^~130~
+~D4841~^~J.A. Dudek~^~Investigation of total dietary fiber methodology in the characterization of the carbohydrate fraction of canned pears~^~1985~^~Journal of Food Science~^~50~^^~851~^~852~
+~D6421~^~M. Ozcan, C. Atalay~^~Determination of seed and oil properties of some poppy (Papaver somniferum L.) varieties~^~2006~^~Grasas Y Aceites~^~57~^~2~^~169~^~174~
+~D7441~^~J.M. Humphries, F Khachik~^~Distribution of lutein, zeaxanthin, & related geometrical isomers in fruit, vegetables, wheat, & pasta products~^~2003~^~Journal of Agricultural and Food Chemistry~^~51~^^~1322~^~1327~
+~D9741~^~JD House, J Neufeld, G Leson~^~Evaluating the quality of protein from hemp seed (Cannabis sativa L.) products through the use of the protein digestibility-corrected amino acid score method~^~2010~^~Journal of Agricultural and Food Chemistry~^~58~^^~11801~^~11807~
+~D9742~^~Y Liu, Jeffrey B. Blumberg, C.-Y. Oliver Chen~^~Quantification and bioaccessibility of California pistachio bioactives~^~2014~^~Journal of Agricultural and Food Chemistry~^~62~^^~1550~^~1556~
+~D3321~^~C. Y. Lee~^~Free sugars in fruits and vegetables~^~1970~^~Food Science and Technology~^^~1~^^
+~D3336~^~M.L. Richmond~^~Analysis of simple sugars and sorbitol in fruit by high-performance liquid chromatography~^~1981~^~J. Agric. Food Chem.~^~29~^^~4~^~7~
+~D673~^~L. A. Koehlar~^~Food and Drug Bulletin - N. Dakota State Gen. Beverages~^~1965~^~Bulletin No. 141, June 1965~^~141~^^~141~^
+~D3905~^~F Khachik, M B Goli, G R Beecher, J Holden, W R Lusby, M D Tenoro, M R Barrera~^~Effect of food preparation on qualitative and quantitative distribution of major carotenoid constituents of tomatoes and several green vegetables.~^~1992~^~J. Agric Food Chem~^~40~^^~390~^~398~
+~D3909~^~C Y Lee~^~Changes in carotenoid content of carrots during growth and post-harvest storage~^~1986~^~Food Chem~^~20~^^~285~^~293~
+~D3847~^~J P Sweeney, A C Marsh~^~Effects of selected herbicides on provitamin A content of vegetables~^~1971~^~J Agric Food Chem~^~19~^^~854~^~856~
+~D3851~^~L H Tonucci, J M Holden, G R Beecher, F Khachik, C S Davis, G Mulokozi~^~Carotenoid content of thermally processed tomato-based food products.~^~1995~^~J. Agric. Food Chem.~^~43~^^~579~^~586~
+~D3863~^~K. Bhaskarachary, D.S. Sankar Rao, Y.G. Deosthale, Vinodini Reddy~^~Carotene content of some common and less familiar foods of plant origin.~^~1995~^~Food Chemistry~^~54~^^~189~^~193~
+~D3887~^~J L Bureau, R J Bushway~^~HPLC determination of carotenoids in fruits and vegetables in the United States~^~1986~^~J Food Sci~^~52~^^~128~^~130~
+~D3902~^~F Khachik, G R Beecher~^~Application of C-45-beta-carotene as an internal standard for the quantification of carotenoids in yellow/orange vegetables by liquid chromatography~^~1987~^~J Agr Food Chem~^~35~^^~732~^~738~
+~D1191~^~I.J. Tinsley, R.R. Lowry~^~Bromine content of lipids of marine organisms~^~1980~^~American Oil Chemists' Society, Journal~^^~1~^~31~^~33~
+~D4048~^~G. Ferland, D. MacDonald, J.A. Sadowski~^~Development of a diet low in vitamin K (phylloquinone)~^~1992~^~J. American Dietetic Assoc~^~92~^~5~^~593~^~597~
+~D4068~^~T.J. Koivu, V. I. Piironen, P.H. Mattila~^~Phylloquinone (Vitamin K) in Cereal Products~^~1997~^~Cereal Chemistry~^~75~^~1~^~1~^~6~
+~D4077~^~S.L. Booth, KW Davidson, A.H. Lichtenstein, J.A. Sadowski~^~Plasma concentration of dihydro-vitamin K following dietary intake of hydrogenated vitamin K-rich vegetable oil~^~1996~^~Lipids~^~31~^~7~^~709~^~713~
+~D4864~^~M. Padula, D.B. Rodriguez-Amaya~^~Characteristics of the carotenoids and assessment of the vitamin A value of Brazilian guavas~^~1986~^~Food Chemistry~^~20~^^~11~^~19~
+~D4961~^~Elizabeth Nobmann~^~Nutrient Value of Alaska Native Foods~^~1993~^^^^^
+~D5301~^~RD Jackson, EJ Brizendine, SA Kelly, R Hinesley, GK Stookey, AJ Dunipace~^~The fluoride content of foods and beverages from negligibly and optimally fluoridated communities.~^~2002~^~Community Dental Oral Epidemiology~^~30~^~5~^~382~^~391~
+~D5342~^~A.A. Franke, L.J. Custer, Christi Arakaki, Suzanne Murphy~^~Vitamin c and flavonoid levels of fruits and vegetables consumed in Hawaii.~^~2004~^~Journal of Food Composition and Analysis~^~17~^^~1~^~35~
+~D4281~^~L.D. Thompson, L.C. Hoover, H.C. Brittin, W.R. Lan, M.F. Miller, C.K. Wu~^~Carcass characteristics, composition, palatability, microbiological quality and consumer acceptance of emu meat~^~1996~^~Department of Animal Science and Food Technology, Texas Tech University Research Report~^^^^
+~D4301~^~K.D. Pollok, D.S. Hale, R.K. Miller, J.T. Keeton, R. Angel, A. Blue-McLendon~^~Ostrich Meat industry development: Phase II~^~1997~^~American Ostrich Association, Fort Worth, Texas~^^^^
+~D4561~^~H. Fukuba, T. Murota~^~Determination of tocopherols in foodstuffs, especially nuts and spices, by high-performance liquid chromotography~^~1985~^~Journal of Micronutrient Analysis~^~1~^^~93~^~105~
+~D4761~^~K.C. Duester~^~Avocado fruit is a rich source of beta-sitosterol~^~2001~^~Journal of the American Dietetic Association~^~101~^~4~^~404~^~404~
+~D4781~^~R.J. Pawlosky, V.P. Flanagan, R.F. Doherty~^~A Mass Spectrometric Validated High-Performance Liquid Chromatography Procedure for the Determination of Folates in Foods~^~2003~^~Journal of Agricultural and Food Chemistry~^^^^
+~D4821~^~B. Heuer~^~Effect of late salinization of chia (Salvia hispanica), stock (Matthiola tricuspidata) and evening primrose (Oenothera biennis) on their oil content and quality~^~2002~^~Industrial Crops and Products~^~15~^^~163~^~167~
+~D6881~^~M.M. Delgado-Zamarreno, M. Bustamante-Rangel, A. Sanchez-Perez, J. Hernandez-Mendez~^~Analysis of vitamin D isomers in seeds & nuts with & without coupled hydrolysis by liquid chromatography & coulometric detection~^~2001~^~J. Chromatogr. A.~^~935~^^~77~^~86~
+~D7321~^~A. Askar, H.J. Bielig~^~Selenium content of food consumed by Egyptians~^~1983~^~Food Chemistry~^~10~^^~231~^~234~
+~D7501~^~M. Yano et al~^~Quantitation of carotenoids in raw and processed fruits in Japan~^~2005~^~Food Sci. Technol. Res.~^~11~^~1~^~13~^~18~
+~D6641~^~K. Mahattanatawee, J.A. Manthey, G. Luzio, S. T. Talcott, K. Goodner et al~^~Total antioxidant activity and fiber content of select Florida-grown tropical fruits~^~2006~^~Journal of Agricultural and Food Chemistry~^~54~^^~7355~^~7363~
+~D6522~^~J. Lehmann, Daniel H. Putnam, A.A. Qureshi~^~Vitamin E isomers in grain amaranths (Amaranthus spp.)~^~1994~^~Lipids. American Oil Chemists' Society~^~29~^~3~^~177~^~181~
+~D6401~^~M. Ozcan~^~Determination of the mineral compositions of some selected oil-bearing seeds & kernels using Inductively Coupled Plasma Atomic Emmission Spectrometry (ICP-AES)~^~2006~^~Grasas y Aceites~^~57~^~2~^^
+~D6321~^~K.M. Phillips, D.M. Ruggio, M. Ashraf-Khorassani~^~Phytosterol composition of nuts and seeds commonly consumed in the United States~^~2005~^~Journal of Agricultural and Food Chemistry~^~53~^^~9436~^~9445~
+~D6341~^~V. I. Piironen, J. Toivo, Riitta Puupponen-Pimia, A.-M. Lampi~^~Plant sterols in vegetables, fruits and berries~^~2003~^~Journal of the Science of Food and Agriculture~^~83~^^~330~^~337~
+~D6481~^~M. Kaufman, Z. Wiesman~^~Pomegranate oil analysis with emphasis on MALDI-TOF/MS triacylglycerol fingerprinting~^~2007~^~Journal of Agricultural and Food Chemistry~^~55~^^~10405~^~10413~
+~D6901~^~M. Ozcan, M. Akbulut~^~Estimation of minerals, nitrate & nitrite contents of medicinal & aromatic plants used as spices, condiments and herbal tea~^~2008~^~Food Chemistry~^~106~^^~852~^~858~
+~D7341~^~M Fox, C Rayner, P Wu~^~Amino Acid composition of Australian foods~^~1988~^~Food Technology in Australia~^~40~^^~320~^~323~
+~D6681~^~A.A. Franke, Suzanne Murphy, R. Lacey, L.J. Custer~^~Tocopherol and tocotrienol levels of foods comsumed in Hawaii~^~2007~^~Journal of Agricultural and Food Chemistry~^~55~^^~769~^~778~
+~D642~^~ Consumer Reports~^~Orange Drink Mixes~^~1977~^~Consumer Reports~^^~Jan~^~68~^~70~
+~D1107~^~M.E. Stansby~^~Chemical Characteristics of fish caught in the northwest Pacific Oceans.~^~1976~^~Marine Fish Rev.~^~38~^~9~^~1~^~11~
+~D614~^~L. Hook, I.K. Brandt~^~Copper content of some low-copper foods~^~1966~^~Journal of the American Dietetic Association~^~49~^~3~^~202~^~203~
+~D3313~^~ Hunter~^~PP Document Number 2031005~^~1993~^^^^^
+~D3775~^~J,L, Rosado et al~^~Dietary Fiber in Mexican Foods~^~1993~^~Journal of Food Composition and Analysis~^~6~^~3~^~215~^~222~
+~D657~^~W. J. Hurst, R. A. Martin, B. L. Zoumas~^~Application of HPLC to Characterization of Individual CHO in Foods~^~1979~^~Journal of Food Science~^~44~^~3~^~892~^
+~D3849~^~I R Stewart~^~Provitamin A and carotenoid content of citrus juices~^~1977~^~J Agric Food Chem~^~25~^^~1132~^~1137~
+~D3853~^~Y Wu, A K Perry, B P Klein~^~Vitamin C and beta-carotene in fresh and frozen green beans and broccoli in a simulated system.~^~1992~^~J. Food Quality~^~15~^~2~^~87~^~96~
+~D4050~^~M.J. Shearer, C. Bolton-Smith~^~The UK Food Data-Base for Vitamin K and Why We Need It~^~1999~^~Food Chemistry~^~68~^^~213~^~218~
+~D4053~^~A.C. Shovic~^~Nutrient composition of abiyuch and rowal fruits~^~1999~^~Tropical Science~^~39~^^~159~^~161~
+~D4073~^~E. Jakob, I. Elmadfa~^~Rapid and simple HPLC analysis of vitamin K in food, tissues and blood~^~2000~^~Food Chemistry~^~68~^^~219~^~221~
+~D5001~^~Donald Taves~^~Dietary Intake of Fluoride Ashed (total fluoride) v. Unashed (inorganic fluoride) Analysis of Individual Foods~^~1983~^~British Journal of Nutrition~^~49~^^~295~^~301~
+~D6003~^~V. Singh, A.N. Garg~^~Availability of essential trace elements in Indian cereals, vegetables and spices using INAA and the contribution of spices to daily dietary intake~^~2006~^~Food Chemistry~^~94~^^~81~^~89~
+~D4282~^~L.D. Thompson~^~Nutritional composition of six muscles from yearling emus~^~1997~^~Department of Animal Science and Food Technology Research Report, Texas Tech University~^^^^
+~D4701~^~M. Murkovic~^~Development of an Austrian carotenoid database~^~2000~^~Journal of Food Composition and Analysis~^~13~^^~435~^~440~
+~D7585~^^~The Composition of Foods~^~2002~^~McCance and WIddowson's The Composition of Foods~^^^^
+~D7101~^~J. L. Montgomery, F. C. Parrish, D. C. Beitz, R. L. Horst, E. J. Huff-Lonergan, A. H. Trenkle~^~The use of vitamin D3 to improve beef tenderness.~^~2000~^~J. Animal Science~^~78~^^~2615~^~2621~
+~D9401~^~R. Ayerza, Wayne Coates~^~Influence of environment on growing period and yield, protein, oil and a-linolenic content of three chia (Salvia hispanica L.) selections~^~2009~^~Industrial Crops and Products~^~30~^^~321~^~324~
+~D6521~^~A.S. Colmenares De Ruiz, R. Bressani~^~Effect of germination on the chemical composition and nutritive value of amaranth grain~^~1990~^~Cereal Chemistry~^~67~^~6~^~519~^~522~
+~D6661~^~M.M. Wall~^~Ascorbic acid, vitamin A, & mineral composition of banana & papaya cultivars grown in Hawaii~^~2006~^~Journal of Food Composition and Analysis~^~19~^^~434~^~445~
+~D9843~^~Jin-Wei Li, Liu-Ping Fan, Shao-Dong Ding, Xiao-Lin Ding~^~Nutritional composition of five cultivars of chinese jujube~^~2007~^~Food Chemistry~^~103~^~2~^~454~^~460~
+~D739~^~J.H. Hankin, S. Margen, N. Goldsmith~^~Contribution of Hard Water to Calcium and Magnesium Intakes of Adults~^~1970~^~Journal of the American Dietetic Association~^~56~^~3~^~212~^~224~
+~D2793~^~D.T. Gordon, G.L. Roberts, D.M. Hernty~^~Thiamin, Riboflavin, and Niacin content and stability in Pacific coast seafoods.~^~1979~^~Journal of Agricultural and Food Chemistry~^~27~^~3~^~483~^~490~
+~D3410~^~A.W. Lantz~^~Use of chilled sea water in place of ice in transporting fish~^~1953~^~Fisheries Research Board of Canada, Progress Reports of the Pacific Coast Stations~^~95~^^~39~^~44~
+~D3766~^~V Chaudhary, F Weber~^~Barley bran flour evaluated as dietary fiber ingredient in wheat bread~^~1990~^~Cereal Foods World~^~35~^~6~^~560~^~562~
+~D3919~^~I.M. Heinonen, V. Ollilainen, E. Linkola, P. Varo, P. Koivistoinen~^~Carotenoids in Finnish Foods:  Vegetables, Fruits, and Berries~^~1989~^~Journal  of Agriculture and Food Chemistry~^~37~^^~655~^~659~
+~D3901~^~F Khachik, G R Beecher, N F Whittaker~^~Separation, identification and quantification of the major carotenoid and chlorophyll constituents in extracts of several green vegetables by liquid chromatography~^~1986~^~J Agr Food Chem~^~34~^^~603~^~616~
+~D3311~^~A. Hughes, R.C. Lindsay~^~Liquid chromatographic analysis of sugars and mannitol in cabbage and fermenting sauerkraut~^~1985~^~Journal of Food Science~^~50~^~6~^~1662~^~1667~
+~D5008~^~Jan Stannard, Youn Soo Shim, Maria Kritsineli, Panagiota Labropoulou, Anthi Tsamtsouris~^~Fluoride Levels and Fluoride COntamination of Fruit Juices~^~1991~^~The Journal of Clinical Pediatric Dentistry~^~16~^^~38~^~40~
+~D5202~^~V Chaudhary, F Weber~^~Dietary fiber ingredients obtained by processing brewer's dried grain~^~1990~^~Journal of Food Science~^~55~^~2~^~551~^~553~
+~D5901~^~M. Soylak, M. Tuzen, I. Narin, H. Sari~^~Comparison of microwave, dry and wet digestion procedures for the determination of trace metal contents in spice samples produced in Turkey~^~2004~^~Journal of Food and Drug Analysis~^~12~^~3~^~254~^~258~
+~D4602~^~P.J. McLaughlin, J. Weihrauch~^~Vitamin E content of foods~^~1979~^~Journal of the American Dietetic Association~^~75~^~6~^~647~^~665~
+~D4682~^~K.U. Pradeep~^~Common Indian spices:  Nutrient composition, consumption and contribution to dietary value~^~1993~^~Plant Food for Human Nutrition~^~44~^^~137~^~148~
+~D6342~^~L. Normen, L. Ellegard, H. Brants, P. Dutta, H. Andersson~^~A phytosterol database: Fatty foods consumed in Sweden and the Netherlands~^~2007~^~Jorunal of Food Composition and Analysis~^~20~^^~193~^~201~
+~D7421~^~P. Perkins-Veazie~^~Carotenoids in watermelon and mango~^~2007~^~Acta Hort.~^~746~^^~259~^~264~
+~D342~^~J. A. Bowers, J. Craig~^~Components of B6 in Turkey Breast Muscle~^~1978~^~Journal of Food Science~^~43~^~5~^~1619~^
+~D463~^~H.T. Chan~^~Tropical Foods - the Chemistry & Biochemistry of Papaya~^~1979~^~Academic Press~^~1~^^^
+~D501~^~O.S. Abou-Fadel, L.T. Miller~^~Vitamin retention, color and texture in thermally processed green beans and royal ann cherries packed in pouches and cans~^~1983~^~Journal of Food Science~^~48~^~3~^~920~^~923~
+~D566~^~J. Leichtev, R. J. Bandoni~^~Nutrient Content of Mushrooms Grown in British Columbia~^~1980~^~Canadian Institute of Food Technology Journal~^~13~^~3~^~122~^
+~D548~^~M. A. Amer, G. J. Brisson~^~Selenium in Human Food Stuffs Collected at Ste-Foy (Quebec) Food M.L.T.~^~1973~^~Canadian Institute of Food Technology Journal~^~6~^~3~^~184~^
+~D429~^~P.E. Johnson, C. Straus, G.W. Evans~^~Metallocalorie Ratios for Copper, Iron and Zinc in Fruits and Vegetables~^~1977~^~Nutrition Reports International~^~15~^~4~^~469~^
+~D3911~^~A T Ogunlesi, C Y Lee~^~Effect of thermal processing on the stereoisomerization of major carotenoids and vitamin A value of carrots~^~1979~^~Food Chem~^~4~^^~311~^~318~
+~D3949~^~H. Muller~^~Determination of the carotenoid content in selected vegetables and fruit by HPLC and photoiode array detection~^~1997~^~Z. Lebensm Unters Forsch A~^~204~^^~88~^~94~
+~D3842~^~T Philip, T S Chen~^~Quantitative analyses of major carotenoid fatty acid esters in fruits by liquid chromatography: Persimmon and Papaya.~^~1988~^~J. Food Science~^~53~^~6~^~1720~^~1722~
+~D3843~^~F W Quackenbush~^~Reverse phase HPLC separation of cis- and trans-carotenoids and its application to beta-carotenes in food materials~^~1987~^~J Liq Chrom~^~10~^^~643~^~653~
+~D3869~^~B.H. Chen~^~Studies on the stability of carotenoids in garland chrysanthemums (Ipomoea spp.) as affected by microwave and conventional heating~^~1995~^~J. Food Protection~^~55~^^~296~^~300~
+~D3889~^~R J Bushway, A Yang, A M Yamani~^~Comparison of alpha- and beta-carotene content of supermarket versus roadside stand produce~^~1987~^~J Food Qual~^~9~^^~437~^~443~
+~D3964~^~A.J. Speek, S. Speek-Saichua, W.H. P. Schreurs~^~Total carotenoid and B-carotene contents of Thai vegetables and the effect of processing.~^~1988~^~Food Chemistry~^~27~^^~245~^~257~
+~D4070~^~N.J. Miller-Ihli~^~Atomic absorption and atomic emission spectrometry for the determination of the trace element content of selected fruits consumed in the United States~^~1996~^~Journal of Food Composition and Analysis~^~9~^~4~^~301~^~311~
+~D5061~^~L. Englberger, W. Aalbersberg, P. Ravi, E. Bonnin, G.C. Marks, M.H. Fitzgerald, J. Elymore~^~Further analyses on Micronesian banana, taro, breadfruit and other foods for provitamin A carotenoids and minerals~^~2003~^~Journal of Food Composition and Analysis~^~16~^^~219~^~236~
+~D5961~^~J.I. Rader, C. M. Weaver, G. Angyal~^~Use of a microbiological assay with tri-enzyme extraction for measurement of pre-fortification levels of folates in enriched cereal-grain products~^~1998~^~Food Chemistry~^~62~^~4~^~451~^~465~
+~D4581~^~R.H. Matthews, P.R. Pehrsson, M. Farhat-Sabet~^~Sugar Content of Selected Foods:  Individual and Total Sugars~^~1987~^~Home Economics Research Report Number 48~^^^^
+~D4862~^~R. Ayerza, Wayne Coates~^~An omega-3 fatty acid enriched chia diet: Influence on egg fatty acid composition, cholesterol and oil content~^~1999~^~Canadian Journal of Animal Science~^~79~^^~53~^~58~
+~D7241~^~H.V. Kuhnlein~^~Vitamins A, D, and E in Canadian Arctic traditional food and adult diets~^~2006~^~Journal of Food Composition and Analysis~^~19~^^~495~^~506~
+~D9381~^~R. Ayerza, Wayne Coates~^~Seed yield, oil content and fatty acid composition of three botanical sources of +-3 fatty acid planted in the Yungas ecosystem of tropical Argentina~^~2008~^~Tropical Science~^~47~^~4~^~183~^~187~
+~D6523~^~M.F. Marcone~^~Starch properties of Amaranthus pumilus (seabeach amaranth): a threatened plant species with potential benefits for the breeding/amelioration of present Amaranthus cultivars~^~2001~^~Food Chemistry~^~73~^^~61~^~66~
+~D6501~^~John T. Budin, William M. Breene, Daniel H. Putnam~^~Some compositional properties of seeds and oils of eight amaranthus species~^~1996~^~Journal of the American Oil Chemists' Society~^~73~^~4~^~475~^~481~
+~D9801~^~KS Robbins, E-C Shin, RL Shewfelt, R R Eitenmiller, RB Pegg~^~Update on the healthful lipid constituents of commercially important tree nuts~^~2011~^~Journal of Agricultural and Food Chemistry~^~59~^^~12083~^~12092~
+~S182~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1982~^^^^^
+~S202~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1985~^^^^^
+~S963~^~Produce Marketing Association (PMA)~^~Nutrient Content of Raspberries~^~1990~^^^^^
+~S606~^~Nutrient Data Laboratory, ARS, USDA~^~Variability of  the sugar content of foods~^~1989~^^~Beltsville~^~MD~^^
+~S239~^~Hillshire Farm & Kahn's~^~Nutrient Composition of Hillshire Farms and Kahn's Luncheon Meats~^~1999~^^~Cincinnati~^~OH~^^
+~S282~^~Owens Country Sausage~^~Nutrient Composition of Owens Country Sausage Luncheon Meats~^~1999~^^^^^
+~S1322~^~Nutrient Data Laboratory, ARS, USDA~^~Development/Verification of Nutrient Retention Values in Foods Prepared by Different Cooking Methods~^~1993~^^~Beltsville~^~MD~^^
+~S2109~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7h~^~2003~^^~Beltsville~^~MD~^^
+~S18~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 1a~^~1998~^^~Beltsville~^~MD~^^
+~S83~^~Hazelnut Marketing Board~^~Nutrient Content of Hazelnuts~^~1999~^^~Aurora~^~OR~^^
+~S77~^~International Nut Council~^~Nutrient Content of Macadamia Nuts~^~1999~^^^^^
+~S206~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1998~^^^^^
+~S1621~^~California Avocado Commission~^~California Avocado Commission data for avocados 1993-2001~^~1993~^^^^^
+~S1662~^~Nutrient Data Laboratory, ARS, USDA~^~Food Analysis Laboratory and Control Center Folate Stability Study~^~2002~^^~Beltsville~^~MD~^^
+~S2081~^~Ross/Abbott Laboratories~^~Ross~^~2003~^^^^^
+~S2203~^~Nutrient Data Laboratory, ARS, USDA~^~USDA Commodity pickup 2001~^~2001~^^~Beltsville~^~MD~^^
+~S3461~^~Nutrient Data Laboratory, ARS, USDA~^~Choline Study, Local pickup UNC, NFNAP~^~2003~^^~Beltsville~^~MD~^^
+~S2683~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2001~^^^^^
+~S3241~^~Nutrition Coordinating Center, Univ. of Minnesota~^~NCC-Univ of Minnesota/Univ of Iowa Fluoride Demonstration Study~^~2005~^^~Minneapolis~^~MN~^^
+~S6941~^~Kellogg, Co.~^~Kellogg Company Data~^~2011~^^^^^
+~S3558~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 10d~^~2006~^^~Beltsville~^~MD~^^
+~S4523~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 11f~^~2007~^^~Beltsville~^~MD~^^
+~S3549~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9l~^~2005~^^~Beltsville~^~MD~^^
+~S4881~^~McDonalds~^~McDonald's Supplied Food Analyses~^~2008~^^^^^
+~S4524~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 11a~^~2007~^^~Beltsville~^~MD~^^
+~S5701~^~National Pork Board (NPB)~^~Pork Loin Study - not enhanced - 2008~^~2008~^^^^^
+~S7561~^~Kellogg, Co.~^~Kellogg Company Vegetarian Products~^~2012~^^^^^
+~S7584~^~Nutrient Data Laboratory, ARS, USDA~^~Label data obtained from product packages~^~2012~^^^^^
+~S7924~^~Nutrient Data Laboratory, ARS, USDA~^~Label data obtained from product packages~^~2013~^^^^^
+~S7921~^~Nature's Path Foods~^~Nature's Path company data~^~2013~^^^^^
+~S8004~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 17f~^~2013~^^~Beltsville~^~MD~^^
+~S8384~^~Post Foods~^~Post Foods Company Data~^~2015~^^^^^
+~S8382~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 18f~^~2014~^^~Beltsville~^~MD~^^
+~S986~^~University of Maine~^~Determination of alpha- and beta-carotene in fruit and vegetables by HPLC~^~1982~^^^^^
+~S581~^~Produce Marketing Association (PMA)~^~Nutrient Content of Strawberries~^~1989~^^^^^
+~S1033~^~Produce Marketing Association (PMA)~^~Nutrient Content of Kiwi~^~1983~^^^^^
+~S605~^~Produce Marketing Association (PMA)~^~Nutrient Content of Onions~^~1984~^^^^^
+~S622~^~Produce Marketing Association (PMA)~^~Nutrient Content of Squash~^~1991~^^^^^
+~S252~^~Jerome Foods~^~Nutrient Composition of Jerome Foods/The Turkey Store Company Luncheon Meats~^~1999~^^~Barron~^~WI~^^
+~S243~^~Jones~^~Nutrient Composition of Jones Dairy Farm Luncheon Meats~^~1999~^^~Fort Atkinson~^~WI~^^
+~S2123~^~Nutrient Data Laboratory, ARS, USDA~^~Analyses of Selenium in Foods, Enviromental Trace Substances Research Center~^~1989~^^~Beltsville~^~MD~^^
+~S1401~^~Nutrient Data Laboratory, ARS, USDA~^~Total dietary fiber in 104 foods~^~1992~^^~Beltsville~^~MD~^^
+~S19~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 2a~^~1999~^^~Beltsville~^~MD~^^
+~S208~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1999~^^^^^
+~S343~^~International Nut Council~^~Nutrient Content of Cashews~^~1999~^^^^^
+~S1064~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6c~^~2002~^^~Beltsville~^~MD~^^
+~S2105~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7d~^~2002~^^~Beltsville~^~MD~^^
+~S2684~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2002~^^^^^
+~S2112~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7k~^~2003~^^~Beltsville~^~MD~^^
+~S1165~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6n~^~2002~^^~Beltsville~^~MD~^^
+~S3181~^~Almond Board of California~^~Nutrient content of almond butter, Almond Board of California~^~2005~^^~Modesto~^~CA~^^
+~S2802~^~Nutrient Data Laboratory, ARS, USDA~^~AIAN NFNAP Shoshone-Bannock, Fort Hall, Idaho~^~2003~^^~Beltsville~^~MD~^^
+~S3773~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 10h~^~2006~^^~Beltsville~^~MD~^^
+~S4001~^~Nutrient Data Laboratory, ARS, USDA~^~Choline Study, Local pickup VPI, NFNAP~^~2006~^^~Beltsville~^~MD~^^
+~S4201~^~National Cattlemen's Beef Association (NCBA)~^~Grass- fed Beef from Texas Tech University~^~2005~^^~Chicago~^~IL~^^
+~S4481~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave a9b~^~2004~^^~Beltsville~^~MD~^^
+~S4043~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 10j~^~2006~^^~Beltsville~^~MD~^^
+~S5961~^~National Cattlemen's Beef Association (NCBA)~^~Nutrient Content of Beef~^~2008~^^~Chicago~^~IL~^^
+~S3555~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 10a~^~2005~^^~Beltsville~^~MD~^^
+~S6261~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 13C~^~2009~^^~Beltsville~^~MD~^^
+~S6641~^~Institute of Shortening and Edible Oils~^~Institute of Shortening and Edible Oils~^~2010~^^^^^
+~S7922~^~General Mills Inc.~^~General Mills Company Data~^~2013~^^^^^
+~S8001~^~Cornell Cooperative Extension, Seneca County~^~Cornell, NY Game Study 2012~^~2012~^^~Waterloo~^~NY~^^
+~S8046~^~Nutrient Data Laboratory, ARS, USDA~^~Label info~^~2014~^^~Beltsville~^~MD~^^
+~S1141~^~Produce Marketing Association (PMA)~^~Nutrient Content of Blueberry~^~1990~^^^^^
+~S624~^~Produce Marketing Association (PMA)~^~Nutrient Content of Lettuce~^~1982~^^^^^
+~S6481~^~The Quaker Oats, Co.~^~Quaker Oats product analyses~^~1979~^^^^^
+~S642~^~National Cancer Institute (NCI), DHHS~^~Total dietary fiber content of selected foods~^~1992~^^^^^
+~S8~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1993~^^^^^
+~S461~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 4e~^~2001~^^~Beltsville~^~MD~^^
+~S1062~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6a~^~2002~^^~Beltsville~^~MD~^^
+~S2664~^~Kellogg, Co.~^~Kellogg Company Data~^~2004~^^^^^
+~S3552~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9o~^~2005~^^~Beltsville~^~MD~^^
+~S5881~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2005~^^^^^
+~S8383~^~Kellogg, Co.~^~Kellogg Company Vegetarian Products~^~2015~^^^^^
+~S7022~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 15c~^~2010~^^~Beltsville~^~MD~^^
+~S7321~^~Kraft Foods, Inc.~^~Whole wheat flour, soft wheat study, Ohio State/ARS~^~2010~^^^^^
+~S7821~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16g~^~2012~^^~Beltsville~^~MD~^^
+~S7741~^~Post Foods~^~Post Foods Company Data~^~2012~^^^^^
+~S8003~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 17e~^~2013~^^~Beltsville~^~MD~^^
+~S8062~^~Kellogg, Co.~^~Kellogg Company Products~^~2014~^^^^^
+~S8005~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 17g~^~2013~^^~Beltsville~^~MD~^^
+~S8223~^~Hemp Oil Canada~^~Hemp Oil Canada analyses~^~2010~^^^^^
+~S8222~^~HempNut, Inc~^~Copyright 1999-2000 HempNut, Inc. www.hempfood.com~^~2000~^^^^^
+~S8282~^~Nature's Path Foods~^~Nature's Path company data~^~2014~^^^^^
+~S8413~^~Mushroom Council~^~Vitamin D in Mushrooms~^~2015~^^^^^
+~S8422~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 19a~^~2014~^^~Beltsville~^~MD~^^
+~S8414~^~American Pistachio Growers~^~Nutrient composition of pistachio nuts~^~2015~^^^^^
+~S743~^~Nutrient Data Laboratory, ARS, USDA~^~University of Idaho Contract No. 53-3198-8-29~^~1989~^^~Beltsville~^~MD~^^
+~S620~^~Produce Marketing Association (PMA)~^~Nutrient Content of Lettuce~^~1991~^^^^^
+~S4532~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 11h~^~2007~^^~Beltsville~^~MD~^^
+~S39~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 0~^~1998~^^~Beltsville~^~MD~^^
+~S86~^~California Pistachio Commission~^~Nutrient Content of Pistachio Nuts~^~1999~^^^^^
+~S84~^~Nutrient Data Laboratory, ARS, USDA~^~Determination of the Tocopherol Content of Selected Foods~^~1992~^^~Beltsville~^~MD~^^
+~S1166~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6j~^~2002~^^~Beltsville~^~MD~^^
+~S1065~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6d~^~2002~^^~Beltsville~^~MD~^^
+~S1504~^~National Sunflower Association~^~Phytochemicals in sunflower kernel (Helianthus annus L.) and selected tree nuts~^~2001~^^~Bismark~^~ND~^^
+~S2221~^~Nutrient Data Laboratory, ARS, USDA~^~Industrial Oils, Shortenings and Margarines~^~2001~^^~Beltsville~^~MD~^^
+~S2401~^~GFA Brands~^~GFA Brands Company Data~^~2004~^^^^^
+~S4381~^~National Pork Board (NPB)~^~Pork Value Cuts 2007~^~2007~^^^^^
+~S2901~^~American Italian Pasta Company~^~Trans fat in egg noodles~^~2004~^^^~MO~^^
+~S3221~^~University of California~^~University of California, General Clinical research Center~^~2005~^^^^^
+~S3541~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 8g~^~2004~^^~Beltsville~^~MD~^^
+~S3921~^~Campbell Soup Company~^~Campbell's Soup Company~^~2006~^^^^^
+~S4344~^~Coco Lopez, Inc.~^~Nutrient content of Coco Lopez coconut cream~^~2007~^^~Miramar~^~FL~^^
+~S6241~^~Kellogg, Co.~^~Kellogg Company Vegetarian Products~^~2009~^^^^^
+~S8462~^~Atlantic Natural Foods~^~Atlantic Natural Foods Company Data~^~2009~^^~Nashville~^~NC~^^
+~S7981~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16i~^~2012~^^~Beltsville~^~MD~^^
+~S8145~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 18a~^~2013~^^~Beltsville~^~MD~^^
+~S8362~^~Kellogg, Co.~^~Kellogg Company Data~^~2015~^^^^^
+~S8242~^~American Egg Board~^~American Egg Board - data on six egg products~^~2014~^^^^^
+~S8410~^~Mushroom Council~^~Vitamin D in Mushrooms~^~2012~^^^^^
+~S205~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1988~^^^^^
+~S69~^~Produce Marketing Association (PMA)~^~Nutrient Content of Raw Lemon/Juice~^~1990~^^^^^
+~S405~^~Nutrient Data Laboratory, ARS, USDA~^~Monitoring Nutrient Content of Selected Key Foods~^~1992~^^~Beltsville~^~MD~^^
+~S626~^~National Food Processors Association~^~NFPA Canned Vegetables~^~1995~^^^^^
+~S226~^~Underwood~^~Nutrient Composition of The Pillsbury Company/Underwood Luncheon Meats~^~1999~^^~St. Paul~^~MN~^^
+~S241~^~Jimmy Dean Foods~^~Nutrient Composition of Jimmy Dean Foods Luncheon Meats~^~1999~^^~Cordova~^~TN~^^
+~S247~^~Schaller & Weber Inc.~^~Nutrient Composition of Schaller and Weber, Inc. Luncheon Meats~^~1999~^^~Long Island City~^~NY~^^
+~S249~^~Ohio Agriculture & Devel Center, Wooster, Ohio, KC Institute OH0002~^~Nutrient Composition of Odom's Tennessee Pride Sausage, Inc. Luncheon Meats~^~1999~^^~Madison~^~TN~^^
+~S141~^~Almond Board of California~^~Nutrient Content of Almonds~^~1999~^^~Modesto~^~CA~^^
+~S21~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 2c~^~1999~^^~Beltsville~^~MD~^^
+~S121~^~Nutrient Data Laboratory, ARS, USDA~^~NDL Report Vitamin E 1991~^~1991~^^~Beltsville~^~MD~^^
+~S441~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5k~^~2001~^^~Beltsville~^~MD~^^
+~S503~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5d~^~2001~^^~Beltsville~^~MD~^^
+~S27~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 4c~^~2001~^^~Beltsville~^~MD~^^
+~S1063~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6b~^~2002~^^~Beltsville~^~MD~^^
+~S2422~^~Kraft Foods, Inc.~^~Kraft Foods~^~2004~^^^^^
+~S3761~^~Anheuser-Busch~^~Anheuser-Busch company data~^~2005~^^^^^
+~S3554~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9q~^~2005~^^~Beltsville~^~MD~^^
+~S4528~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 11e~^~2007~^^~Beltsville~^~MD~^^
+~S4645~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 12f~^~2008~^^~Beltsville~^~MD~^^
+~S6141~^~Western Pistachio Association~^~Nutrient composition of pistachio nuts~^~2009~^^^^^
+~S5801~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Anlaysis Program Wave 12g~^~2008~^^~Beltsville~^~MD~^^
+~S6602~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 13e~^~2009~^^~Beltsville~^~MD~^^
+~S6603~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 13h~^~2009~^^~Beltsville~^~MD~^^
+~S6604~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 14a~^~2009~^^~Beltsville~^~MD~^^
+~S7241~^~AZChia~^~Personal communication with Wayne Coates, PhD of AZChia, professor emeritus at U Arizona~^~2011~^^^^^
+~S7681~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16c~^~2011~^^~Beltsville~^~MD~^^
+~S7841~^~B&G Foods~^~Nutrient composition of Cream of Wheat cereal~^~2011~^^^^^
+~S7984~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2007~^^^^^
+~S8146~^~Meat & Livestock Australia, North America~^~Australian Lamb, Meat & Livestock Australia and Texas Tech Univ~^~2014~^^~Washington~^~DC~^^
+~S8164~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 18b~^~2014~^^~Beltsville~^~MD~^^
+~S8412~^~Mushroom Council~^~Vitamin D in Mushrooms~^~2011~^^^^^
+~S1167~^~Produce Marketing Association (PMA)~^~Nutrient Content of Pineapple~^~1981~^^^^^
+~S604~^~Nutrient Data Laboratory, ARS, USDA~^~Investigation of the carbohydrate fraction of foods . . . raw, processed and prepared~^~1985~^^~Beltsville~^~MD~^^
+~S237~^~Farmland~^~Nutrient Composition of Farmland Foods Luncheon Meats~^~1999~^^~Topeka~^~KS~^^
+~S1069~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6h~^~2002~^^~Beltsville~^~MD~^^
+~S12~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1997~^^^^^
+~S87~^~Nutrient Data Laboratory, ARS, USDA~^~NDL Report Vitamin E 1997~^~1997~^^~Beltsville~^~MD~^^
+~S2~^~National Cattlemen's Beef Association (NCBA)~^~Nutrient Content of Retail Beef Cuts with 1/8 inch Trim Beef~^~2000~^^~Chicago~^~IL~^^
+~S421~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 4d~^~2001~^^~Beltsville~^~MD~^^
+~S541~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5a~^~2001~^^~Beltsville~^~MD~^^
+~S661~^~Dahlgren & Company, Inc.~^~Sunflower analysis for Dahlgren & Company~^~1996~^^~Crookston~^~MN~^^
+~S1783~^~Ministry of Public Health~^~Analysis of Salvia hispanica chia seed~^~2003~^^^^^
+~S2621~^~California Salmon Council~^~Nutrient Analysis of King Salmon Samples Caught off of the California Coast~^~2000~^^~Folsom~^~CA~^^
+~S2381~^~Nutrient Data Laboratory, ARS, USDA~^~American Indian/Alaskan Native Database - Navajo Foods 1999-2000~^~2000~^^~Beltsville~^~MD~^^
+~S2110~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7i~^~2003~^^~Beltsville~^~MD~^^
+~S2703~^~National Cattlemen's Beef Association (NCBA)~^~Beef Value Cuts 2004~^~2004~^^~Chicago~^~IL~^^
+~S2111~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7j~^~2003~^^~Beltsville~^~MD~^^
+~S2782~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8b~^~2004~^^~Beltsville~^~MD~^^
+~S3767~^~Smuckers~^~Smuckers company data~^~2005~^^^^^
+~S3764~^~George weston Bakeries, Inc.~^~George Watson company data~^~2005~^^^^^
+~S3553~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9p~^~2005~^^~Beltsville~^~MD~^^
+~S6401~^~Mushroom Council~^~National Food and Nutrient Analysis Program Wave 13d~^~2009~^^~Dublin~^~CA~^^
+~S6702~^~National Cattlemen's Beef Association (NCBA)~^~NutrientContent of Beef~^~2009~^^~Chicago~^~IL~^^
+~S6962~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 15a~^~2010~^^~Beltsville~^~MD~^^
+~S7341~^~National Cattlemen's Beef Association (NCBA)~^~Nutrient Content of Beef~^~2010~^^~Chicago~^~IL~^^
+~S7282~^~House Foods~^~House Foods Premium Tofu~^~2011~^^^^^
+~S7781~^~Attune Foods, Inc.~^~Nutrient composition of Uncle Sam cereal~^~2007~^^~San Francisco~^~CA~^^
+~S7988~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 17d~^~2013~^^~Beltsville~^~MD~^^
+~S7987~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 17c~^~2013~^^~Beltsville~^~MD~^^
+~S8182~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 18d~^~2014~^^~Beltsville~^~MD~^^
+~S8409~^~Mushroom Council~^~Vitamin D in Mushrooms~^~2013~^^^^^
+~S8502~^~Alaska Seafood Marketing Institute~^~Alaska Seafood Marketing Institute Sockeye Salmon Study~^~2013~^^^^^
+~S183~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1983~^^^^^
+~S381~^~Nutrient Data Laboratory, ARS, USDA~^~Nutrient Analysis of Specialty Fruit Marketed in the United States~^~1987~^^~Beltsville~^~MD~^^
+~S53~^~Produce Marketing Association (PMA)~^~Nutrient Content of Sweet Cherries~^~1990~^^^^^
+~S615~^~Produce Marketing Association (PMA)~^~Nutrient Content of Eggplant~^~1991~^^^^^
+~S618~^~Produce Marketing Association (PMA)~^~Nutrient Content of Carrot~^~1982~^^^^^
+~S837~^~Nutrient Data Laboratory, ARS, USDA~^~Dietary Fiber and Sugars in Commonly Consumed Foods~^~1994~^^~Beltsville~^~MD~^^
+~S225~^~Bar-S Foods~^~Nutrient composition of Bar-S Foods Company Luncheon Meats~^~1999~^^~Clinton~^~OK~^^
+~S238~^~Gallo Salame~^~Nutrient Composition of Gallo Salame/Galileo Foods Luncheon Meats~^~1999~^^~San Lorenzo~^~CA~^^
+~S242~^~Johnsonville Foods Co.~^~Nutrient Composition of Johnsonville Foods Company Luncheon Meats~^~1999~^^~Sheboygan Falls~^~WI~^^
+~S2502~^~Malt-O-Meal Company~^~Malt-O-Meal Company Data~^~2004~^^^^^
+~S3361~^~Masterfoods USA~^~MASTERFOODS USA 2006~^~2006~^^~Hackettstown~^~NJ~^^
+~S2121~^~Nutrient Data Laboratory, ARS, USDA~^~ FCL-NDL Interlaboratory agreement- Data on Dietary fiber and sugar in foods~^~1995~^^~Beltsville~^~MD~^^
+~S2113~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8a~^~2003~^^~Beltsville~^~MD~^^
+~S2644~^~National Cancer Institute (NCI), DHHS~^~Carotenoid content of fruits and vegetables~^~1988~^^^^^
+~S2781~^~Nutrient Data Laboratory, ARS, USDA~^~Nutrient Analysis of Selected Foods, Shankman Labs~^~1985~^^~Beltsville~^~MD~^^
+~S3521~^~McDonalds~^~Data supplied by McDonalds~^~2006~^^^^^
+~S4303~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 9i~^~2005~^^~Beltsville~^~MD~^^
+~S4661~^~Nutrient Data Laboratory, ARS, USDA~^~Proximates in Grass-fed Buffalo~^~2004~^^~Beltsville~^~MD~^^
+~S4921~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 12a~^~2007~^^~Beltsville~^~MD~^^
+~S5805~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Anlaysis Program Wave 13b~^~2009~^^~Beltsville~^~MD~^^
+~S6743~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 14e~^~2010~^^~Beltsville~^~MD~^^
+~S7021~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 15b~^~2010~^^~Beltsville~^~MD~^^
+~S7041~^~Vitasoy~^~Nutritional Values for Select Vitasoy Products~^~2011~^^^^^
+~S7401~^~American Egg Board~^~American Egg Board-Egg Nutrition Center Study~^~2005~^^^^^
+~S7661~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16b~^~2011~^^~Beltsville~^~MD~^^
+~S7662~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16t~^~2011~^^~Beltsville~^~MD~^^
+~S1027~^~Produce Marketing Association (PMA)~^~Nutrient Content of Watermelon~^~1989~^^^^^
+~S4841~^~Cherry Marketing Institute~^~Analysis of physical and chemical properties of cherries~^~1988~^^~Okemos~^~MI~^^
+~S259~^~Hormel Foods Corp.~^~Nutrient Composition of Hormel Foods Corporation Luncheon Meats~^~1999~^^^^^
+~S3242~^~Dawn Food Products~^~Dawn Food Products, Fiber Analysis~^~1990~^^^^^
+~S3~^~University of Wisconsin - Madison, Muscle Biology Laboratory~^~Nutrient Content of Alternate Red Meat Products~^~2000~^^~Madison~^~WI~^^
+~S25~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 4a~^~2001~^^~Beltsville~^~MD~^^
+~S4802~^~Welch's~^~Nutrient content of Welch's purple and white grape juices~^~2008~^^^^^
+~S4644~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 12e~^~2008~^^~Beltsville~^~MD~^^
+~S3381~^~Smuckers~^~Label 2006~^~2006~^^^^^
+~S4281~^~McCormick & Company, Inc.~^~Nutrient Analysis Reports for McCormick Spices and Herbs~^~1993~^^^~MD~^^
+~S4541~^~Campbell Soup Company~^~Campbell's Soup Company~^~2007~^^^^^
+~S7023~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 15d~^~2010~^^~Beltsville~^~MD~^^
+~S7381~^~National Cattlemen's Beef Association (NCBA)~^~Nutrient Analysis of the Beef Alternative Merchandising (BAM) Cuts~^~2010~^^~Chicago~^~IL~^^
+~S7361~^~Food Standards Australia New Zealand~^~NUTTAB 2010 Online Searchable Database~^~2011~^^^^^
+~S7901~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16f~^~2012~^^~Beltsville~^~MD~^^
+~S7929~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16h~^~2012~^^~Beltsville~^~MD~^^
+~S7982~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 17b~^~2012~^^~Beltsville~^~MD~^^
+~S7986~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 17a~^~2013~^^~Beltsville~^~MD~^^
+~S8042~^~Beef + Lamb New Zealand Limited~^~New Zealand Beef + Lamb Study~^~2012~^^~Wellington~^^^
+~S8104~^~Northern Pulse Growers Association~^~2012 U.S. Pulse Quality Survey~^~2012~^^~Bismark~^~ND~^^
+~S8342~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 18e~^~2014~^^~Beltsville~^~MD~^^
+~S8322~^~Malt-O-Meal Company~^~MOM Brands company data for Malt-O-Meal cereals~^~2015~^^^^^
+~S8403~^~Crop & Food Research, New Zealand~^~Nutrient composition of New Zealand Zespri SunGold kiwifruit~^~2015~^^^^^
+~S8406~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 19b~^~2014~^^~Beltsville~^~MD~^^
+~S201~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1984~^^^^^
+~S78~^~Produce Marketing Association (PMA)~^~Nutrient Content of Mushrooms~^~1982~^^^^^
+~S2982~^~University  of Texas at Austin~^~Minerals in selected fruits and fruit juices~^~1975~^^^^^
+~S1161~^~Produce Marketing Association (PMA)~^~Nutrient Content of Tangerines~^~1992~^^^^^
+~S611~^~Produce Marketing Association (PMA)~^~Nutrient Content of Pepper~^~1987~^^^^^
+~S5~^~Food and Drug Administration (FDA), DHHS~^~FDA Study on Labeling~^~1996~^^^^^
+~S230~^~Carl Buddig~^~Nutrient Composition of Carl Buddig and Company Luncheon Meats~^~1999~^^~South Holland~^~IL~^^
+~S227~^~Bil Mar Foods~^~Nutrient Composition of Bil-Mar Foods Luncheon Meats~^~1999~^^~Zeeland~^~MI~^^
+~S3542~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 8h~^~2004~^^~Beltsville~^~MD~^^
+~S2661~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8e~^~2004~^^~Beltsville~^~MD~^^
+~S1067~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6f~^~2002~^^~Beltsville~^~MD~^^
+~S3281~^~Nutrient Data Laboratory, ARS, USDA~^~Analysis of low-fat and new food items~^~1993~^^~Beltsville~^~MD~^^
+~S1381~^~National Cancer Institute (NCI), DHHS~^~NCI Contract No. 1-CN-SS442 - Carotenoids~^~1988~^^^^^
+~S11~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1996~^^^^^
+~S6501~^~The Quaker Oats, Co.~^~Quaker Oats product analyses~^~1986~^^^^^
+~S563~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5e~^~2001~^^~Beltsville~^~MD~^^
+~S682~^~Kellogg, Co.~^~Kellogg Company Data~^~2001~^^^^^
+~S4241~^~Nutrient Data Laboratory, ARS, USDA~^~Ground chicken study - NFNAP Wave 9h~^~2005~^^~Beltsville~^~MD~^^
+~S1701~^~Ocean Spray Cranberries, Inc.~^~Nutrient Analysis of Sweetened Dried Cranberries~^~2002~^^^^^
+~S2921~^~Uncle Ben's~^~Niacin in parboiled rice~^~2005~^^^^^
+~S3081~^~National Grain Sorghum Producers~^~Dietary fiber content of ground whole sorghum grain~^~2005~^^^^^
+~S3770~^~Nestle USA, Inc.~^~Nestle company data~^~2006~^^^^^
+~S3548~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9k~^~2005~^^~Beltsville~^~MD~^^
+~S3544~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9d~^~2004~^^~Beltsville~^~MD~^^
+~S4741~^~Maine Wild Blueberry Company, Inc~^~Nutritive value of frozen wild blueberries~^~2005~^^~Cherryfield~^~ME~^^
+~S4527~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 11d~^~2007~^^~Beltsville~^~MD~^^
+~S7601~^~Meat & Livestock Australia, North America~^~Australian Meat Study; Beef, lamb and veal~^~2012~^^~Washington~^~DC~^^
+~S7701~^~Acadian Seaplants Limited~^~Acadian Seaplants Limited Company Data~^~2012~^^~Dartmount, NS, C~^^^
+~S7930~^~Almond Board of California~^~Nutrient Content of Almonds~^~2013~^^~Modesto~^~CA~^^
+~S8122~^~Nutrient Data Laboratory, ARS, USDA~^~Cornell, NY Game Study 2013~^~2013~^^~Beltsville~^~MD~^^
+~S8102~^~Kellogg, Co.~^~Kellogg Company Vegetarian Products~^~2014~^^^^^
+~S8123~^~United Sorghum Checkoff Program~^~United Sorghum Checkoff Program composition data~^~2014~^^^^^
+~S8386~^~General Mills Inc.~^~General Mills Company Data~^~2015~^^^^^
+~S8404~^~Ocean Spray Cranberries, Inc.~^~Nutrient composition of Ocean Spray products~^~2015~^^^^^
+~S8408~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 19d~^~2015~^^~Beltsville~^~MD~^^
+~S8482~^~American Egg Board~^~American Egg Board - data on four egg products~^~2015~^^^^^
+~S73~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1989~^^^^^
+~S1024~^~Produce Marketing Association (PMA)~^~Nutrient Content of Cantaloupe~^~1985~^^^^^
+~S1206~^~Nutrient Data Laboratory, ARS, USDA~^~Continued monitoring of the nutrient content of selected key foods, University of Georgia~^~1993~^^~Beltsville~^~MD~^^
+~S244~^~Juniata Packing~^~Nutrient Composition of Juniata Packing Luncheon Meats~^~1999~^^^^^
+~S224~^~Tyson Foods, Inc.~^~Nutrient Composition of Tyson Foods, Inc./Weaver Luncheon Meats~^~1999~^^~Springdale~^~AR~^^
+~S2841~^~Alcohol and Tobacco Tax and Trade Bureau~^~Wine and malt beverage data from TTB~^~2004~^^~Beltsville~^~MD~^^
+~S23~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 3b~^~2000~^^~Beltsville~^~MD~^^
+~S3559~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 10e~^~2006~^^~Beltsville~^~MD~^^
+~S26~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 4b~^~2001~^^~Beltsville~^~MD~^^
+~S566~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5L~^~2001~^^~Beltsville~^~MD~^^
+~S6281~^~ConAgra Foods, Inc.~^~Data from ConAgra on Rye Flour 2009~^~2009~^^~Omaha~^~NE~^^
+~S2722~^~Nutrient Data Laboratory, ARS, USDA~^~Analysis of iron, thiamin, and niacin in unenriched white rice~^~2004~^^~Beltsville~^~MD~^^
+~S2941~^~Mushroom Council~^~National Food and Nutrient Analysis Program Wave 9b~^~2004~^^~Dublin~^~CA~^^
+~S7001~^~Quaker Oats Company - The Gatorade Company,  a unit of Pepsi Co.~^~Quaker Oats Company Data~^~2011~^^^^^
+~S3941~^~National Pork Board (NPB)~^~Pork Study - Natural Cuts - 2006~^~2006~^^^^^
+~S3557~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 10c~^~2006~^^~Beltsville~^~MD~^^
+~S4621~^~Pom Wonderful~^~Nutrient Composition of California Wonderful Pomegranates~^~2007~^^^~CA~^^
+~S6441~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 13G~^~2009~^^~Beltsville~^~MD~^^
+~S7081~^~Post Foods~^~Post Foods Company Data~^~2011~^^^^^
+~S7562~^~Kellogg, Co.~^~Kellogg Company Products~^~2012~^^^^^
+~S7541~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 15h~^~2011~^^~Beltsville~^~MD~^^
+~S7985~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2008~^^^^^
+~S8082~^~Post Foods~^~Post Foods Company Data~^~2014~^^^^^
+~S1163~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6l~^~2002~^^~Beltsville~^~MD~^^
+~S1031~^~Produce Marketing Association (PMA)~^~Nutrient Content of Avocado~^~1989~^^^^^
+~S404~^~Nutrient Data Laboratory, ARS, USDA~^~Determination of the Nutrient Content of Selected Candies, Nuts, Condiments, Beverages & Vegetables~^~1985~^^~Beltsville~^~MD~^^
+~S1023~^~Produce Marketing Association (PMA)~^~Nutrient Content of Banana~^~1990~^^^^^
+~S235~^~Country Smoked Meats~^~Nutrient Composition of Country Smoked Meats, Inc. Luncheon Meats~^~1999~^^~Wooster~^~OH~^^
+~S3774~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 10i~^~2006~^^~Beltsville~^~MD~^^
+~S85~^~Pecan Shellers Association~^~Nutrient Content of Pecans~^~1999~^^^^^
+~S561~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5b~^~2000~^^~Beltsville~^~MD~^^
+~S1121~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5n~^~2001~^^~Beltsville~^~MD~^^
+~S1041~^~Nutrient Data Laboratory, ARS, USDA~^~Nutrient composition of Oscar Mayer Luncheon Meats~^~2002~^^~Beltsville~^~MD~^^
+~S1362~^~MGP Ingredients~^~Nutrient Analyses of Vital Wheat Gluten~^~2002~^^~Atchison~^~KS~^^
+~S1068~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6g~^~2002~^^~Beltsville~^~MD~^^
+~S2141~^~Indian Health Service - Alaska~^~Nutrient Value of Alaska Foods~^~1993~^^~Anchorage~^~AK~^^
+~S2961~^~Sunkist Growers, Inc.~^~Nutrient content of citrus fruits~^~2004~^^^^^
+~S3021~^~Mizkan Americas, Inc~^~Nutrient content of different varieties of vinegar~^~2005~^^^^^
+~S2922~^~The Vinegar Institute~^~Nutrient content of vinegars~^~2002~^^~Atlanta~^~GA~^^
+~S5804~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Anlaysis Program Wave 13a~^~2008~^^~Beltsville~^~MD~^^
+~S3561~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8k~^~2004~^^~Beltsville~^~MD~^^
+~S3683~^~Unilever~^~Carb Options Peanut Butter Spread Label Information~^~2006~^^^^^
+~S3547~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9j~^~2005~^^~Beltsville~^~MD~^^
+~S4501~^~Nutrient Data Laboratory, ARS, USDA~^~Salad dressing data~^~2007~^^~Beltsville~^~MD~^^
+~S4561~^~Kellogg, Co.~^~Kellogg Company Data~^~2007~^^^^^
+~S5802~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Anlaysis Program Wave 12h~^~2008~^^~Beltsville~^~MD~^^
+~S4531~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 12b~^~2008~^^~Beltsville~^~MD~^^
+~S6781~^~ConAgra Foods, Inc.~^~Data supplied by ConAgra on millet and sorghum~^~2010~^^~Omaha~^~NE~^^
+~S8002~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 17h~^~2013~^^~Beltsville~^~MD~^^
+~S8165~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 18c~^~2014~^^~Beltsville~^~MD~^^
+~S6~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1991~^^^^^
+~S1026~^~Produce Marketing Association (PMA)~^~Nutrient Content of Honeydew~^~1985~^^^^^
+~S1032~^~Produce Marketing Association (PMA)~^~Nutrient Content of Date~^~1986~^^^^^
+~S608~^~Produce Marketing Association (PMA)~^~Nutrient Content of Tomato~^~1983~^^^^^
+~S625~^~National Food Processors Association~^~NFPA Canned Vegetables~^~1993~^^^^^
+~S619~^~Produce Marketing Association (PMA)~^~Nutrient Content of Broccoli~^~1982~^^^^^
+~S281~^~Food Safety and Inspection Service (FSIS), USDA~^~Nutrient Composition of FSIS 96 NDL SLM Luncheon Meats~^~1999~^^^^^
+~S245~^~Penn Valley Farms~^~Nutrient Composition of Penn Valley Farms, Ltd. Luncheon Meats~^~1999~^^~Chicago~^~IL~^^
+~S7261~^~General Mills Inc.~^~General Mills Company Data compiled early 2011~^~2011~^^^^^
+~S81~^~Nutrient Data Laboratory, ARS, USDA~^~Nutrient Analysis of Selected Foods, University of Georgia~^~1987~^^~Beltsville~^~MD~^^
+~S2801~^~McDonalds~^~McDonald's Supplied Food Analyses~^~2004~^^^^^
+~S7~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1992~^^^^^
+~S9~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1994~^^^^^
+~S482~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5i~^~2001~^^~Beltsville~^~MD~^^
+~S941~^~Hammons Products Company~^~Nutrient Analysis of Black Walnuts~^~2002~^^~Stockton~^~MO~^^
+~S1164~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6m~^~2002~^^~Beltsville~^~MD~^^
+~S1343~^~Nutrient Data Laboratory, ARS, USDA~^~Analysis of carotenoids in selected foods.~^~2002~^^~Beltsville~^~MD~^^
+~S1921~^~Mead Johnson~^~Mead Johnson Infant Formula 2003~^~2003~^^^^^
+~S1581~^~Nutrient Data Laboratory, ARS, USDA~^~Variety Meats All Food Groups~^~2003~^^~Beltsville~^~MD~^^
+~S2142~^~National Sunflower Association~^~National Sunflower Association Analysis of Vitamin E in Dry Roasted and Oil Roasted Sunflower Seeds~^~2003~^^~Bismark~^~ND~^^
+~S3765~^~H.J. Heinz, Co.~^~Heinz company data~^~2005~^^^^^
+~S4261~^~Soyfood Assciation of North America~^~Soymilk Nutrient Composition Data~^~2007~^^~Washington~^~DC~^^
+~S4525~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 11b~^~2007~^^~Beltsville~^~MD~^^
+~S6881~^~National Pork Board (NPB)~^~Pork Loin-not enhanced Phase2 2009~^~2009~^^^^^
+~S7582~^~General Mills Inc.~^~General Mills Company Data~^~2012~^^^^^
+~S7722~^~The Quaker Oats, Co.~^~Quaker Oats Company Data~^~2012~^^^^^
+~S8262~^~AZChia~^~Amino acid analysis of goji berries~^~2012~^^^^^
+~S8411~^~Mushroom Council~^~Vitamin D in Mushrooms~^~2014~^^^^^
+~S1181~^~Produce Marketing Association (PMA)~^~Nutrient Content of Papaya~^~1984~^^^^^
+~S617~^~Produce Marketing Association (PMA)~^~Nutrient Content of Radish~^~1982~^^^^^
+~S627~^~National Food Processors Association~^~NFPA Canned Vegetables~^~1994~^^^^^
+~S1202~^~Nutrient Data Laboratory, ARS, USDA~^~Nutrient content of ethnic and geographic specific foods, Southern Testing and Research Laboratories~^~1995~^^~Beltsville~^~MD~^^
+~S233~^~Citterio USA Corp.~^~Nutrient Composition of Citterio USA Corporation Luncheon Meats~^~1999~^^~Freeland~^~PA~^^
+~S221~^~National Cattlemen's Beef Association (NCBA)~^~Beef study, Texas A&M University~^~1992~^^~Chicago~^~IL~^^
+~S4601~^~Campbell Soup Company~^~Campbell Soup Company~^~2008~^^^^^
+~S1222~^~Nutrient Data Laboratory, ARS, USDA~^~Analysis of fat-free and reduced fat food items, University of Georgia~^~1992~^^~Beltsville~^~MD~^^
+~S101~^~California Pistachio Commission~^~Nutrition Labeling Database for California Pistachios~^~1994~^^^^^
+~S363~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5c~^~2001~^^~Beltsville~^~MD~^^
+~S565~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5h~^~2001~^^~Beltsville~^~MD~^^
+~S702~^~The Quaker Oats, Co.~^~Quaker Oats Company Data~^~2001~^^^^^
+~S1221~^~Flax Council of Canada~^~Nutrient Analysis of Flaxseed by Medallion Lab~^~1997~^^~Winnipeg~^^^
+~S2662~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8f~^~2004~^^~Beltsville~^~MD~^^
+~S1162~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6k~^~2002~^^~Beltsville~^~MD~^^
+~S2106~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7e~^~2003~^^~Beltsville~^~MD~^^
+~S1122~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5o~^~2001~^^~Beltsville~^~MD~^^
+~S2104~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7c~^~2002~^^~Beltsville~^~MD~^^
+~S3741~^~A&M Cookie Company Canada - Archway~^~A&M Cofokie Company, Canada - Archway Data~^~2005~^^~Kitchener, ON~^^^
+~S2102~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7a~^~2002~^^~Beltsville~^~MD~^^
+~S3742~^~ConAgra, Inc.~^~ConAgra Company Data~^~2005~^^~Omaha~^~NE~^^
+~S3682~^~Nutrient Data Laboratory, ARS, USDA~^~Nutrient Content of Agave~^~2002~^^~Beltsville~^~MD~^^
+~S3641~^~Mushroom Council~^~Mushroom Council Vitamin D Study~^~2006~^^~Dublin~^~CA~^^
+~S3550~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9m~^~2005~^^~Beltsville~^~MD~^^
+~S4643~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 12d~^~2008~^^~Beltsville~^~MD~^^
+~S5665~^~National Pork Board (NPB)~^~Nutrient content of ground pork~^~2007~^^^^^
+~S6741~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 14c~^~2009~^^~Beltsville~^~MD~^^
+~S6541~^~Kellogg, Co.~^~Kellogg Company Data~^~2010~^^^^^
+~S6605~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 14b~^~2010~^^~Beltsville~^~MD~^^
+~S7441~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8j~^~2004~^^~Beltsville~^~MD~^^
+~S7861~^~Kellogg, Co.~^~Kellogg Company Data, received late 2012~^~2012~^^^^^
+~S7983~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2006~^^^^^
+~S8061~^~The Quaker Oats, Co.~^~Quaker Oats Company Data~^~2014~^^^^^
+~S2985~^~Castle and Cooke (Dole)~^~Select nutrients in pineapple fruit and juice~^~1979~^^^^^
+~S204~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1987~^^^^^
+~S1183~^~Produce Marketing Association (PMA)~^~Nutrient Content of Apple~^~1990~^^^^^
+~S1821~^~Utah State University~^~Composition of Foods~^~1980~^^^^^
+~S228~^~Bridgford~^~Nutrient Composition of Bridgford Foods of Illinois, Inc. Luncheon Meats~^~1999~^^~Chicago~^~IL~^^
+~S222~^~Fred Usinger Inc.~^~Nutrient Composition of Fred Usinger, Inc. Luncheon Meats~^~1999~^^~Milwaukee~^~WI~^^
+~S1203~^~National Institutes of Health (NIH)~^~Carotenoid analyses of U.S. foods, Food Composition Laboratory~^~1997~^^^^^
+~S6301~^~USDA-ARS Tropical Agricultural Research Station~^~Nutrient content of mamey sapote fruit grown in Puerto Rico~^~2009~^^^^^
+~S74~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1990~^^^^^
+~S80~^~Mushroom Council~^~Nutrient Content of Mushrooms~^~1999~^^~Dublin~^~CA~^^
+~S481~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5g~^~2001~^^~Beltsville~^~MD~^^
+~S582~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5m~^~2001~^^~Beltsville~^~MD~^^
+~S1001~^~Southeastern Regional Lab (ARS South Atlantic Area), Georgia, USDA~^~Protein hydrolysis studies on tree nuts~^~1981~^^~Athens~^~GA~^^
+~S1341~^~California Prune Board~^~Carotenoid Analysis of Prunes~^~2000~^^^^^
+~S2103~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7b~^~2002~^^~Beltsville~^~MD~^^
+~S2202~^~Nutrient Data Laboratory, ARS, USDA~^~Nutrient Content of Legumes and Some Cereal and Baked Products~^~1984~^^~Beltsville~^~MD~^^
+~S2107~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7f~^~2003~^^~Beltsville~^~MD~^^
+~S4101~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8d~^~2004~^^~Beltsville~^~MD~^^
+~S2702~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8i~^~2004~^^~Beltsville~^~MD~^^
+~S3061~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 9f~^~2004~^^~Beltsville~^~MD~^^
+~S3301~^~Nutrient Data Laboratory, ARS, USDA~^~Ham and ham products, NFNAP~^~2003~^^~Beltsville~^~MD~^^
+~S4061~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2004~^^^^^
+~S3841~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2003~^^^^^
+~S2741~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 9a~^~2004~^^~Beltsville~^~MD~^^
+~S4901~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 12x repeats~^~2008~^^~Beltsville~^~MD~^^
+~S4642~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 12c~^~2008~^^~Beltsville~^~MD~^^
+~S6961~^~The Quaker Oats, Co.~^~Quaker company data~^~2011~^^^^^
+~S7181~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 15e~^~2011~^^~Beltsville~^~MD~^^
+~S7421~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 15f~^~2011~^^~Beltsville~^~MD~^^
+~S7926~^~National Cattlemen's Beef Association (NCBA)~^~Nutrient Content of Beef~^~2012~^^~Chicago~^~IL~^^
+~S7961~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16k~^~2012~^^~Beltsville~^~MD~^^
+~S7941~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16j~^~2012~^^~Beltsville~^~MD~^^
+~S7942~^~Kamut International, Ltd.~^~Nutrient Composition of Kamut~^~2013~^^^^^
+~S8045~^~General Mills Inc.~^~General Mills Company Data~^~2014~^^^^^
+~S402~^~National Food Processors Association~^~Investigations to Determine Nutrient Content of Selected Fruits and Vegetables~^~1980~^^^^^
+~S616~^~Produce Marketing Association (PMA)~^~Nutrient content of Broccoflower~^~1992~^^^^^
+~S822~^~Kraft Foods, Inc.~^~Kraft Study, Hazelton Lab~^~1992~^^^^^
+~S248~^~Sutton Place Gourmet~^~Nutrient Composition of Sutton Place Gourmet Luncheon Meats~^~1999~^^^^^
+~S231~^~Carando Gourmet~^~Nutrient Composition of Carando Gourmet Foods Corporation Luncheon Meats~^~1999~^^~Springfield~^~MA~^^
+~S2581~^~Nutrient Data Laboratory, ARS, USDA~^~Fiber Content of Selected Foods~^~1987~^^~Beltsville~^~MD~^^
+~S79~^~California Walnut Commission~^~Nutrient Content of Walnuts~^~1999~^^~Modesto~^~CA~^^
+~S22~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 3a~^~2000~^^~Beltsville~^~MD~^^
+~S82~^~Nutrient Data Laboratory, ARS, USDA~^~Determination of the Tocopherol Content of Selected Foods~^~1990~^^~Beltsville~^~MD~^^
+~S502~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5j~^~2001~^^~Beltsville~^~MD~^^
+~S562~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 4f~^~2000~^^~Beltsville~^~MD~^^
+~S14~^~National Cattlemen's Beef Association (NCBA)~^~Nutrient Content of Ground Beef~^~2000~^^^^^
+~S961~^~National Sunflower Association~^~Nutrient Analysis of Oil Roasted Sunflower Seeds~^~2000~^^~Bismark~^~ND~^^
+~S1562~^~Association of Spanish Exporters of Table Olives~^~Analysis of Spanish Olives~^~1993~^^^^^
+~S2682~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~2000~^^^^^
+~S3743~^~Continental Mills, Krusteaz~^~Continental Mills company data~^~2005~^^^^^
+~S4522~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 11g~^~2007~^^~Beltsville~^~MD~^^
+~S3481~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 8c~^~2004~^^~Beltsville~^~MD~^^
+~S3501~^~Mizkan Americas, Inc~^~Nutrient analysis of vinegar~^~2006~^^^^^
+~S3766~^~Pillsbury Co.~^~Pillsbury company data~^~2005~^^^^^
+~S3402~^~California Strawberry Commission~^~Analyses for nutrition labeling of strawberries~^~2005~^^~Watsonville~^~CA~^^
+~S3551~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9n~^~2005~^^~Beltsville~^~MD~^^
+~S3901~^~The Quaker Oats, Co.~^~Quaker Oats Company Data~^~2006~^^^^^
+~S4021~^~Vitasoy~^~Nutritional Values for Select Vitasoy Products~^~2006~^^^^^
+~S3546~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program, Wave 9h~^~2005~^^~Beltsville~^~MD~^^
+~S5803~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Anlaysis Program Wave 12i~^~2008~^^~Beltsville~^~MD~^^
+~S7665~^~General Mills Inc.~^~General Mills Company Data compiled late 2011~^~2011~^^^^^
+~S7521~^~Natlional Fisheries Institute~^~National Food and Nutrient Analysis Program Wave 15s~^~2011~^^~McLean~^~VA~^^
+~S7761~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16e~^~2012~^^~Beltsville~^~MD~^^
+~S7928~^~Alliance for Potato Research & Education~^~Alliance for Potato Research & Eucation~^~2013~^^^^^
+~S7944~^~Campbell Soup Company~^~Campbell2013~^~2013~^^^^^
+~S8407~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 19c~^~2015~^^~Beltsville~^~MD~^^
+~S203~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1986~^^^^^
+~S641~^~National Food Processors Association~^~NFPA Canned Vegetables~^~1992~^^^^^
+~S406~^~Nutrient Data Laboratory, ARS, USDA~^~Nutritional Evaluation of the Solid and Liquid Portion of Selected Canned Fruits and Vegetables~^~1986~^^~Beltsville~^~MD~^^
+~S251~^~Bob Evans Farms~^~Nutrient Composition of Bob Evans Farms Luncheon Meats~^~1999~^^~Columbus~^~OH~^^
+~S2122~^~Nutrient Data Laboratory, ARS, USDA~^~Analyses of Selenium in Foods, Hazleton Laboratories~^~1989~^^~Beltsville~^~MD~^^
+~S10~^~Food and Drug Administration (FDA), DHHS~^~FDA Total Diet Study~^~1995~^^^^^
+~S20~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 2b~^~1999~^^~Beltsville~^~MD~^^
+~S564~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 5f~^~2001~^^~Beltsville~^~MD~^^
+~S1082~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6i~^~2002~^^~Beltsville~^~MD~^^
+~S1861~^~Mead Johnson~^~Lipil infant formula~^~2003~^^^^^
+~S922~^~General Mills Inc.~^~General Mills Company Data~^~2005~^^^^^
+~S1742~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program - Industrial Flour~^~2000~^^~Beltsville~^~MD~^^
+~S1066~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 6e~^~2002~^^~Beltsville~^~MD~^^
+~S2108~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 7g~^~2003~^^~Beltsville~^~MD~^^
+~S4141~^~Almond Board of California~^~Nutrient content of almonds~^~2006~^^~Modesto~^~CA~^^
+~S3942~^~National Pork Board (NPB)~^~Pork Study - Enhanced Cuts - 2006~^~2006~^^^^^
+~S4526~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 11c~^~2007~^^~Beltsville~^~MD~^^
+~S6362~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 13x~^~2009~^^~Beltsville~^~MD~^^
+~S6742~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 14d~^~2010~^^~Beltsville~^~MD~^^
+~S7042~^~Kellogg, Co.~^~Kellogg Company Vegetarian Products~^~2011~^^^^^
+~S7301~^~California Table Grape Commission~^~Vitamin C in grapes~^~1999~^^^^^
+~S7621~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16a~^~2011~^^~Beltsville~^~MD~^^
+~S7481~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 15g~^~2011~^^~Beltsville~^~MD~^^
+~S7721~^~Nutrient Data Laboratory, ARS, USDA~^~National Food and Nutrient Analysis Program Wave 16d~^~2012~^^~Beltsville~^~MD~^^
+~S7801~^~ACH Food Companies~^~Study of phytosterols in corn oil from the manufacturer~^~2012~^^~Cordova~^~TN~^^
+~S7927~^~Malt-O-Meal Company~^~MOM Brands company data for Malt-O-Meal cereals~^~2013~^^^^^
+~S7923~^~ConAgra Foods, Inc.~^~ConAgra Foods - Company Data~^~2012~^^~Omaha~^~NE~^^
+~S8142~^~National Cattlemen's Beef Association (NCBA)~^~National Cattlemen's Beef Assoc (NCBA)/North American Meat Assoc (NAMA) Special Fed Veal Study~^~2013~^^~Chicago~^~IL~^^
+~S8144~^~National Cattlemen's Beef Association (NCBA)~^~Ground Beef Study~^~2014~^^~Chicago~^~IL~^^
+~S8103~^~Northern Pulse Growers Association~^~2011 U.S. Pulse Quality Survey~^~2011~^^~Bismark~^~ND~^^
