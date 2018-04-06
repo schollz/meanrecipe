@@ -45,7 +45,9 @@ func CreateClusters(folder string) (err error) {
 		for _, ing := range recipe.Ingredients {
 			x[allIngredientsMap[ing.Ingredient]] = 1.0
 		}
-		if sum(x) == 0 {
+
+		// require at least three ingredients
+		if sum(x) < 3 {
 			continue
 		}
 		pairData[i] = x

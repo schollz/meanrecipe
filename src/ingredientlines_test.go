@@ -16,3 +16,14 @@ func TestIngredientLines(t *testing.T) {
 	fmt.Println(lines)
 	assert.Equal(t, `-   1 cup nut butter of choice (i recommend chocolate hazelnut butter)`, strings.TrimSpace(lines[0]))
 }
+
+func TestIngredientLinesURL(t *testing.T) {
+	url := "http://thepioneerwoman.com/cooking/knock-you-naked-brownies/"
+	fname, err := downloadOne(".", url)
+	assert.Nil(t, err)
+	lines, err := GetIngredientLines(fname)
+	assert.Nil(t, err)
+	fmt.Println(strings.Join(lines,
+		"\n"))
+
+}

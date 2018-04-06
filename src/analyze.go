@@ -24,11 +24,15 @@ func AnalyzeClusters(folder string) (err error) {
 	}
 	log.Debugf("loaded %d clusters", len(clusters))
 
-	err = analyzeCluster(clusters[0])
+	r, err := analyzeCluster(clusters[0])
+	if err != nil {
+		return
+	}
+	fmt.Printf("%+v", r)
 	return
 }
 
-func analyzeCluster(cluster Cluster) (err error) {
+func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 	log.Debugf("analyzing cluster %d with %d recipes", cluster.ID, cluster.NumRecipes)
 	// find ingredient with the most data
 	startingIngredient := ""
@@ -51,7 +55,6 @@ func analyzeCluster(cluster Cluster) (err error) {
 	log.Debugf("ingredients to consider: %+v", ingredientsToConsider)
 
 	startingVolume := cluster.Ingredient[startingIngredient].Average
-	var r Recipe
 	r.Ingredients = []Ingredient{Ingredient{
 		Cups:       startingVolume,
 		Ingredient: startingIngredient,
@@ -75,7 +78,6 @@ func analyzeCluster(cluster Cluster) (err error) {
 			Ingredient: ing2,
 		})
 	}
-	log.Debugf("recipe: %+v", r)
 
 	// try to improve the relationships between ingredients
 	adjust := make([]float64, len(r.Ingredients))

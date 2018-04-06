@@ -30,7 +30,7 @@ func getCorpusCount(line string) (count int) {
 		return 0
 	}
 	for _, word := range ingredientCorpus {
-		if strings.Contains(line, word) {
+		if strings.Contains(" "+line+" ", " "+word+" ") {
 			count++
 		}
 	}
