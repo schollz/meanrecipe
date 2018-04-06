@@ -2,7 +2,6 @@ package consensuscookery
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"path"
 
@@ -22,28 +21,28 @@ func Learn(folder string) (err error) {
 	}
 	log.Debugf("using %d recipes for learning", len(recipes))
 
-	volumePairsMap := make(map[string]int)
+	allIngredientsMap := make(map[string]int)
 	for _, recipe := range recipes {
-		for pair := range recipe.VolumeRelations {
-			volumePairsMap[pair] = 0
+		for _, ing := range recipe.Ingredients {
+			allIngredientsMap[ing.Ingredient] = 0
 		}
 	}
-	volumePairs := make([]string, len(volumePairsMap))
+	allIngredients := make([]string, len(allIngredientsMap))
 	i := 0
-	for pair := range volumePairsMap {
-		volumePairs[i] = pair
-		volumePairsMap[pair] = i
+	for ing := range allIngredientsMap {
+		allIngredients[i] = ing
+		allIngredientsMap[ing] = i
 		i++
 	}
-	log.Debugf("got %d volume pairs", len(volumePairs))
+	log.Debugf("got %d ingredients", len(allIngredients))
 
 	pairData := make([][]float64, len(recipes))
 	recipeNum := make(map[int]int)
 	i = 0
 	for j, recipe := range recipes {
-		x := make([]float64, len(volumePairs))
-		for pair := range recipe.VolumeRelations {
-			x[volumePairsMap[pair]] = recipe.VolumeRelations[pair]
+		x := make([]float64, len(allIngredients))
+		for _, ing := range recipe.Ingredients {
+			x[allIngredientsMap[ing.Ingredient]] = 1.0
 		}
 		if sum(x) == 0 {
 			continue
@@ -53,12 +52,11 @@ func Learn(folder string) (err error) {
 		i++
 	}
 	pairData = pairData[:i]
-	fmt.Println(pairData)
 	log.Debugf("got %d non-zero volume pairs", len(pairData))
 
 	numClusters := 30
 	labels, err := kmeans.Kmeans(pairData, numClusters, kmeans.SquaredEuclideanDistance, 10)
-	fmt.Println(labels)
+
 	clusters := make([]Cluster, numClusters)
 	for i := 0; i < numClusters; i++ {
 		clusters[i].ID = i
