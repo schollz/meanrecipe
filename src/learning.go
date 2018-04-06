@@ -55,29 +55,50 @@ func Learn(folder string) (err error) {
 	log.Debugf("got %d non-zero volume pairs", len(pairData))
 
 	numClusters := 30
-	labels, err := kmeans.Kmeans(pairData, numClusters, kmeans.SquaredEuclideanDistance, 10)
+	labels, err := kmeans.Kmeans(pairData, numClusters, kmeans.ManhattanDistance, 10)
 
 	clusters := make([]Cluster, numClusters)
 	for i := 0; i < numClusters; i++ {
 		clusters[i].ID = i
-		clusters[i].VolumeRelations = make(map[string][]float64)
+		clusters[i].Ingredient = make(map[string]*Collection)
+		clusters[i].IngredientRelations = make(map[string]*Collection)
 	}
 	for i, label := range labels {
 		recipeIndex := recipeNum[i]
 		clusters[label].Recipes = append(clusters[label].Recipes, recipes[recipeIndex])
 		for pair := range recipes[recipeIndex].VolumeRelations {
-			if _, ok := clusters[label].VolumeRelations[pair]; !ok {
-				clusters[label].VolumeRelations[pair] = []float64{}
+			if _, ok := clusters[label].IngredientRelations[pair]; !ok {
+				clusters[label].IngredientRelations[pair] = &Collection{All: []float64{}}
 			}
-			clusters[label].VolumeRelations[pair] = append(clusters[label].VolumeRelations[pair], recipes[recipeIndex].VolumeRelations[pair])
+			clusters[label].IngredientRelations[pair] = &Collection{
+				All: append(clusters[label].IngredientRelations[pair].All, recipes[recipeIndex].VolumeRelations[pair]),
+			}
+		}
+		for _, ing := range recipes[recipeIndex].Ingredients {
+			if _, ok := clusters[label].Ingredient[ing.Ingredient]; !ok {
+				clusters[label].Ingredient[ing.Ingredient] = &Collection{All: []float64{}}
+			}
+			clusters[label].Ingredient[ing.Ingredient] = &Collection{
+				All: append(clusters[label].Ingredient[ing.Ingredient].All, ing.Amount),
+			}
 		}
 	}
 	for i := 0; i < numClusters; i++ {
 		clusters[i].NumRecipes = len(clusters[i].Recipes)
+		for key := range clusters[i].Ingredient {
+			clusters[i].Ingredient[key].Process()
+		}
+		for key := range clusters[i].IngredientRelations {
+			clusters[i].IngredientRelations[key].Process()
+		}
 	}
 
-	clustersB, _ := json.MarshalIndent(clusters, "", " ")
-	ioutil.WriteFile(path.Join(folder, "clusters.json"), clustersB, 0644)
+	clustersB, err := json.MarshalIndent(clusters, "", " ")
+	if err != nil {
+		return
+	}
+	err = ioutil.WriteFile(path.Join(folder, "clusters.json"), clustersB, 0644)
+	log.Debugf("written to %s", path.Join(folder, "clusters.json"))
 	return
 }
 
