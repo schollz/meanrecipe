@@ -11,13 +11,6 @@ import (
 	log "github.com/cihub/seelog"
 )
 
-type Ingredient struct {
-	OriginalLine string
-	Ingredient   string
-	Measure      string
-	Amount       float64
-}
-
 var ingredientList []string
 var possibleMeasures map[string]string
 
@@ -140,9 +133,10 @@ func determineAmount(line string) (amount float64, err error) {
 	return
 }
 
-func ParseIngredients(fname string) (err error) {
+// ParseIngredients will return the ingredients found in the file
+func ParseIngredients(fname string) (ingredients []Ingredient, err error) {
 	ingredientLines, err := GetIngredientLines(fname)
-	ingredients := []Ingredient{}
+	ingredients = []Ingredient{}
 	for _, line := range ingredientLines {
 		ingredient := Ingredient{OriginalLine: line}
 
