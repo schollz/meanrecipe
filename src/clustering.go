@@ -4,12 +4,13 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"path"
+	"sort"
 
 	"github.com/bugra/kmeans"
 	log "github.com/cihub/seelog"
 )
 
-func Learn(folder string) (err error) {
+func CreateClusters(folder string) (err error) {
 	bRecipes, err := ioutil.ReadFile(path.Join(folder, "recipes.json"))
 	if err != nil {
 		return
@@ -60,38 +61,43 @@ func Learn(folder string) (err error) {
 	clusters := make([]Cluster, numClusters)
 	for i := 0; i < numClusters; i++ {
 		clusters[i].ID = i
-		clusters[i].Ingredient = make(map[string]*Collection)
-		clusters[i].IngredientRelations = make(map[string]*Collection)
+		clusters[i].Ingredient = make(map[string]Collection)
+		clusters[i].IngredientRelations = make(map[string]Collection)
 	}
 	for i, label := range labels {
 		recipeIndex := recipeNum[i]
 		clusters[label].Recipes = append(clusters[label].Recipes, recipes[recipeIndex])
 		for pair := range recipes[recipeIndex].VolumeRelations {
 			if _, ok := clusters[label].IngredientRelations[pair]; !ok {
-				clusters[label].IngredientRelations[pair] = &Collection{All: []float64{}}
+				clusters[label].IngredientRelations[pair] = Collection{All: []float64{}}
 			}
-			clusters[label].IngredientRelations[pair] = &Collection{
+			clusters[label].IngredientRelations[pair] = Collection{
 				All: append(clusters[label].IngredientRelations[pair].All, recipes[recipeIndex].VolumeRelations[pair]),
 			}
 		}
 		for _, ing := range recipes[recipeIndex].Ingredients {
 			if _, ok := clusters[label].Ingredient[ing.Ingredient]; !ok {
-				clusters[label].Ingredient[ing.Ingredient] = &Collection{All: []float64{}}
+				clusters[label].Ingredient[ing.Ingredient] = Collection{All: []float64{}}
 			}
-			clusters[label].Ingredient[ing.Ingredient] = &Collection{
-				All: append(clusters[label].Ingredient[ing.Ingredient].All, ing.Amount),
+			clusters[label].Ingredient[ing.Ingredient] = Collection{
+				All: append(clusters[label].Ingredient[ing.Ingredient].All, ing.Cups),
 			}
 		}
 	}
 	for i := 0; i < numClusters; i++ {
 		clusters[i].NumRecipes = len(clusters[i].Recipes)
 		for key := range clusters[i].Ingredient {
-			clusters[i].Ingredient[key].Process()
+			clusters[i].Ingredient[key] = ProcessCollection(clusters[i].Ingredient[key])
 		}
 		for key := range clusters[i].IngredientRelations {
-			clusters[i].IngredientRelations[key].Process()
+			clusters[i].IngredientRelations[key] = ProcessCollection(clusters[i].IngredientRelations[key])
 		}
 	}
+
+	// sort clusters by the number of recipes
+	sort.Slice(clusters, func(i, j int) bool {
+		return clusters[i].NumRecipes > clusters[j].NumRecipes
+	})
 
 	clustersB, err := json.MarshalIndent(clusters, "", " ")
 	if err != nil {

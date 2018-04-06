@@ -8,55 +8,56 @@ import (
 )
 
 type Cluster struct {
-	Recipes             []Recipe               `json:"recipes"`
-	ID                  int                    `json:"id"`
-	NumRecipes          int                    `json:"num_clusters"`
-	IngredientRelations map[string]*Collection `json:"ingredient_relations_collection"`
-	Ingredient          map[string]*Collection `json:"ingredient_collection"`
+	Recipes             []Recipe              `json:"recipes,omitempty"`
+	ID                  int                   `json:"id,omitempty"`
+	NumRecipes          int                   `json:"num_recipes,omitempty"`
+	IngredientRelations map[string]Collection `json:"ingredient_relations_collection,omitempty"`
+	Ingredient          map[string]Collection `json:"ingredient_collection,omitempty"`
 }
 
 type Collection struct {
-	Number  int       `json:"num"`
-	All     []float64 `json:"all"`
-	Average float64   `json:"average"`
-	SD      float64   `json"sd"`
+	Number  int       `json:"num,omitempty"`
+	All     []float64 `json:"all,omitempty"`
+	Average float64   `json:"average,omitempty"`
+	SD      float64   `json"sd,omitempty"`
 }
 
-func (c *Collection) Process() {
+func ProcessCollection(c Collection) Collection {
 	c.Number = len(c.All)
 	if c.Number == 0 {
-		return
+		return c
 	}
 	var err error
 	c.Average, err = stats.Trimean(stats.Float64Data(c.All))
 	if err != nil || math.IsNaN(c.Average) {
 		c.Average = c.All[0]
 	}
+	return c
 }
 
 // Recipe is the parsed recipe from a file
 type Recipe struct {
-	URL             string             `json:"url"`
-	Filename        string             `json:"filename"`
-	Ingredients     []Ingredient       `json:"ingredients"`
-	VolumeRelations map[string]float64 `json:"volume_relations"`
+	URL             string             `json:"url,omitempty"`
+	Filename        string             `json:"filename,omitempty"`
+	Ingredients     []Ingredient       `json:"ingredients,omitempty"`
+	VolumeRelations map[string]float64 `json:"volume_relations,omitempty"`
 }
 
 // Ingredient species the ingredients
 type Ingredient struct {
-	OriginalLine string  `json:"line"`
-	Ingredient   string  `json:"ingredient"`
-	Measure      string  `json:"measure"`
-	Amount       float64 `json:"amount"`
-	Cups         float64 `json:"cups"`
+	OriginalLine string  `json:"line,omitempty"`
+	Ingredient   string  `json:"ingredient,omitempty"`
+	Measure      string  `json:"measure,omitempty"`
+	Amount       float64 `json:"amount,omitempty"`
+	Cups         float64 `json:"cups,omitempty"`
 }
 
 func (p Ingredient) String() string {
-	b, _ := json.Marshal(p)
+	b, _ := json.MarshalIndent(p, "", " ")
 	return string(b)
 }
 
 func (p Recipe) String() string {
-	b, _ := json.Marshal(p)
+	b, _ := json.MarshalIndent(p, "", " ")
 	return string(b)
 }

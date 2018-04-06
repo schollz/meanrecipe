@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestLearnBasic(t *testing.T) {
+func TestClustering(t *testing.T) {
 	defer log.Flush()
-	err := Learn("testing/chocolate_chip_cookies")
+	err := CreateClusters("testing/chocolate_chip_cookies")
 	assert.Nil(t, err)
 }
