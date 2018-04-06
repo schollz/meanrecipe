@@ -110,6 +110,14 @@ func analyzeCluster(cluster Cluster) (err error) {
 	for i := range bestAdjust {
 		r.Ingredients[i].Cups += bestAdjust[i]
 	}
+
+	for i := range r.Ingredients {
+		amount, measure, amountStr, _ := determineMeasurementsFromCups(r.Ingredients[i].Cups)
+		r.Ingredients[i].Amount = amount
+		r.Ingredients[i].Measure = measure
+		r.Ingredients[i].OriginalLine = fmt.Sprintf("%s %s %s", amountStr, measure, r.Ingredients[i].Ingredient)
+	}
+
 	log.Debugf("ingredients: %+v", r.Ingredients)
 
 	return

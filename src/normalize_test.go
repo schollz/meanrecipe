@@ -25,3 +25,9 @@ func TestNormalizeRandom(t *testing.T) {
 	assert.Nil(t, err)
 	assert.Equal(t, float64(1.25), cups)
 }
+
+func TestDetermineMeasurements(t *testing.T) {
+	amount, measure, amountStr, err := determineMeasurementsFromCups(1.24)
+	assert.Nil(t, err)
+	fmt.Println(amount, measure, amountStr)
+}
