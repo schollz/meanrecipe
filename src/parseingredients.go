@@ -55,6 +55,20 @@ func init() {
 		"cups":        "cup",
 		"cup":         "cup",
 		"c":           "cup",
+		"ounces":      "ounce",
+		"ounce":       "ounce",
+		"oz":          "ounce",
+		"grams":       "gram",
+		"g":           "gram",
+		"gram":        "gram",
+		"milliliter":  "milliliter",
+		"ml":          "milliliter",
+		"pint":        "pint",
+		"pints":       "pint",
+		"quart":       "quart",
+		"quarts":      "quart",
+		"pound":       "pound",
+		"pounds":      "pound",
 	}
 }
 
@@ -79,9 +93,10 @@ func determineIngredient(line string) (ingredient string, err error) {
 // determineMeasure will look at each word in the line sequentially and pick the
 // first one that matches a known measurement
 func determineMeasure(line string) (measure string, err error) {
+	line = strings.Replace(line, ".", "", -1)
 	for _, word := range strings.Fields(line) {
-		if _, ok := possibleMeasures[word]; ok {
-			measure = word
+		var ok bool
+		if measure, ok = possibleMeasures[word]; ok {
 			return
 		}
 	}
@@ -133,42 +148,48 @@ func determineAmount(line string) (amount float64, err error) {
 	return
 }
 
+func parseIngredientFromLine(line string) (ingredient Ingredient, err error) {
+	ingredient = Ingredient{OriginalLine: line}
+
+	// remove parentheses
+	re := regexp.MustCompile(`(?s)\((.*)\)`)
+	m := re.FindAllStringSubmatch(line, -1)
+	if len(m) > 0 {
+		for _, m1 := range m {
+			line = strings.Replace(line, m1[0], "", -1)
+		}
+		log.Debugf("removed parentheses: '%s'", line)
+	}
+
+	// determine ingredient
+	ingredient.Ingredient, err = determineIngredient(line)
+	if err != nil {
+		return
+	}
+
+	// determine measure
+	ingredient.Measure, err = determineMeasure(line)
+	if err != nil {
+		log.Debug(err)
+	}
+
+	// determine amount
+	ingredient.Amount, err = determineAmount(line)
+	if err != nil {
+		log.Debug(err)
+	}
+	return
+}
+
 // ParseIngredients will return the ingredients found in the file
 func ParseIngredients(fname string) (ingredients []Ingredient, err error) {
 	ingredientLines, err := GetIngredientLines(fname)
 	ingredients = []Ingredient{}
 	for _, line := range ingredientLines {
-		ingredient := Ingredient{OriginalLine: line}
-
-		// remove parentheses
-		re := regexp.MustCompile(`(?s)\((.*)\)`)
-		m := re.FindAllStringSubmatch(line, -1)
-		if len(m) > 0 {
-			for _, m1 := range m {
-				line = strings.Replace(line, m1[0], "", -1)
-			}
-			log.Debugf("removed parentheses: '%s'", line)
-		}
-
-		// determine ingredient
-		ingredient.Ingredient, err = determineIngredient(line)
+		ingredient, err := parseIngredientFromLine(line)
 		if err != nil {
-			log.Warn(err)
 			continue
 		}
-
-		// determine measure
-		ingredient.Measure, err = determineMeasure(line)
-		if err != nil {
-			log.Warn(err)
-		}
-
-		// determine amount
-		ingredient.Amount, err = determineAmount(line)
-		if err != nil {
-			log.Warn(err)
-		}
-
 		log.Debugf("ingredient: %+v", ingredient)
 		ingredients = append(ingredients, ingredient)
 	}
