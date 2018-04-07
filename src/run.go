@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	log "github.com/cihub/seelog"
+	"github.com/schollz/googleit"
 )
 
 func Run(recipe string) (err error) {
@@ -14,29 +15,32 @@ func Run(recipe string) (err error) {
 	folder = path.Join("recipes", folder)
 	os.MkdirAll(folder, 0755)
 
-	// // get urls
-	// queries := []string{"best XX recipe", "favorite XX recipe", "homemade XX recipe"}
-	// for _, query := range queries {
-	// 	query = strings.Replace(query, "XX", recipe, 1)
-	// 	log.Infof("querying urls for '%s'", query)
-	// 	urls, errSearch := googleit.Search(query)
-	// 	if errSearch != nil {
-	// 		err = errSearch
-	// 		return
-	// 	}
-	// 	log.Infof("found %d urls for '%s'", len(urls), query)
-	// 	errDownload := DownloadAll(folder, urls)
-	// 	if errDownload != nil {
-	// 		err = errDownload
-	// 		return
-	// 	}
-	// }
+	if _, errExists := os.Stat(path.Join(folder, "recipes.json")); os.IsNotExist(errExists) {
+		// get urls
+		queries := []string{"best XX recipe", "favorite XX recipe", "homemade XX recipe", "simple recipe for XX", "basic XX recipe"}
+		for _, query := range queries {
+			query = strings.Replace(query, "XX", recipe, 1)
+			log.Infof("querying urls for '%s'", query)
+			urls, errSearch := googleit.Search(query)
+			if errSearch != nil {
+				err = errSearch
+				return
+			}
+			log.Infof("found %d urls for '%s'", len(urls), query)
+			errDownload := DownloadAll(folder, urls)
+			if errDownload != nil {
+				err = errDownload
+				return
+			}
+		}
 
-	// log.Info("getting all recipes")
-	// err = GetAllRecipes(folder)
-	// if err != nil {
-	// 	return
-	// }
+		// generate recipes.json
+		log.Info("getting all recipes")
+		err = GetAllRecipes(folder)
+		if err != nil {
+			return
+		}
+	}
 
 	log.Info("creating clusters recipes")
 	err = CreateClusters(folder)

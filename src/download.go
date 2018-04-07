@@ -95,7 +95,7 @@ func downloadOne(folder, url string) (fname string, err error) {
 	text = wordwrap.WrapString(text, 70)
 	lines := strings.Split(text, "\n")
 	if len(lines) > 20 {
-		lines = lines[30:]
+		lines = lines[20:]
 	}
 	text = url + "\n" + strings.Join(lines, "\n")
 

@@ -2,6 +2,7 @@ package meanrecipe
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"math"
@@ -42,6 +43,12 @@ func AnalyzeClusters(folder string) (err error) {
 
 func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 	log.Debugf("analyzing cluster %d with %d recipes", cluster.ID, cluster.NumRecipes)
+	// prune ingredients that don't have enough recipes
+	for ing := range cluster.Ingredient {
+		if float64(cluster.Ingredient[ing].Number)/float64(cluster.NumRecipes) < 0.3 {
+			delete(cluster.Ingredient, ing)
+		}
+	}
 	// find ingredient with the most data
 	startingIngredient := ""
 	startingIngredientNum := 0.0
@@ -74,13 +81,14 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 			startingIngredient = ing
 		}
 	}
+	if startingIngredient == "" {
+		err = errors.New("could not find comparision ingredient")
+		return
+	}
 	log.Debugf("starting ingredient is %s (%2.5f)", startingIngredient, startingIngredientNum)
 
 	ingredientsToConsider := []string{}
 	for ing := range cluster.Ingredient {
-		if float64(cluster.Ingredient[ing].Number)/float64(cluster.NumRecipes) < 0.3 {
-			continue
-		}
 		ingredientsToConsider = append(ingredientsToConsider, ing)
 	}
 	log.Debugf("ingredients to consider: %+v", ingredientsToConsider)
@@ -99,7 +107,7 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 			cups = startingVolume / cluster.IngredientRelations[volumeRelation].Average
 		} else if ing1 < ing2 {
 			volumeRelation = ing2 + "-" + ing1
-			cups = cluster.IngredientRelations[volumeRelation].Average * startingVolume
+			cups = startingVolume * cluster.IngredientRelations[volumeRelation].Average
 		} else {
 			continue
 		}

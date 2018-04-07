@@ -15,6 +15,7 @@ eggs
 cinnamon
 baking powder
 lemon juice
+matzo meal
 tomatoes
 vanilla
 parsley

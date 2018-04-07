@@ -55,7 +55,7 @@ func CreateClusters(folder string) (err error) {
 		i++
 	}
 	pairData = pairData[:i]
-	log.Debugf("got %d non-zero volume pairs", len(pairData))
+	log.Infof("clustering with %d / %d recipes", len(pairData), len(recipes))
 
 	numClusters := 30
 	labels, err := kmeans.Kmeans(pairData, numClusters, kmeans.ManhattanDistance, 10)
