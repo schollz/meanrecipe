@@ -1,6 +1,7 @@
 package meanrecipe
 
 import (
+	"errors"
 	"os"
 	"path"
 	"strings"
@@ -10,6 +11,11 @@ import (
 )
 
 func Run(recipe string, clusters int) (err error) {
+	recipe = strings.TrimSpace(strings.ToLower(recipe))
+	if len(recipe) == 0 {
+		err = errors.New("must specify a recipe")
+		return
+	}
 	// create a directory
 	folder := strings.Replace(strings.ToLower(recipe), " ", "_", -1)
 	folder = path.Join("recipes", folder)
