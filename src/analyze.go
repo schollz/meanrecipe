@@ -7,6 +7,7 @@ import (
 	"math"
 	"math/rand"
 	"path"
+	"sort"
 
 	log "github.com/cihub/seelog"
 	"github.com/schollz/progressbar"
@@ -24,11 +25,18 @@ func AnalyzeClusters(folder string) (err error) {
 	}
 	log.Debugf("loaded %d clusters", len(clusters))
 
-	r, err := analyzeCluster(clusters[0])
-	if err != nil {
-		return
+	for i := 0; i < 3; i++ {
+		r, errC := analyzeCluster(clusters[i])
+		if errC != nil {
+			continue
+		}
+		sort.Slice(r.Ingredients[:], func(i, j int) bool {
+			return r.Ingredients[i].Ingredient < r.Ingredients[j].Ingredient
+		})
+		fmt.Printf("\n\ncluster %d (%d)\n", i, clusters[i].NumRecipes)
+		fmt.Println(r.IngredientText())
+
 	}
-	fmt.Printf("%+v", r)
 	return
 }
 
@@ -83,12 +91,10 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 	adjust := make([]float64, len(r.Ingredients))
 	bestAdjust := adjust
 	bestDifference := 10000000.0
-	bar := progressbar.New(500000)
-	for tries := 0; tries < 500000; tries++ {
+	bar := progressbar.New(5000)
+	for tries := 0; tries < 5000; tries++ {
 		bar.Add(1)
 		difference := 0.0
-		index := rand.Intn(len(adjust))
-		adjust[index] = (rand.Float64() - 0.5) * (rand.Float64() * 0.5) * r.Ingredients[index].Cups
 		for i, ing1 := range r.Ingredients {
 			for j, ing2 := range r.Ingredients {
 				if ing1.Ingredient <= ing2.Ingredient || ing1.Cups == 0 || ing2.Cups == 0 {
@@ -98,16 +104,17 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 				difference += math.Abs(cluster.IngredientRelations[volumeRelation].Average - (ing1.Cups+adjust[i])/(ing2.Cups+adjust[j]))
 			}
 		}
-		if tries == 0 {
-			log.Debugf("adjust: %+v, difference: %2.3f, bestDifference: %2.3f", adjust, difference, bestDifference)
-		}
 		if difference < bestDifference {
+			log.Infof("adjust: %+v, difference: %2.3f, bestDifference: %2.3f", adjust, difference, bestDifference)
 			bestDifference = difference
 			bestAdjust = adjust
 		}
 		adjust = bestAdjust
+		index := rand.Intn(len(adjust))
+		adjust[index] = (rand.Float64() - 0.5) * (rand.Float64() * 0.05) * r.Ingredients[index].Cups
+
 	}
-	log.Debugf("best difference: %2.4f", bestDifference)
+	log.Infof("best difference: %2.4f", bestDifference)
 
 	for i := range bestAdjust {
 		r.Ingredients[i].Cups += bestAdjust[i]

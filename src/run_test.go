@@ -11,6 +11,6 @@ func TestRunning(t *testing.T) {
 	SetLogLevel("info")
 	defer log.Flush()
 	// os.RemoveAll("recipes")
-	err := Run("brownie")
+	err := Run("chocolate chip cookies")
 	assert.Nil(t, err)
 }

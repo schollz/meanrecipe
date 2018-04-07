@@ -18,24 +18,28 @@ func Run(recipe string) (err error) {
 	}
 
 	// // get urls
-	// query := "best XX recipe"
-	// query = strings.Replace(query, "XX", recipe, 1)
-	// log.Infof("querying urls for '%s'", query)
-	// urls, err := googleit.Search(query)
-	// if err != nil {
-	// 	return
-	// }
-	// log.Infof("found %d urls for '%s'", len(urls), query)
-	// err = DownloadAll(folder, urls)
-	// if err != nil {
-	// 	return
+	// queries := []string{"best XX recipe", "favorite XX recipe", "homemade XX recipe"}
+	// for _, query := range queries {
+	// 	query = strings.Replace(query, "XX", recipe, 1)
+	// 	log.Infof("querying urls for '%s'", query)
+	// 	urls, errSearch := googleit.Search(query)
+	// 	if errSearch != nil {
+	// 		err = errSearch
+	// 		return
+	// 	}
+	// 	log.Infof("found %d urls for '%s'", len(urls), query)
+	// 	errDownload := DownloadAll(folder, urls)
+	// 	if errDownload != nil {
+	// 		err = errDownload
+	// 		return
+	// 	}
 	// }
 
-	log.Info("getting all recipes")
-	err = GetAllRecipes(folder)
-	if err != nil {
-		return
-	}
+	// log.Info("getting all recipes")
+	// err = GetAllRecipes(folder)
+	// if err != nil {
+	// 	return
+	// }
 
 	log.Info("creating clusters recipes")
 	err = CreateClusters(folder)

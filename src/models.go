@@ -61,3 +61,11 @@ func (p Recipe) String() string {
 	b, _ := json.MarshalIndent(p, "", " ")
 	return string(b)
 }
+
+func (p Recipe) IngredientText() string {
+	s := ""
+	for _, ing := range p.Ingredients {
+		s += "- " + ing.OriginalLine + "\n"
+	}
+	return s
+}
