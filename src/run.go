@@ -24,7 +24,7 @@ func Run(recipe string, clusters int) (err error) {
 
 	if _, errExists := os.Stat(path.Join(folder, "recipes.json")); os.IsNotExist(errExists) {
 		// get urls
-		queries := []string{"best XX recipe", "favorite XX recipe", "homemade XX recipe", "simple recipe for XX", "basic XX recipe"}
+		queries := []string{"best XX recipe", "favorite XX recipe", "homemade XX recipe", "simple recipe for XX", "basic XX recipe", "recipe for XX from scratch", "yummy XX recipe"}
 		for _, query := range queries {
 			query = strings.Replace(query, "XX", recipe, 1)
 			log.Infof("querying urls for '%s'", query)
