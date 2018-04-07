@@ -1,3 +1,5 @@
+# Rewrite in progress. For working version see [v1.0.0 branch](https://github.com/schollz/meanrecipe/tree/e2b3847a7446d3b32231707bdc7e9a093d3ab3f0).
+
 # consensus-cookery
 
 Sometimes when I want a recipe to cook something new I will find several recipes for the same thing and try to use them as a guide to generate an average or "consensus" recipe. This code should make it easy to generate consensus recipes (useful!) and also show variation between recipes (interesting!).
