@@ -3,7 +3,6 @@ package meanrecipe
 import (
 	"bytes"
 	"errors"
-	"io/ioutil"
 	"regexp"
 	"strings"
 
@@ -14,7 +13,7 @@ import (
 var ingredientCorpus []string
 
 func init() {
-	b, err := ioutil.ReadFile("data/ingredient_corpus.txt")
+	b, err := Asset("data/ingredient_corpus.txt")
 	if err != nil {
 		panic(err)
 	}

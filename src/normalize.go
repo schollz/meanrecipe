@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"math"
 	"strconv"
 	"strings"
@@ -32,7 +31,7 @@ var ingredientToCups = map[string]float64{
 var densities map[string]float64
 
 func init() {
-	b, err := ioutil.ReadFile("data/ingredient_densities.json")
+	b, err := Asset("data/ingredient_densities.json")
 	if err != nil {
 		panic(err)
 	}

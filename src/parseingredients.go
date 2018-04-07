@@ -2,7 +2,6 @@ package meanrecipe
 
 import (
 	"errors"
-	"io/ioutil"
 	"regexp"
 	"sort"
 	"strconv"
@@ -15,7 +14,7 @@ var ingredientList []string
 var possibleMeasures map[string]string
 
 func init() {
-	b, err := ioutil.ReadFile("data/top_5k.txt")
+	b, err := Asset("data/top_5k.txt")
 	if err != nil {
 		panic(err)
 	}
@@ -41,7 +40,6 @@ func init() {
 	for i, kv := range ss {
 		ingredientList[i] = kv.Key
 	}
-	log.Debugf("have %d things in ingredient list", len(ingredientList))
 	possibleMeasures = map[string]string{
 		"tablespoon":  "tbl",
 		"tablespoons": "tbl",

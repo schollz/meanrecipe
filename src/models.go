@@ -68,7 +68,7 @@ func (p Recipe) String() string {
 func (p Recipe) IngredientText() string {
 	s := ""
 	for _, ing := range p.Ingredients {
-		s += fmt.Sprintf("- %s (%2.3f)\n", ing.OriginalLine, ing.Cups)
+		s += fmt.Sprintf("- %s\n", ing.OriginalLine)
 	}
 	return s
 }

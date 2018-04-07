@@ -26,6 +26,10 @@ func AnalyzeClusters(folder string) (err error) {
 	}
 	log.Debugf("loaded %d clusters", len(clusters))
 
+	totalRecipes := 0
+	for i := range clusters {
+		totalRecipes += clusters[i].NumRecipes
+	}
 	for i := 0; i < 3; i++ {
 		r, errC := analyzeCluster(clusters[i])
 		if errC != nil {
@@ -34,7 +38,7 @@ func AnalyzeClusters(folder string) (err error) {
 		sort.Slice(r.Ingredients[:], func(i, j int) bool {
 			return r.Ingredients[i].Ingredient < r.Ingredients[j].Ingredient
 		})
-		fmt.Printf("\n\ncluster %d (%d)\n", i, clusters[i].NumRecipes)
+		fmt.Printf("\n\ncluster %d, %d%% recipes (%d)\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
 		fmt.Println(r.IngredientText())
 
 	}
