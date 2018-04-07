@@ -1,4 +1,4 @@
-package consensuscookery
+package meanrecipe
 
 import (
 	"errors"
