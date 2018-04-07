@@ -2,6 +2,7 @@ package meanrecipe
 
 import (
 	"encoding/json"
+	"fmt"
 	"math"
 
 	"github.com/montanaflynn/stats"
@@ -31,6 +32,8 @@ func ProcessCollection(c Collection) Collection {
 	c.Average, err = stats.Trimean(stats.Float64Data(c.All))
 	if err != nil || math.IsNaN(c.Average) {
 		c.Average = c.All[0]
+	} else {
+		c.SD, _ = stats.StandardDeviationSample(stats.Float64Data(c.All))
 	}
 	return c
 }
@@ -65,7 +68,7 @@ func (p Recipe) String() string {
 func (p Recipe) IngredientText() string {
 	s := ""
 	for _, ing := range p.Ingredients {
-		s += "- " + ing.OriginalLine + "\n"
+		s += fmt.Sprintf("- %s (%2.3f)\n", ing.OriginalLine, ing.Cups)
 	}
 	return s
 }

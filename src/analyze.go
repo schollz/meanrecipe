@@ -44,14 +44,37 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 	log.Debugf("analyzing cluster %d with %d recipes", cluster.ID, cluster.NumRecipes)
 	// find ingredient with the most data
 	startingIngredient := ""
-	startingIngredientNum := 0
+	startingIngredientNum := 0.0
 	for ing := range cluster.Ingredient {
-		if cluster.Ingredient[ing].Number > startingIngredientNum {
-			startingIngredientNum = cluster.Ingredient[ing].Number
+		// check that ingredient has relations to other ingredients
+		hasAllIngredients := true
+		for ing2 := range cluster.Ingredient {
+			var volumeRelation string
+			if ing > ing2 {
+				volumeRelation = ing + "-" + ing2
+			} else if ing < ing2 {
+				volumeRelation = ing2 + "-" + ing
+			} else {
+				continue
+			}
+			if cluster.Ingredient[ing].Average == 0 || cluster.Ingredient[ing2].Average == 0 {
+				continue
+			}
+			if _, ok := cluster.IngredientRelations[volumeRelation]; !ok {
+				hasAllIngredients = false
+				break
+			}
+		}
+		if !hasAllIngredients {
+			continue
+		}
+
+		if cluster.Ingredient[ing].Average > startingIngredientNum {
+			startingIngredientNum = cluster.Ingredient[ing].Average
 			startingIngredient = ing
 		}
 	}
-	log.Debugf("starting ingredient is %s (%d)", startingIngredient, startingIngredientNum)
+	log.Debugf("starting ingredient is %s (%2.5f)", startingIngredient, startingIngredientNum)
 
 	ingredientsToConsider := []string{}
 	for ing := range cluster.Ingredient {
@@ -76,11 +99,11 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 			cups = startingVolume / cluster.IngredientRelations[volumeRelation].Average
 		} else if ing1 < ing2 {
 			volumeRelation = ing2 + "-" + ing1
-			cups = cluster.IngredientRelations[volumeRelation].Average / startingVolume
+			cups = cluster.IngredientRelations[volumeRelation].Average * startingVolume
 		} else {
 			continue
 		}
-		log.Debugf("%s: %2.1f", volumeRelation, cluster.IngredientRelations[volumeRelation].Average)
+		log.Debugf("%s: %2.5f +/- %2.5f", volumeRelation, cluster.IngredientRelations[volumeRelation].Average, cluster.IngredientRelations[volumeRelation].SD)
 		r.Ingredients = append(r.Ingredients, Ingredient{
 			Cups:       cups,
 			Ingredient: ing2,
@@ -91,30 +114,29 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 	adjust := make([]float64, len(r.Ingredients))
 	bestAdjust := adjust
 	bestDifference := 10000000.0
-	bar := progressbar.New(5000)
-	for tries := 0; tries < 5000; tries++ {
+	bar := progressbar.New(0)
+	for tries := 0; tries < 0; tries++ {
 		bar.Add(1)
 		difference := 0.0
 		for i, ing1 := range r.Ingredients {
 			for j, ing2 := range r.Ingredients {
-				if ing1.Ingredient <= ing2.Ingredient || ing1.Cups == 0 || ing2.Cups == 0 {
+				volumeRelation := fmt.Sprintf("%s-%s", ing1.Ingredient, ing2.Ingredient)
+				if ing1.Ingredient <= ing2.Ingredient || ing1.Cups == 0 || ing2.Cups == 0 || cluster.IngredientRelations[volumeRelation].Average == 0 {
 					continue
 				}
-				volumeRelation := fmt.Sprintf("%s-%s", ing1.Ingredient, ing2.Ingredient)
-				difference += math.Abs(cluster.IngredientRelations[volumeRelation].Average - (ing1.Cups+adjust[i])/(ing2.Cups+adjust[j]))
+				difference += math.Pow(math.Abs(cluster.IngredientRelations[volumeRelation].Average-(ing1.Cups+adjust[i])/(ing2.Cups+adjust[j])), 2)
 			}
 		}
 		if difference < bestDifference {
-			log.Infof("adjust: %+v, difference: %2.3f, bestDifference: %2.3f", adjust, difference, bestDifference)
+			log.Debugf("difference: %2.3f, bestDifference: %2.3f", difference, bestDifference)
 			bestDifference = difference
 			bestAdjust = adjust
 		}
 		adjust = bestAdjust
 		index := rand.Intn(len(adjust))
-		adjust[index] = (rand.Float64() - 0.5) * (rand.Float64() * 0.05) * r.Ingredients[index].Cups
-
+		adjust[index] += (rand.Float64() - 0.5) * (rand.Float64() * 0.05) * r.Ingredients[index].Cups
 	}
-	log.Infof("best difference: %2.4f", bestDifference)
+	log.Debugf("best difference: %2.4f", bestDifference)
 
 	for i := range bestAdjust {
 		r.Ingredients[i].Cups += bestAdjust[i]

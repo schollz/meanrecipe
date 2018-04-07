@@ -12,10 +12,7 @@ func Run(recipe string) (err error) {
 	// create a directory
 	folder := strings.Replace(strings.ToLower(recipe), " ", "_", -1)
 	folder = path.Join("recipes", folder)
-	err = os.MkdirAll(folder, 0755)
-	if err != nil {
-		return
-	}
+	os.MkdirAll(folder, 0755)
 
 	// // get urls
 	// queries := []string{"best XX recipe", "favorite XX recipe", "homemade XX recipe"}
