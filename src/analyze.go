@@ -38,7 +38,7 @@ func AnalyzeClusters(folder string) (err error) {
 		sort.Slice(r.Ingredients[:], func(i, j int) bool {
 			return r.Ingredients[i].Ingredient < r.Ingredients[j].Ingredient
 		})
-		fmt.Printf("\n\ncluster %d, %d%% recipes (%d)\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
+		fmt.Printf("\n### cluster %d, %d%% recipes (%d)\n\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
 		fmt.Println(r.IngredientText())
 
 	}

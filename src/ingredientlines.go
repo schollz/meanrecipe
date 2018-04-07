@@ -18,7 +18,6 @@ func init() {
 		panic(err)
 	}
 	ingredientCorpus = strings.Fields(strings.ToLower(string(b)))
-	log.Debugf("have %d things in ingredient corpus", len(ingredientCorpus))
 }
 
 func getCorpusCount(line string) (count int) {

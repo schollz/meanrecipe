@@ -10,7 +10,7 @@ import (
 	log "github.com/cihub/seelog"
 )
 
-func CreateClusters(folder string) (err error) {
+func CreateClusters(folder string, numClusters int) (err error) {
 	bRecipes, err := ioutil.ReadFile(path.Join(folder, "recipes.json"))
 	if err != nil {
 		return
@@ -57,7 +57,6 @@ func CreateClusters(folder string) (err error) {
 	pairData = pairData[:i]
 	log.Infof("clustering with %d / %d recipes", len(pairData), len(recipes))
 
-	numClusters := 30
 	labels, err := kmeans.Kmeans(pairData, numClusters, kmeans.ManhattanDistance, 10)
 
 	clusters := make([]Cluster, numClusters)

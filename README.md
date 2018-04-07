@@ -1,6 +1,6 @@
 # Rewrite in progress. For working version see [v1.0.0 branch](https://github.com/schollz/meanrecipe/tree/e2b3847a7446d3b32231707bdc7e9a093d3ab3f0).
 
-# consensus-cookery
+# meanrecipe
 
 Sometimes when I want a recipe to cook something new I will find several recipes for the same thing and try to use them as a guide to generate an average or "consensus" recipe. This code should make it easy to generate consensus recipes (useful!) and also show variation between recipes (interesting!).
 
@@ -11,8 +11,8 @@ Finding a consensus recipe requires first clustering many recipes. This is becau
 The *quick-and-dirty* implementation goes like this:
 
 1. Choose a recipe (*e.g.* brownies, crepes, pancakes).
-2. Search using duckduckgo.com to find hundreds of corresponding recipes (`fetch_urls.js`).
-3. Download all the recipes and use `pandoc` to convert to text for processing.
+2. Search to find thsouands of corresponding recipes.
+3. Download all the recipes convert to gzipped text for processing.
 4. Use a really simple (read: *bad*) context-extractor to grab ingredients.
 5. Cluster the recipes based on the presence of ingredients.
 6. Take the mean values (after removing outliers) for ingredients in a given cluster to create an average recipe.
@@ -165,29 +165,10 @@ cluster 11 (n=17)
 
 ## Install
 
-First clone the repository.
+Download from the latest releases, or download with Go 1.8:
 
 ```
-$ git clone https://github.com/schollz/consensus-cookery
-$ cd consensus-cookery
-```
-
-Then install [node](https://github.com/schollz/raspberry-pi-turnkey#install-node-optional). And then install node dependencies:
-
-```
-$ yarn install
-```
-
-Make sure you have `pandoc`:
-
-```
-$ sudo apt-get install pandoc
-```
-
-And then install python dependencies:
-
-```
-$ sudo python3 -m pip install prettytable pypandoc requests tqdm ete3 sklearn numpy click
+$ go get github.com/schollz/meanrecipe
 ```
 
 ## Run
@@ -195,12 +176,12 @@ $ sudo python3 -m pip install prettytable pypandoc requests tqdm ete3 sklearn nu
 Just run from the command line and specify the food that you want.
 
 ```
-$ python3 run.py --recipe brownies
+$ meanrecipe -recipe 'chocolate chip cookies'
 ```
 
 Be patient as it will take 3-5 minutes to download and pre-process the data. Data is only downloaded once, if you run it a second time it will use the previous data.
 
-You can also generate different number of clusters using `--clusters X` where `X` is the number of clusters.
+You can also generate different number of clusters using `-clusters X` where `X` is the number of clusters.
 
 See the examples above for more information.
 

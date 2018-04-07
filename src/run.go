@@ -9,7 +9,7 @@ import (
 	"github.com/schollz/googleit"
 )
 
-func Run(recipe string) (err error) {
+func Run(recipe string, clusters int) (err error) {
 	// create a directory
 	folder := strings.Replace(strings.ToLower(recipe), " ", "_", -1)
 	folder = path.Join("recipes", folder)
@@ -43,7 +43,7 @@ func Run(recipe string) (err error) {
 	}
 
 	log.Info("creating clusters recipes")
-	err = CreateClusters(folder)
+	err = CreateClusters(folder, clusters)
 	if err != nil {
 		return
 	}
