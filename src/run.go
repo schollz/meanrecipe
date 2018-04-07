@@ -11,6 +11,7 @@ import (
 )
 
 func Run(recipe string, clusters int) (err error) {
+	defer log.Flush()
 	recipe = strings.TrimSpace(strings.ToLower(recipe))
 	if len(recipe) == 0 {
 		err = errors.New("must specify a recipe")

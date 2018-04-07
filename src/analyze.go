@@ -30,7 +30,11 @@ func AnalyzeClusters(folder string) (err error) {
 	for i := range clusters {
 		totalRecipes += clusters[i].NumRecipes
 	}
-	for i := 0; i < 3; i++ {
+	meanRecipes := []Recipe{}
+	for i := 0; i < 30; i++ {
+		if clusters[i].NumRecipes < 10 {
+			continue
+		}
 		r, errC := analyzeCluster(clusters[i])
 		if errC != nil {
 			continue
@@ -40,8 +44,12 @@ func AnalyzeClusters(folder string) (err error) {
 		})
 		fmt.Printf("\n### cluster %d, %d%% recipes (%d)\n\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
 		fmt.Println(r.IngredientText())
-
+		meanRecipes = append(meanRecipes, r)
 	}
+
+	meanRecipesBytes, _ := json.MarshalIndent(meanRecipes, "", " ")
+	ioutil.WriteFile(path.Join(folder, "mean_recipes.json"), meanRecipesBytes, 0644)
+	log.Infof("wrote analyzed recipes to %s", path.Join(folder, "mean_recipes.json"))
 	return
 }
 
