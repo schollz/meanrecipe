@@ -60,6 +60,8 @@ func DownloadAll(folder string, urls []string) (err error) {
 			downloaded++
 		}
 	}
+	fmt.Print("\n")
+
 	log.Infof("downloaded %d urls in %s", downloaded, time.Since(start))
 	return
 }

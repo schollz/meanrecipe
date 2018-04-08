@@ -15,7 +15,7 @@ import (
 	"github.com/schollz/progressbar"
 )
 
-func AnalyzeClusters(folder string) (err error) {
+func AnalyzeClusters(folder string) (meanRecipes []Recipe, err error) {
 	bClusters, err := ioutil.ReadFile(path.Join(folder, "clusters.json"))
 	if err != nil {
 		return
@@ -31,7 +31,7 @@ func AnalyzeClusters(folder string) (err error) {
 	for i := range clusters {
 		totalRecipes += clusters[i].NumRecipes
 	}
-	meanRecipes := []Recipe{}
+	meanRecipes = []Recipe{}
 	for i := range clusters {
 		if 100*clusters[i].NumRecipes/totalRecipes < 4 {
 			continue
@@ -70,12 +70,6 @@ func AnalyzeClusters(folder string) (err error) {
 
 		meanRecipes = append(meanRecipes, r)
 
-		fmt.Printf("\n%s\n\n", r.Title)
-		fmt.Println(r.IngredientText())
-		if len(urls) > 10 {
-			urls = urls[:10]
-		}
-		fmt.Println(strings.Join(urls, "\n"))
 	}
 
 	meanRecipesBytes, _ := json.MarshalIndent(meanRecipes, "", " ")
@@ -191,6 +185,7 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 		index := rand.Intn(len(adjust))
 		adjust[index] += (rand.Float64() - 0.5) * (rand.Float64() * 0.05) * r.Ingredients[index].Cups
 	}
+	fmt.Print("\n")
 	log.Debugf("best difference: %2.4f", bestDifference)
 
 	for i := range bestAdjust {

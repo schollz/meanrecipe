@@ -71,6 +71,8 @@ func GetAllRecipes(folder string) (err error) {
 			i++
 		}
 	}
+	fmt.Print("\n")
+
 	recipes = recipes[:i]
 
 	log.Infof("got %d recipes", len(recipes))

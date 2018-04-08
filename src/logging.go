@@ -33,7 +33,7 @@ func SetLogLevel(level string) (err error) {
 	<formats>
 		<format id="stdout"   format="%Date %Time [%LEVEL] %File %FuncShort:%Line %Msg %n" />
 		<format id="debug"   format="%Date %Time %EscM(37)[%LEVEL]%EscM(0) %File %FuncShort:%Line %Msg %n" />
-		<format id="info"    format="%Date %Time %EscM(36)[%LEVEL]%EscM(0) %Msg %n" />
+		<format id="info"    format="%EscM(36)[%LEVEL]%EscM(0) %Msg %n" />
 		<format id="warn"    format="%Date %Time %EscM(33)[%LEVEL]%EscM(0) %File %FuncShort:%Line %Msg %n" />
 		<format id="error"   format="%Date %Time %EscM(31)[%LEVEL]%EscM(0) %File %FuncShort:%Line %Msg %n" />
 	</formats>
