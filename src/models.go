@@ -33,7 +33,7 @@ func ProcessCollection(c Collection) Collection {
 	if err != nil || math.IsNaN(c.Average) {
 		c.Average = c.All[0]
 	} else {
-		c.SD, _ = stats.StandardDeviationSample(stats.Float64Data(c.All))
+		c.SD, _ = stats.InterQuartileRange(stats.Float64Data(c.All))
 	}
 	return c
 }

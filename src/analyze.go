@@ -43,9 +43,7 @@ func AnalyzeClusters(folder string) (err error) {
 		sort.Slice(r.Ingredients[:], func(i, j int) bool {
 			return r.Ingredients[i].Ingredient < r.Ingredients[j].Ingredient
 		})
-		fmt.Printf("\n### cluster %d, %d%% recipes (%d)\n\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
-		fmt.Println(r.IngredientText())
-		r.Title = fmt.Sprintf("Cluster %d, %d%% recipes (%d)\n\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
+		r.Title = fmt.Sprintf("Cluster %d, %d%% recipes (%d)", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
 
 		urls := make([]string, len(clusters[i].Recipes))
 		urlsI := 0
@@ -71,6 +69,13 @@ func AnalyzeClusters(folder string) (err error) {
 		r.URL = strings.Join(urls, ",")
 
 		meanRecipes = append(meanRecipes, r)
+
+		fmt.Printf("\n%s\n\n", r.Title)
+		fmt.Println(r.IngredientText())
+		if len(urls) > 10 {
+			urls = urls[:10]
+		}
+		fmt.Println(strings.Join(urls, "\n"))
 	}
 
 	meanRecipesBytes, _ := json.MarshalIndent(meanRecipes, "", " ")
