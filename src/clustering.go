@@ -2,6 +2,7 @@ package meanrecipe
 
 import (
 	"encoding/json"
+	"errors"
 	"io/ioutil"
 	"path"
 	"sort"
@@ -70,6 +71,10 @@ func CreateClusters(folder string, numClusters int, requiredIngredients []string
 		i++
 	}
 	pairData = pairData[:i]
+	if i < 10 {
+		err = errors.New("not enough data")
+		return
+	}
 	log.Infof("clustering with %d / %d recipes", len(pairData), len(recipes))
 
 	labels, err := kmeans.Kmeans(pairData, numClusters, kmeans.ManhattanDistance, 10)

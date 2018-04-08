@@ -15,6 +15,16 @@ import (
 	"github.com/schollz/progressbar"
 )
 
+func replaceLineWithSmallFractions(line string) string {
+	line = strings.Replace(line, "1/2", "½", -1)
+	line = strings.Replace(line, "1/4", "¼", -1)
+	line = strings.Replace(line, "3/4", "¾", -1)
+	line = strings.Replace(line, "1/8", "⅛", -1)
+	line = strings.Replace(line, "3/8", "⅜", -1)
+	line = strings.Replace(line, "5/8", "⅝", -1)
+	line = strings.Replace(line, "7/8", "⅞", -1)
+	return line
+}
 func AnalyzeClusters(folder string) (meanRecipes []Recipe, err error) {
 	bClusters, err := ioutil.ReadFile(path.Join(folder, "clusters.json"))
 	if err != nil {
@@ -40,10 +50,12 @@ func AnalyzeClusters(folder string) (meanRecipes []Recipe, err error) {
 		if errC != nil {
 			continue
 		}
+		if len(r.Ingredients) < 3 {
+			continue
+		}
 		sort.Slice(r.Ingredients[:], func(i, j int) bool {
 			return r.Ingredients[i].Ingredient < r.Ingredients[j].Ingredient
 		})
-		r.Title = fmt.Sprintf("Cluster %d, %d%% recipes (%d)", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
 
 		urls := make([]string, len(clusters[i].Recipes))
 		urlsI := 0
@@ -66,10 +78,23 @@ func AnalyzeClusters(folder string) (meanRecipes []Recipe, err error) {
 			urlsI++
 		}
 		urls = urls[:urlsI]
-		r.URL = strings.Join(urls, ",")
-
+		r.URLs = urls
+		if totalRecipes == 0 {
+			r.PercentOfAll = 0
+		} else {
+			r.PercentOfAll = 100 * clusters[i].NumRecipes / totalRecipes
+		}
+		r.NumberInCluster = clusters[i].NumRecipes
+		r.TotalRecipes = totalRecipes
+		r.Title = fmt.Sprintf("Cluster %d", i+1)
+		for i := range r.Ingredients {
+			r.Ingredients[i].OriginalLine = replaceLineWithSmallFractions(r.Ingredients[i].OriginalLine)
+			if r.Ingredients[i].Ingredient == "egg" {
+				numEggs := math.Round(r.Ingredients[i].Cups / 0.25)
+				r.Ingredients[i].OriginalLine = fmt.Sprintf("%2.0f eggs", numEggs)
+			}
+		}
 		meanRecipes = append(meanRecipes, r)
-
 	}
 
 	meanRecipesBytes, _ := json.MarshalIndent(meanRecipes, "", " ")
@@ -151,6 +176,7 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 		} else {
 			continue
 		}
+
 		log.Debugf("%s: %2.5f +/- %2.5f", volumeRelation, cluster.IngredientRelations[volumeRelation].Average, cluster.IngredientRelations[volumeRelation].SD)
 		r.Ingredients = append(r.Ingredients, Ingredient{
 			Cups:       cups,
@@ -194,6 +220,12 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 
 	for i := range r.Ingredients {
 		amount, measure, amountStr, _ := determineMeasurementsFromCups(r.Ingredients[i].Cups)
+		if math.IsInf(r.Ingredients[i].Cups, 0) {
+			r.Ingredients[i].Cups = 0
+		}
+		if math.IsNaN(r.Ingredients[i].SD) {
+			r.Ingredients[i].SD = 0
+		}
 		r.Ingredients[i].Amount = amount
 		r.Ingredients[i].Measure = measure
 		r.Ingredients[i].OriginalLine = fmt.Sprintf("%s %s %s", amountStr, measure, r.Ingredients[i].Ingredient)

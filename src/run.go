@@ -2,6 +2,7 @@ package meanrecipe
 
 import (
 	"errors"
+	"io/ioutil"
 	"os"
 	"path"
 	"strings"
@@ -9,6 +10,20 @@ import (
 	log "github.com/cihub/seelog"
 	"github.com/schollz/googleit"
 )
+
+func HasRecipe(recipe string) (yes bool) {
+	recipe = singularlize(strings.TrimSpace(strings.ToLower(recipe)))
+
+	folder := strings.Replace(strings.ToLower(recipe), " ", "_", -1)
+	folder = path.Join("recipes", folder)
+	if _, errOpen := os.Stat(path.Join(folder, "haverecipes")); os.IsNotExist(errOpen) {
+		return false
+	}
+	if _, errOpen := os.Stat(path.Join(folder, "recipes.json")); os.IsNotExist(errOpen) {
+		return false
+	}
+	return true
+}
 
 func Run(recipe string, clusters int, requiredIngredients []string, determineRequiredIngredientsFromTitle bool) (meanRecipes []Recipe, err error) {
 	defer log.Flush()
@@ -22,7 +37,8 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 	folder = path.Join("recipes", folder)
 	os.MkdirAll(folder, 0755)
 
-	if _, errExists := os.Stat(path.Join(folder, "recipes.json")); os.IsNotExist(errExists) {
+	files, err := ListGzFiles(folder)
+	if err != nil || len(files) == 0 {
 		// get urls
 		queries := []string{"best XX recipe", "favorite XX recipe", "homemade XX recipe", "simple recipe for XX", "basic XX recipe", "recipe for XX from scratch", "yummy XX recipe"}
 		for _, query := range queries {
@@ -40,14 +56,16 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 				return
 			}
 		}
+	}
+	ioutil.WriteFile(path.Join(folder, "haverecipes"), []byte(":)"), 0644)
 
+	if _, errOpen := os.Stat(path.Join(folder, "recipes.json")); os.IsNotExist(errOpen) {
 		// generate recipes.json
 		log.Info("getting all recipes")
 		err = GetAllRecipes(folder)
 		if err != nil {
 			return
 		}
-
 	}
 
 	if determineRequiredIngredientsFromTitle {
@@ -58,18 +76,29 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 	}
 	if len(requiredIngredients) > 0 {
 		requiredIngredients = googleit.ListToSet(requiredIngredients)
+		for i := range requiredIngredients {
+			requiredIngredients[i] = singularlize(requiredIngredients[i])
+		}
 		log.Infof("requiring %d ingredients: %+v", len(requiredIngredients), requiredIngredients)
 	}
 
 	log.Info("creating clusters recipes")
-	err = CreateClusters(folder, clusters, requiredIngredients)
-	if err != nil {
-		return
-	}
+	mostRecipes := 0
+	for i := 0; i < 5; i++ {
+		err = CreateClusters(folder, clusters, requiredIngredients)
+		if err != nil {
+			return
+		}
 
-	meanRecipes, err = AnalyzeClusters(folder)
-	if err != nil {
-		return
+		var meanRecipesFromCluster []Recipe
+		meanRecipesFromCluster, err = AnalyzeClusters(folder)
+		if err != nil {
+			return
+		}
+		if len(meanRecipesFromCluster) > mostRecipes {
+			mostRecipes = len(meanRecipesFromCluster)
+			meanRecipes = meanRecipesFromCluster
+		}
 	}
 	return
 }

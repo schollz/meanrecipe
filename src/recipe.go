@@ -15,14 +15,20 @@ import (
 	"github.com/schollz/progressbar"
 )
 
-// GetALlRecipes will gather all recipes in a folder
-func GetAllRecipes(folder string) (err error) {
-	var files []string
-
+func ListGzFiles(folder string) (files []string, err error) {
+	files = []string{}
 	err = filepath.Walk(folder, func(path string, info os.FileInfo, err error) error {
-		files = append(files, path)
+		if filepath.Ext(path) == ".gz" {
+			files = append(files, path)
+		}
 		return nil
 	})
+	return
+}
+
+// GetALlRecipes will gather all recipes in a folder
+func GetAllRecipes(folder string) (err error) {
+	files, err := ListGzFiles(folder)
 	if err != nil {
 		return
 	}

@@ -76,6 +76,12 @@ func determineMeasurementsFromCups(cups float64) (amount float64, measure string
 	}
 	r, _ := ParseDecimal(fmt.Sprintf("%2.10f", roundToEighth(amount)))
 	amountString = r.String()
+	if math.IsInf(amount, 0) {
+		amount = 0
+	}
+	if math.IsInf(cups, 0) {
+		cups = 0
+	}
 	return
 }
 

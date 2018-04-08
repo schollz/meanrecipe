@@ -35,6 +35,9 @@ func ProcessCollection(c Collection) Collection {
 	} else {
 		c.SD, _ = stats.InterQuartileRange(stats.Float64Data(c.All))
 	}
+	if math.IsNaN(c.SD) {
+		c.SD = 0
+	}
 	return c
 }
 
@@ -45,6 +48,11 @@ type Recipe struct {
 	Ingredients     []Ingredient       `json:"ingredients,omitempty"`
 	VolumeRelations map[string]float64 `json:"volume_relations,omitempty"`
 	Title           string             `json:"title,omitempty"`
+	// the following are specific to clusters
+	PercentOfAll    int      `json:"percent_of_all,omitempty"`
+	NumberInCluster int      `json:"number_in_cluster,omitempty"`
+	TotalRecipes    int      `json:"total_recipes,omitempty"`
+	URLs            []string `json:"urls,omitempty"`
 }
 
 // Ingredient species the ingredients
