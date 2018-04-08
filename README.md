@@ -27,44 +27,43 @@ Here's some examples of running the code.
 $ meanrecipe -recipe 'chocolate chip cookies'
 ```
 
-#### cluster 1, 35% recipes (433)
+### cluster 1, 38% recipes (377)
 
-- 1 teaspoon baking soda
+- 7/8 teaspoon baking soda
 - 7/8 cup brown sugar
 - 7/8 cup butter
-- 1 3/4 cup chocolate
+- 1 1/2 cup chocolate
 - 1/2 cup eggs
-- 2 1/4 cup flour
+- 2 cup flour
 - 3/4 teaspoon salt
 - 5/8 cup sugar
-- 1 5/8 teaspoon vanilla
+- 1 1/2 teaspoon vanilla
 
 
-#### cluster 2, 15% recipes (193)
+### cluster 2, 13% recipes (134)
 
 - 1 teaspoon baking powder
 - 7/8 teaspoon baking soda
 - 1 cup brown sugar
-- 7/8 cup butter
-- 1 5/8 cup chocolate
+- 3/4 cup butter
+- 1 1/2 cup chocolate
 - 1/2 cup eggs
 - 2 1/8 cup flour
 - 3/4 teaspoon salt
 - 3/4 cup sugar
-- 1 7/8 teaspoon vanilla
+- 1 5/8 teaspoon vanilla
 
 
-#### cluster 3, 7% recipes (87)
+### cluster 3, 6% recipes (64)
 
 - 7/8 teaspoon baking soda
-- 3/4 cup brown sugar
-- 1 1/4 cup chocolate
+- 7/8 cup brown sugar
+- 1 cup butter
+- 1 1/2 cup chocolate
 - 1/2 cup eggs
-- 2 cup flour
-- 7/8 cup margarine
-- 3/4 teaspoon salt
-- 5/8 cup sugar
-- 1 1/2 teaspoon vanilla
+- 2 1/4 cup flour
+- 1/2 cup sugar
+- 1 3/8 teaspoon vanilla
 
 
 # Try it
@@ -89,7 +88,7 @@ Be patient as it will take 3-5 minutes to download and pre-process the data. Dat
 
 You can also generate different number of clusters using `-clusters X` where `X` is the number of clusters.
 
-See the examples above for more information.
+To make sure certain ingredients are included just use `-include 'chocolate, oats'` (for example).
 
 # Roadmap
 
