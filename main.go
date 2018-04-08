@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"strings"
 
 	meanrecipe "github.com/schollz/meanrecipe/src"
 )
@@ -24,7 +25,14 @@ func main() {
 		meanrecipe.SetLogLevel("info")
 	}
 
-	err = meanrecipe.Run(recipe, clusters, true)
+	ingredientsToInclude := []string{}
+	if len(include) > 0 {
+		for _, word := range strings.Split(include, ",") {
+			ingredientsToInclude = append(ingredientsToInclude, strings.ToLower(strings.TrimSpace(word)))
+		}
+	}
+
+	err = meanrecipe.Run(recipe, clusters, ingredientsToInclude, true)
 	if err != nil {
 		fmt.Println(err)
 	}

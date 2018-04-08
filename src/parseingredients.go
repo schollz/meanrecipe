@@ -80,7 +80,7 @@ func DetermineIngredients(line string) (ingredients []string) {
 	// find ingredient
 	ingredients = []string{}
 	for _, ing := range ingredientList {
-		if strings.Contains(line, ing) {
+		if strings.Contains(line, " "+ing+" ") {
 			ingredients = append(ingredients, ing)
 		}
 	}

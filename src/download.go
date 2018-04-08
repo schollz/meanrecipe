@@ -55,7 +55,7 @@ func DownloadAll(folder string, urls []string) (err error) {
 		bar.Add(1)
 		err := <-results
 		if err != nil {
-			log.Warn(err)
+			log.Debug(err)
 		} else {
 			downloaded++
 		}
