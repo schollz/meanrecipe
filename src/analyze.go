@@ -135,23 +135,27 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 	r.Ingredients = []Ingredient{Ingredient{
 		Cups:       startingVolume,
 		Ingredient: startingIngredient,
+		SD:         100 * cluster.Ingredient[startingIngredient].SD / startingVolume,
 	}}
 	ing1 := startingIngredient
 	for _, ing2 := range ingredientsToConsider {
 		var volumeRelation string
-		var cups float64
+		var cups, sd float64
 		if ing1 > ing2 {
 			volumeRelation = ing1 + "-" + ing2
 			cups = startingVolume / cluster.IngredientRelations[volumeRelation].Average
+			sd = 100 * cluster.IngredientRelations[volumeRelation].SD / cluster.IngredientRelations[volumeRelation].Average
 		} else if ing1 < ing2 {
 			volumeRelation = ing2 + "-" + ing1
 			cups = startingVolume * cluster.IngredientRelations[volumeRelation].Average
+			sd = 100 * cluster.IngredientRelations[volumeRelation].SD / cluster.IngredientRelations[volumeRelation].Average
 		} else {
 			continue
 		}
 		log.Debugf("%s: %2.5f +/- %2.5f", volumeRelation, cluster.IngredientRelations[volumeRelation].Average, cluster.IngredientRelations[volumeRelation].SD)
 		r.Ingredients = append(r.Ingredients, Ingredient{
 			Cups:       cups,
+			SD:         sd,
 			Ingredient: ing2,
 		})
 	}
