@@ -9,6 +9,7 @@ import (
 	"math/rand"
 	"path"
 	"sort"
+	"strings"
 
 	log "github.com/cihub/seelog"
 	"github.com/schollz/progressbar"
@@ -45,6 +46,30 @@ func AnalyzeClusters(folder string) (err error) {
 		fmt.Printf("\n### cluster %d, %d%% recipes (%d)\n\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
 		fmt.Println(r.IngredientText())
 		r.Title = fmt.Sprintf("Cluster %d, %d%% recipes (%d)\n\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
+
+		urls := make([]string, len(clusters[i].Recipes))
+		urlsI := 0
+		// find URLs that have the exact ingredients
+		for _, r2 := range clusters[i].Recipes {
+			if len(r.Ingredients) != len(r2.Ingredients) {
+				continue
+			}
+			haveAll := true
+			for j := range r.Ingredients {
+				if r.Ingredients[j].Ingredient != r2.Ingredients[j].Ingredient {
+					haveAll = false
+					break
+				}
+			}
+			if !haveAll {
+				continue
+			}
+			urls[urlsI] = r2.URL
+			urlsI++
+		}
+		urls = urls[:urlsI]
+		r.URL = strings.Join(urls, ",")
+
 		meanRecipes = append(meanRecipes, r)
 	}
 

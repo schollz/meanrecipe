@@ -9,6 +9,7 @@ import (
 	"path"
 	"path/filepath"
 	"runtime"
+	"sort"
 
 	log "github.com/cihub/seelog"
 	"github.com/schollz/progressbar"
@@ -111,6 +112,11 @@ func GenerateRecipe(fname string) (r Recipe, err error) {
 			r.VolumeRelations[fmt.Sprintf("%s-%s", ing1.Ingredient, ing2.Ingredient)] = ing1.Cups / ing2.Cups
 		}
 	}
+
+	// sort ingredients alphabetically
+	sort.Slice(r.Ingredients[:], func(i, j int) bool {
+		return r.Ingredients[i].Ingredient < r.Ingredients[j].Ingredient
+	})
 
 	err = ioutil.WriteFile(fname+".json", []byte(r.String()), 0644)
 	return
