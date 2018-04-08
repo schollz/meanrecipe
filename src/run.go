@@ -31,7 +31,7 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 			urls, errSearch := googleit.Search(query)
 			if errSearch != nil {
 				err = errSearch
-				return
+				log.Warn(err)
 			}
 			log.Infof("found %d urls for '%s'", len(urls), query)
 			errDownload := DownloadAll(folder, urls)

@@ -41,7 +41,6 @@ oregano
 cumin
 thyme
 garlic powder
-salt and pepper
 mushrooms
 cilantro
 basil
@@ -69,7 +68,7 @@ cayenne pepper
 nuts
 dijon mustard
 cornstarch
-mzarella cheese
+mozzarella cheese
 buttermilk
 vinegar
 apples
@@ -115,7 +114,6 @@ sesame oil
 cabbage
 bay leaves
 broccoli
-salt and black pepper
 chicken breast
 cocoa
 carrot
@@ -146,7 +144,7 @@ yellow onion
 white wine
 red onion
 jalapeno chilies
-cream of mushroom soup
+cream of mushroom
 beans
 almond flour
 almond extract
@@ -159,7 +157,6 @@ margarine
 green beans
 cream
 molasses
-confectioners sugar
 pumpkin
 coconut oil
 sauce
@@ -171,7 +168,6 @@ sage
 rice vinegar
 raspberries
 beef broth
-salt & pepper
 ricotta cheese
 salsa
 tomato
@@ -235,8 +231,6 @@ peaches
 goat cheese
 ice
 kidney beans
-can cream of chicken soup
-chicken thighs
 tofu
 corn tortillas
 chickpeas
@@ -249,13 +243,10 @@ spaghetti
 lemon peel
 black peppercorns
 peppermint
-yellow cake mix
 banana
 hamburger
 cardamom
-fresh lemon juice
 catsup
-dry yeast
 brandy
 salad
 horseradish
@@ -264,7 +255,6 @@ sweet potatoes
 beer
 coffee
 butternut squash
-half & half
 white onion
 smoked paprika
 apple juice
@@ -286,7 +276,6 @@ hot pepper sauce
 tomato soup
 dry sherry
 blue cheese
-07/05
 arugula
 dry red wine
 corn kernels
