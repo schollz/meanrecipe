@@ -10,7 +10,7 @@ import (
 	log "github.com/cihub/seelog"
 )
 
-func CreateClusters(folder string, numClusters int) (err error) {
+func CreateClusters(folder string, numClusters int, requiredIngredients []string) (err error) {
 	bRecipes, err := ioutil.ReadFile(path.Join(folder, "recipes.json"))
 	if err != nil {
 		return
@@ -41,15 +41,30 @@ func CreateClusters(folder string, numClusters int) (err error) {
 	recipeNum := make(map[int]int)
 	i = 0
 	for j, recipe := range recipes {
+		// make sure it has required ingredients
+		if len(requiredIngredients) > 0 {
+			needToSkip := false
+			for _, ing := range requiredIngredients {
+				if !recipe.HasIngredient(ing) {
+					needToSkip = true
+					break
+				}
+			}
+			if needToSkip {
+				continue
+			}
+		}
+
+		// require at least three ingredients
+		if len(recipe.Ingredients) < 3 {
+			continue
+		}
+
 		x := make([]float64, len(allIngredients))
 		for _, ing := range recipe.Ingredients {
 			x[allIngredientsMap[ing.Ingredient]] = 1.0
 		}
 
-		// require at least three ingredients
-		if sum(x) < 3 {
-			continue
-		}
 		pairData[i] = x
 		recipeNum[i] = j
 		i++

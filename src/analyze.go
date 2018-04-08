@@ -31,7 +31,7 @@ func AnalyzeClusters(folder string) (err error) {
 		totalRecipes += clusters[i].NumRecipes
 	}
 	meanRecipes := []Recipe{}
-	for i := 0; i < 30; i++ {
+	for i := range clusters {
 		if 100*clusters[i].NumRecipes/totalRecipes < 4 {
 			continue
 		}
@@ -44,6 +44,7 @@ func AnalyzeClusters(folder string) (err error) {
 		})
 		fmt.Printf("\n### cluster %d, %d%% recipes (%d)\n\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
 		fmt.Println(r.IngredientText())
+		r.Title = fmt.Sprintf("Cluster %d, %d%% recipes (%d)\n\n", i+1, 100*clusters[i].NumRecipes/totalRecipes, clusters[i].NumRecipes)
 		meanRecipes = append(meanRecipes, r)
 	}
 

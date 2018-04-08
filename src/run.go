@@ -41,8 +41,14 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 			}
 		}
 
+		// generate recipes.json
+		log.Info("getting all recipes")
+		err = GetAllRecipes(folder)
+		if err != nil {
+			return
+		}
 	}
-	// generate recipes.json
+
 	if determineRequiredIngredientsFromTitle {
 		moreRequiredIngredients := DetermineIngredients(recipe)
 		if len(moreRequiredIngredients) > 0 {
@@ -54,14 +60,8 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		log.Infof("requiring %d ingredients: %+v", len(requiredIngredients), requiredIngredients)
 	}
 
-	log.Info("getting all recipes")
-	err = GetAllRecipes(folder, requiredIngredients)
-	if err != nil {
-		return
-	}
-
 	log.Info("creating clusters recipes")
-	err = CreateClusters(folder, clusters)
+	err = CreateClusters(folder, clusters, requiredIngredients)
 	if err != nil {
 		return
 	}

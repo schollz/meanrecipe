@@ -44,6 +44,7 @@ type Recipe struct {
 	Filename        string             `json:"filename,omitempty"`
 	Ingredients     []Ingredient       `json:"ingredients,omitempty"`
 	VolumeRelations map[string]float64 `json:"volume_relations,omitempty"`
+	Title           string             `json:"title,omitempty"`
 }
 
 // Ingredient species the ingredients

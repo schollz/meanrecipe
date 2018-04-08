@@ -3,19 +3,19 @@ package meanrecipe
 import (
 	"bytes"
 	"encoding/json"
-	"errors"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
+	"runtime"
 
 	log "github.com/cihub/seelog"
 	"github.com/schollz/progressbar"
 )
 
 // GetALlRecipes will gather all recipes in a folder
-func GetAllRecipes(folder string, requiredIngredients []string) (err error) {
+func GetAllRecipes(folder string) (err error) {
 	var files []string
 
 	err = filepath.Walk(folder, func(path string, info os.FileInfo, err error) error {
@@ -25,18 +25,49 @@ func GetAllRecipes(folder string, requiredIngredients []string) (err error) {
 	if err != nil {
 		return
 	}
+	log.Infof("parsing %d prospective recipes", len(files))
+
+	type Job struct {
+		file string
+	}
+	type Result struct {
+		recipe Recipe
+		err    error
+	}
+	jobs := make(chan Job, len(files))
+	results := make(chan Result, len(files))
+
+	workers := runtime.NumCPU() * 2
+	for w := 1; w <= workers; w++ {
+		go func(jobs <-chan Job, results chan<- Result) {
+			// generate sha256 filename
+			for j := range jobs {
+				var r Result
+				r.recipe, r.err = GenerateRecipe(j.file)
+				if err != nil {
+					log.Debug(err)
+				}
+				results <- r
+			}
+
+		}(jobs, results)
+	}
+
+	for _, file := range files {
+		jobs <- Job{
+			file: file,
+		}
+	}
+
+	bar := progressbar.New(len(files))
 	recipes := make([]Recipe, len(files))
 	i := 0
-	bar := progressbar.New(len(files))
-	for _, file := range files {
+	for j := 0; j < len(files); j++ {
 		bar.Add(1)
-		if filepath.Ext(file) == ".gz" {
-			recipes[i], err = GenerateRecipe(file, requiredIngredients)
-			if err == nil {
-				i++
-			} else {
-				log.Debug(err)
-			}
+		r := <-results
+		if r.err == nil {
+			recipes[i] = r.recipe
+			i++
 		}
 	}
 	recipes = recipes[:i]
@@ -48,7 +79,7 @@ func GetAllRecipes(folder string, requiredIngredients []string) (err error) {
 }
 
 // GenerateRecipe will parse the recipe from a file
-func GenerateRecipe(fname string, requiredIngredients []string) (r Recipe, err error) {
+func GenerateRecipe(fname string) (r Recipe, err error) {
 	fileBytes, err := readGzFile(fname)
 	if err != nil {
 		return
@@ -58,15 +89,6 @@ func GenerateRecipe(fname string, requiredIngredients []string) (r Recipe, err e
 	r.Ingredients, err = ParseIngredients(fname)
 	if err != nil {
 		return
-	}
-
-	if len(requiredIngredients) > 0 {
-		for _, ing := range requiredIngredients {
-			if !r.HasIngredient(ing) {
-				err = errors.New("recipe does not have " + ing)
-				return
-			}
-		}
 	}
 
 	for i, ingredient := range r.Ingredients {
@@ -79,8 +101,11 @@ func GenerateRecipe(fname string, requiredIngredients []string) (r Recipe, err e
 	// find volumetric pair-wise relationships
 	r.VolumeRelations = make(map[string]float64)
 	for _, ing1 := range r.Ingredients {
+		if ing1.Cups == 0 {
+			continue
+		}
 		for _, ing2 := range r.Ingredients {
-			if ing1.Ingredient <= ing2.Ingredient || ing1.Cups == 0 || ing2.Cups == 0 {
+			if ing2.Cups == 0 || ing1.Ingredient <= ing2.Ingredient {
 				continue
 			}
 			r.VolumeRelations[fmt.Sprintf("%s-%s", ing1.Ingredient, ing2.Ingredient)] = ing1.Cups / ing2.Cups
