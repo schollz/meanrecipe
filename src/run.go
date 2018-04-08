@@ -41,12 +41,12 @@ func Run(recipe string, clusters int) (err error) {
 			}
 		}
 
-		// generate recipes.json
-		log.Info("getting all recipes")
-		err = GetAllRecipes(folder)
-		if err != nil {
-			return
-		}
+	}
+	// generate recipes.json
+	log.Info("getting all recipes")
+	err = GetAllRecipes(folder, []string{"pumpkin"})
+	if err != nil {
+		return
 	}
 
 	log.Info("creating clusters recipes")

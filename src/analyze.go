@@ -32,7 +32,7 @@ func AnalyzeClusters(folder string) (err error) {
 	}
 	meanRecipes := []Recipe{}
 	for i := 0; i < 30; i++ {
-		if clusters[i].NumRecipes < 10 {
+		if 100*clusters[i].NumRecipes/totalRecipes < 4 {
 			continue
 		}
 		r, errC := analyzeCluster(clusters[i])

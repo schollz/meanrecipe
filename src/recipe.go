@@ -3,6 +3,7 @@ package meanrecipe
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -14,7 +15,7 @@ import (
 )
 
 // GetALlRecipes will gather all recipes in a folder
-func GetAllRecipes(folder string) (err error) {
+func GetAllRecipes(folder string, requiredIngredients []string) (err error) {
 	var files []string
 
 	err = filepath.Walk(folder, func(path string, info os.FileInfo, err error) error {
@@ -30,7 +31,7 @@ func GetAllRecipes(folder string) (err error) {
 	for _, file := range files {
 		bar.Add(1)
 		if filepath.Ext(file) == ".gz" {
-			recipes[i], err = GenerateRecipe(file)
+			recipes[i], err = GenerateRecipe(file, requiredIngredients)
 			if err == nil {
 				i++
 			} else {
@@ -42,12 +43,12 @@ func GetAllRecipes(folder string) (err error) {
 
 	log.Infof("got %d recipes", len(recipes))
 	bRecipes, _ := json.MarshalIndent(recipes, "", " ")
-	ioutil.WriteFile(path.Join(folder, "recipes.json"), bRecipes, 0644)
+	err = ioutil.WriteFile(path.Join(folder, "recipes.json"), bRecipes, 0644)
 	return
 }
 
 // GenerateRecipe will parse the recipe from a file
-func GenerateRecipe(fname string) (r Recipe, err error) {
+func GenerateRecipe(fname string, requiredIngredients []string) (r Recipe, err error) {
 	fileBytes, err := readGzFile(fname)
 	if err != nil {
 		return
@@ -57,6 +58,15 @@ func GenerateRecipe(fname string) (r Recipe, err error) {
 	r.Ingredients, err = ParseIngredients(fname)
 	if err != nil {
 		return
+	}
+
+	if len(requiredIngredients) > 0 {
+		for _, ing := range requiredIngredients {
+			if !r.HasIngredient(ing) {
+				err = errors.New("recipe does not have " + ing)
+				return
+			}
+		}
 	}
 
 	for i, ingredient := range r.Ingredients {

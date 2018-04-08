@@ -72,3 +72,12 @@ func (p Recipe) IngredientText() string {
 	}
 	return s
 }
+
+func (p Recipe) HasIngredient(ingredient string) bool {
+	for _, ing := range p.Ingredients {
+		if ing.Ingredient == ingredient {
+			return true
+		}
+	}
+	return false
+}
