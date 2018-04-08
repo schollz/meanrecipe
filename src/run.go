@@ -12,7 +12,7 @@ import (
 
 func Run(recipe string, clusters int, requiredIngredients []string, determineRequiredIngredientsFromTitle bool) (err error) {
 	defer log.Flush()
-	recipe = strings.TrimSpace(strings.ToLower(recipe))
+	recipe = singularlize(strings.TrimSpace(strings.ToLower(recipe)))
 	if len(recipe) == 0 {
 		err = errors.New("must specify a recipe")
 		return
@@ -41,12 +41,13 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 			}
 		}
 
-		// generate recipes.json
-		log.Info("getting all recipes")
-		err = GetAllRecipes(folder)
-		if err != nil {
-			return
-		}
+	}
+
+	// generate recipes.json
+	log.Info("getting all recipes")
+	err = GetAllRecipes(folder)
+	if err != nil {
+		return
 	}
 
 	if determineRequiredIngredientsFromTitle {

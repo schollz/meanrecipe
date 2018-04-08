@@ -8,6 +8,7 @@ import (
 
 	"github.com/bradfitz/slice"
 	log "github.com/cihub/seelog"
+	"github.com/jinzhu/inflection"
 )
 
 var ingredientCorpus []string
@@ -18,6 +19,17 @@ func init() {
 		panic(err)
 	}
 	ingredientCorpus = strings.Fields(strings.ToLower(string(b)))
+	for i := range ingredientCorpus {
+		ingredientCorpus[i] = singularlize(ingredientCorpus[i])
+	}
+}
+
+func singularlize(line string) string {
+	words := strings.Fields(line)
+	for i := range words {
+		words[i] = inflection.Singular(words[i])
+	}
+	return strings.Join(words, " ")
 }
 
 func getCorpusCount(line string) (count int) {
@@ -27,8 +39,9 @@ func getCorpusCount(line string) (count int) {
 	if len(re.FindAllString(line, -1)) == 0 {
 		return 0
 	}
+	line = " " + singularlize(line) + " "
 	for _, word := range ingredientCorpus {
-		if strings.Contains(" "+line+" ", " "+word+" ") {
+		if strings.Contains(line, " "+word+" ") {
 			count++
 		}
 	}

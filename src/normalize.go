@@ -25,7 +25,7 @@ var conversionToCup = map[string]float64{
 	"milliliter": 0.00423,
 }
 var ingredientToCups = map[string]float64{
-	"eggs": 0.25,
+	"egg": 0.25,
 }
 
 var densities map[string]float64
