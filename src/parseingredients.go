@@ -70,6 +70,23 @@ func init() {
 	}
 }
 
+// DetermineIngredients will look through a list of ingredients from longest name
+// to shortest, and pick the first one that is in the line
+func DetermineIngredients(line string) (ingredients []string) {
+	//
+	line = " " + line + " "
+	// special cases
+	line = strings.Replace(line, " egg ", " eggs ", -1)
+	// find ingredient
+	ingredients = []string{}
+	for _, ing := range ingredientList {
+		if strings.Contains(line, ing) {
+			ingredients = append(ingredients, ing)
+		}
+	}
+	return
+}
+
 // determineIngredient will look through a list of ingredients from longest name
 // to shortest, and pick the first one that is in the line
 func determineIngredient(line string) (ingredient string, err error) {

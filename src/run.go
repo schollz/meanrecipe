@@ -10,7 +10,7 @@ import (
 	"github.com/schollz/googleit"
 )
 
-func Run(recipe string, clusters int) (err error) {
+func Run(recipe string, clusters int, determineRequiredIngredientsFromTitle bool) (err error) {
 	defer log.Flush()
 	recipe = strings.TrimSpace(strings.ToLower(recipe))
 	if len(recipe) == 0 {
@@ -44,7 +44,12 @@ func Run(recipe string, clusters int) (err error) {
 	}
 	// generate recipes.json
 	log.Info("getting all recipes")
-	err = GetAllRecipes(folder, []string{"pumpkin"})
+	requiredIngredients := []string{}
+	if determineRequiredIngredientsFromTitle {
+		requiredIngredients = DetermineIngredients(recipe)
+		log.Infof("determined %d ingredients: %+v", len(requiredIngredients), requiredIngredients)
+	}
+	err = GetAllRecipes(folder, requiredIngredients)
 	if err != nil {
 		return
 	}
