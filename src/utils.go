@@ -4,6 +4,9 @@ import (
 	"compress/gzip"
 	"io/ioutil"
 	"os"
+	"strings"
+
+	"github.com/jinzhu/inflection"
 )
 
 func readGzFile(filename string) ([]byte, error) {
@@ -24,4 +27,12 @@ func readGzFile(filename string) ([]byte, error) {
 		return nil, err
 	}
 	return s, nil
+}
+
+func singularlize(line string) string {
+	words := strings.Fields(line)
+	for i := range words {
+		words[i] = inflection.Singular(words[i])
+	}
+	return strings.Join(words, " ")
 }
