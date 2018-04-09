@@ -19,7 +19,7 @@ func init() {
 	}
 	ingredientCorpus = strings.Fields(strings.ToLower(string(b)))
 	for i := range ingredientCorpus {
-		ingredientCorpus[i] = singularlize(ingredientCorpus[i])
+		ingredientCorpus[i] = Singularlize(ingredientCorpus[i])
 	}
 }
 
@@ -30,7 +30,7 @@ func getCorpusCount(line string) (count int) {
 	if len(re.FindAllString(line, -1)) == 0 {
 		return 0
 	}
-	line = " " + singularlize(line) + " "
+	line = " " + Singularlize(line) + " "
 	for _, word := range ingredientCorpus {
 		if strings.Contains(line, " "+word+" ") {
 			count++

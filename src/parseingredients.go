@@ -20,7 +20,7 @@ func init() {
 	}
 	m := make(map[string]int)
 	for _, word := range strings.Split(strings.ToLower(string(b)), "\n") {
-		word = strings.TrimSpace(singularlize(word))
+		word = strings.TrimSpace(Singularlize(word))
 		m[word] = len(word)
 	}
 	type kv struct {
@@ -171,7 +171,7 @@ func parseIngredientFromLine(line string) (ingredient Ingredient, err error) {
 		log.Debugf("removed parentheses: '%s'", line)
 	}
 
-	line = singularlize(line)
+	line = Singularlize(line)
 	// determine ingredient
 	ingredient.Ingredient, err = determineIngredient(line)
 	if err != nil {

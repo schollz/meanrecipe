@@ -9,6 +9,10 @@ import (
 	"github.com/jinzhu/inflection"
 )
 
+func init() {
+	inflection.AddIrregular("brownie", "brownies")
+}
+
 func readGzFile(filename string) ([]byte, error) {
 	fi, err := os.Open(filename)
 	if err != nil {
@@ -29,7 +33,7 @@ func readGzFile(filename string) ([]byte, error) {
 	return s, nil
 }
 
-func singularlize(line string) string {
+func Singularlize(line string) string {
 	words := strings.Fields(line)
 	for i := range words {
 		words[i] = inflection.Singular(words[i])

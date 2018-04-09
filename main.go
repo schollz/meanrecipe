@@ -95,6 +95,8 @@ func main() {
 		fmt.Println("\n->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
 		fmt.Printf("\n%s\n\n", r.Title)
 		fmt.Println(r.IngredientText())
+		fmt.Println(r.HasRareIngredients)
+		fmt.Println(r.MissingCommonIngredients)
 		urls := strings.Split(r.URL, ",")
 		if len(urls) > 10 {
 			urls = urls[:10]

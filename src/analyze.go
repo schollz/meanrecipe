@@ -25,6 +25,7 @@ func replaceLineWithSmallFractions(line string) string {
 	line = strings.Replace(line, "7/8", "⅞", -1)
 	return line
 }
+
 func AnalyzeClusters(folder string) (meanRecipes []Recipe, err error) {
 	bClusters, err := ioutil.ReadFile(path.Join(folder, "clusters.json"))
 	if err != nil {
@@ -91,7 +92,7 @@ func AnalyzeClusters(folder string) (meanRecipes []Recipe, err error) {
 			r.Ingredients[i].OriginalLine = replaceLineWithSmallFractions(r.Ingredients[i].OriginalLine)
 			if r.Ingredients[i].Ingredient == "egg" {
 				numEggs := math.Round(r.Ingredients[i].Cups / 0.25)
-				r.Ingredients[i].OriginalLine = fmt.Sprintf("%2.0f eggs", numEggs)
+				r.Ingredients[i].OriginalLine = strings.TrimSpace(fmt.Sprintf("%2.0f eggs", numEggs))
 			}
 		}
 		meanRecipes = append(meanRecipes, r)

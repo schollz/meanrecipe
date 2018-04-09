@@ -12,7 +12,7 @@ import (
 )
 
 func HasRecipe(recipe string) (yes bool) {
-	recipe = singularlize(strings.TrimSpace(strings.ToLower(recipe)))
+	recipe = Singularlize(strings.TrimSpace(strings.ToLower(recipe)))
 
 	folder := strings.Replace(strings.ToLower(recipe), " ", "_", -1)
 	folder = path.Join("recipes", folder)
@@ -27,7 +27,7 @@ func HasRecipe(recipe string) (yes bool) {
 
 func Run(recipe string, clusters int, requiredIngredients []string, determineRequiredIngredientsFromTitle bool) (meanRecipes []Recipe, err error) {
 	defer log.Flush()
-	recipe = singularlize(strings.TrimSpace(strings.ToLower(recipe)))
+	recipe = Singularlize(strings.TrimSpace(strings.ToLower(recipe)))
 	if len(recipe) == 0 {
 		err = errors.New("must specify a recipe")
 		return
@@ -77,12 +77,12 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 	if len(requiredIngredients) > 0 {
 		requiredIngredients = googleit.ListToSet(requiredIngredients)
 		for i := range requiredIngredients {
-			requiredIngredients[i] = singularlize(requiredIngredients[i])
+			requiredIngredients[i] = Singularlize(requiredIngredients[i])
 		}
 		log.Infof("requiring %d ingredients: %+v", len(requiredIngredients), requiredIngredients)
 	}
 
-	log.Info("creating clusters recipes")
+	log.Info("finding best cluster")
 	mostRecipes := 0
 	for i := 0; i < 5; i++ {
 		err = CreateClusters(folder, clusters, requiredIngredients)
@@ -100,5 +100,38 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 			meanRecipes = meanRecipesFromCluster
 		}
 	}
+
+	// find frequency of each ingredient in the cluster
+	ingredientCounts := make(map[string]float64)
+	for _, r := range meanRecipes {
+		for _, ing := range r.Ingredients {
+			if _, ok := ingredientCounts[ing.Ingredient]; !ok {
+				ingredientCounts[ing.Ingredient] = 0.0
+			}
+			ingredientCounts[ing.Ingredient]++
+		}
+	}
+	log.Infof("%+v", ingredientCounts)
+	for j, r := range meanRecipes {
+		r.HasRareIngredients = []string{}
+		r.MissingCommonIngredients = []string{}
+		ingredientsInRecipe := make(map[string]struct{})
+		for i, ing := range r.Ingredients {
+			ingredientsInRecipe[ing.Ingredient] = struct{}{}
+			r.Ingredients[i].FrequencyInCluster = ingredientCounts[ing.Ingredient] / float64(len(meanRecipes))
+			if r.Ingredients[i].FrequencyInCluster <= 0.5 {
+				meanRecipes[j].HasRareIngredients = append(meanRecipes[j].HasRareIngredients, ing.Ingredient)
+			}
+		}
+		for commonIngredient := range ingredientCounts {
+			if ingredientCounts[commonIngredient]/float64(len(meanRecipes)) < 0.6 {
+				continue
+			}
+			if _, ok := ingredientsInRecipe[commonIngredient]; !ok {
+				meanRecipes[j].MissingCommonIngredients = append(meanRecipes[j].MissingCommonIngredients, commonIngredient)
+			}
+		}
+	}
+
 	return
 }
