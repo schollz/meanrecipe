@@ -95,7 +95,7 @@ func main() {
 												   
 	`)
 	for _, r := range meanRecipes {
-		fmt.Println("\n->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
+		fmt.Println("\n->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->\n\n")
 		fmt.Println(r.Title)
 		if len(r.HasRareIngredients) > 0 || len(r.MissingCommonIngredients) > 0 {
 			fmt.Println("Variation: ")
@@ -118,7 +118,7 @@ func main() {
 		}
 		fmt.Println(strings.Join(urls, "\n"))
 	}
-	fmt.Println("\n->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
+	fmt.Println("->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
 
 	// wait before exit
 	fmt.Println("Press any key to exit...")
