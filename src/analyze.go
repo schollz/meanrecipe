@@ -212,7 +212,6 @@ func analyzeCluster(cluster Cluster) (r Recipe, err error) {
 		index := rand.Intn(len(adjust))
 		adjust[index] += (rand.Float64() - 0.5) * (rand.Float64() * 0.05) * r.Ingredients[index].Cups
 	}
-	fmt.Print("\n")
 	log.Debugf("best difference: %2.4f", bestDifference)
 
 	for i := range bestAdjust {
