@@ -110,7 +110,7 @@ func main() {
 		fmt.Println(r.IngredientText())
 		fmt.Println("Directions:")
 		for i, direction := range r.Directions {
-			fmt.Printf("%d. %s\n\n", i+1, wordwrap.WrapString(direction, 70))
+			fmt.Printf("%d. %s\n\n", i+1, wordwrap.WrapString(direction, 65))
 		}
 		urls := strings.Split(r.URL, ",")
 		if len(urls) > 10 {
