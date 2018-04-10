@@ -89,7 +89,7 @@ func GetAllRecipes(folder string) (err error) {
 
 // GenerateRecipe will parse the recipe from a file
 func GenerateRecipe(fname string) (r Recipe, err error) {
-	fileBytes, err := readGzFile(fname)
+	fileBytes, err := ReadGzFile(fname)
 	if err != nil {
 		return
 	}

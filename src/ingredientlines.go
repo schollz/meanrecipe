@@ -42,7 +42,7 @@ func getCorpusCount(line string) (count int) {
 
 // GetIngredientLines returns the ingredient lines
 func GetIngredientLines(fname string) (ingredientLines []string, err error) {
-	fileBytes, err := readGzFile(fname)
+	fileBytes, err := ReadGzFile(fname)
 	if err != nil {
 		return
 	}

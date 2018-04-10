@@ -13,7 +13,7 @@ func init() {
 	inflection.AddIrregular("brownie", "brownies")
 }
 
-func readGzFile(filename string) ([]byte, error) {
+func ReadGzFile(filename string) ([]byte, error) {
 	fi, err := os.Open(filename)
 	if err != nil {
 		return nil, err

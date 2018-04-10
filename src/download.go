@@ -33,7 +33,7 @@ func DownloadAll(folder string, urls []string) (err error) {
 		go func(id int, folder string, jobs <-chan string, results chan<- error) {
 			// generate sha256 filename
 			for j := range jobs {
-				_, err := downloadOne(folder, j)
+				_, err := DownloadOne(folder, j)
 				if err != nil {
 					err = errors.Wrap(err, "could not download "+j)
 				}
@@ -66,7 +66,7 @@ func DownloadAll(folder string, urls []string) (err error) {
 	return
 }
 
-func downloadOne(folder, url string) (fname string, err error) {
+func DownloadOne(folder, url string) (fname string, err error) {
 	// generate filename
 	h := sha256.New()
 	h.Write([]byte(url))
