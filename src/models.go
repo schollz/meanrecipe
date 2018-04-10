@@ -46,6 +46,7 @@ type Recipe struct {
 	URL             string             `json:"url,omitempty"`
 	Filename        string             `json:"filename,omitempty"`
 	Ingredients     []Ingredient       `json:"ingredients,omitempty"`
+	Directions      []string           `json:"directions,omitempty"`
 	VolumeRelations map[string]float64 `json:"volume_relations,omitempty"`
 	Title           string             `json:"title,omitempty"`
 	// the following are specific to clusters

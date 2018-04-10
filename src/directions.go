@@ -11,8 +11,12 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-func GetDirections(recipe string) (directions []string, err error) {
-
+func GetDirections(recipe string, include []string, exclude []string) (directions []string, err error) {
+	recipeURL, err := getRecipeURL(recipe, include, exclude)
+	if err != nil {
+		return
+	}
+	directions, err = getDirections(recipeURL)
 	return
 }
 

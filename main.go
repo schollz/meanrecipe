@@ -93,8 +93,9 @@ func main() {
 	`)
 	for _, r := range meanRecipes {
 		fmt.Println("\n->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
-		fmt.Printf("\n%s\n\n", r.Title)
+		fmt.Printf("\n%s\n\nIngredients:\n", r.Title)
 		fmt.Println(r.IngredientText())
+		fmt.Printf("\nDirections:\n%s", strings.Join(r.Directions, "\n"))
 		fmt.Println(r.HasRareIngredients)
 		fmt.Println(r.MissingCommonIngredients)
 		urls := strings.Split(r.URL, ",")

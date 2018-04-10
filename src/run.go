@@ -133,5 +133,14 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		}
 	}
 
+	// get directions
+	for j := range meanRecipes {
+		log.Infof("getting directions for recipe %d", j)
+		meanRecipes[j].Directions, err = GetDirections(recipe, meanRecipes[j].HasRareIngredients, meanRecipes[j].MissingCommonIngredients)
+		if err != nil {
+			log.Warn(err)
+		}
+	}
+
 	return
 }
