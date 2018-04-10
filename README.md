@@ -1,12 +1,10 @@
-# Rewrite in progress. For working version see [v1.0.0 branch](https://github.com/schollz/meanrecipe/tree/e2b3847a7446d3b32231707bdc7e9a093d3ab3f0).
-
 # meanrecipe
 
 Sometimes when I want a recipe to cook something new I will find several recipes for the same thing and try to use them as a guide to generate an average or "consensus" recipe. This code should make it easy to generate consensus recipes (useful!) and also show variation between recipes (interesting!).
 
 Finding a consensus recipe requires first clustering many recipes. This is because a single recipe (*e.g.* a recipe for brownies) might have many significant variations (*e.g.* brownies can have just cocoa, just chocolate, or both). This code will first cluster recipes and then use the clusters to deliver the consensus recipe.
 
-## Example
+## How does it work
 
 The *quick-and-dirty* implementation goes like this:
 
@@ -27,50 +25,109 @@ Here's some examples of running the code.
 $ meanrecipe -recipe 'chocolate chip cookies'
 ```
 
-### cluster 1, 38% recipes (377)
+The output will container multiple recipes for 'chocolate chip cookies', clustered according to ingredients. For example, here is the first cluster, the most popular recipe:
 
-- 7/8 teaspoon baking soda
-- 7/8 cup brown sugar
-- 7/8 cup butter
-- 1 1/2 cup chocolate
-- 1/2 cup eggs
-- 2 cup flour
-- 3/4 teaspoon salt
-- 5/8 cup sugar
-- 1 1/2 teaspoon vanilla
+```
+Cluster 1 (35% of 1041)
 
+Ingredients:
+- 1 teaspoon baking soda (± 42%)
+- ⅞ cup brown sugar (± 40%)
+- ⅞ cup butter (± 29%)
+- 1 ⅝ cup chocolate (± 62%)
+- 2 eggs (± 62%)
+- 2 ¼ cup flour (± 40%)
+- ¾ teaspoon salt (± 67%)
+- ¾ cup sugar (± 51%)
+- 1 ⅝ teaspoon vanilla (± 75%)
 
-### cluster 2, 13% recipes (134)
+Directions:
+1. Preheat oven to 300 degrees F (150 degrees C).
 
-- 1 teaspoon baking powder
-- 7/8 teaspoon baking soda
-- 1 cup brown sugar
-- 3/4 cup butter
-- 1 1/2 cup chocolate
-- 1/2 cup eggs
-- 2 1/8 cup flour
-- 3/4 teaspoon salt
-- 3/4 cup sugar
-- 1 5/8 teaspoon vanilla
+2. Sift together the flour, baking powder and salt, set aside. In a
+medium bowl, cream the butter and sugar together until fluffy.
+Gradually stir in the dry ingredients, then stir in the walnuts and
+chocolate chips.
 
+3. Roll or scoop dough into walnut sized balls. Place them on unprepared
+cookie sheets 1 1/2 inches apart. Flatten cookies slightly. Bake for
+15 to 20 minutes, until light golden brown. Remove from sheets to cool
+on racks.
+```
 
-### cluster 3, 6% recipes (64)
+The second cluster (the second most popular 'chocolate chip cookie' recipe) has pinpointed a variation - the inclusion of baking powder.
 
-- 7/8 teaspoon baking soda
-- 7/8 cup brown sugar
-- 1 cup butter
-- 1 1/2 cup chocolate
-- 1/2 cup eggs
-- 2 1/4 cup flour
-- 1/2 cup sugar
-- 1 3/8 teaspoon vanilla
+```
+Cluster 2 (16% of 1041)
+Variation:
+ +baking powder
 
+Ingredients:
+- 1 ⅛ teaspoon baking powder (± 80%)
+- ⅞ teaspoon baking soda (± 49%)
+- 1 ⅛ cup brown sugar (± 80%)
+- ⅞ cup butter (± 40%)
+- 1 ⅝ cup chocolate (± 85%)
+- 2 eggs (± 55%)
+- 2 ⅛ cup flour (± 51%)
+- ¾ teaspoon salt (± 71%)
+- ¾ cup sugar (± 80%)
+- 2 teaspoon vanilla (± 78%)
+
+Directions:
+1. Preheat oven to 300 degrees F (150 degrees C).
+
+2. Sift together the flour, baking powder and salt, set aside. In a
+medium bowl, cream the butter and sugar together until fluffy.
+Gradually stir in the dry ingredients, then stir in the walnuts and
+chocolate chips.
+
+3. Roll or scoop dough into walnut sized balls. Place them on unprepared
+cookie sheets 1 1/2 inches apart. Flatten cookies slightly. Bake for
+15 to 20 minutes, until light golden brown. Remove from sheets to cool
+on racks.
+```
+
+Reading further down you can find even more variations, for example this recipe
+which uses *cocoa*:
+
+```
+Cluster 5 (4% of 1041)
+Variation:
+ +cocoa
+
+Ingredients:
+- ¾ teaspoon baking soda (± 57%)
+- ¾ cup brown sugar (± 57%)
+- ¾ cup butter (± 52%)
+- 1 ⅛ cup chocolate (± 72%)
+- ⅜ cup cocoa (± 80%)
+- 1 eggs (± 44%)
+- 1 ½ cup flour (± 67%)
+- ⅝ teaspoon salt (± 88%)
+- ¾ cup sugar (± 88%)
+- 1 ½ teaspoon vanilla (± 67%)
+
+Directions:
+1. Preheat oven to 350 degrees F (175 degrees C). Grease cookie sheets.
+Stir together the flour, cocoa, baking powder, baking soda, salt and
+cinnamon; set aside.
+
+2. In a large bowl, cream together the margarine, brown sugar and white
+sugar. Beat in the egg and vanilla. Stir in the dry ingredients using
+a wooden spoon. Mix in the oats and chocolate chips. Drop by
+tablespoonfuls onto cookie sheets, leaving 2 inches between cookies.
+
+3. Bake for 8 to 10 minutes in the preheated oven, or until lightly
+browned.  Allow cookies to cool on baking sheet for 5 minutes before
+removing to a wire rack to cool completely.
+```
 
 # Try it
 
 ## Install
 
-Download from the latest releases, or download with Go 1.8:
+[Download from the latest releases](https://github.com/schollz/meanrecipe), or download with Go:
 
 ```
 $ go get github.com/schollz/meanrecipe
@@ -99,7 +156,7 @@ However, here are some things I realize this project *does not do* and would be 
 - [ ] Making food volumes more accurate. The code specifies a constant density for ingredients that are specified in weight so that they can be converted to volumes (volumes are necessary for normalization before taking means). In reality different foods have different densities, of course.
 - [ ] Making proportions more accurate. This will be easier if the previous item is finished.
 - [x] Adding in a specifier for the variation in the amount (show the mean and the standard deviation of the mean?).
-- [ ] Adding in recipe directions. Is there a way towards consensus directions? This might be really really hard.
+- [x]] Adding in recipe directions. Is there a way towards consensus directions? This might be really really hard.
 - [ ] In general, making the parsing (from websites) and the food tagging better. There are more sophisticated taggers (see NYT food tagger).
 
 # License

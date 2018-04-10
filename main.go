@@ -31,7 +31,9 @@ func main() {
       \ ` + "`" + `-'` + "`" + `\ '._ ` + "`" + `"'"'\__    \
       ` + "`" + `'-.  \   ` + "`" + `)-=-=(  ` + "`" + `,   |
           \  ` + "`" + `-"` + "`" + `      ` + "`" + `"-` + "`" + `   /
-\n\n\n\n`)
+
+
+`)
 	var err error
 	var recipe, include string
 	var clusters int
@@ -94,14 +96,22 @@ func main() {
 	`)
 	for _, r := range meanRecipes {
 		fmt.Println("\n->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
-		fmt.Printf("\n%s\n\nIngredients:\n", r.Title)
-		fmt.Println(r.IngredientText())
-		fmt.Println("\nDirections:")
-		for i, direction := range r.Directions {
-			fmt.Printf("%d. %s\n", i, wordwrap.WrapString(direction, 70))
+		fmt.Println(r.Title)
+		if len(r.HasRareIngredients) > 0 || len(r.MissingCommonIngredients) > 0 {
+			fmt.Println("Variation: ")
 		}
-		fmt.Println(r.HasRareIngredients)
-		fmt.Println(r.MissingCommonIngredients)
+		for _, ing := range r.HasRareIngredients {
+			fmt.Printf(" +%s", ing)
+		}
+		for _, ing := range r.MissingCommonIngredients {
+			fmt.Printf(" -%s", ing)
+		}
+		fmt.Println("\n\nIngredients:")
+		fmt.Println(r.IngredientText())
+		fmt.Println("Directions:")
+		for i, direction := range r.Directions {
+			fmt.Printf("%d. %s\n\n", i+1, wordwrap.WrapString(direction, 70))
+		}
 		urls := strings.Split(r.URL, ",")
 		if len(urls) > 10 {
 			urls = urls[:10]

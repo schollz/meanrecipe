@@ -83,7 +83,7 @@ func (p Recipe) String() string {
 func (p Recipe) IngredientText() string {
 	s := ""
 	for _, ing := range p.Ingredients {
-		s += fmt.Sprintf("- %s (± %2.0f%%) (%2.0f%% in cluster)\n", ing.OriginalLine, ing.SD, 100*ing.FrequencyInCluster)
+		s += fmt.Sprintf("- %s (± %2.0f%%)\n", ing.OriginalLine, ing.SD)
 	}
 	return s
 }

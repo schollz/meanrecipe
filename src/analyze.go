@@ -87,7 +87,7 @@ func AnalyzeClusters(folder string) (meanRecipes []Recipe, err error) {
 		}
 		r.NumberInCluster = clusters[i].NumRecipes
 		r.TotalRecipes = totalRecipes
-		r.Title = fmt.Sprintf("Cluster %d", i+1)
+		r.Title = fmt.Sprintf("Cluster %d (%d%% of %d)", i+1, 100*r.NumberInCluster/r.TotalRecipes, r.TotalRecipes)
 		for i := range r.Ingredients {
 			r.Ingredients[i].OriginalLine = replaceLineWithSmallFractions(r.Ingredients[i].OriginalLine)
 			if r.Ingredients[i].Ingredient == "egg" {
