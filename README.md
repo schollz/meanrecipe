@@ -160,7 +160,7 @@ However, here are some things I realize this project *does not do* and would be 
 - [ ] Making food volumes more accurate. The code specifies a constant density for ingredients that are specified in weight so that they can be converted to volumes (volumes are necessary for normalization before taking means). In reality different foods have different densities, of course.
 - [ ] Making proportions more accurate. This will be easier if the previous item is finished.
 - [x] Adding in a specifier for the variation in the amount (show the mean and the standard deviation of the mean?).
-- [x]] Adding in recipe directions. Is there a way towards consensus directions? This might be really really hard.
+- [x] Adding in recipe directions. Is there a way towards consensus directions? This might be really really hard.
 - [ ] In general, making the parsing (from websites) and the food tagging better. There are more sophisticated taggers (see NYT food tagger).
 
 # License
