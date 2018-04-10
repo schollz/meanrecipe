@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey"
+	wordwrap "github.com/mitchellh/go-wordwrap"
 	meanrecipe "github.com/schollz/meanrecipe/src"
 )
 
@@ -95,7 +96,10 @@ func main() {
 		fmt.Println("\n->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
 		fmt.Printf("\n%s\n\nIngredients:\n", r.Title)
 		fmt.Println(r.IngredientText())
-		fmt.Printf("\nDirections:\n%s", strings.Join(r.Directions, "\n"))
+		fmt.Println("\nDirections:")
+		for i, direction := range r.Directions {
+			fmt.Printf("%d. %s\n", i, wordwrap.WrapString(direction, 70))
+		}
 		fmt.Println(r.HasRareIngredients)
 		fmt.Println(r.MissingCommonIngredients)
 		urls := strings.Split(r.URL, ",")
