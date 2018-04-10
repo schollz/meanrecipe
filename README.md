@@ -125,6 +125,10 @@ removing to a wire rack to cool completely.
 
 # Try it
 
+## Web
+
+You can try it on the web at https://averagecookbook.schollz.com.
+
 ## Install
 
 [Download from the latest releases](https://github.com/schollz/meanrecipe), or download with Go:
