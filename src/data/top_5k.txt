@@ -9,7 +9,6 @@ flour
 onion
 pepper
 onions
-black pepper
 brown sugar
 eggs
 cinnamon
@@ -313,4 +312,3 @@ parmesan
 yellow cornmeal
 seasoning salt
 garam masala
-ground pepper

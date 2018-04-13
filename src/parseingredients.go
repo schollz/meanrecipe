@@ -6,6 +6,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"time"
 
 	log "github.com/cihub/seelog"
 )
@@ -14,6 +15,7 @@ var ingredientList []string
 var possibleMeasures map[string]string
 
 func init() {
+	time.Sleep(1 * time.Second)
 	b, err := Asset("data/top_5k.txt")
 	if err != nil {
 		panic(err)
@@ -23,6 +25,20 @@ func init() {
 		word = strings.TrimSpace(Singularlize(word))
 		m[word] = len(word)
 	}
+
+	for word := range herbMap {
+		word = strings.TrimSpace(Singularlize(word))
+		m[word] = len(word)
+	}
+	for word := range vegetableMap {
+		word = strings.TrimSpace(Singularlize(word))
+		m[word] = len(word)
+	}
+	for word := range fruitMap {
+		word = strings.TrimSpace(Singularlize(word))
+		m[word] = len(word)
+	}
+
 	type kv struct {
 		Key   string
 		Value int

@@ -28,9 +28,15 @@ var ingredientToCups = map[string]float64{
 	"egg":     0.25,
 	"garlic":  0.0280833,
 	"chicken": 3,
+	"celery":  0.5,
+	"onion":   1,
+	"carrot":  1,
 }
 
 var densities map[string]float64
+var herbMap map[string]struct{}
+var vegetableMap map[string]struct{}
+var fruitMap map[string]struct{}
 
 func init() {
 	b, err := Asset("data/ingredient_densities.json")
@@ -41,6 +47,49 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
+
+	b, err = Asset("data/herbs.json")
+	if err != nil {
+		panic(err)
+	}
+	var herbs []string
+	err = json.Unmarshal(b, &herbs)
+	if err != nil {
+		panic(err)
+	}
+	herbMap = make(map[string]struct{})
+	for _, herb := range herbs {
+		herbMap[strings.ToLower(Singularlize(herb))] = struct{}{}
+	}
+
+	b, err = Asset("data/vegetables.json")
+	if err != nil {
+		panic(err)
+	}
+	var veggies []string
+	err = json.Unmarshal(b, &veggies)
+	if err != nil {
+		panic(err)
+	}
+	vegetableMap = make(map[string]struct{})
+	for _, vegetable := range veggies {
+		vegetableMap[strings.ToLower(Singularlize(vegetable))] = struct{}{}
+	}
+
+	b, err = Asset("data/fruits.json")
+	if err != nil {
+		panic(err)
+	}
+	var fruits []string
+	err = json.Unmarshal(b, &fruits)
+	if err != nil {
+		panic(err)
+	}
+	fruitMap = make(map[string]struct{})
+	for _, fruit := range fruits {
+		fruitMap[strings.ToLower(Singularlize(fruit))] = struct{}{}
+	}
+
 }
 
 // normalizeIngredient will try to normalize the ingredient to 1 cup
@@ -60,7 +109,15 @@ func normalizeIngredient(ing Ingredient) (cups float64, err error) {
 		}
 		cups = ing.Amount * gramConversions[ing.Measure] / density
 	} else {
-		err = errors.New("could not convert weight or volume")
+		if _, ok := fruitMap[ing.Ingredient]; ok {
+			cups = 1 * ing.Amount
+		} else if _, ok := vegetableMap[ing.Ingredient]; ok {
+			cups = 1 * ing.Amount
+		} else if _, ok := herbMap[ing.Ingredient]; ok {
+			cups = 0.0208333 * ing.Amount
+		} else {
+			err = errors.New("could not convert weight or volume")
+		}
 	}
 	return
 }

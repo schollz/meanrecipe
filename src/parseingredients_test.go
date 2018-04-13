@@ -35,6 +35,7 @@ func TestParseIngredientTable(t *testing.T) {
 		{"* 2 whole large eggs", "", "egg", 2.0, 0.5},
 		{"- 5 cloves garlic", "", "garlic", 5, 5 * 0.0280833},
 		{"-   1 1/4 cups all-purpose flour", "cup", "flour", 1.25, 1.25},
+		{"-   1 whole sweet potato", "", "sweet potato", 1, 1},
 	}
 
 	for _, table := range tables {
