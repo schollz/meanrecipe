@@ -88,6 +88,7 @@ func init() {
 }
 
 func IsIngredient(s string) (yes bool) {
+	s = strings.TrimSpace(strings.ToLower(Singularlize(s)))
 	if _, ok := ingredientMap[recipe]; ok {
 		yes = true
 	}
