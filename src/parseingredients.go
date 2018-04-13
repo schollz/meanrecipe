@@ -87,6 +87,13 @@ func init() {
 	}
 }
 
+func IsIngredient(s string) (yes bool) {
+	if _, ok := ingredientMap[recipe]; ok {
+		yes = true
+	}
+	return
+}
+
 // DetermineIngredients will look through a list of ingredients from longest name
 // to shortest, and pick the first one that is in the line
 func DetermineIngredients(line string) (ingredients []string) {
