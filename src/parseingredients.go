@@ -12,6 +12,7 @@ import (
 )
 
 var ingredientList []string
+var ingredientMap map[string]int
 var possibleMeasures map[string]string
 
 func init() {
@@ -20,23 +21,23 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	m := make(map[string]int)
+	ingredientMap = make(map[string]int)
 	for _, word := range strings.Split(strings.ToLower(string(b)), "\n") {
 		word = strings.TrimSpace(Singularlize(word))
-		m[word] = len(word)
+		ingredientMap[word] = len(word)
 	}
 
 	for word := range herbMap {
 		word = strings.TrimSpace(Singularlize(word))
-		m[word] = len(word)
+		ingredientMap[word] = len(word)
 	}
 	for word := range vegetableMap {
 		word = strings.TrimSpace(Singularlize(word))
-		m[word] = len(word)
+		ingredientMap[word] = len(word)
 	}
 	for word := range fruitMap {
 		word = strings.TrimSpace(Singularlize(word))
-		m[word] = len(word)
+		ingredientMap[word] = len(word)
 	}
 
 	type kv struct {
@@ -44,7 +45,7 @@ func init() {
 		Value int
 	}
 	var ss []kv
-	for k, v := range m {
+	for k, v := range ingredientMap {
 		ss = append(ss, kv{k, v})
 	}
 

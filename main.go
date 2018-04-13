@@ -82,7 +82,8 @@ func main() {
 
 	meanRecipes, err := meanrecipe.Run(recipe, clusters, ingredientsToInclude, true)
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println("ERROR", err.Error())
+		return
 	}
 	fmt.Println(`
 	 ____     ___  _____ __ __  _     ______  _____

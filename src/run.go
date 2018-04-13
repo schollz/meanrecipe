@@ -32,6 +32,10 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		err = errors.New("must specify a recipe")
 		return
 	}
+	if _, ok := ingredientMap[recipe]; ok {
+		err = errors.New("recipe cannot be ingredient")
+		return
+	}
 	// create a directory
 	folder := strings.Replace(strings.ToLower(recipe), " ", "_", -1)
 	folder = path.Join("recipes", folder)
