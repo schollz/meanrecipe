@@ -25,7 +25,9 @@ var conversionToCup = map[string]float64{
 	"milliliter": 0.00423,
 }
 var ingredientToCups = map[string]float64{
-	"egg": 0.25,
+	"egg":     0.25,
+	"garlic":  0.0280833,
+	"chicken": 3,
 }
 
 var densities map[string]float64
@@ -43,7 +45,7 @@ func init() {
 
 // normalizeIngredient will try to normalize the ingredient to 1 cup
 func normalizeIngredient(ing Ingredient) (cups float64, err error) {
-	if _, ok := ingredientToCups[ing.Ingredient]; ok {
+	if _, ok := ingredientToCups[ing.Ingredient]; ok && ing.Measure == "" {
 		// special ingredients
 		cups = ing.Amount * ingredientToCups[ing.Ingredient]
 	} else if _, ok := conversionToCup[ing.Measure]; ok {

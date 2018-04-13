@@ -23,10 +23,28 @@ func TestParseIngredients(t *testing.T) {
 	assert.Equal(t, string(ingredientsPreviouslyMarshaled), string(ingredientsMarshaled))
 }
 
-func TestParseIngredientFromLine(t *testing.T) {
-	ingredient, err := parseIngredientFromLine("-   1 1/4 cups all-purpose flour")
-	assert.Nil(t, err)
-	assert.Equal(t, "cup", ingredient.Measure)
-	assert.Equal(t, "flour", ingredient.Ingredient)
-	assert.Equal(t, 1.25, ingredient.Amount)
+func TestParseIngredientTable(t *testing.T) {
+	SetLogLevel("info")
+	tables := []struct {
+		line       string
+		measure    string
+		ingredient string
+		amount     float64
+		cups       float64
+	}{
+		{"* 2 whole large eggs", "", "egg", 2.0, 0.5},
+		{"- 5 cloves garlic", "", "garlic", 5, 5 * 0.0280833},
+		{"-   1 1/4 cups all-purpose flour", "cup", "flour", 1.25, 1.25},
+	}
+
+	for _, table := range tables {
+		ingredient, err := parseIngredientFromLine(table.line)
+		assert.Nil(t, err)
+		assert.Equal(t, table.measure, ingredient.Measure)
+		assert.Equal(t, table.ingredient, ingredient.Ingredient)
+		assert.Equal(t, table.amount, ingredient.Amount)
+		cups, err := normalizeIngredient(ingredient)
+		assert.Nil(t, err)
+		assert.Equal(t, table.cups, cups)
+	}
 }

@@ -19,7 +19,7 @@ func TestIngredientLines(t *testing.T) {
 
 func TestIngredientLinesURL(t *testing.T) {
 	url := "http://thepioneerwoman.com/cooking/knock-you-naked-brownies/"
-	fname, err := downloadOne(".", url)
+	fname, err := DownloadOne(".", url)
 	assert.Nil(t, err)
 	lines, err := GetIngredientLines(fname)
 	assert.Nil(t, err)
