@@ -97,6 +97,20 @@ func getRecipeURL(recipe string, include []string, exclude []string) (recipeURL 
 	client := http.Client{
 		Timeout: timeout,
 	}
+
+	if UseTor {
+		tbProxyURL, err := url.Parse("socks5://127.0.0.1:9050")
+		if err != nil {
+			return nil, err
+		}
+		tbDialer, err := proxy.FromURL(tbProxyURL, proxy.Direct)
+		if err != nil {
+			return nil, err
+		}
+		tbTransport := &http.Transport{Dial: tbDialer.Dial}
+		client.Transport = tbTransport
+	}
+
 	resp, err := client.Do(req)
 	if err != nil {
 		return
