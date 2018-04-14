@@ -51,7 +51,9 @@ worcestershire sauce
 paprika
 chocolate
 chicken
+flax
 walnuts
+walnut flour
 dark chocolate
 chili powder
 almonds
@@ -300,6 +302,8 @@ crabmeat
 pie crust
 beets
 almond milk
+almond meal
+oat flour
 marjoram
 baby spinach
 graham crackers
