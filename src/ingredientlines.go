@@ -65,6 +65,7 @@ func GetIngredientLines(fname string) (ingredientLines []string, err error) {
 	currentCluster := cluster{}
 	clusters := []cluster{}
 	lines := strings.Split(string(fileBytes), "\n")
+	previousCount := 0
 	for i, line := range lines {
 		if i == 0 {
 			continue
@@ -80,12 +81,13 @@ func GetIngredientLines(fname string) (ingredientLines []string, err error) {
 				start: i,
 			}
 		}
-		if count == 0 && currentCluster.start != 0 {
+		if count == 0 && previousCount == 0 && currentCluster.start != 0 {
 			currentCluster.stop = i
 			clusters = append(clusters, currentCluster)
 			currentCluster = cluster{}
 		}
 		currentCluster.total += count
+		previousCount = count
 	}
 	if len(clusters) == 0 {
 		err = errors.New("no clusters found")
