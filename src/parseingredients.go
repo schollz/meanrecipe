@@ -139,7 +139,49 @@ func determineMeasure(line string) (measure string, err error) {
 	return
 }
 
+func sanitizeLine(line string) string {
+
+	// remove parentheses
+	re := regexp.MustCompile(`(?s)\((.*)\)`)
+	m := re.FindAllStringSubmatch(line, -1)
+	if len(m) > 0 {
+		for _, m1 := range m {
+			line = strings.Replace(line, m1[0], "", -1)
+		}
+		log.Debugf("removed parentheses: '%s'", line)
+	}
+
+	// split apart metric units like 100g
+	m = regexp.MustCompile(`\d+g `).FindAllStringSubmatch(line, -1)
+	if len(m) > 0 {
+		for _, m1 := range m {
+			number := strings.Split(m1[0], "g")[0]
+			line = strings.Replace(line, m1[0], number+" gram ", -1)
+		}
+	}
+
+	// split apart metric units like 100ml
+	m = regexp.MustCompile(`\d+ml `).FindAllStringSubmatch(line, -1)
+	if len(m) > 0 {
+		for _, m1 := range m {
+			number := strings.Split(m1[0], "ml")[0]
+			line = strings.Replace(line, m1[0], number+" milliliter ", -1)
+		}
+	}
+
+	// split apart metric units like 100lb
+	m = regexp.MustCompile(`\d+lb `).FindAllStringSubmatch(line, -1)
+	if len(m) > 0 {
+		for _, m1 := range m {
+			number := strings.Split(m1[0], "lb")[0]
+			line = strings.Replace(line, m1[0], number+" pound ", -1)
+		}
+	}
+
+	return line
+}
 func determineAmount(line string) (amount float64, err error) {
+	line = sanitizeLine(line)
 	amount = 0.0
 	re := regexp.MustCompile("[0-9]+")
 	firstNumber := -1
@@ -185,17 +227,7 @@ func determineAmount(line string) (amount float64, err error) {
 
 func parseIngredientFromLine(line string) (ingredient Ingredient, err error) {
 	ingredient = Ingredient{OriginalLine: line}
-
-	// remove parentheses
-	re := regexp.MustCompile(`(?s)\((.*)\)`)
-	m := re.FindAllStringSubmatch(line, -1)
-	if len(m) > 0 {
-		for _, m1 := range m {
-			line = strings.Replace(line, m1[0], "", -1)
-		}
-		log.Debugf("removed parentheses: '%s'", line)
-	}
-
+	line = sanitizeLine(line)
 	line = Singularlize(line)
 	// determine ingredient
 	ingredient.Ingredient, err = determineIngredient(line)

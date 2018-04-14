@@ -37,6 +37,9 @@ func TestParseIngredientTable(t *testing.T) {
 		{"-   1 1/4 cups all-purpose flour", "cup", "flour", 1.25, 1.25},
 		{"-   1 whole sweet potato", "", "sweet potato", 1, 1},
 		{"- 1 1/2 cup gluten free all-purpose flour", "cup", "gluten-free flour", 1.5, 1.5},
+		{"- 150g caster sugar", "gram", "sugar", 150, 0.7288629737609329},
+		{"- 60ml milk", "milliliter", "milk", 60, 0.2538},
+		{"- 2lb beef", "pound", "beef", 2, 4.263082706766917},
 	}
 
 	for _, table := range tables {
