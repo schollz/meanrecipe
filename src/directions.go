@@ -9,6 +9,7 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
+	log "github.com/cihub/seelog"
 )
 
 func GetDirections(recipe string, include []string, exclude []string) (directions []string, err error) {
@@ -21,6 +22,7 @@ func GetDirections(recipe string, include []string, exclude []string) (direction
 }
 
 func getDirections(allRecipesURL string) (directions []string, err error) {
+	log.Infof("getting recipe directions for url %s", allRecipesURL)
 	req, err := http.NewRequest("GET", allRecipesURL, nil)
 	if err != nil {
 		return
@@ -58,13 +60,17 @@ func getDirections(allRecipesURL string) (directions []string, err error) {
 }
 
 func getRecipeURL(recipe string, include []string, exclude []string) (recipeURL string, err error) {
+	recipe = url.QueryEscape(strings.Replace(recipe, "_", " ", -1))
 	for i := range include {
 		include[i] = url.QueryEscape(include[i])
 	}
 	for i := range exclude {
 		exclude[i] = url.QueryEscape(exclude[i])
 	}
-	req, err := http.NewRequest("GET", fmt.Sprintf("https://www.allrecipes.com/search/results/?wt=%s&ingIncl=%s&ingExcl=%ssort=re", url.QueryEscape(recipe), strings.Join(include, ","), strings.Join(exclude, ",")), nil)
+
+	urlToGet := fmt.Sprintf("https://www.allrecipes.com/search/results/?wt=%s&ingIncl=%s&ingExcl=%s&sort=re", url.QueryEscape(recipe), strings.Join(include, ","), strings.Join(exclude, ","))
+	log.Infof("getting recipe url for %s +%+v -%+v (%s)", recipe, include, exclude, urlToGet)
+	req, err := http.NewRequest("GET", urlToGet, nil)
 	if err != nil {
 		return
 	}
