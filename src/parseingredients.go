@@ -203,6 +203,10 @@ func parseIngredientFromLine(line string) (ingredient Ingredient, err error) {
 		return
 	}
 
+	if strings.Contains(line, "gluten") && strings.Contains(line, "free") {
+		ingredient.Ingredient = "gluten-free " + ingredient.Ingredient
+	}
+
 	// determine measure
 	ingredient.Measure, err = determineMeasure(line)
 	if err != nil {
