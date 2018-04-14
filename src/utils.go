@@ -34,6 +34,7 @@ func ReadGzFile(filename string) ([]byte, error) {
 }
 
 func Singularlize(line string) string {
+	line = strings.Replace(line, "-", " ", -1)
 	words := strings.Fields(line)
 	for i := range words {
 		words[i] = inflection.Singular(words[i])
