@@ -26,7 +26,7 @@ func getDirections(allRecipesURL string) (directions []string, err error) {
 		return
 	}
 	req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36")
-	timeout := time.Duration(5 * time.Second)
+	timeout := time.Duration(30 * time.Second)
 	client := http.Client{
 		Timeout: timeout,
 	}
@@ -69,7 +69,7 @@ func getRecipeURL(recipe string, include []string, exclude []string) (recipeURL 
 		return
 	}
 	req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36")
-	timeout := time.Duration(5 * time.Second)
+	timeout := time.Duration(30 * time.Second)
 	client := http.Client{
 		Timeout: timeout,
 	}
