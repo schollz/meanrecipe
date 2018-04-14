@@ -40,11 +40,11 @@ func getDirections(allRecipesURL string) (directions []string, err error) {
 	if UseTor {
 		tbProxyURL, err := url.Parse("socks5://127.0.0.1:9050")
 		if err != nil {
-			return nil, err
+			return []string{}, err
 		}
 		tbDialer, err := proxy.FromURL(tbProxyURL, proxy.Direct)
 		if err != nil {
-			return nil, err
+			return []string{}, err
 		}
 		tbTransport := &http.Transport{Dial: tbDialer.Dial}
 		client.Transport = tbTransport
@@ -101,11 +101,11 @@ func getRecipeURL(recipe string, include []string, exclude []string) (recipeURL 
 	if UseTor {
 		tbProxyURL, err := url.Parse("socks5://127.0.0.1:9050")
 		if err != nil {
-			return nil, err
+			return "", err
 		}
 		tbDialer, err := proxy.FromURL(tbProxyURL, proxy.Direct)
 		if err != nil {
-			return nil, err
+			return "", err
 		}
 		tbTransport := &http.Transport{Dial: tbDialer.Dial}
 		client.Transport = tbTransport
