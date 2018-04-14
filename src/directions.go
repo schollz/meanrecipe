@@ -10,7 +10,10 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	log "github.com/cihub/seelog"
+	"golang.org/x/net/proxy"
 )
+
+var UseTor bool
 
 func GetDirections(recipe string, include []string, exclude []string) (directions []string, err error) {
 	recipeURL, err := getRecipeURL(recipe, include, exclude)
@@ -22,6 +25,7 @@ func GetDirections(recipe string, include []string, exclude []string) (direction
 }
 
 func getDirections(allRecipesURL string) (directions []string, err error) {
+
 	log.Infof("getting recipe directions for url %s", allRecipesURL)
 	req, err := http.NewRequest("GET", allRecipesURL, nil)
 	if err != nil {
@@ -32,6 +36,20 @@ func getDirections(allRecipesURL string) (directions []string, err error) {
 	client := http.Client{
 		Timeout: timeout,
 	}
+
+	if UseTor {
+		tbProxyURL, err := url.Parse("socks5://127.0.0.1:9050")
+		if err != nil {
+			return nil, err
+		}
+		tbDialer, err := proxy.FromURL(tbProxyURL, proxy.Direct)
+		if err != nil {
+			return nil, err
+		}
+		tbTransport := &http.Transport{Dial: tbDialer.Dial}
+		client.Transport = tbTransport
+	}
+
 	resp, err := client.Do(req)
 	if err != nil {
 		return
