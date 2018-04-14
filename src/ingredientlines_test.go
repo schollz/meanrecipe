@@ -27,3 +27,14 @@ func TestIngredientLinesURL(t *testing.T) {
 		"\n"))
 
 }
+func TestIngredientLinesURL2(t *testing.T) {
+	url := "http://pureella.com/gluten-free-vegan-banana-bread-with-figs-and-walnuts/"
+	fname, err := DownloadOne(".", url)
+	assert.Nil(t, err)
+	lines, err := GetIngredientLines(fname)
+	assert.Nil(t, err)
+	fmt.Println(strings.Join(lines, "\n"))
+	for _, line := range lines {
+		fmt.Println(parseIngredientFromLine(line))
+	}
+}
