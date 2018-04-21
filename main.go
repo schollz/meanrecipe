@@ -121,6 +121,10 @@ func main() {
 	}
 	fmt.Println("->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
 
+	common, rare := meanrecipe.GetIngredientFrequencies(meanRecipes)
+	fmt.Printf("common ingredients: %+v\n", common)
+	fmt.Printf("rare ingredients: %+v\n", rare)
+
 	// wait before exit
 	fmt.Println("Press any key to exit...")
 	buf := bufio.NewReader(os.Stdin)
