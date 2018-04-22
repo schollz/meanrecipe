@@ -83,7 +83,6 @@ func main() {
 	meanRecipes, err := meanrecipe.Run(recipe, clusters, ingredientsToInclude, true)
 	if err != nil {
 		fmt.Println("ERROR", err.Error())
-		return
 	}
 	fmt.Println(`
 	 ____     ___  _____ __ __  _     ______  _____
@@ -120,6 +119,10 @@ func main() {
 		fmt.Println(strings.Join(urls, "\n"))
 	}
 	fmt.Println("->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
+
+	common, rare := meanrecipe.GetIngredientFrequencies(meanRecipes)
+	fmt.Printf("common ingredients: %+v\n", common)
+	fmt.Printf("rare ingredients: %+v\n", rare)
 
 	// wait before exit
 	fmt.Println("Press any key to exit...")

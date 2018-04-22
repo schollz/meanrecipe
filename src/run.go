@@ -10,6 +10,9 @@ import (
 	"github.com/schollz/googleit"
 )
 
+const rareIngredientCutoff = 0.5
+const commonIngredientCutoff = 0.6
+
 func HasRecipe(recipe string) (yes bool) {
 	recipe = Singularlize(strings.TrimSpace(strings.ToLower(recipe)))
 
@@ -125,12 +128,12 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		for i, ing := range r.Ingredients {
 			ingredientsInRecipe[ing.Ingredient] = struct{}{}
 			r.Ingredients[i].FrequencyInCluster = ingredientCounts[ing.Ingredient] / float64(len(meanRecipes))
-			if r.Ingredients[i].FrequencyInCluster <= 0.5 {
+			if r.Ingredients[i].FrequencyInCluster <= rareIngredientCutoff {
 				meanRecipes[j].HasRareIngredients = append(meanRecipes[j].HasRareIngredients, ing.Ingredient)
 			}
 		}
 		for commonIngredient := range ingredientCounts {
-			if ingredientCounts[commonIngredient]/float64(len(meanRecipes)) < 0.6 {
+			if ingredientCounts[commonIngredient]/float64(len(meanRecipes)) < commonIngredientCutoff {
 				continue
 			}
 			if _, ok := ingredientsInRecipe[commonIngredient]; !ok {
@@ -148,5 +151,33 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		}
 	}
 
+	return
+}
+
+func GetIngredientFrequencies(meanRecipes []Recipe) (commonIngredients []string, rareIngredients []string) {
+	commonIngredients = []string{}
+	rareIngredients = []string{}
+
+	// find frequency of each ingredient in the cluster
+	ingredientCounts := make(map[string]float64)
+	for _, r := range meanRecipes {
+		for _, ing := range r.Ingredients {
+			if ing.Ingredient == "" {
+				continue
+			}
+			if _, ok := ingredientCounts[ing.Ingredient]; !ok {
+				ingredientCounts[ing.Ingredient] = 0.0
+			}
+			ingredientCounts[ing.Ingredient]++
+		}
+	}
+
+	for ingredient := range ingredientCounts {
+		if ingredientCounts[ingredient]/float64(len(meanRecipes)) >= commonIngredientCutoff {
+			commonIngredients = append(commonIngredients, ingredient)
+		} else if ingredientCounts[ingredient]/float64(len(meanRecipes)) < rareIngredientCutoff {
+			rareIngredients = append(rareIngredients, ingredient)
+		}
+	}
 	return
 }
