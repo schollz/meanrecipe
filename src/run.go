@@ -103,7 +103,7 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		log.Infof("requiring %d ingredients: %+v", len(requiredIngredients), requiredIngredients)
 	}
 
-	log.Info("finding best clusters")
+	log.Infof("finding best clusters for '%s'", recipe)
 	mostRecipes := 0
 	for i := 0; i < 5; i++ {
 		err = CreateClusters(folder, clusters, requiredIngredients)
@@ -155,7 +155,7 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 	}
 
 	// get directions
-	log.Infof("getting directions for %d recipes", len(meanRecipes))
+	log.Infof("getting directions for %d recipes for %s", len(meanRecipes), recipe)
 	for j := range meanRecipes {
 		directionsName := fmt.Sprintf("recipe-directions-%s-%s.json",
 			strings.Replace(strings.Join(meanRecipes[j].HasRareIngredients, " "), " ", "-", -1),
