@@ -2,7 +2,6 @@ package meanrecipe
 
 import (
 	"errors"
-	"io/ioutil"
 	"os"
 	"path"
 	"strings"
@@ -16,7 +15,11 @@ func HasRecipe(recipe string) (yes bool) {
 
 	folder := strings.Replace(strings.ToLower(recipe), " ", "_", -1)
 	folder = path.Join("recipes", folder)
-	if _, errOpen := os.Stat(path.Join(folder, "haverecipes")); os.IsNotExist(errOpen) {
+	gzFiles, err := ListGzFiles(folder)
+	if err != nil {
+		return false
+	}
+	if len(gzFiles) < 200 {
 		return false
 	}
 	if _, errOpen := os.Stat(path.Join(folder, "recipes.json")); os.IsNotExist(errOpen) {
@@ -61,7 +64,6 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 			}
 		}
 	}
-	ioutil.WriteFile(path.Join(folder, "haverecipes"), []byte(":)"), 0644)
 
 	if _, errOpen := os.Stat(path.Join(folder, "recipes.json")); os.IsNotExist(errOpen) {
 		// generate recipes.json

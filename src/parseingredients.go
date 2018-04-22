@@ -103,6 +103,9 @@ func DetermineIngredients(line string) (ingredients []string) {
 	// find ingredient
 	ingredients = []string{}
 	for _, ing := range ingredientList {
+		if len(ing) == 0 {
+			continue
+		}
 		if strings.Contains(line, " "+ing+" ") {
 			ingredients = append(ingredients, ing)
 		}
@@ -116,6 +119,9 @@ func determineIngredient(line string) (ingredient string, err error) {
 	line = " " + line + " "
 	// find ingredient
 	for _, ing := range ingredientList {
+		if len(ing) == 0 {
+			continue
+		}
 		if strings.Contains(line, ing) {
 			ingredient = ing
 			return
