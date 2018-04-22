@@ -26,7 +26,7 @@ func GetDirections(recipe string, include []string, exclude []string) (direction
 
 func getDirections(allRecipesURL string) (directions []string, err error) {
 
-	log.Infof("getting recipe directions for url %s", allRecipesURL)
+	log.Debugf("getting recipe directions for url %s", allRecipesURL)
 	req, err := http.NewRequest("GET", allRecipesURL, nil)
 	if err != nil {
 		return
@@ -87,7 +87,7 @@ func getRecipeURL(recipe string, include []string, exclude []string) (recipeURL 
 	}
 
 	urlToGet := fmt.Sprintf("https://www.allrecipes.com/search/results/?wt=%s&ingIncl=%s&ingExcl=%s&sort=re", url.QueryEscape(recipe), strings.Join(include, ","), strings.Join(exclude, ","))
-	log.Infof("getting recipe url for %s +%+v -%+v (%s)", recipe, include, exclude, urlToGet)
+	log.Debugf("getting recipe url for %s +%+v -%+v (%s)", recipe, include, exclude, urlToGet)
 	req, err := http.NewRequest("GET", urlToGet, nil)
 	if err != nil {
 		return

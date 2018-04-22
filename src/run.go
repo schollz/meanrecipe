@@ -1,7 +1,10 @@
 package meanrecipe
 
 import (
+	"encoding/json"
 	"errors"
+	"fmt"
+	"io/ioutil"
 	"os"
 	"path"
 	"strings"
@@ -68,7 +71,16 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		}
 	}
 
+	haveRecipes := true
 	if _, errOpen := os.Stat(path.Join(folder, "recipes.json")); os.IsNotExist(errOpen) {
+		haveRecipes = false
+	}
+	gzFiles, _ := ListGzFiles(folder)
+	jsonFiles, _ := ListJSONFiles(folder)
+	if len(jsonFiles) < len(gzFiles) {
+		haveRecipes = false
+	}
+	if !haveRecipes {
 		// generate recipes.json
 		log.Info("getting all recipes")
 		err = GetAllRecipes(folder)
@@ -91,7 +103,7 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		log.Infof("requiring %d ingredients: %+v", len(requiredIngredients), requiredIngredients)
 	}
 
-	log.Info("finding best cluster")
+	log.Info("finding best clusters")
 	mostRecipes := 0
 	for i := 0; i < 5; i++ {
 		err = CreateClusters(folder, clusters, requiredIngredients)
@@ -120,7 +132,7 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 			ingredientCounts[ing.Ingredient]++
 		}
 	}
-	log.Infof("%+v", ingredientCounts)
+	log.Debugf("ingredientCounts: %+v", ingredientCounts)
 	for j, r := range meanRecipes {
 		r.HasRareIngredients = []string{}
 		r.MissingCommonIngredients = []string{}
@@ -143,12 +155,32 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 	}
 
 	// get directions
+	log.Infof("getting directions for %d recipes", len(meanRecipes))
 	for j := range meanRecipes {
-		log.Infof("getting directions for recipe %d", j)
+		directionsName := fmt.Sprintf("recipe-directions-%s-%s.json",
+			strings.Replace(strings.Join(meanRecipes[j].HasRareIngredients, " "), " ", "-", -1),
+			strings.Replace(strings.Join(meanRecipes[j].MissingCommonIngredients, " "), " ", "-", -1),
+		)
+		log.Debugf("getting directions for recipe %d (%s)", j, directionsName)
+		if _, errOpen := os.Stat(path.Join(folder, directionsName)); !os.IsNotExist(errOpen) {
+			bDirections, _ := ioutil.ReadFile(path.Join(folder, directionsName))
+			err = json.Unmarshal(bDirections, &meanRecipes[j].Directions)
+			if err == nil {
+				log.Debugf("got directions from %s", directionsName)
+				continue
+			} else {
+				log.Warn(err)
+			}
+		}
+
 		meanRecipes[j].Directions, err = GetDirections(recipe, meanRecipes[j].HasRareIngredients, meanRecipes[j].MissingCommonIngredients)
 		if err != nil {
-			log.Warn(err)
+			log.Debugf("could not get directions for %d, because of %s", j, err.Error())
+		} else {
+			bDirections, _ := json.Marshal(meanRecipes[j].Directions)
+			ioutil.WriteFile(path.Join(folder, directionsName), bDirections, 0644)
 		}
+
 	}
 
 	return

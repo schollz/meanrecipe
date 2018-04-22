@@ -75,7 +75,7 @@ func CreateClusters(folder string, numClusters int, requiredIngredients []string
 		err = errors.New("not enough data")
 		return
 	}
-	log.Infof("clustering with %d / %d recipes", len(pairData), len(recipes))
+	log.Debugf("clustering with %d / %d recipes", len(pairData), len(recipes))
 
 	labels, err := kmeans.Kmeans(pairData, numClusters, kmeans.ManhattanDistance, 10)
 

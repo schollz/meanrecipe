@@ -100,7 +100,7 @@ func AnalyzeClusters(folder string) (meanRecipes []Recipe, err error) {
 
 	meanRecipesBytes, _ := json.MarshalIndent(meanRecipes, "", " ")
 	ioutil.WriteFile(path.Join(folder, "mean_recipes.json"), meanRecipesBytes, 0644)
-	log.Infof("wrote analyzed recipes to %s", path.Join(folder, "mean_recipes.json"))
+	log.Debugf("wrote analyzed recipes to %s", path.Join(folder, "mean_recipes.json"))
 	return
 }
 

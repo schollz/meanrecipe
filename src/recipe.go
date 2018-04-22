@@ -26,6 +26,17 @@ func ListGzFiles(folder string) (files []string, err error) {
 	return
 }
 
+func ListJSONFiles(folder string) (files []string, err error) {
+	files = []string{}
+	err = filepath.Walk(folder, func(path string, info os.FileInfo, err error) error {
+		if filepath.Ext(path) == ".json" {
+			files = append(files, path)
+		}
+		return nil
+	})
+	return
+}
+
 // GetALlRecipes will gather all recipes in a folder
 func GetAllRecipes(folder string) (err error) {
 	files, err := ListGzFiles(folder)

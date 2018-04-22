@@ -23,8 +23,8 @@ func main() {
 	|   |   ||     ||  |  ||  |  |    |  .  \|     \     | |  | |  | |     |
 	|___|___||_____||__|__||__|__|    |__|\_||_____|\____||____||__| |_____|`)
 	fmt.Print(`
-                  _  _
-                _/0\/ \_
+                   _  _
+                 _/0\/ \_
         .-.   .-` + "`" + ` \_/\0/ '-.
        /:::\ / ,_________,  \
       /\:::/ \  '. (:::/  ` + "`" + `'-;
@@ -121,11 +121,11 @@ func main() {
 	fmt.Println("->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->")
 
 	common, rare := meanrecipe.GetIngredientFrequencies(meanRecipes)
-	fmt.Printf("common ingredients: %+v\n", common)
-	fmt.Printf("rare ingredients: %+v\n", rare)
+	fmt.Printf("Common ingredients: %s\n", strings.Join(common, ", "))
+	fmt.Printf("Rare ingredients: %s\n", strings.Join(rare, ", "))
 
 	// wait before exit
-	fmt.Println("Press any key to exit...")
+	fmt.Println("\nPress any key to exit...")
 	buf := bufio.NewReader(os.Stdin)
 	buf.ReadBytes('\n')
 }
