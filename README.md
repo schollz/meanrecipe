@@ -9,7 +9,7 @@ Finding a consensus recipe requires first clustering many recipes. This is becau
 The *quick-and-dirty* implementation goes like this:
 
 1. Choose a recipe (*e.g.* brownies, crepes, pancakes).
-2. Search to find thsouands of corresponding recipes.
+2. Search to find thousands of corresponding recipes.
 3. Download all the recipes convert to gzipped text for processing.
 4. Use a really simple (read: *bad*) context-extractor to grab ingredients.
 5. Cluster the recipes based on the presence of ingredients.
