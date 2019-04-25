@@ -127,7 +127,7 @@ removing to a wire rack to cool completely.
 
 ## Web
 
-You can try it on the web at https://averagecookbook.schollz.com.
+You can try it on the web at https://meanrecipe.schollz.com/
 
 ## Install
 
