@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/AlecAivazis/survey"
 	wordwrap "github.com/mitchellh/go-wordwrap"
 	meanrecipe "github.com/schollz/meanrecipe/src"
+	"gopkg.in/AlecAivazis/survey.v1"
 )
 
 func main() {
