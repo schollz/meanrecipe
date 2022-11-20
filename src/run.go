@@ -91,8 +91,11 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 
 	if determineRequiredIngredientsFromTitle {
 		moreRequiredIngredients := DetermineIngredients(recipe)
-		if len(moreRequiredIngredients) > 0 {
-			requiredIngredients = append(requiredIngredients, moreRequiredIngredients...)
+		for _, ing := range moreRequiredIngredients {
+			ing=strings.TrimSpace(ing)
+			if len(ing)>2 {
+				requiredIngredients=append(requiredIngredients,ing)
+			}
 		}
 	}
 	if len(requiredIngredients) > 0 {
