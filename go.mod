@@ -1,4 +1,4 @@
-module github.com/schollz/meanrecipe
+module github.com/schollz/meanrecipe/v2
 
 go 1.18
 
