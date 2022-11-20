@@ -99,9 +99,14 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 		}
 	}
 	if len(requiredIngredients) > 0 {
-		requiredIngredients = googleit.ListToSet(requiredIngredients)
-		for i := range requiredIngredients {
-			requiredIngredients[i] = Singularlize(requiredIngredients[i])
+		requiredIngredients = []string{}
+		ring := googleit.ListToSet(requiredIngredients)
+		for _,ing := range ring {
+			ing = Singularlize(ing)
+			ing = strings.TrimSpace(ing)
+			if len(ing)>2 {
+				requiredIngredients=append(requiredIngredients,ing)
+			}
 		}
 		log.Infof("requiring %d ingredients: %+v", len(requiredIngredients), requiredIngredients)
 	}

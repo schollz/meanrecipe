@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	wordwrap "github.com/mitchellh/go-wordwrap"
-	meanrecipe "github.com/schollz/meanrecipe/src"
+	meanrecipe "github.com/schollz/meanrecipe/v2/src"
 	"gopkg.in/AlecAivazis/survey.v1"
 )
 
