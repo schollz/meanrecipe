@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	log "github.com/cihub/seelog"
-	"github.com/schollz/googleit"
+	"github.com/schollz/googleit/v3"
 	"github.com/stretchr/testify/assert"
 )
 

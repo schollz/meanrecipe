@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	log "github.com/cihub/seelog"
-	"github.com/schollz/googleit"
+	"github.com/schollz/googleit/v3"
 )
 
 const rareIngredientCutoff = 0.5
@@ -92,20 +92,20 @@ func Run(recipe string, clusters int, requiredIngredients []string, determineReq
 	if determineRequiredIngredientsFromTitle {
 		moreRequiredIngredients := DetermineIngredients(recipe)
 		for _, ing := range moreRequiredIngredients {
-			ing=strings.TrimSpace(ing)
-			if len(ing)>2 {
-				requiredIngredients=append(requiredIngredients,ing)
+			ing = strings.TrimSpace(ing)
+			if len(ing) > 2 {
+				requiredIngredients = append(requiredIngredients, ing)
 			}
 		}
 	}
 	if len(requiredIngredients) > 0 {
 		requiredIngredients = []string{}
 		ring := googleit.ListToSet(requiredIngredients)
-		for _,ing := range ring {
+		for _, ing := range ring {
 			ing = Singularlize(ing)
 			ing = strings.TrimSpace(ing)
-			if len(ing)>2 {
-				requiredIngredients=append(requiredIngredients,ing)
+			if len(ing) > 2 {
+				requiredIngredients = append(requiredIngredients, ing)
 			}
 		}
 		log.Infof("requiring %d ingredients: %+v", len(requiredIngredients), requiredIngredients)
